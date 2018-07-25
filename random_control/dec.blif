@@ -1,0 +1,663 @@
+.model top
+.inputs count[0] count[1] count[2] count[3] count[4] count[5] count[6] \
+ count[7]
+.outputs selectp1[0] selectp1[1] selectp1[2] selectp1[3] selectp1[4] \
+ selectp1[5] selectp1[6] selectp1[7] selectp1[8] selectp1[9] selectp1[10] \
+ selectp1[11] selectp1[12] selectp1[13] selectp1[14] selectp1[15] \
+ selectp1[16] selectp1[17] selectp1[18] selectp1[19] selectp1[20] \
+ selectp1[21] selectp1[22] selectp1[23] selectp1[24] selectp1[25] \
+ selectp1[26] selectp1[27] selectp1[28] selectp1[29] selectp1[30] \
+ selectp1[31] selectp1[32] selectp1[33] selectp1[34] selectp1[35] \
+ selectp1[36] selectp1[37] selectp1[38] selectp1[39] selectp1[40] \
+ selectp1[41] selectp1[42] selectp1[43] selectp1[44] selectp1[45] \
+ selectp1[46] selectp1[47] selectp1[48] selectp1[49] selectp1[50] \
+ selectp1[51] selectp1[52] selectp1[53] selectp1[54] selectp1[55] \
+ selectp1[56] selectp1[57] selectp1[58] selectp1[59] selectp1[60] \
+ selectp1[61] selectp1[62] selectp1[63] selectp1[64] selectp1[65] \
+ selectp1[66] selectp1[67] selectp1[68] selectp1[69] selectp1[70] \
+ selectp1[71] selectp1[72] selectp1[73] selectp1[74] selectp1[75] \
+ selectp1[76] selectp1[77] selectp1[78] selectp1[79] selectp1[80] \
+ selectp1[81] selectp1[82] selectp1[83] selectp1[84] selectp1[85] \
+ selectp1[86] selectp1[87] selectp1[88] selectp1[89] selectp1[90] \
+ selectp1[91] selectp1[92] selectp1[93] selectp1[94] selectp1[95] \
+ selectp1[96] selectp1[97] selectp1[98] selectp1[99] selectp1[100] \
+ selectp1[101] selectp1[102] selectp1[103] selectp1[104] selectp1[105] \
+ selectp1[106] selectp1[107] selectp1[108] selectp1[109] selectp1[110] \
+ selectp1[111] selectp1[112] selectp1[113] selectp1[114] selectp1[115] \
+ selectp1[116] selectp1[117] selectp1[118] selectp1[119] selectp1[120] \
+ selectp1[121] selectp1[122] selectp1[123] selectp1[124] selectp1[125] \
+ selectp1[126] selectp1[127] selectp2[0] selectp2[1] selectp2[2] \
+ selectp2[3] selectp2[4] selectp2[5] selectp2[6] selectp2[7] selectp2[8] \
+ selectp2[9] selectp2[10] selectp2[11] selectp2[12] selectp2[13] \
+ selectp2[14] selectp2[15] selectp2[16] selectp2[17] selectp2[18] \
+ selectp2[19] selectp2[20] selectp2[21] selectp2[22] selectp2[23] \
+ selectp2[24] selectp2[25] selectp2[26] selectp2[27] selectp2[28] \
+ selectp2[29] selectp2[30] selectp2[31] selectp2[32] selectp2[33] \
+ selectp2[34] selectp2[35] selectp2[36] selectp2[37] selectp2[38] \
+ selectp2[39] selectp2[40] selectp2[41] selectp2[42] selectp2[43] \
+ selectp2[44] selectp2[45] selectp2[46] selectp2[47] selectp2[48] \
+ selectp2[49] selectp2[50] selectp2[51] selectp2[52] selectp2[53] \
+ selectp2[54] selectp2[55] selectp2[56] selectp2[57] selectp2[58] \
+ selectp2[59] selectp2[60] selectp2[61] selectp2[62] selectp2[63] \
+ selectp2[64] selectp2[65] selectp2[66] selectp2[67] selectp2[68] \
+ selectp2[69] selectp2[70] selectp2[71] selectp2[72] selectp2[73] \
+ selectp2[74] selectp2[75] selectp2[76] selectp2[77] selectp2[78] \
+ selectp2[79] selectp2[80] selectp2[81] selectp2[82] selectp2[83] \
+ selectp2[84] selectp2[85] selectp2[86] selectp2[87] selectp2[88] \
+ selectp2[89] selectp2[90] selectp2[91] selectp2[92] selectp2[93] \
+ selectp2[94] selectp2[95] selectp2[96] selectp2[97] selectp2[98] \
+ selectp2[99] selectp2[100] selectp2[101] selectp2[102] selectp2[103] \
+ selectp2[104] selectp2[105] selectp2[106] selectp2[107] selectp2[108] \
+ selectp2[109] selectp2[110] selectp2[111] selectp2[112] selectp2[113] \
+ selectp2[114] selectp2[115] selectp2[116] selectp2[117] selectp2[118] \
+ selectp2[119] selectp2[120] selectp2[121] selectp2[122] selectp2[123] \
+ selectp2[124] selectp2[125] selectp2[126] selectp2[127]
+.names count[4] count[5] n265
+00 1
+.names count[6] count[7] n266
+01 1
+.names n265 n266 n267
+11 1
+.names count[0] count[2] n268
+00 1
+.names count[1] count[3] n269
+00 1
+.names n268 n269 n270
+11 1
+.names n267 n270 selectp1[0]
+11 1
+.names count[0] count[2] n272
+10 1
+.names n269 n272 n273
+11 1
+.names n267 n273 selectp1[1]
+11 1
+.names count[1] count[3] n275
+10 1
+.names n268 n275 n276
+11 1
+.names n267 n276 selectp1[2]
+11 1
+.names n272 n275 n278
+11 1
+.names n267 n278 selectp1[3]
+11 1
+.names count[0] count[2] n280
+01 1
+.names n269 n280 n281
+11 1
+.names n267 n281 selectp1[4]
+11 1
+.names count[0] count[2] n283
+11 1
+.names n269 n283 n284
+11 1
+.names n267 n284 selectp1[5]
+11 1
+.names n275 n280 n286
+11 1
+.names n267 n286 selectp1[6]
+11 1
+.names n275 n283 n288
+11 1
+.names n267 n288 selectp1[7]
+11 1
+.names count[1] count[3] n290
+01 1
+.names n268 n290 n291
+11 1
+.names n267 n291 selectp1[8]
+11 1
+.names n272 n290 n293
+11 1
+.names n267 n293 selectp1[9]
+11 1
+.names count[1] count[3] n295
+11 1
+.names n268 n295 n296
+11 1
+.names n267 n296 selectp1[10]
+11 1
+.names n272 n295 n298
+11 1
+.names n267 n298 selectp1[11]
+11 1
+.names n280 n290 n300
+11 1
+.names n267 n300 selectp1[12]
+11 1
+.names n283 n290 n302
+11 1
+.names n267 n302 selectp1[13]
+11 1
+.names n280 n295 n304
+11 1
+.names n267 n304 selectp1[14]
+11 1
+.names n283 n295 n306
+11 1
+.names n267 n306 selectp1[15]
+11 1
+.names count[4] count[5] n308
+10 1
+.names n266 n308 n309
+11 1
+.names n270 n309 selectp1[16]
+11 1
+.names n273 n309 selectp1[17]
+11 1
+.names n276 n309 selectp1[18]
+11 1
+.names n278 n309 selectp1[19]
+11 1
+.names n281 n309 selectp1[20]
+11 1
+.names n284 n309 selectp1[21]
+11 1
+.names n286 n309 selectp1[22]
+11 1
+.names n288 n309 selectp1[23]
+11 1
+.names n291 n309 selectp1[24]
+11 1
+.names n293 n309 selectp1[25]
+11 1
+.names n296 n309 selectp1[26]
+11 1
+.names n298 n309 selectp1[27]
+11 1
+.names n300 n309 selectp1[28]
+11 1
+.names n302 n309 selectp1[29]
+11 1
+.names n304 n309 selectp1[30]
+11 1
+.names n306 n309 selectp1[31]
+11 1
+.names count[4] count[5] n326
+01 1
+.names n266 n326 n327
+11 1
+.names n270 n327 selectp1[32]
+11 1
+.names n273 n327 selectp1[33]
+11 1
+.names n276 n327 selectp1[34]
+11 1
+.names n278 n327 selectp1[35]
+11 1
+.names n281 n327 selectp1[36]
+11 1
+.names n284 n327 selectp1[37]
+11 1
+.names n286 n327 selectp1[38]
+11 1
+.names n288 n327 selectp1[39]
+11 1
+.names n291 n327 selectp1[40]
+11 1
+.names n293 n327 selectp1[41]
+11 1
+.names n296 n327 selectp1[42]
+11 1
+.names n298 n327 selectp1[43]
+11 1
+.names n300 n327 selectp1[44]
+11 1
+.names n302 n327 selectp1[45]
+11 1
+.names n304 n327 selectp1[46]
+11 1
+.names n306 n327 selectp1[47]
+11 1
+.names count[4] count[5] n344
+11 1
+.names n266 n344 n345
+11 1
+.names n270 n345 selectp1[48]
+11 1
+.names n273 n345 selectp1[49]
+11 1
+.names n276 n345 selectp1[50]
+11 1
+.names n278 n345 selectp1[51]
+11 1
+.names n281 n345 selectp1[52]
+11 1
+.names n284 n345 selectp1[53]
+11 1
+.names n286 n345 selectp1[54]
+11 1
+.names n288 n345 selectp1[55]
+11 1
+.names n291 n345 selectp1[56]
+11 1
+.names n293 n345 selectp1[57]
+11 1
+.names n296 n345 selectp1[58]
+11 1
+.names n298 n345 selectp1[59]
+11 1
+.names n300 n345 selectp1[60]
+11 1
+.names n302 n345 selectp1[61]
+11 1
+.names n304 n345 selectp1[62]
+11 1
+.names n306 n345 selectp1[63]
+11 1
+.names count[6] count[7] n362
+11 1
+.names n265 n362 n363
+11 1
+.names n270 n363 selectp1[64]
+11 1
+.names n273 n363 selectp1[65]
+11 1
+.names n276 n363 selectp1[66]
+11 1
+.names n278 n363 selectp1[67]
+11 1
+.names n281 n363 selectp1[68]
+11 1
+.names n284 n363 selectp1[69]
+11 1
+.names n286 n363 selectp1[70]
+11 1
+.names n288 n363 selectp1[71]
+11 1
+.names n291 n363 selectp1[72]
+11 1
+.names n293 n363 selectp1[73]
+11 1
+.names n296 n363 selectp1[74]
+11 1
+.names n298 n363 selectp1[75]
+11 1
+.names n300 n363 selectp1[76]
+11 1
+.names n302 n363 selectp1[77]
+11 1
+.names n304 n363 selectp1[78]
+11 1
+.names n306 n363 selectp1[79]
+11 1
+.names n308 n362 n380
+11 1
+.names n270 n380 selectp1[80]
+11 1
+.names n273 n380 selectp1[81]
+11 1
+.names n276 n380 selectp1[82]
+11 1
+.names n278 n380 selectp1[83]
+11 1
+.names n281 n380 selectp1[84]
+11 1
+.names n284 n380 selectp1[85]
+11 1
+.names n286 n380 selectp1[86]
+11 1
+.names n288 n380 selectp1[87]
+11 1
+.names n291 n380 selectp1[88]
+11 1
+.names n293 n380 selectp1[89]
+11 1
+.names n296 n380 selectp1[90]
+11 1
+.names n298 n380 selectp1[91]
+11 1
+.names n300 n380 selectp1[92]
+11 1
+.names n302 n380 selectp1[93]
+11 1
+.names n304 n380 selectp1[94]
+11 1
+.names n306 n380 selectp1[95]
+11 1
+.names n326 n362 n397
+11 1
+.names n270 n397 selectp1[96]
+11 1
+.names n273 n397 selectp1[97]
+11 1
+.names n276 n397 selectp1[98]
+11 1
+.names n278 n397 selectp1[99]
+11 1
+.names n281 n397 selectp1[100]
+11 1
+.names n284 n397 selectp1[101]
+11 1
+.names n286 n397 selectp1[102]
+11 1
+.names n288 n397 selectp1[103]
+11 1
+.names n291 n397 selectp1[104]
+11 1
+.names n293 n397 selectp1[105]
+11 1
+.names n296 n397 selectp1[106]
+11 1
+.names n298 n397 selectp1[107]
+11 1
+.names n300 n397 selectp1[108]
+11 1
+.names n302 n397 selectp1[109]
+11 1
+.names n304 n397 selectp1[110]
+11 1
+.names n306 n397 selectp1[111]
+11 1
+.names n344 n362 n414
+11 1
+.names n270 n414 selectp1[112]
+11 1
+.names n273 n414 selectp1[113]
+11 1
+.names n276 n414 selectp1[114]
+11 1
+.names n278 n414 selectp1[115]
+11 1
+.names n281 n414 selectp1[116]
+11 1
+.names n284 n414 selectp1[117]
+11 1
+.names n286 n414 selectp1[118]
+11 1
+.names n288 n414 selectp1[119]
+11 1
+.names n291 n414 selectp1[120]
+11 1
+.names n293 n414 selectp1[121]
+11 1
+.names n296 n414 selectp1[122]
+11 1
+.names n298 n414 selectp1[123]
+11 1
+.names n300 n414 selectp1[124]
+11 1
+.names n302 n414 selectp1[125]
+11 1
+.names n304 n414 selectp1[126]
+11 1
+.names n306 n414 selectp1[127]
+11 1
+.names count[6] count[7] n431
+00 1
+.names n265 n431 n432
+11 1
+.names n270 n432 selectp2[0]
+11 1
+.names n273 n432 selectp2[1]
+11 1
+.names n276 n432 selectp2[2]
+11 1
+.names n278 n432 selectp2[3]
+11 1
+.names n281 n432 selectp2[4]
+11 1
+.names n284 n432 selectp2[5]
+11 1
+.names n286 n432 selectp2[6]
+11 1
+.names n288 n432 selectp2[7]
+11 1
+.names n291 n432 selectp2[8]
+11 1
+.names n293 n432 selectp2[9]
+11 1
+.names n296 n432 selectp2[10]
+11 1
+.names n298 n432 selectp2[11]
+11 1
+.names n300 n432 selectp2[12]
+11 1
+.names n302 n432 selectp2[13]
+11 1
+.names n304 n432 selectp2[14]
+11 1
+.names n306 n432 selectp2[15]
+11 1
+.names n308 n431 n449
+11 1
+.names n270 n449 selectp2[16]
+11 1
+.names n273 n449 selectp2[17]
+11 1
+.names n276 n449 selectp2[18]
+11 1
+.names n278 n449 selectp2[19]
+11 1
+.names n281 n449 selectp2[20]
+11 1
+.names n284 n449 selectp2[21]
+11 1
+.names n286 n449 selectp2[22]
+11 1
+.names n288 n449 selectp2[23]
+11 1
+.names n291 n449 selectp2[24]
+11 1
+.names n293 n449 selectp2[25]
+11 1
+.names n296 n449 selectp2[26]
+11 1
+.names n298 n449 selectp2[27]
+11 1
+.names n300 n449 selectp2[28]
+11 1
+.names n302 n449 selectp2[29]
+11 1
+.names n304 n449 selectp2[30]
+11 1
+.names n306 n449 selectp2[31]
+11 1
+.names n326 n431 n466
+11 1
+.names n270 n466 selectp2[32]
+11 1
+.names n273 n466 selectp2[33]
+11 1
+.names n276 n466 selectp2[34]
+11 1
+.names n278 n466 selectp2[35]
+11 1
+.names n281 n466 selectp2[36]
+11 1
+.names n284 n466 selectp2[37]
+11 1
+.names n286 n466 selectp2[38]
+11 1
+.names n288 n466 selectp2[39]
+11 1
+.names n291 n466 selectp2[40]
+11 1
+.names n293 n466 selectp2[41]
+11 1
+.names n296 n466 selectp2[42]
+11 1
+.names n298 n466 selectp2[43]
+11 1
+.names n300 n466 selectp2[44]
+11 1
+.names n302 n466 selectp2[45]
+11 1
+.names n304 n466 selectp2[46]
+11 1
+.names n306 n466 selectp2[47]
+11 1
+.names n344 n431 n483
+11 1
+.names n270 n483 selectp2[48]
+11 1
+.names n273 n483 selectp2[49]
+11 1
+.names n276 n483 selectp2[50]
+11 1
+.names n278 n483 selectp2[51]
+11 1
+.names n281 n483 selectp2[52]
+11 1
+.names n284 n483 selectp2[53]
+11 1
+.names n286 n483 selectp2[54]
+11 1
+.names n288 n483 selectp2[55]
+11 1
+.names n291 n483 selectp2[56]
+11 1
+.names n293 n483 selectp2[57]
+11 1
+.names n296 n483 selectp2[58]
+11 1
+.names n298 n483 selectp2[59]
+11 1
+.names n300 n483 selectp2[60]
+11 1
+.names n302 n483 selectp2[61]
+11 1
+.names n304 n483 selectp2[62]
+11 1
+.names n306 n483 selectp2[63]
+11 1
+.names count[6] count[7] n500
+10 1
+.names n265 n500 n501
+11 1
+.names n270 n501 selectp2[64]
+11 1
+.names n273 n501 selectp2[65]
+11 1
+.names n276 n501 selectp2[66]
+11 1
+.names n278 n501 selectp2[67]
+11 1
+.names n281 n501 selectp2[68]
+11 1
+.names n284 n501 selectp2[69]
+11 1
+.names n286 n501 selectp2[70]
+11 1
+.names n288 n501 selectp2[71]
+11 1
+.names n291 n501 selectp2[72]
+11 1
+.names n293 n501 selectp2[73]
+11 1
+.names n296 n501 selectp2[74]
+11 1
+.names n298 n501 selectp2[75]
+11 1
+.names n300 n501 selectp2[76]
+11 1
+.names n302 n501 selectp2[77]
+11 1
+.names n304 n501 selectp2[78]
+11 1
+.names n306 n501 selectp2[79]
+11 1
+.names n308 n500 n518
+11 1
+.names n270 n518 selectp2[80]
+11 1
+.names n273 n518 selectp2[81]
+11 1
+.names n276 n518 selectp2[82]
+11 1
+.names n278 n518 selectp2[83]
+11 1
+.names n281 n518 selectp2[84]
+11 1
+.names n284 n518 selectp2[85]
+11 1
+.names n286 n518 selectp2[86]
+11 1
+.names n288 n518 selectp2[87]
+11 1
+.names n291 n518 selectp2[88]
+11 1
+.names n293 n518 selectp2[89]
+11 1
+.names n296 n518 selectp2[90]
+11 1
+.names n298 n518 selectp2[91]
+11 1
+.names n300 n518 selectp2[92]
+11 1
+.names n302 n518 selectp2[93]
+11 1
+.names n304 n518 selectp2[94]
+11 1
+.names n306 n518 selectp2[95]
+11 1
+.names n326 n500 n535
+11 1
+.names n270 n535 selectp2[96]
+11 1
+.names n273 n535 selectp2[97]
+11 1
+.names n276 n535 selectp2[98]
+11 1
+.names n278 n535 selectp2[99]
+11 1
+.names n281 n535 selectp2[100]
+11 1
+.names n284 n535 selectp2[101]
+11 1
+.names n286 n535 selectp2[102]
+11 1
+.names n288 n535 selectp2[103]
+11 1
+.names n291 n535 selectp2[104]
+11 1
+.names n293 n535 selectp2[105]
+11 1
+.names n296 n535 selectp2[106]
+11 1
+.names n298 n535 selectp2[107]
+11 1
+.names n300 n535 selectp2[108]
+11 1
+.names n302 n535 selectp2[109]
+11 1
+.names n304 n535 selectp2[110]
+11 1
+.names n306 n535 selectp2[111]
+11 1
+.names n344 n500 n552
+11 1
+.names n270 n552 selectp2[112]
+11 1
+.names n273 n552 selectp2[113]
+11 1
+.names n276 n552 selectp2[114]
+11 1
+.names n278 n552 selectp2[115]
+11 1
+.names n281 n552 selectp2[116]
+11 1
+.names n284 n552 selectp2[117]
+11 1
+.names n286 n552 selectp2[118]
+11 1
+.names n288 n552 selectp2[119]
+11 1
+.names n291 n552 selectp2[120]
+11 1
+.names n293 n552 selectp2[121]
+11 1
+.names n296 n552 selectp2[122]
+11 1
+.names n298 n552 selectp2[123]
+11 1
+.names n300 n552 selectp2[124]
+11 1
+.names n302 n552 selectp2[125]
+11 1
+.names n304 n552 selectp2[126]
+11 1
+.names n306 n552 selectp2[127]
+11 1
+.end
