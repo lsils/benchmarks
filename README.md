@@ -32,7 +32,7 @@ LUT-6 mapping experiments for the random/control EPFL combinational benchmarks a
 | Decoder | 8 |256  |287  |2 |
 | i2c controller | 147 |142 |365 |4 |
 | int to float converter | 11 |7 |49 |3 |
-| Memoery controller | 1204 |1231 |12096 |25|
+| Memory controller | 1204 |1231 |12096 |25|
 | Priority encoder | 128 |8 |210|31|
 | Lookahead XY router | 60 |30 |89 |7|
 | Voter | 1001 |1 |2691 |16|
