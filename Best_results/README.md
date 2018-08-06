@@ -33,6 +33,15 @@ The best LUT-6 implementations keep track of the best results of LUT-6 mapped be
 | Lookahead XY router | 60 |30 |53 |6|R. K. Brayton & A. Mishchenko|ABC Extreme Mapper|
 | Voter | 1001 |1 |1515 |12|R. K. Brayton & A. Mishchenko|ABC Extreme Mapper|
 
+**MtM Benchmarks**
+
+| Benchmark name | Inputs | Outputs | LUT-6 count | Levels | Authors | Method |
+| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | 
+| sixteen | 117	|50|	5648909	|29| Original Benchmark| /|
+| twenty  | 137|60|	7189658|	33 |Original Benchmark|/|
+| twentythree  |153|	68 | 4936053 | 23 |R. K. Brayton & A. Mishchenko|ABC Extreme Mapper|
+
+
 ### Best results for LUT-6 levels
 
 **Arithmetic Benchmarks**
@@ -64,6 +73,14 @@ The best LUT-6 implementations keep track of the best results of LUT-6 mapped be
 | Priority encoder | 128 |8 |158|4|R. K. Brayton & A. Mishchenko|ABC Extreme Mapper|
 | Lookahead XY router | 60 |30 |57 |4|R. K. Brayton & A. Mishchenko|ABC Extreme Mapper|
 | Voter | 1001 |1 |1515 |12|R. K. Brayton & A. Mishchenko|ABC Extreme Mapper|
+
+**MtM Benchmarks**
+
+| Benchmark name | Inputs | Outputs | LUT-6 count | Levels | Authors | Method |
+| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | 
+| sixteen | 117	|50|	5648909	|29| Original Benchmark| /|
+| twenty  | 137|60|	7189658|	33 |Original Benchmark|/|
+| twentythree  |153|	68 | 4936053 | 23 |R. K. Brayton & A. Mishchenko|ABC Extreme Mapper|
 
 ### List of Participants and Methods
 | Authors' name | Authors' affiliation | Synthesis method| Description |
