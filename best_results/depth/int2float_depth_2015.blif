@@ -1,0 +1,165 @@
+# Benchmark "/tmp/tmpkSsmMY" written by ABC on Wed Jul  1 16:49:21 2015
+.model /tmp/tmpkSsmMY
+.inputs pi00 pi01 pi02 pi03 pi04 pi05 pi06 pi07 pi08 pi09 pi10
+.outputs po0 po1 po2 po3 po4 po5 po6
+.names pi08 pi01 pi04 pi06 pi07 pi00 n19
+-01001 1
+-11000 1
+0-0001 1
+.names pi03 pi07 pi08 pi04 n20
+--11 0
+01-1 0
+1100 0
+.names pi05 pi10 n21
+00 1
+.names pi06 n20 n19 n21 pi09 n22
+--110 1
+-0-10 1
+1--11 1
+.names pi01 pi02 pi06 pi07 pi08 n23
+01000 1
+10000 1
+.names pi03 pi07 pi08 pi04 n24
+--10 0
+0101 0
+11-0 0
+.names pi06 n24 n23 pi05 pi09 pi10 n25
+--1100 1
+-0-100 1
+0--110 1
+.names pi02 pi03 pi10 pi08 pi09 pi07 n26
+--1--0 0
+--111- 0
+01-000 0
+10-000 0
+.names pi10 pi07 n26 pi06 n25 n22 po0
+--1100 0
+-0-000 0
+0--000 0
+.names pi04 pi09 pi02 pi01 pi05 pi06 n28
+---010 0
+--0-10 0
+00---1 0
+.names pi10 pi03 pi04 pi06 pi09 pi02 n29
+--0100 0
+-11101 0
+1----- 0
+.names pi06 pi03 n28 pi07 n29 pi08 n30
+---000 1
+-000-0 1
+0---00 1
+.names pi03 pi01 pi04 pi06 pi07 pi08 n31
+---0-1 0
+--0-10 0
+-000-- 0
+0---10 0
+.names pi04 pi00 pi02 pi01 pi09 n32
+--100 1
+-01-0 1
+-1010 1
+0--10 1
+.names pi06 n31 n32 pi07 pi09 n21 n33
+--0011 1
+-0--01 1
+0-00-1 1
+.names pi03 pi02 pi01 pi07 pi08 pi09 n34
+--0000 1
+-0-000 1
+0---00 1
+.names pi06 pi07 pi09 n35
+101 1
+.names pi07 pi08 pi04 pi06 pi09 n36
+--010 0
+-1100 0
+1--01 0
+100-0 0
+.names n34 n35 n36 pi05 pi10 n37
+00110 1
+.names pi06 pi07 pi08 pi09 pi10 n38
+11101 1
+.names n30 n33 n37 n38 po1
+0000 1
+.names pi09 pi10 n40
+00 1
+.names pi00 pi01 pi02 pi03 pi04 pi05 n41
+--011- 0
+--1-00 0
+-0-110 0
+0--110 0
+1110-0 0
+.names pi01 pi02 pi03 pi04 pi05 n42
+--011 0
+-0-11 0
+01110 0
+11101 0
+.names n42 n41 pi06 n40 pi07 pi08 n43
+-00100 1
+0--100 1
+.names pi04 pi05 pi06 pi09 pi07 pi10 n44
+---1-1 0
+---10- 0
+--0-10 0
+--1-11 0
+-0-1-- 0
+111-00 0
+.names pi10 pi09 n44 pi08 n45
+--01 1
+-110 1
+11-0 1
+.names pi03 pi04 pi05 pi06 pi07 n46
+--011 1
+-0-11 1
+11101 1
+.names pi02 pi01 pi03 pi04 pi05 pi06 n47
+---011 0
+--0-11 0
+-01110 0
+1-1101 0
+.names pi08 n47 n40 n46 n45 n43 po2
+--0-00 0
+-1-000 0
+1--000 0
+.names pi02 pi04 pi05 pi06 pi07 pi08 n49
+-00000 0
+011111 0
+.names n40 n49 pi03 po3
+100 0
+.names pi05 pi06 pi07 n51
+111 1
+.names pi02 pi03 pi04 pi08 n51 pi09 n52
+----01 0
+---0-1 0
+-11110 0
+101-10 0
+.names pi02 pi03 pi04 n53
+111 1
+.names pi00 pi01 n54
+11 1
+.names n53 n54 pi05 pi06 pi08 n55
+11000 1
+.names pi08 pi06 pi07 n53 n56
+-100 0
+1--- 0
+.names pi01 pi02 pi03 pi05 pi06 pi07 n57
+---0-0 0
+--1111 0
+111-00 0
+.names pi10 n57 pi04 n56 n52 n55 po4
+---010 1
+-01-10 1
+1----- 1
+.names pi03 pi02 n51 pi04 pi08 n59
+-1111 1
+1-111 1
+.names n54 n53 pi05 pi06 pi07 pi08 n60
+--0100 1
+--1000 1
+-0-100 1
+11-000 1
+.names n59 n60 n40 po5
+001 0
+.names pi06 pi05 n53 n40 pi07 pi08 po6
+--0100 0
+-0-100 0
+0--100 0
+.end
