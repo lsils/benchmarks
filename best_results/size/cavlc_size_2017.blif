@@ -1,0 +1,522 @@
+# Benchmark "/tmp/tmp5ue7oo" written by ABC on Thu Aug 30 15:00:14 2018
+.model /tmp/tmp5ue7oo
+.inputs pi0 pi1 pi2 pi3 pi4 pi5 pi6 pi7 pi8 pi9
+.outputs po00 po01 po02 po03 po04 po05 po06 po07 po08 po09 po10
+.names pi6 pi9 pi1 pi3 pi2 pi8 n74_mangled_43952803
+---101 1
+-0-110 1
+-00000 1
+-01-01 1
+-1-1-1 1
+-11000 1
+1-01-1 1
+1-1-01 1
+1-1110 1
+10--01 1
+.names pi8 pi7 pi0 pi9 pi1 pi2 n60_1_mangled_51100952
+--0010 0
+-10001 0
+0-0-01 0
+01-0-0 0
+111110 0
+.names pi6 pi0 pi5 pi9 pi8 pi2 n66_mangled_17731855
+--0001 0
+-00-11 0
+-01000 0
+0--011 0
+011-11 0
+1--111 0
+10-1-1 0
+.names pi5 pi3 pi1 pi2 pi8 pi9 n91_mangled_18236767
+--0111 0
+-10-11 0
+-10000 0
+0--000 0
+.names pi6 pi5 pi0 pi9 pi8 pi3 n59_mangled_43952803
+---1-0 0
+--0-10 0
+-1---0 0
+1-011- 0
+.names pi5 pi0 pi2 pi9 pi3 pi1 n83_mangled_43886331
+---111 0
+--0100 0
+-1-000 0
+-10-11 0
+0-0-11 0
+0000-0 0
+.names pi8 pi1 pi0 pi2 pi9 pi5 n83_mangled_17494647
+--0111 1
+00--01 1
+.names pi5 pi2 pi8 pi0 pi9 pi1 n84_mangled_18236767
+--0111 1
+--1001 1
+-00-11 1
+1--101 1
+.names pi5 pi9 pi8 pi6 pi2 pi3 n58_mangled_43886331
+-00000 0
+-1-010 0
+-110-0 0
+0--000 0
+0-0-11 0
+01--11 0
+1-101- 0
+.names pi7 pi9 pi2 pi0 pi8 n27 n51_mangled_43952803
+-01011 1
+-11001 1
+100111 1
+.names pi2 pi1 pi0 pi8 pi9 pi5 n31
+--0010 1
+-1-0-0 1
+101-00 1
+.names pi6 pi5 pi0 pi2 pi1 pi9 n32
+-10110 0
+-11111 0
+1-0001 0
+11---- 0
+.names pi7 pi0 n27 pi2 pi9 pi1 n98_mangled_17494647
+--1000 1
+-01011 1
+0--011 1
+01-000 1
+.names pi2 pi0 pi9 pi8 pi6 n73_mangled_59848774
+01111 1
+.names pi3 pi9 pi2 pi6 pi5 pi8 n61_mangled_43886331
+---100 0
+-01-00 0
+-11011 0
+1---0- 0
+1--0-1 0
+.names pi0 pi2 pi3 pi5 pi8 pi9 n106
+-1-100 0
+-1-111 0
+-111-- 0
+1-1100 0
+1-1111 0
+111-00 0
+.names pi0 pi5 pi2 pi9 pi3 pi8 n105
+-10-10 0
+-1001- 0
+-11100 0
+0-10-0 0
+01--10 0
+01-001 0
+1-0101 0
+1-1001 0
+.names n38_mangled_51024690_mangled_59915772 pi9 n71_mangled_17494647 \
+ n66_mangled_43886331 n70_mangled_17494647
+-101 1
+1-01 1
+.names pi2 pi9 pi8 pi6 pi3 n100
+00011 1
+.names pi3 n62_mangled_43886331 n61_mangled_43886331 n63_mangled_17494647 \
+ pi1 pi4 n62_mangled_17494647
+---1-0 0
+--0-10 0
+01--01 0
+.names pi8 pi9 pi1 pi7 pi0 pi2 n82_mangled_17731855
+-0-110 0
+-00-10 0
+1-1110 0
+100101 0
+.names pi3 pi5 n27
+00 1
+.names pi1 n51_mangled_43952803 n72_mangled_17494647 pi7 \
+ n58_mangled_33057956 po07
+---00 0
+011-- 0
+.names n27 n22 n87_mangled_43886331 n59_mangled_33057956 pi6 pi4 \
+ n58_mangled_33057956
+---1-0 0
+--0-00 0
+11--01 0
+.names n78_mangled_17494647 n99_mangled_59915772 n100 pi1 pi5 \
+ n59_mangled_33057956
+--1-0 1
+-0-10 1
+0--00 1
+.names pi1 pi2 pi0 pi7 n66_mangled_33057956 n61_mangled_33057956 po01
+-----1 1
+00001- 1
+.names pi6 n65_mangled_33057956 n27 pi7 n62_mangled_33057956 pi4 \
+ n61_mangled_33057956
+---000 1
+001--0 1
+.names pi5 n64_mangled_17731855 n64_mangled_33057956 pi6 \
+ n63_mangled_33057956 pi9 n62_mangled_33057956
+----0- 0
+--10-0 0
+00---0 0
+.names n66_mangled_17731855 n67_mangled_17731855 pi3 pi1 \
+ n65_mangled_17731855 n63_mangled_33057956
+--1-0 1
+-1-10 1
+1--00 1
+.names pi3 pi1 pi8 pi2 pi5 pi0 n64_mangled_33057956
+--0000 0
+-01-01 0
+-1-111 0
+-10-11 0
+0--000 0
+0-0111 0
+00--01 0
+0010-0 0
+.names pi9 pi1 pi8 pi0 pi7 pi2 n65_mangled_33057956
+-00011 0
+-10110 0
+0-0110 0
+00-0-1 0
+011-10 0
+.names pi5 pi4 pi8 pi3 pi9 pi6 n66_mangled_33057956
+-1-011 1
+-11000 1
+1-0000 1
+.names pi5 pi3 n60_1_mangled_51100952 n72_mangled_17494647 \
+ n68_mangled_33057956 pi7 po06
+----00 0
+0001-- 0
+.names n74_mangled_43886331 n73_mangled_33057956 pi4 n71_mangled_33057956 \
+ pi1 n69_mangled_33057956 n68_mangled_33057956
+--1--1 1
+-1-011 1
+1--001 1
+.names n22 n70_mangled_33057956 pi5 pi6 pi3 pi4 n69_mangled_33057956
+--11-- 0
+-0--00 0
+1---01 0
+.names n80_mangled_43886331 n83_mangled_17494647 pi9 pi2 pi6 pi8 \
+ n70_mangled_33057956
+--0010 0
+--1111 0
+-1---- 0
+0----1 0
+.names pi5 n72_mangled_33057956 n84_mangled_18236767 n73_mangled_59848774 \
+ pi3 n71_mangled_33057956
+---11 1
+--1-1 1
+00--1 1
+.names pi2 pi6 pi8 pi0 pi1 pi9 n72_mangled_33057956
+---111 0
+--0100 0
+-0-010 0
+-01001 0
+1---10 0
+.names pi5 pi6 pi2 pi0 pi8 pi9 n73_mangled_33057956
+-1-001 0
+-1-111 0
+-11--1 0
+-11-1- 0
+0-1001 0
+1-0000 0
+1-0101 0
+.names pi8 pi9 n81_mangled_33057956 pi1 n79_mangled_33057956 \
+ n75_mangled_33057956 po09
+--1-11 1
+-1-011 1
+1--011 1
+.names n90_mangled_17494647 n59_mangled_43952803 n76_mangled_33057956 \
+ n78_mangled_33057956 pi2 pi1 n75_mangled_33057956
+---111 1
+--0--0 1
+-1-1-1 1
+1---00 1
+.names pi2 pi9 pi5 pi8 pi3 n77_mangled_33057956 n76_mangled_33057956
+--1100 1
+-1-100 1
+-11-00 1
+0----0 1
+.names pi5 pi3 pi6 pi0 pi9 pi8 n77_mangled_33057956
+--1-1- 0
+--10-1 0
+-0---- 0
+1--011 0
+.names pi9 pi8 pi2 pi6 pi5 pi3 n78_mangled_33057956
+---1-0 0
+-01001 0
+0-1001 0
+11--10 0
+.names pi1 pi3 pi0 pi2 pi7 n80_mangled_33057956 n79_mangled_33057956
+---101 1
+--0-01 1
+-001-1 1
+-1--01 1
+1---01 1
+.names pi6 pi1 pi4 pi5 pi3 pi2 n80_mangled_33057956
+--00-0 1
+--001- 1
+-0-000 1
+0-0--- 1
+00--00 1
+.names pi5 pi6 pi0 pi3 pi2 pi7 n81_mangled_33057956
+-----1 0
+00111- 0
+.names pi2 pi7 n64_mangled_33057956 n72_mangled_17494647 n27 \
+ n83_mangled_33057956 po02
+-0---0 1
+0-0110 1
+011111 1
+.names pi3 n62_mangled_59915772 n70_mangled_17494647 n84_mangled_33057956 \
+ pi0 pi4 n83_mangled_33057956
+---0-0 0
+--0-00 0
+01--01 0
+.names pi5 n74_mangled_43952803 n91_mangled_18236767 n85_mangled_33057956 \
+ pi6 pi0 n84_mangled_33057956
+---10- 0
+--0-01 0
+01---1 0
+.names pi3 n54_mangled_59848774 n85_mangled_33057956
+00 1
+.names n65_mangled_17494647 n62_mangled_17494647 n87_mangled_33057956 pi4 \
+ pi0 pi7 po03
+--00-0 1
+-0--00 1
+0--010 1
+.names pi3 n56_mangled_43886331 n88_mangled_33057956 pi5 \
+ n87_mangled_33057956
+--00 0
+11-- 0
+.names pi2 pi8 pi3 pi6 pi1 pi9 n88_mangled_33057956
+--1011 0
+--1101 0
+-0-100 0
+-1-110 0
+0-1--0 0
+1--101 0
+.names n91_mangled_33057956 pi5 n68_1_mangled_18236767 n90_mangled_33057956 \
+ pi0 pi8 n95_mangled_17494647
+---00- 0
+--1--1 0
+01---1 0
+.names pi5 pi8 pi3 pi9 pi2 pi1 n90_mangled_33057956
+-00000 0
+0-0110 0
+00---1 0
+.names pi6 pi3 pi1 pi2 pi9 pi0 n91_mangled_33057956
+-01000 0
+-01011 0
+1---01 0
+1--1-- 0
+.names pi7 n83_mangled_43886331 n98_mangled_17494647 n93_mangled_33057956 \
+ pi8 pi6 n97_mangled_17494647
+---1-0 1
+--1-00 1
+01--00 1
+.names pi5 n82_mangled_17731855 n81_mangled_17731855 pi3 \
+ n93_mangled_33057956
+--10 1
+00-0 1
+.names pi8 n75_mangled_17731855 n73_mangled_17731855 n95_mangled_33057956 \
+ pi9 n70_1_mangled_18166770
+---01 0
+--0-0 0
+00--- 0
+.names pi0 pi1 pi8 pi2 pi5 pi3 n95_mangled_33057956
+-01001 0
+-1-100 0
+-11011 0
+1-1011 0
+.names pi2 pi8 pi1 pi6 pi9 pi3 n66_mangled_43886331
+--1000 0
+-0-011 0
+-00-11 0
+-01110 0
+0---11 0
+0-01-1 0
+00-1-1 0
+.names n53_mangled_33295946 n22 n50_mangled_33295946 n97_mangled_17494647 \
+ pi4 pi7 po00
+---10- 1
+--0-00 1
+11---0 1
+.names n32 pi3 n51_mangled_33295946 n31 pi8 n95_mangled_17494647 \
+ n50_mangled_33295946
+--0001 1
+-0--11 1
+-00--1 1
+1--011 1
+.names pi6 pi3 pi2 pi1 pi5 pi9 n51_mangled_33295946
+--1-01 1
+-0-000 1
+1-0000 1
+.names pi0 pi1 pi2 n22
+000 1
+.names pi9 pi4 pi5 pi3 pi8 pi6 n53_mangled_33295946
+-10001 1
+-11011 1
+0-0001 1
+0-1000 1
+11-000 1
+.names pi7 pi4 n22 pi3 pi5 pi6 po05
+000111 1
+011011 1
+.names n56_mangled_33295946 pi5 pi6 po04
+111 1
+.names pi3 pi0 pi1 pi7 pi2 pi4 n56_mangled_33295946
+--1010 1
+-1-010 1
+000001 1
+100000 1
+.names n70_1_mangled_18166770 n61_mangled_33295946 n27 n58_mangled_33295946 \
+ pi7 n72_mangled_17494647 po08
+---10- 0
+-01--1 0
+0---01 0
+.names n59_mangled_33295946 n22 pi5 pi4 pi3 n58_mangled_33295946
+-1010 1
+1-001 1
+.names pi9 pi2 pi0 pi8 pi6 pi1 n59_mangled_33295946
+---100 0
+--0-00 0
+--010- 0
+-0--0- 0
+-001-0 0
+1---00 0
+10---0 0
+1001-- 0
+.names pi4 pi6 n72_mangled_17494647
+00 1
+.names pi1 pi9 pi0 pi2 pi8 n61_mangled_33295946
+00000 0
+00011 0
+00101 0
+01010 0
+11000 0
+.names n63_mangled_33295946 pi5 pi7 pi6 po10
+0000 1
+.names n64_mangled_33295946 pi2 n22 pi4 pi3 n63_mangled_33295946
+--110 0
+11-01 0
+.names pi9 pi8 pi0 pi1 n64_mangled_33295946
+--11 1
+-0-1 1
+0--1 1
+001- 1
+.names pi5 pi6 pi8 pi0 pi2 pi9 n74_mangled_43886331
+--0100 0
+--1011 0
+-10-00 0
+0--100 0
+.names pi0 pi5 pi1 pi2 pi9 pi8 n54_mangled_59848774
+---001 1
+---010 1
+--0-11 1
+--00-- 1
+-0-0-- 1
+-01-00 1
+01--11 1
+.names pi1 pi6 pi2 pi5 pi9 pi0 n80_mangled_43886331
+--1-10 0
+--11-0 0
+-00-01 0
+00-001 0
+1--111 0
+.names pi2 pi7 pi1 pi9 pi0 n81_mangled_17731855
+00111 1
+.names pi5 pi1 pi2 pi9 pi8 pi6 n56_mangled_43886331
+--0-00 1
+-0--00 1
+-011-0 1
+1--010 1
+.names pi8 pi9 n71_mangled_33295946 n106 n105 pi1 n87_mangled_43886331
+----01 0
+---0-0 0
+111--- 0
+.names pi2 pi5 pi3 n71_mangled_33295946
+111 1
+.names pi0 pi3 pi6 pi8 pi2 pi1 n64_mangled_17731855
+--1000 0
+-1--01 0
+-1-10- 0
+-111-0 0
+0--001 0
+1-1-00 0
+.names pi0 pi9 pi3 pi2 pi8 pi6 n99_mangled_59915772
+--1100 0
+-0-011 0
+-00-00 0
+-011-0 0
+-1-001 0
+-1011- 0
+011010 0
+1--011 0
+1-0-10 0
+1-11-0 0
+.names pi0 pi3 pi8 pi2 pi6 pi9 n78_mangled_17494647
+---111 0
+--111- 0
+-001-1 0
+-10001 0
+0-00-0 0
+01-000 0
+01-11- 0
+011-11 0
+1-1-10 0
+.names pi1 pi0 pi3 pi2 pi9 pi6 n68_1_mangled_18236767
+-00111 1
+100001 1
+.names pi8 pi6 pi1 n58_mangled_43886331 pi9 n27 n65_mangled_17494647
+--11-- 0
+-1--01 0
+0-0000 0
+.names pi6 pi5 pi3 pi4 n90_mangled_17494647
+-101 1
+1-01 1
+.names pi8 pi1 n71_mangled_33295946 pi6 n79_mangled_33295946 pi9 \
+ n65_mangled_17731855
+---101 1
+011--1 1
+.names pi8 pi0 pi5 pi2 pi1 pi3 n79_mangled_33295946
+---111 0
+--1--1 0
+--11-- 0
+-11-1- 0
+01-001 0
+.names pi0 pi5 pi9 pi2 pi6 pi8 n67_mangled_17731855
+--0-00 0
+--010- 0
+-001-1 0
+-11010 0
+000-11 0
+01-000 0
+1-1010 0
+10-001 0
+.names pi2 pi1 pi5 pi9 pi6 pi3 n63_mangled_17494647
+----00 0
+---10- 0
+-11--- 0
+0----0 0
+.names pi9 pi8 pi2 pi5 pi6 n62_mangled_43886331
+--011 1
+11000 1
+.names pi6 pi9 pi5 pi8 pi2 pi1 n62_mangled_59915772
+--1-00 1
+-0-100 1
+0--000 1
+.names pi0 pi1 pi2 pi3 pi5 pi8 n73_mangled_17731855
+-00111 0
+-1101- 0
+011-01 0
+1-0001 0
+10-001 0
+1000-1 0
+.names pi0 pi5 pi9 pi2 pi1 pi3 n75_mangled_17731855
+--0100 0
+--1110 0
+-0-100 0
+-00010 0
+-11001 0
+0-1-10 0
+01-001 0
+010-00 0
+.names pi6 pi2 pi3 pi5 pi8 pi1 n38_mangled_51024690_mangled_59915772
+--0-11 0
+--01-1 0
+-0-111 0
+-1-011 0
+1-0000 0
+.names pi3 pi6 pi1 pi8 pi2 pi5 n71_mangled_17494647
+---011 1
+--0-11 1
+-1--11 1
+1-01-1 1
+.end

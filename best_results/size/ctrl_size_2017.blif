@@ -1,0 +1,101 @@
+# Benchmark "top" written by ABC on Thu Aug 30 15:00:28 2018
+.model top
+.inputs opcode[0] opcode[1] opcode[2] opcode[3] opcode[4] op_ext[0] \
+ op_ext[1]
+.outputs sel_reg_dst[0] sel_reg_dst[1] sel_alu_opB[0] sel_alu_opB[1] \
+ alu_op[0] alu_op[1] alu_op[2] alu_op_ext[0] alu_op_ext[1] alu_op_ext[2] \
+ alu_op_ext[3] halt reg_write sel_pc_opA sel_pc_opB beqz bnez bgez bltz \
+ jump Cin invA invB sign mem_write sel_wb
+.names opcode[0] opcode[1] opcode[2] opcode[3] opcode[4] sel_reg_dst[0]
+--111 1
+-1-11 1
+-1100 1
+1--11 1
+.names opcode[0] opcode[2] opcode[1] opcode[3] opcode[4] sel_reg_dst[1]
+-0101 1
+-1100 1
+00011 1
+.names opcode[0] opcode[2] opcode[1] opcode[3] opcode[4] sel_alu_opB[0]
+-0110 1
+00011 1
+00101 1
+.names opcode[0] opcode[1] opcode[2] opcode[3] opcode[4] sel_alu_opB[1]
+---01 1
+-0010 1
+000-1 1
+.names n40 opcode[0] opcode[1] opcode[2] opcode[4] opcode[3] alu_op[0]
+-1-110 1
+-11001 1
+1-1011 1
+.names op_ext[1] opcode[1] opcode[0] op_ext[0] opcode[3] n40
+--011 1
+-0-11 1
+1--11 1
+.names op_ext[1] opcode[4] opcode[2] opcode[3] opcode[1] alu_op[1]
+-0011 1
+-1101 1
+1-011 1
+.names opcode[0] opcode[1] opcode[2] opcode[3] opcode[4] alu_op[2]
+--001 1
+--010 1
+--111 1
+11-11 1
+.names n40 opcode[0] opcode[1] opcode[2] opcode[3] opcode[4] alu_op_ext[0]
+-00011 1
+-1-111 1
+0-1100 1
+.names opcode[0] opcode[3] opcode[2] opcode[4] opcode[1] alu_op_ext[1]
+-0101 1
+-1111 1
+00011 1
+.names opcode[0] opcode[2] opcode[3] opcode[1] opcode[4] alu_op_ext[2]
+-0101 1
+-1010 1
+00011 1
+.names opcode[0] opcode[4] opcode[2] opcode[1] opcode[3] alu_op_ext[3]
+--1-1 0
+-0--0 0
+-1-01 0
+0-010 0
+.names opcode[0] opcode[1] opcode[2] opcode[3] opcode[4] halt
+00000 1
+.names opcode[0] opcode[1] opcode[4] opcode[2] opcode[3] reg_write
+--000 0
+--011 0
+-00-0 0
+00-00 0
+.names jump opcode[0] sel_pc_opA
+11 1
+.names opcode[3] opcode[4] opcode[2] jump
+001 1
+.names opcode[0] opcode[3] opcode[4] opcode[2] sel_pc_opB
+0001 1
+.names opcode[0] opcode[1] opcode[4] opcode[3] opcode[2] beqz
+00011 1
+.names opcode[1] opcode[4] opcode[2] opcode[3] opcode[0] bnez
+00111 1
+.names opcode[4] opcode[1] opcode[2] opcode[3] opcode[0] bgez
+01111 1
+.names opcode[0] opcode[4] opcode[2] opcode[3] opcode[1] bltz
+00111 1
+.names op_ext[0] opcode[1] opcode[4] opcode[0] opcode[2] opcode[3] Cin
+--0101 1
+--1011 1
+-01-11 1
+11-101 1
+.names op_ext[1] opcode[4] opcode[1] opcode[2] Cin opcode[0] invA
+--0011 1
+01-011 1
+.names n40 opcode[4] opcode[0] opcode[1] opcode[2] opcode[3] invB
+-01101 1
+-1-011 1
+-10-11 1
+1-1101 1
+.names opcode[2] opcode[3] opcode[0] opcode[1] opcode[4] mem_write
+00001 1
+00111 1
+.names opcode[1] opcode[2] opcode[3] opcode[0] opcode[4] sel_wb
+00011 1
+.names sign
+ 1
+.end
