@@ -1,4 +1,4 @@
-# Best LUT-6 Implementations - 2016
+# Best LUT-6 Implementations - 2017
 The best LUT-6 implementations keep track of the best results of LUT-6 mapped benchmarks, both for size (# of LUTs) and depth (# of levels). 
 
 ### Best results for LUT-6 count
@@ -13,7 +13,7 @@ The best LUT-6 implementations keep track of the best results of LUT-6 mapped be
 | **Hypotenuse** | **256** |**128**  |**40406**  |**4532** | **Gai Liu & Zhiru Zhang**| **PIMap**|
 | **Log2** | **32** |**32** |**6574**|**119** | **Gai Liu & Zhiru Zhang**| **PIMap**|
 | **Max** | **512** |**130** |**523** |**189**| **Gai Liu & Zhiru Zhang**| **PIMap**|
-| **Multiplier** | **128** |**128** |**4923** |**90**|  **Alan Mishchenko et al. **| **SAT LUT Mapper**|
+| **Multiplier** | **128** |**128** |**4923** |**90**|  **Alan Mishchenko et al.**| **SAT LUT Mapper**|
 | **Sine** | **24** |**25** |**1229** |**55**| **Gai Liu & Zhiru Zhang**| **PIMap**|
 | **Square-root** | **128** |**64** |**3077** |**1106**| **Gai Liu & Zhiru Zhang**| **PIMap**|
 | **Square** | **64** |**128** |**3246** |**74**|  **Gai Liu & Zhiru Zhang**| **PIMap**|
@@ -52,12 +52,12 @@ The best LUT-6 implementations keep track of the best results of LUT-6 mapped be
 | Barrel shifter  | 135 |128  | 512  |4  | R. K. Brayton & A. Mishchenko|ABC Extreme Mapper|
 | Divisor  | 128 |128  |47964 | 230 | A. Mishchenko |ABC Ultimate Mapper |
 | Hypotenuse | 256 |128  | 146302 |573 | A. Mishchenko |ABC Ultimate Mapper |
-| **Log2** | **32** |**32** |**9218**|**55** |   **Alan Mishchenko et al. **| **SAT LUT Mapper**|
-| **Max** | **512** |**130** |**882**|**10**|   **Alan Mishchenko et al. **| **SAT LUT Mapper**|
+| **Log2** | **32** |**32** |**9218**|**55** |   **Alan Mishchenko et al.**| **SAT LUT Mapper**|
+| **Max** | **512** |**130** |**882**|**10**|   **Alan Mishchenko et al.**| **SAT LUT Mapper**|
 | Multiplier | 128 |128 |8215 |28| A. Mishchenko |ABC Ultimate Mapper |
-| **Sine** | **24** |**25** |**1801** |**30**|   **Alan Mishchenko et al. **| **SAT LUT Mapper**|
-| **Square-root** | **128** |**64** |**11680** |**254**|   **Alan Mishchenko et al. **| **SAT LUT Mapper**|
-| **Square** | **64** |**128** |**4038** |**11**|   **Alan Mishchenko et al. **| **SAT LUT Mapper**|
+| **Sine** | **24** |**25** |**1801** |**30**|   **Alan Mishchenko et al.**| **SAT LUT Mapper**|
+| **Square-root** | **128** |**64** |**11680** |**254**|   **Alan Mishchenko et al.**| **SAT LUT Mapper**|
+| **Square** | **64** |**128** |**4038** |**11**|   **Alan Mishchenko et al.**| **SAT LUT Mapper**|
 
 **Random-Control Benchmarks**
 
@@ -65,14 +65,14 @@ The best LUT-6 implementations keep track of the best results of LUT-6 mapped be
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | 
 | Round-robin arbiter | 256 | 129  | 2884  | 5| A. Mishchenko |ABC Ultimate Mapper |
 | **Alu control unit**  | **7** |**26**  |**27**  |**2** |**Gai Liu & Zhiru Zhang**| **PIMap**|
-| **Coding-cavlc**   | **10** |**11**  |**115**  |**4** | **Alan Mishchenko et al. **| **SAT LUT Mapper**|
+| **Coding-cavlc**   | **10** |**11**  |**115**  |**4** | **Alan Mishchenko et al.**| **SAT LUT Mapper**|
 | **Decoder** |**8** |**256**  |**270**  |**2** |**Gai Liu & Zhiru Zhang**| **PIMap**|
-| **I2c controller** | **147** |**142** |**244**|**3**| **Alan Mishchenko et al. **| **SAT LUT Mapper**|
-| **Int to float converter** | **11** |**7** |**41** |**3** | **Alan Mishchenko et al. **| **SAT LUT Mapper**|
-| **Memory controller** | **1204** |**1231** |**2490** |**7**| **Alan Mishchenko et al. **| **SAT LUT Mapper**|
-| **Priority encoder** | **128** |**8** |**157**|**4**| **Alan Mishchenko et al. **| **SAT LUT Mapper**|
+| **I2c controller** | **147** |**142** |**244**|**3**| **Alan Mishchenko et al.**| **SAT LUT Mapper**|
+| **Int to float converter** | **11** |**7** |**41** |**3** | **Alan Mishchenko et al.**| **SAT LUT Mapper**|
+| **Memory controller** | **1204** |**1231** |**2490** |**7**| **Alan Mishchenko et al.**| **SAT LUT Mapper**|
+| **Priority encoder** | **128** |**8** |**157**|**4**| **Alan Mishchenko et al.**| **SAT LUT Mapper**|
 | Lookahead XY router | 60 |30 |57 |4|R. K. Brayton & A. Mishchenko|ABC Extreme Mapper|
-| **Voter** | **1001** |**1** |**1469** |**12**| **Alan Mishchenko et al. **| **SAT LUT Mapper**|
+| **Voter** | **1001** |**1** |**1469** |**12**| **Alan Mishchenko et al.**| **SAT LUT Mapper**|
 
 **MtM Benchmarks**
 
