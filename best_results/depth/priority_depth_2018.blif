@@ -1,0 +1,443 @@
+# Benchmark "top" written by ABC on Mon Sep 10 23:06:32 2018
+.model top
+.inputs pi000 pi001 pi002 pi003 pi004 pi005 pi006 pi007 pi008 pi009 pi010 \
+ pi011 pi012 pi013 pi014 pi015 pi016 pi017 pi018 pi019 pi020 pi021 pi022 \
+ pi023 pi024 pi025 pi026 pi027 pi028 pi029 pi030 pi031 pi032 pi033 pi034 \
+ pi035 pi036 pi037 pi038 pi039 pi040 pi041 pi042 pi043 pi044 pi045 pi046 \
+ pi047 pi048 pi049 pi050 pi051 pi052 pi053 pi054 pi055 pi056 pi057 pi058 \
+ pi059 pi060 pi061 pi062 pi063 pi064 pi065 pi066 pi067 pi068 pi069 pi070 \
+ pi071 pi072 pi073 pi074 pi075 pi076 pi077 pi078 pi079 pi080 pi081 pi082 \
+ pi083 pi084 pi085 pi086 pi087 pi088 pi089 pi090 pi091 pi092 pi093 pi094 \
+ pi095 pi096 pi097 pi098 pi099 pi100 pi101 pi102 pi103 pi104 pi105 pi106 \
+ pi107 pi108 pi109 pi110 pi111 pi112 pi113 pi114 pi115 pi116 pi117 pi118 \
+ pi119 pi120 pi121 pi122 pi123 pi124 pi125 pi126 pi127
+.outputs po0 po1 po2 po3 po4 po5 po6 po7
+.names n163 n186 n161 n152 n156 n138 po0
+---0-1 1
+--0-11 1
+01--11 1
+.names n143 n147 pi118 n151 n141 n139 n138
+----00 1
+0001-0 1
+.names pi126 n140 pi127 n139
+-10 1
+1-0 1
+.names pi121 pi120 pi122 pi124 pi123 pi125 n140
+---1-0 1
+--1-00 1
+01--00 1
+.names pi116 pi115 pi118 pi117 n142 n141
+--1-1 1
+-0-01 1
+1--01 1
+.names pi119 pi121 pi123 pi125 pi127 n142
+00000 1
+.names pi098 pi096 n144 n146 n145 n143
+-1011 1
+1-011 1
+.names pi106 pi105 pi107 pi108 n144
+--10 1
+01-0 1
+.names pi098 pi097 pi099 pi101 pi103 n145
+-0000 1
+1-000 1
+.names pi109 pi111 pi113 n146
+000 1
+.names n150 n149 n148 n144 n146 n147
+--001 1
+-0-01 1
+1--01 1
+.names pi104 pi105 pi106 pi107 n148
+0000 1
+.names pi108 pi109 pi110 pi111 n149
+0000 1
+.names pi101 pi100 pi102 pi103 n150
+--10 1
+01-0 1
+.names pi111 pi110 pi113 pi112 pi114 pi116 n151
+--1-00 1
+-0-000 1
+1--000 1
+.names pi089 n155 n154 pi095 n153 n141 n152
+--0011 1
+01-011 1
+.names n144 n145 n146 n153
+011 1
+.names pi091 pi090 pi093 pi092 pi094 n154
+--1-0 1
+-0-00 1
+1--00 1
+.names pi086 pi085 pi088 pi087 pi091 pi093 n155
+--1-00 1
+-0-000 1
+1--000 1
+.names pi074 n160 n157 pi088 n154 n159 n156
+--0011 1
+01-011 1
+.names pi079 n158 n157
+01 1
+.names pi076 pi075 pi078 pi077 pi081 pi083 n158
+--1-00 1
+-0-000 1
+1--000 1
+.names pi081 pi080 pi083 pi082 pi084 pi086 n159
+--1-00 1
+-0-000 1
+1--000 1
+.names pi071 pi070 pi073 pi072 pi076 pi078 n160
+--1-00 1
+-0-000 1
+1--000 1
+.names pi073 n162 n157 n161
+011 1
+.names pi066 pi065 pi068 pi067 pi069 pi071 n162
+--1-00 1
+-0-000 1
+1--000 1
+.names n180 n184 n174 n170 n172 n164 n163
+---0-1 1
+--0-11 1
+01--11 1
+.names pi049 n169 n168 n167 n165 n166 n164
+---101 1
+--0-01 1
+01--01 1
+.names pi056 pi055 pi057 pi058 n165
+--10 1
+01-0 1
+.names pi059 pi061 pi063 n166
+000 1
+.names pi051 pi050 pi052 pi053 n167
+--10 1
+01-0 1
+.names pi054 pi056 pi058 n168
+000 1
+.names pi046 pi045 pi048 pi047 pi051 pi053 n169
+--1-00 1
+-0-000 1
+1--000 1
+.names n167 n171 pi044 pi046 pi048 n168 n170
+000001 1
+.names pi041 pi040 pi042 pi043 n171
+--10 1
+01-0 1
+.names pi043 n173 n172
+01 1
+.names pi036 pi035 pi038 pi037 pi039 pi041 n173
+--1-00 1
+-0-000 1
+1--000 1
+.names pi024 n179 n178 n177 n175 n176 n174
+---101 1
+--0-01 1
+01--01 1
+.names pi031 pi030 pi032 pi033 n175
+--10 1
+01-0 1
+.names pi034 pi036 pi038 n176
+000 1
+.names pi026 pi025 pi027 pi028 n177
+--10 1
+01-0 1
+.names pi029 pi031 pi033 n178
+000 1
+.names pi021 pi020 pi023 pi022 pi026 pi028 n179
+--1-00 1
+-0-000 1
+1--000 1
+.names pi006 n183 n182 pi014 n181 n180
+--001 1
+01-01 1
+.names pi011 pi010 pi013 pi012 pi016 pi018 n181
+--1-00 1
+-0-000 1
+1--000 1
+.names pi008 pi007 pi009 pi011 pi013 n182
+-0000 1
+1-000 1
+.names pi002 pi001 pi003 pi005 pi004 pi008 n183
+---1-0 1
+--1-00 1
+01--00 1
+.names n177 n185 pi019 pi021 pi023 n178 n184
+000001 1
+.names pi016 pi015 pi017 pi018 n185
+--10 1
+01-0 1
+.names pi061 pi060 pi063 pi062 n187 n186
+--1-1 1
+-0-01 1
+1--01 1
+.names n188 n189 n187
+11 1
+.names pi064 pi065 pi066 pi067 n188
+0000 1
+.names pi068 pi069 pi070 pi071 n189
+0000 1
+.names n206 n229 n202 n200 n226 n191 po1
+---0-1 1
+--0-11 1
+01--11 1
+.names n192 pi126 pi127 n194 n197 n191
+---10 0
+000-- 0
+.names pi120 pi121 n193 pi124 pi125 n192
+--000 1
+00-00 1
+.names pi122 pi123 n193
+00 1
+.names n196 pi116 pi117 n195 n194
+---0 0
+000- 0
+.names pi118 pi119 pi122 pi123 pi126 pi127 n195
+000000 1
+.names pi110 pi111 pi113 pi112 pi114 pi115 n196
+---100 1
+--1-00 1
+00--00 1
+.names n199 pi106 pi107 n198 n197
+---0 0
+000- 0
+.names pi108 pi109 pi112 pi113 pi116 pi117 n198
+000000 1
+.names pi100 pi101 pi103 pi102 pi104 pi105 n199
+---100 1
+--1-00 1
+00--00 1
+.names pi102 pi103 n194 n201 n200
+0011 1
+.names pi098 pi099 pi106 pi107 n201
+0000 1
+.names n205 pi080 pi081 n203 n202
+---0 0
+000- 0
+.names pi082 pi083 pi086 pi087 n204 n203
+00001 1
+.names pi090 pi091 pi094 pi095 n204
+0000 1
+.names pi074 pi075 pi077 pi076 pi078 pi079 n205
+---100 1
+--1-00 1
+00--00 1
+.names n219 n223 n216 n210 n213 n207 n206
+---0-1 1
+--0-11 1
+01--11 1
+.names pi058 pi059 pi061 pi060 n208 n209 n207
+---101 1
+--1-01 1
+00--01 1
+.names pi055 pi054 pi056 pi057 pi060 pi061 n208
+-10000 1
+1-0000 1
+.names pi062 pi063 pi066 pi067 pi070 pi071 n209
+000000 1
+.names n212 pi050 pi051 n211 n210
+---0 0
+000- 0
+.names pi052 pi053 pi056 pi057 pi060 pi061 n211
+000000 1
+.names pi044 pi045 pi047 pi046 pi048 pi049 n212
+---100 1
+--1-00 1
+00--00 1
+.names pi038 pi039 pi041 pi040 n214 n215 n213
+---101 1
+--1-01 1
+00--01 1
+.names pi035 pi034 pi036 pi037 pi040 pi041 n214
+-10000 1
+1-0000 1
+.names pi042 pi043 pi046 pi047 pi050 pi051 n215
+000000 1
+.names n218 pi030 pi031 n217 n216
+---0 0
+000- 0
+.names pi032 pi033 pi036 pi037 pi040 pi041 n217
+000000 1
+.names pi024 pi025 pi027 pi026 pi028 pi029 n218
+---100 1
+--1-00 1
+00--00 1
+.names n222 n221 pi011 pi010 n220 n219
+---11 1
+--1-1 1
+01--1 1
+.names pi012 pi013 pi016 pi017 pi020 pi021 n220
+000000 1
+.names pi008 pi009 pi010 pi011 n221
+0000 1
+.names pi002 pi003 pi005 pi004 pi006 pi007 n222
+---100 1
+--1-00 1
+00--00 1
+.names n225 pi020 pi021 n224 n223
+---0 0
+000- 0
+.names pi022 pi023 pi026 pi027 pi030 pi031 n224
+000000 1
+.names pi014 pi015 pi017 pi016 pi018 pi019 n225
+---100 1
+--1-00 1
+00--00 1
+.names n228 n204 n227 n226
+-01 1
+1-1 1
+.names pi092 pi093 pi095 pi094 pi096 pi097 n227
+---100 1
+--1-00 1
+00--00 1
+.names pi084 pi085 pi087 pi086 pi088 pi089 n228
+---100 1
+--1-00 1
+00--00 1
+.names n231 pi070 pi071 n230 n229
+---0 0
+000- 0
+.names pi072 pi073 pi076 pi077 pi080 pi081 n230
+000000 1
+.names pi064 pi065 pi067 pi066 pi068 pi069 n231
+---100 1
+--1-00 1
+00--00 1
+.names n251 n263 n244 n243 n265 n233 po2
+---0-0 1
+--0-10 1
+01--10 1
+.names n148 n240 n242 n237 n241 n234 n233
+----0- 0
+---0-1 0
+111--1 0
+.names n236 n235 pi120 pi121 n193 n234
+-0001 1
+1-001 1
+.names pi116 pi117 pi118 pi119 n235
+0000 1
+.names pi112 pi113 pi114 pi115 n236
+0000 1
+.names n240 n239 n148 n238 n149 n235 n237
+--0-11 1
+-1-111 1
+0--111 1
+.names pi100 pi101 pi102 pi103 n238
+0000 1
+.names pi092 pi093 pi094 pi095 n239
+0000 1
+.names pi096 pi097 pi098 pi099 n240
+0000 1
+.names pi124 pi125 pi126 pi127 n241
+0000 1
+.names pi088 pi089 pi090 pi091 n242
+0000 1
+.names pi084 pi085 pi086 pi087 n237 n241 n243
+000011 1
+.names n245 n250 n244
+01 1
+.names n249 n248 n247 n189 n188 n246 n245
+---0-1 1
+--0-11 1
+01--11 1
+.names pi072 pi073 pi074 pi075 n246
+0000 1
+.names pi060 pi061 pi062 pi063 n247
+0000 1
+.names pi056 pi057 pi058 pi059 n248
+0000 1
+.names pi052 pi053 pi054 pi055 n249
+0000 1
+.names pi076 pi077 pi078 pi079 n250
+0000 1
+.names n252 n262 n261 n259 n260 n258 n251
+---0-1 1
+--0-11 1
+01--11 1
+.names n257 n221 n256 n254 n255 n253 n252
+---0-1 1
+--0-11 1
+01--11 1
+.names pi024 pi025 pi026 pi027 n253
+0000 1
+.names pi020 pi021 pi022 pi023 n254
+0000 1
+.names pi016 pi017 pi018 pi019 pi020 pi021 n255
+000000 1
+.names pi012 pi013 pi014 pi015 n256
+0000 1
+.names pi004 pi005 pi006 pi007 n257
+0000 1
+.names pi044 pi045 pi046 pi047 n258
+0000 1
+.names pi040 pi041 pi042 pi043 n259
+0000 1
+.names pi036 pi037 pi038 pi039 n260
+0000 1
+.names pi032 pi033 pi034 pi035 n261
+0000 1
+.names pi028 pi029 pi030 pi031 n262
+0000 1
+.names n188 n246 n248 n264 n263
+1111 1
+.names pi048 pi049 pi050 pi051 n264
+0000 1
+.names pi080 pi081 pi082 pi083 n265
+0000 1
+.names n272 n276 n187 n269 n275 n267 po3
+---0-1 0
+--0-11 0
+01--11 0
+.names n149 n148 n236 n235 n268 n267
+---01 1
+--0-1 1
+11--1 1
+.names pi120 pi121 n193 n241 n268
+0011 1
+.names n271 n270 n235 n236 n238 n240 n269
+-01111 1
+1-1111 1
+.names n239 n242 n270
+11 1
+.names pi084 pi085 pi086 pi087 n265 n271
+00001 1
+.names n274 n260 n261 n273 n249 n264 n272
+---011 1
+011-11 1
+.names n258 n259 n273
+11 1
+.names n221 n256 n255 n224 n262 n253 n274
+---011 1
+--0-11 1
+11--11 1
+.names n239 n242 n250 n246 n275
+1111 1
+.names n247 n248 n276
+11 1
+.names n281 po6 n280 n271 n270 n279 po4
+--0--1 0
+-1-111 0
+1--111 0
+.names n187 n271 n275 n279 n280 po6
+11111 0
+.names pi120 pi121 n235 n236 n193 n241 n279
+001111 1
+.names n148 n149 n238 n240 n280
+1111 1
+.names n284 n283 n282 n281
+-11 1
+0-1 1
+.names n247 n248 n249 n264 n282
+1111 1
+.names pi022 pi023 n255 n262 n253 n283
+00111 1
+.names n258 n259 n260 n261 n284
+1111 1
+.names n286 n275 n271 n187 n280 n279 po5
+-----0 1
+----0- 1
+0111-- 1
+.names n282 n284 n286
+11 1
+.names po6 n286 n283 n288 n257 po7
+01111 0
+.names pi000 pi001 pi002 pi003 n221 n256 n288
+000011 1
+.end
