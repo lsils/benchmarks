@@ -16,7 +16,7 @@ The best LUT-6 implementations keep track of the best results of LUT-6 mapped be
 |  Multiplier  |  128  | 128  | 4923  | 90 |   Alan Mishchenko et al. |  SAT LUT Mapper |
 |  **Sine**  |  **24**  | **25**  | **1228**  | **55** |  **Luca Amaru et al.** |  **Boolean Resynthesis** |
 |  **Square-root**  |  **128**  | **64**  | **3076**  | **1106** |  **Luca Amaru et al.** |  **Boolean Resynthesis** |
-|  **Square**  |  **64**  | **128**  | **3243**  | **74** |   **Luca Amaru et al.** |  **Boolean Resynthesis** |
+|  **Square**  |  **64**  | **128**  | **3244**  | **74** |   **Luca Amaru et al.** |  **Boolean Resynthesis** |
 
 **Random-Control Benchmarks**
 
@@ -66,7 +66,7 @@ The best LUT-6 implementations keep track of the best results of LUT-6 mapped be
 |  **Round-robin arbiter** | **256** | **129**  | **2243**  | **5** | **L. Machado and J. Cortadella** |  **Support-Reducing Decomp** |
 |  Alu control unit   |  7  | 26   | 27   | 2  | Gai Liu & Zhiru Zhang |  PIMap |
 |  **Coding-cavlc**    |  **10**  | **11**   | **75**   | **3** |  **L. Machado and J. Cortadella** |  **Support-Reducing Decomp** |
-|  **Decoder**  | **8  | 256   | 264   | 2**  | **L. Machado and J. Cortadella** |  **Support-Reducing Decomp** |
+|  **Decoder**  | **8**  | **256**   | **264**   | **2**  | **L. Machado and J. Cortadella** |  **Support-Reducing Decomp** |
 |  **I2c controller**  |  **147**  | **142**  | **242** | **3** |  **L. Machado and J. Cortadella** |  **Support-Reducing Decomp** |
 |  **Int to float converter**  |  **11**  | **7**  | **31**  | **3**  |  **L. Machado and J. Cortadella** |  **Support-Reducing Decomp** |
 |  **Memory controller**  |  **1204**  | **1231**  | **2484**  | **6** | **L. Machado and J. Cortadella** |  **Support-Reducing Decomp** |
