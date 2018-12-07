@@ -24,7 +24,7 @@ The best LUT-6 implementations keep track of the best results of LUT-6 mapped be
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | 
 |  **Round-robin arbiter**  |  **256**   |  **129**   |  **328**   |  **98** | **L. Machado and J. Cortadella** |  **Support-Reducing Decomp** |
 |  Alu control unit   |  7  | 26   | 27   | 2  | Gai Liu & Zhiru Zhang |  PIMap |
-|  **Coding-cavlc**    |  **10**  | **11**   | **68**   | **4**  | **L. Machado and J. Cortadella** |  **Support-Reducing Decomp** |
+|  **Coding-cavlc**    |  **10**  | **11**   | **68**   | **3**  | **L. Machado and J. Cortadella** |  **Support-Reducing Decomp** |
 |  **Decoder**  | **8**  | **256**   | **264**   | **2**  | **L. Machado and J. Cortadella** |  **Support-Reducing Decomp** |
 |  **I2c controller**  |  **147**  | **142**  | **214** | **10**  | **L. Machado and J. Cortadella** |  **Support-Reducing Decomp** |
 |  **Int to float converter**  |  **11**  | **7**  | **26**  | **4**  | **L. Machado and J. Cortadella** |  **Support-Reducing Decomp** |
