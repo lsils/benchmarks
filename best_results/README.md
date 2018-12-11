@@ -26,9 +26,9 @@ The best LUT-6 implementations keep track of the best results of LUT-6 mapped be
 |  Alu control unit   |  7  | 26   | 27   | 2  | Gai Liu & Zhiru Zhang |  PIMap |
 |  **Coding-cavlc**    |  **10**  | **11**   | **68**   | **3**  | **L. Machado and J. Cortadella** |  **Support-Reducing Decomp** |
 |  **Decoder**  | **8**  | **256**   | **264**   | **2**  | **L. Machado and J. Cortadella** |  **Support-Reducing Decomp** |
-|  **I2c controller**  |  **147**  | **142**  | **199** | **10**  | **L. Machado and J. Cortadella** |  **Support-Reducing Decomp** |
+|  **I2c controller**  |  **147**  | **142**  | **200** | **10**  | **L. Machado and J. Cortadella** |  **Support-Reducing Decomp** |
 |  **Int to float converter**  |  **11**  | **7**  | **26**  | **4**  | **L. Machado and J. Cortadella** |  **Support-Reducing Decomp** |
-|  **Memory controller**  |  **1204**  | **1231**  | **2001**  | **22** | **L. Machado and J. Cortadella** |  **Support-Reducing Decomp** |
+|  **Memory controller**  |  **1204**  | **1231**  | **2041**  | **22** | **L. Machado and J. Cortadella** |  **Support-Reducing Decomp** |
 |  **Priority encoder**  |  **128**  | **8**  | **102** | **26** | **L. Machado and J. Cortadella** |  **Support-Reducing Decomp** |
 |  **Lookahead XY router** | **60** |**30** |**50** | **5**|**L. Machado and J. Cortadella** |  **Support-Reducing Decomp** |
 |  Voter  |  1001  | 1  | 1297 | 17 | L. Amaru et al. |  Boolean Resynthesis |
@@ -67,9 +67,9 @@ The best LUT-6 implementations keep track of the best results of LUT-6 mapped be
 |  Alu control unit   |  7  | 26   | 27   | 2  | Gai Liu & Zhiru Zhang |  PIMap |
 |  **Coding-cavlc**    |  **10**  | **11**   | **68**   | **3** |  **L. Machado and J. Cortadella** |  **Support-Reducing Decomp** |
 |  **Decoder**  | **8**  | **256**   | **264**   | **2**  | **L. Machado and J. Cortadella** |  **Support-Reducing Decomp** |
-|  **I2c controller**  |  **147**  | **142**  | **240** | **3** |  **L. Machado and J. Cortadella** |  **Support-Reducing Decomp** |
+|  **I2c controller**  |  **147**  | **142**  | **226** | **3** |  **L. Machado and J. Cortadella** |  **Support-Reducing Decomp** |
 |  **Int to float converter**  |  **11**  | **7**  | **27**  | **3**  |  **L. Machado and J. Cortadella** |  **Support-Reducing Decomp** |
-|  **Memory controller**  |  **1204**  | **1231**  | **2458**  | **6** | **L. Machado and J. Cortadella** |  **Support-Reducing Decomp** |
+|  **Memory controller**  |  **1204**  | **1231**  | **2225**  | **6** | **L. Machado and J. Cortadella** |  **Support-Reducing Decomp** |
 |  **Priority encoder**  |  **128**  | **8**  | **152** | **4**|  **L. Machado and J. Cortadella** |  **Support-Reducing Decomp** |
 |  **Lookahead XY router** | **60** |**30** |**51** | **4**|**L. Machado and J. Cortadella** |  **Support-Reducing Decomp** |
 |  **Voter**  |  **1001**  | **1**  | **1435**  | **12** | **L. Machado and J. Cortadella** |  **Support-Reducing Decomp** |
