@@ -13,24 +13,24 @@ The best LUT-6 implementations keep track of the best results of LUT-6 mapped be
 |  **Hypotenuse**  |  **256**  | **128**   | **40377**   | **4530**  | **E. Testa, L. Amaru et al.** |  **Boolean Methods** |
 |  **Log2**  |  **32**  | **32**  | **6567** | **119**  | **E. Testa, L. Amaru et al.** |  **Boolean Methods** |
 |  **Max**  |  **512**  | **130**  | **522**  | **189** | **E. Testa, L. Amaru et al.** |  **Boolean Methods** |
-|  **Multiplier**  |  **128**  | **128**  | **4920**  | **93** | **E. Testa, L. Amaru et al.** |  **Boolean Methods** |
+|  **Multiplier**  |  **128**  | **128**  | **4919**  | **90** | **L. Machado and J. Cortadella** |  **Support-Reducing Decomp** |
 |  **Sine**  |  **24**  | **25**  | **1227**  | **55** | **E. Testa, L. Amaru et al.** |  **Boolean Methods** |
-|  **Square-root**  |  **128**  | **64**  | **3075**  | **1106** | **E. Testa, L. Amaru et al.** |  **Boolean Methods** |
-|  **Square**  |  **64**  | **128**  | **3242**  | **76** | **E. Testa, L. Amaru et al.** |  **Boolean Methods** |
+|  **Square-root**  |  **128**  | **64**  | **3074**  | **1101** | **L. Machado and J. Cortadella** |  **Support-Reducing Decomp** |
+|  **Square**  |  **64**  | **128**  | **3240**  | **76** | **L. Machado and J. Cortadella** |  **Support-Reducing Decomp** |
 
 **Random-Control Benchmarks**
 
 | Benchmark name | Inputs | Outputs | LUT-6 count | Levels | Authors | Method |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | 
-|  **Round-robin arbiter**  |  **256**   |  **129**   |  **365**   |  **117** | **E. Testa, L. Amaru et al.** |  **Boolean Methods** |
+|  **Round-robin arbiter**  |  **256**   |  **129**   |  **328**   |  **98** | **L. Machado and J. Cortadella** |  **Support-Reducing Decomp** |
 |  Alu control unit   |  7  | 26   | 27   | 2  | Gai Liu & Zhiru Zhang |  PIMap |
-|  **Coding-cavlc**    |  **10**  | **11**   | **68**   | **4**  | **L. Machado and J. Cortadella** |  **Support-Reducing Decomp** |
+|  **Coding-cavlc**    |  **10**  | **11**   | **68**   | **3**  | **L. Machado and J. Cortadella** |  **Support-Reducing Decomp** |
 |  **Decoder**  | **8**  | **256**   | **264**   | **2**  | **L. Machado and J. Cortadella** |  **Support-Reducing Decomp** |
-|  **I2c controller**  |  **147**  | **142**  | **207** | **15**  | **E. Testa, L. Amaru et al.** |  **Boolean Methods** |
+|  **I2c controller**  |  **147**  | **142**  | **200** | **10**  | **L. Machado and J. Cortadella** |  **Support-Reducing Decomp** |
 |  **Int to float converter**  |  **11**  | **7**  | **26**  | **4**  | **L. Machado and J. Cortadella** |  **Support-Reducing Decomp** |
-|  **Memory controller**  |  **1204**  | **1231**  | **2086**  | **23** | **E. Testa, L. Amaru et al.** |  **Boolean Methods** |
-|  **Priority encoder**  |  **128**  | **8**  | **103** | **26** | **E. Testa, L. Amaru et al.** |  **Boolean Methods** |
-|  **Lookahead XY router** | **60** |**30** |**51** | **4**|**L. Machado and J. Cortadella** |  **Support-Reducing Decomp** |
+|  **Memory controller**  |  **1204**  | **1231**  | **2041**  | **22** | **L. Machado and J. Cortadella** |  **Support-Reducing Decomp** |
+|  **Priority encoder**  |  **128**  | **8**  | **102** | **26** | **L. Machado and J. Cortadella** |  **Support-Reducing Decomp** |
+|  **Lookahead XY router** | **60** |**30** |**50** | **5**|**L. Machado and J. Cortadella** |  **Support-Reducing Decomp** |
 |  Voter  |  1001  | 1  | 1297 | 17 | L. Amaru et al. |  Boolean Resynthesis |
 
 **MtM Benchmarks** 
@@ -65,12 +65,12 @@ The best LUT-6 implementations keep track of the best results of LUT-6 mapped be
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | 
 |  **Round-robin arbiter** | **256** | **129**  | **2099**  | **5** | **L. Machado and J. Cortadella** |  **Support-Reducing Decomp** |
 |  Alu control unit   |  7  | 26   | 27   | 2  | Gai Liu & Zhiru Zhang |  PIMap |
-|  **Coding-cavlc**    |  **10**  | **11**   | **73**   | **3** |  **L. Machado and J. Cortadella** |  **Support-Reducing Decomp** |
+|  **Coding-cavlc**    |  **10**  | **11**   | **68**   | **3** |  **L. Machado and J. Cortadella** |  **Support-Reducing Decomp** |
 |  **Decoder**  | **8**  | **256**   | **264**   | **2**  | **L. Machado and J. Cortadella** |  **Support-Reducing Decomp** |
-|  **I2c controller**  |  **147**  | **142**  | **240** | **3** |  **L. Machado and J. Cortadella** |  **Support-Reducing Decomp** |
+|  **I2c controller**  |  **147**  | **142**  | **226** | **3** |  **L. Machado and J. Cortadella** |  **Support-Reducing Decomp** |
 |  **Int to float converter**  |  **11**  | **7**  | **27**  | **3**  |  **L. Machado and J. Cortadella** |  **Support-Reducing Decomp** |
-|  **Memory controller**  |  **1204**  | **1231**  | **2458**  | **6** | **L. Machado and J. Cortadella** |  **Support-Reducing Decomp** |
-|  **Priority encoder**  |  **128**  | **8**  | **152** | **4**|  **L. Machado and J. Cortadella** |  **Support-Reducing Decomp** |
+|  **Memory controller**  |  **1204**  | **1231**  | **2225**  | **6** | **L. Machado and J. Cortadella** |  **Support-Reducing Decomp** |
+|  **Priority encoder**  |  **128**  | **8**  | **151** | **4**|  **L. Machado and J. Cortadella** |  **Support-Reducing Decomp** |
 |  **Lookahead XY router** | **60** |**30** |**51** | **4**|**L. Machado and J. Cortadella** |  **Support-Reducing Decomp** |
 |  **Voter**  |  **1001**  | **1**  | **1435**  | **12** | **L. Machado and J. Cortadella** |  **Support-Reducing Decomp** |
 
@@ -92,8 +92,9 @@ The best LUT-6 implementations keep track of the best results of LUT-6 mapped be
 | Gai Liu & Zhiru Zhang | Cornell University | PIMap | Based on parallelized iterative improvement mapping presented in [Gai Liu and Zhiru Zhang: A parallelized iterative improvement approach to area optimization for LUT-based technology mapping. FPGA, 2017](http://delivery.acm.org/10.1145/3030000/3021735/p147-liu.pdf?ip=198.182.47.47&id=3021735&acc=CHORUS&key=4D4702B0C3E38B35%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35%2E6D218144511F3437&__acm__=1535664503_83b042899a419486179f19e4dbd2e1ca) |
 | Alan Mishchenko et al. | UC Berkeley | SAT LUT Mapper | Based on SAT based remapping algorithm. ABC script (the file.blif is best known results from 2015): "read file.blif; &satlut -N 64 -C 10000"|
 | Luca Amaru et al. | Synopsys Inc. | Exact Delay synthesis | Based on rewriting using exact delay database as presented in [Luca Gaetano Amarù, Mathias Soeken, Patrick Vuillod, Jiong Luo, Alan Mishchenko, Pierre-Emmanuel Gaillardon, Janet Olson, Rober Brayton, Giovanni De Micheli: Enabling Exact Delay Synthesis. ICCAD, 2017](https://people.eecs.berkeley.edu/~alanmi/publications/2017/iccad17_eds.pdf)|
-| L. Machado and J. Cortadella | Universitat Politècnica de Catalunya | Support-Reducing Decomp | Based on the algorithm presented in [Lucas Machado and Jordi Cortadella: Support-Reducing Functional Decomposition for FPGA Technology Mapping. IWLS, 2018](http://www.cs.upc.edu/~jordicf/gavina/BIB/files/iwls2018_FPGA.pdf)|
+| L. Machado and J. Cortadella | Universitat Politècnica de Catalunya | Support-Reducing Decomp | Based on the algorithm presented in [Lucas Machado and Jordi Cortadella: Support-Reducing Functional Decomposition for FPGA Technology Mapping. IWLS, 2018](http://www.cs.upc.edu/~jordicf/gavina/BIB/files/iwls2018_FPGA.pdf) and in [Lucas Machado and Jordi Cortadella: Support-Reducing Decomposition for FPGA Mapping. TCAD, 2018](https://ieeexplore.ieee.org/document/8509141) |
 | L. Amaru et al. | Synopsys Inc. | Boolean Resynthesis | Boolean resynthesis techniques. Algorithm presented in [Luca Gaetano Amarù, Mathias Soeken, Patrick Vuillod, Jiong Luo, Alan Mishchenko, Janet Olson, Robert K. Brayton, Giovanni De Micheli: Improvements to Boolean resynthesis. DATE, 2018](https://people.eecs.berkeley.edu/~alanmi/publications/2018/date18_resyn.pdf)|
 | E. Testa et al. | EPFL and Synopsys Inc. | Boolean Methods | Algorithm presented in [Eleonora Testa, Luca Gaetano Amarù, Mathias Soeken, Alan Mishchenko, Patrick Vuillod, Jiong Luo, Christopher Casares, Pierre-Emmanuel Gaillardon, Giovanni De Micheli: Scalable Boolean Methods In A Modern Synthesis Flow. DATE, 2019]()|
+
 
 
