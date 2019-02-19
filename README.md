@@ -49,7 +49,7 @@ LUT-6 mapping experiments for the MtM EPFL combinational benchmarks are listed i
 | twentythree  | 153 |68  |8246898 |36 |
 | **Total** | 407 |178 |21085465|98|
 
-The MtM benchmarks can be downloaded at [https://lsi.epfl.ch/benchmarks](https://lsi.epfl.ch/benchmarks)
+The MtM benchmarks can be downloaded at [https://zenodo.org/record/2572934#.XGxRiS3MzuM](https://zenodo.org/record/2572934#.XGxRiS3MzuM)
 
 ## Best LUT-6 implementation 
 We keep track of the best optimization results, mapped into LUT-6, for size and depth metrics. 
