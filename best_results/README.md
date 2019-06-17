@@ -50,14 +50,14 @@ The best LUT-6 implementations keep track of the best results of LUT-6 mapped be
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | 
 | **Adder** | **256**  | **129**  | **459**  | **5** | **L. Machado and J. Cortadella** |  **Support-Reducing Decomp** |
 | Barrel shifter  | 135 |128  | 512  |4  | R. K. Brayton & A. Mishchenko|ABC Extreme Mapper|
-| **Divisor**  | **128** |**128**  |**26914** | **228** | **L.  Amaru et al.** |**Exact Delay Synthesis** |
-| **Hypotenuse** | **256** |**128**  | **151442** |**567** | **L.  Amaru et al.** |**Exact Delay Synthesis** |
-|  **Log2**  |  **32**  | **32**  | **9210** | **55**  |    **L.  Amaru et al.** |**Exact Delay Synthesis** |
+| Divisor  | 128 |128  |26914 | 228 | L.  Amaru et al. |Exact Delay Synthesis |
+| Hypotenuse | 256 |128  | 151442 |567 | L.  Amaru et al. |Exact Delay Synthesis |
+|  Log2  |  32  | 32  | 9210 | 55  |    L.  Amaru et al. |Exact Delay Synthesis |
 |  **Max** |  **512**  | **130**  | **857** | **10** |  **L. Machado and J. Cortadella** |  **Support-Reducing Decomp** |
 | **Multiplier** | **128** |**128** |**6514** |**27**| **L. Machado and J. Cortadella** |  **Support-Reducing Decomp** |
-|  **Sine**  |  **24**  | **25**  | **487941**  | **12** | **L.  Amaru et al.** |**Exact Delay Synthesis** |
-|  **Square-root**  |  **128**  | **64**  | **27265**  | **241** |  **L.  Amaru et al.** |**Exact Delay Synthesis** | 
-|  **Square**  |  **64**  | **128**  | **3967**  | **11** |  **L.  Amaru et al.** |**Exact Delay Synthesis** | 
+|  Sine  |  24  | 25  | 487941  | 12 | L.  Amaru et al. |Exact Delay Synthesis|
+|  Square-root  |  128  | 64  | 27265  | 241 |  L.  Amaru et al. |Exact Delay Synthesis | 
+|  Square  |  64  | 128  | 3967  | 11 |  L.  Amaru et al. |Exact Delay Synthesis | 
 
 **Random-Control Benchmarks**
 
