@@ -1,4 +1,4 @@
-# Best LUT-6 Implementations - 2019
+# Best LUT-6 Implementations - 2020
 The best LUT-6 implementations keep track of the best results of LUT-6 mapped benchmarks, both for size (# of LUTs) and depth (# of levels). 
 
 ### Best results for LUT-6 count
@@ -11,27 +11,27 @@ The best LUT-6 implementations keep track of the best results of LUT-6 mapped be
 | Barrel shifter  | 135 |128  | 512  |4  | R. K. Brayton & A. Mishchenko|ABC Extreme Mapper|
 | **Divisor**  | **128** | **128**   | **3267**   |  **1211**  | **E. Testa, L. Amaru et al.** |  **Boolean Methods** |
 |  **Hypotenuse**  |  **256**  | **128**   | **40377**   | **4530**  | **E. Testa, L. Amaru et al.** |  **Boolean Methods** |
-|  **Log2**  |  **32**  | **32**  | **6567** | **119**  | **E. Testa, L. Amaru et al.** |  **Boolean Methods** |
+|  **Log2**  |  **32**  | **32**  | **6557** | **121**  | **I. Lemberski, A. Suponenkovs** |  **Resubstitution** |
 |  **Max**  |  **512**  | **130**  | **522**  | **189** | **E. Testa, L. Amaru et al.** |  **Boolean Methods** |
-|  **Multiplier**  |  **128**  | **128**  | **4919**  | **90** | **L. Machado and J. Cortadella** |  **Support-Reducing Decomp** |
-|  **Sine**  |  **24**  | **25**  | **1227**  | **55** | **E. Testa, L. Amaru et al.** |  **Boolean Methods** |
-|  **Square-root**  |  **128**  | **64**  | **3074**  | **1101** | **L. Machado and J. Cortadella** |  **Support-Reducing Decomp** |
+|  **Multiplier**  |  **128**  | **128**  | **4915**  | **89** | **I. Lemberski, A. Suponenkovs** |  **Resubstitution** |
+|  **Sine**  |  **24**  | **25**  | **1221**  | **54** | **I. Lemberski, A. Suponenkovs** |  **Resubstitution** |
+|  **Square-root**  |  **128**  | **64**  | **3031**  | **1101** | **I. Lemberski, A. Suponenkovs** |  **Resubstitution** |
 |  **Square**  |  **64**  | **128**  | **3240**  | **76** | **L. Machado and J. Cortadella** |  **Support-Reducing Decomp** |
 
 **Random-Control Benchmarks**
 
 | Benchmark name | Inputs | Outputs | LUT-6 count | Levels | Authors | Method |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | 
-|  **Round-robin arbiter**  |  **256**   |  **129**   |  **328**   |  **98** | **L. Machado and J. Cortadella** |  **Support-Reducing Decomp** |
+|  **Round-robin arbiter**  |  **256**   |  **129**   |  **313**   |  **98** | **I. Lemberski, A. Suponenkovs** |  **Resubstitution** |
 |  Alu control unit   |  7  | 26   | 27   | 2  | Gai Liu & Zhiru Zhang |  PIMap |
 |  **Coding-cavlc**    |  **10**  | **11**   | **68**   | **3**  | **L. Machado and J. Cortadella** |  **Support-Reducing Decomp** |
 |  **Decoder**  | **8**  | **256**   | **264**   | **2**  | **L. Machado and J. Cortadella** |  **Support-Reducing Decomp** |
 |  **I2c controller**  |  **147**  | **142**  | **200** | **10**  | **L. Machado and J. Cortadella** |  **Support-Reducing Decomp** |
-|  **Int to float converter**  |  **11**  | **7**  | **26**  | **4**  | **L. Machado and J. Cortadella** |  **Support-Reducing Decomp** |
+|  **Int to float converter**  |  **11**  | **7**  | **24**  | **4**  | **I. Lemberski, A. Suponenkovs** |  **Resubstitution** |
 |  **Memory controller**  |  **1204**  | **1231**  | **2041**  | **22** | **L. Machado and J. Cortadella** |  **Support-Reducing Decomp** |
 |  **Priority encoder**  |  **128**  | **8**  | **102** | **26** | **L. Machado and J. Cortadella** |  **Support-Reducing Decomp** |
 |  **Lookahead XY router** | **60** |**30** |**50** | **5**|**L. Machado and J. Cortadella** |  **Support-Reducing Decomp** |
-|  Voter  |  1001  | 1  | 1297 | 17 | L. Amaru et al. |  Boolean Resynthesis |
+|  **Voter** |**1001**|**1**|**1293**|**17** | **I. Lemberski, A. Suponenkovs** |**Resubstitution** |
 
 **MtM Benchmarks** 
 
@@ -50,20 +50,20 @@ The best LUT-6 implementations keep track of the best results of LUT-6 mapped be
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | 
 | **Adder** | **256**  | **129**  | **459**  | **5** | **L. Machado and J. Cortadella** |  **Support-Reducing Decomp** |
 | Barrel shifter  | 135 |128  | 512  |4  | R. K. Brayton & A. Mishchenko|ABC Extreme Mapper|
-| Divisor  | 128 |128  |26914 | 228 | L.  Amaru et al. |Exact Delay Synthesis |
+| **Divisor**  | **128** |**128**  |**26855** |**228** |**I. Lemberski, A. Suponenkovs** |**Resubstitution** |
 | Hypotenuse | 256 |128  | 151442 |567 | L.  Amaru et al. |Exact Delay Synthesis |
-|  Log2  |  32  | 32  | 9210 | 55  |    L.  Amaru et al. |Exact Delay Synthesis |
-|  **Max** |  **512**  | **130**  | **857** | **10** |  **L. Machado and J. Cortadella** |  **Support-Reducing Decomp** |
+|  **Log2**  | **32**  | **32**  | **9202** | **55**  |  **I. Lemberski, A. Suponenkovs** |**Resubstitution** |
+|  **Max** |  **512**  | **130**  | **855** | **10** |  **I. Lemberski, A. Suponenkovs** |  **Resubstitution** |
 | **Multiplier** | **128** |**128** |**6514** |**27**| **L. Machado and J. Cortadella** |  **Support-Reducing Decomp** |
 |  Sine  |  24  | 25  | 487941  | 12 | L.  Amaru et al. |Exact Delay Synthesis|
 |  Square-root  |  128  | 64  | 27265  | 241 |  L.  Amaru et al. |Exact Delay Synthesis | 
-|  Square  |  64  | 128  | 3967  | 11 |  L.  Amaru et al. |Exact Delay Synthesis | 
+|  **Square**  |  **64**  |**128**  | **3964**  |**11** |**I. Lemberski, A. Suponenkovs** |**Resubstitution** | 
 
 **Random-Control Benchmarks**
 
 | Benchmark name | Inputs | Outputs | LUT-6 count | Levels | Authors | Method |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | 
-|  **Round-robin arbiter** | **256** | **129**  | **2099**  | **5** | **L. Machado and J. Cortadella** |  **Support-Reducing Decomp** |
+|  **Round-robin arbiter** | **256** | **129**  | **2089**  | **5** | **I. Lemberski, A. Suponenkovs** |  **Resubstitution** |
 |  Alu control unit   |  7  | 26   | 27   | 2  | Gai Liu & Zhiru Zhang |  PIMap |
 |  **Coding-cavlc**    |  **10**  | **11**   | **68**   | **3** |  **L. Machado and J. Cortadella** |  **Support-Reducing Decomp** |
 |  **Decoder**  | **8**  | **256**   | **264**   | **2**  | **L. Machado and J. Cortadella** |  **Support-Reducing Decomp** |
@@ -72,7 +72,7 @@ The best LUT-6 implementations keep track of the best results of LUT-6 mapped be
 |  **Memory controller**  |  **1204**  | **1231**  | **2225**  | **6** | **L. Machado and J. Cortadella** |  **Support-Reducing Decomp** |
 |  **Priority encoder**  |  **128**  | **8**  | **151** | **4**|  **L. Machado and J. Cortadella** |  **Support-Reducing Decomp** |
 |  **Lookahead XY router** | **60** |**30** |**51** | **4**|**L. Machado and J. Cortadella** |  **Support-Reducing Decomp** |
-|  **Voter**  |  **1001**  | **1**  | **1435**  | **12** | **L. Machado and J. Cortadella** |  **Support-Reducing Decomp** |
+|  **Voter**  |  **1001**  | **1**  | **1431**  | **12** | **I. Lemberski, A. Suponenkovs** |  **Resubstitution** |
 
 **MtM Benchmarks** 
 
@@ -95,6 +95,6 @@ The best LUT-6 implementations keep track of the best results of LUT-6 mapped be
 | L. Machado and J. Cortadella | Universitat Politècnica de Catalunya | Support-Reducing Decomp | Based on the algorithm presented in [Lucas Machado and Jordi Cortadella: Support-Reducing Functional Decomposition for FPGA Technology Mapping. IWLS, 2018](http://www.cs.upc.edu/~jordicf/gavina/BIB/files/iwls2018_FPGA.pdf) and in [Lucas Machado and Jordi Cortadella: Support-Reducing Decomposition for FPGA Mapping. TCAD, 2018](https://ieeexplore.ieee.org/document/8509141) |
 | L. Amaru et al. | Synopsys Inc. | Boolean Resynthesis | Boolean resynthesis techniques. Algorithm presented in [Luca Gaetano Amarù, Mathias Soeken, Patrick Vuillod, Jiong Luo, Alan Mishchenko, Janet Olson, Robert K. Brayton, Giovanni De Micheli: Improvements to Boolean resynthesis. DATE, 2018](https://people.eecs.berkeley.edu/~alanmi/publications/2018/date18_resyn.pdf)|
 | E. Testa et al. | EPFL and Synopsys Inc. | Boolean Methods | Algorithm presented in [Eleonora Testa, Luca Gaetano Amarù, Mathias Soeken, Alan Mishchenko, Patrick Vuillod, Jiong Luo, Christopher Casares, Pierre-Emmanuel Gaillardon, Giovanni De Micheli: Scalable Boolean Methods In A Modern Synthesis Flow. DATE, 2019](https://msoeken.github.io/papers/2019_date_2.pdf)|
-
+| I. Lemberski,  A. Suponenkovs | Ventspils University for Applied Sciences | Resubstitution | Based on the method presented in:  *I. Lemberski et al, LUT- Oriented Asynchronous Logic Design Based on Resubstitution, 14th IEEE International Conference on Design & Technology of Integrated Systems in Nanoscale Era, 16 – 18 April 2019, Mykonos, Greece* |
 
 
