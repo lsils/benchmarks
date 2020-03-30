@@ -55,7 +55,11 @@ The MtM benchmarks can be downloaded at [https://zenodo.org/record/2572934#.XGxR
 We keep track of the best optimization results, mapped into LUT-6, for size and depth metrics. 
 
 #### Submit your best LUT-6 implementation!
-We encourage researchers to submit their best LUT-6 implementations in BLIF format for one or more of the benchmarks at *benchmarks@groupes.epfl.ch* (in case the files exceed 3 MB please provide a download link in the email). Also the methodology used to optimize/map the circuits needs to be specified. We will run combinational equivalence checking and verify the claimed improvements over the current best implementation. If passing all tests, we will publish online the circuit together with the author’s name and affiliation as symbolic recognition.  
+We encourage researchers to submit their best LUT-6 implementations in BLIF format for one or more of the benchmarks:
+- at *benchmarks@groupes.epfl.ch* (in case the files exceed 3 MB please provide a download link in the email) 
+- or with a [pull request](https://help.github.com/articles/creating-a-pull-request/) to this repository. 
+
+Also the methodology used to optimize/map the circuits needs to be specified. We will run combinational equivalence checking and verify the claimed improvements over the current best implementation. If passing all tests, we will publish online the circuit together with the author’s name and affiliation as symbolic recognition.  
 
 **The results presented above are NOT the best results, but they are the ORIGINAL benchmarks. All best known results can be found at the [tags on this repository](https://github.com/lsils/benchmarks/releases).**
 
