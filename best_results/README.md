@@ -22,7 +22,7 @@ The best LUT-6 implementations keep track of the best results of LUT-6 mapped be
 
 | Benchmark name | Inputs | Outputs | LUT-6 count | Levels | Authors | Method |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | 
-|  **Round-robin arbiter**  |  **256**   |  **129**   |  **313**   |  **98** | **I. Lemberski, A. Suponenkovs** |  **Resubstitution** |
+|  **Round-robin arbiter**  |  **256**   |  **129**   |  **313**   |  **83** | **I. Lemberski, A. Suponenkovs** |  **Resubstitution** |
 |  Alu control unit   |  7  | 26   | 27   | 2  | Gai Liu & Zhiru Zhang |  PIMap |
 |  Coding-cavlc    |  10  | 11   | 68   | 3  | L. Machado and J. Cortadella |  Support-Reducing Decomp |
 |  *Decoder  | 8  | 256   | 264   | 2  | L. Machado and J. Cortadella |  Support-Reducing Decomp |
@@ -57,7 +57,7 @@ The best LUT-6 implementations keep track of the best results of LUT-6 mapped be
 | Multiplier | 128 |128 |6514 |27| L. Machado and J. Cortadella |  Support-Reducing Decomp |
 |  Sine  |  24  | 25  | 487941  | 12 | L.  Amaru et al. |Exact Delay Synthesis|
 |  Square-root  |  128  | 64  | 27265  | 241 |  L.  Amaru et al. |Exact Delay Synthesis | 
-|  **Square**  |  **64**  |**128**  | **3964**  |**11** |**I. Lemberski, A. Suponenkovs** |**Resubstitution** | 
+|  **Square**  |  **64**  |**128**  | **3963**  |**11** |**I. Lemberski, A. Suponenkovs** |**Resubstitution** | 
 
 **Random-Control Benchmarks**
 
