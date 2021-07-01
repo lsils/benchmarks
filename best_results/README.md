@@ -16,7 +16,7 @@ The best LUT-6 implementations keep track of the best results of LUT-6 mapped be
 |  **Multiplier**  |  **128**  | **128**  | **4898**  | **93** | **L. Amaru et al.**   |**LUT-optimization** |
 |  **Sine**  |  **24**  | **25**  | **1205**  | **61** | **L. Amaru et al.**   |**LUT-optimization** |
 |  **Square-root**  |  **128**  | **64**  | **3030**  | **1093** | **L. Amaru et al.**   |**LUT-optimization** |
-|  **Square**  | ** 64**  | **128**  | **3232**  | **76** | **L. Amaru et al.**   |**LUT-optimization** |
+|  **Square**  | **64**  | **128**  | **3232**  | **76** | **L. Amaru et al.**   |**LUT-optimization** |
 
 **Random-Control Benchmarks**
 
