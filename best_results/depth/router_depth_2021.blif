@@ -1,0 +1,175 @@
+# Benchmark "router_K_6_Delay_3_Area_58" written by ABC on Thu Jun 10 14:38:40 2021
+.model router_K_6_Delay_3_Area_58
+.inputs dest_x[0] dest_x[1] dest_x[2] dest_x[3] dest_x[4] dest_x[5] \
+ dest_x[6] dest_x[7] dest_x[8] dest_x[9] dest_x[10] dest_x[11] dest_x[12] \
+ dest_x[13] dest_x[14] dest_x[15] dest_x[16] dest_x[17] dest_x[18] \
+ dest_x[19] dest_x[20] dest_x[21] dest_x[22] dest_x[23] dest_x[24] \
+ dest_x[25] dest_x[26] dest_x[27] dest_x[28] dest_x[29] dest_y[0] dest_y[1] \
+ dest_y[2] dest_y[3] dest_y[4] dest_y[5] dest_y[6] dest_y[7] dest_y[8] \
+ dest_y[9] dest_y[10] dest_y[11] dest_y[12] dest_y[13] dest_y[14] \
+ dest_y[15] dest_y[16] dest_y[17] dest_y[18] dest_y[19] dest_y[20] \
+ dest_y[21] dest_y[22] dest_y[23] dest_y[24] dest_y[25] dest_y[26] \
+ dest_y[27] dest_y[28] dest_y[29]
+.outputs outport[0] outport[1] outport[2] outport[3] outport[4] outport[5] \
+ outport[6] outport[7] outport[8] outport[9] outport[10] outport[11] \
+ outport[12] outport[13] outport[14] outport[15] outport[16] outport[17] \
+ outport[18] outport[19] outport[20] outport[21] outport[22] outport[23] \
+ outport[24] outport[25] outport[26] outport[27] outport[28] outport[29]
+.names n102 n99 n92 outport[0]
+-01 1
+0-0 1
+.names n94 n93 n95 \
+ n96 n98 n97 \
+ n92
+---101 1
+--0-01 1
+01--01 1
+.names dest_x[19] dest_x[20] dest_x[17] dest_x[15] dest_x[14] \
+ n93
+11111 1
+.names dest_x[9] dest_x[10] dest_x[11] dest_x[12] dest_x[13] \
+ n94
+--000 1
+00-00 1
+.names dest_x[26] dest_x[22] dest_x[21] n95
+000 1
+.names dest_x[16] dest_x[17] dest_x[18] dest_x[19] dest_x[20] \
+ n96
+--111 1
+11-11 1
+.names dest_x[29] dest_x[28] dest_x[27] n97
+111 1
+.names dest_x[23] dest_x[25] dest_x[24] dest_x[26] n98
+---1 0
+111- 0
+.names dest_x[18] dest_x[16] dest_x[10] n101 \
+ n95 n100 n99
+000111 1
+.names dest_x[5] dest_x[6] dest_x[8] dest_x[7] n100
+0000 1
+.names dest_x[12] dest_x[13] dest_x[1] dest_x[2] dest_x[4] dest_x[3] \
+ n101
+000000 1
+.names n93 n104 n103 \
+ n97 dest_x[11] dest_x[6] n102
+111111 1
+.names dest_x[7] dest_x[8] dest_x[25] dest_x[24] dest_x[23] \
+ n103
+11111 1
+.names dest_x[0] dest_x[1] dest_x[2] dest_x[3] dest_x[5] dest_x[4] \
+ n104
+111111 1
+.names n102 n99 n106 \
+ n113 n92 n116 outport[1]
+---100 1
+--0-00 1
+-1-1-0 1
+-10--0 1
+0---0- 1
+.names n108 n107 n109 \
+ n110 n111 n112 \
+ n106
+--0001 1
+01-001 1
+.names dest_y[14] dest_y[15] dest_y[16] dest_y[17] n107
+--11 1
+11-1 1
+.names dest_y[9] dest_y[10] dest_y[11] dest_y[13] dest_y[12] dest_y[16] \
+ n108
+--0000 1
+00-000 1
+.names dest_y[21] dest_y[22] dest_y[26] dest_y[18] n109
+0000 1
+.names dest_y[20] dest_y[19] dest_y[21] dest_y[26] dest_y[22] \
+ n110
+-0000 1
+0-000 1
+.names dest_y[23] dest_y[25] dest_y[24] dest_y[26] n111
+---1 0
+111- 0
+.names dest_y[29] dest_y[28] dest_y[27] n112
+111 1
+.names dest_x[0] dest_y[0] n115 n109 \
+ n114 n113
+00111 1
+.names dest_y[6] dest_y[5] dest_y[10] dest_y[16] dest_y[8] dest_y[7] \
+ n114
+000000 1
+.names dest_y[3] dest_y[2] dest_y[12] dest_y[13] dest_y[4] dest_y[1] \
+ n115
+000000 1
+.names dest_y[15] dest_y[14] n119 n118 \
+ n117 n112 n116
+111111 1
+.names dest_y[23] dest_y[24] dest_y[25] dest_y[6] dest_y[3] \
+ n117
+11111 1
+.names dest_y[17] dest_y[8] dest_y[11] dest_y[7] dest_y[5] dest_y[4] \
+ n118
+111111 1
+.names dest_x[0] dest_y[0] dest_y[20] dest_y[1] dest_y[2] dest_y[19] \
+ n119
+011111 1
+.names n102 n99 n92 \
+ n121 n106 outport[2]
+-1111 1
+1-011 1
+.names dest_y[0] dest_x[0] n109 n115 \
+ n114 n121
+-0111 0
+0-111 0
+.names outport[3]
+ 0
+.names outport[4]
+ 0
+.names outport[5]
+ 0
+.names outport[6]
+ 0
+.names outport[7]
+ 0
+.names outport[8]
+ 0
+.names outport[9]
+ 0
+.names outport[10]
+ 0
+.names outport[11]
+ 0
+.names outport[12]
+ 0
+.names outport[13]
+ 0
+.names outport[14]
+ 0
+.names outport[15]
+ 0
+.names outport[16]
+ 0
+.names outport[17]
+ 0
+.names outport[18]
+ 0
+.names outport[19]
+ 0
+.names outport[20]
+ 0
+.names outport[21]
+ 0
+.names outport[22]
+ 0
+.names outport[23]
+ 0
+.names outport[24]
+ 0
+.names outport[25]
+ 0
+.names outport[26]
+ 0
+.names outport[27]
+ 0
+.names outport[28]
+ 0
+.names outport[29]
+ 0
+.end
