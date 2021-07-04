@@ -50,7 +50,7 @@ The best LUT-6 implementations keep track of the best results of LUT-6 mapped be
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | 
 | **Adder** | **256**  | **129**  | **392**  | **5** | **Xing Li et al.** | **HIMap** |
 | Barrel shifter  | 135 |128  | 512  |4  | R. K. Brayton & A. Mishchenko|ABC Extreme Mapper|
-| **Divisor**  | **128** | **128**  | **28492** |**210** | **Xing Li et al.** | **HIMap** |
+| **Divisor**  | **128** | **128**  | **28494** |**210** | **Xing Li et al.** | **HIMap** |
 | **Hypotenuse** | **256** | **128**  | **157577** | **505** | **Xing Li et al.** | **HIMap** |
 |  **Log2**  | **32**  | **32**  | **9125** | **54**  |  **Xing Li et al.** | **HIMap** |
 |  **Max** |  **512**  | **130**  | **816** | **10** |  **Xing Li et al.** | **HIMap** |
