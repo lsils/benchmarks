@@ -53,11 +53,11 @@ The best LUT-6 implementations keep track of the best results of LUT-6 mapped be
 | **Divisor**  | **128** | **128**  | **28494** |**210** | **Xing Li et al.** | **HIMap** |
 | **Hypotenuse** | **256** | **128**  | **157577** | **505** | **Xing Li et al.** | **HIMap** |
 |  **Log2**  | **32**  | **32**  | **9125** | **54**  |  **Xing Li et al.** | **HIMap** |
-|  **Max** |  **512**  | **130**  | **816** | **10** |  **Xing Li et al.** | **HIMap** |
-| **Multiplier** | **128** | **128** | **6659** | **26** | **Xing Li et al.** | **HIMap** |
-|  **Sine**  |  **24**  | **25**  | **480317**  | **11** | **Xing Li et al.** | **HIMap** |
+|  **Max** |  **512**  | **130**  | **811** | **10** |  **S. Jang and A. Mishchenko** | **iMap** |
+| **Multiplier** | **128** | **128** | **6523** | **26** | **S. Jang and A. Mishchenko** | **iMap** |
+|  **Sine**  |  **24**  | **25**  | **683103**  | **10** | **S. Jang and A. Mishchenko** | **iMap** |
 |  **Square-root**  |  **128**  | **64**  | **22950**  | **200** |  **Xing Li et al.** | **HIMap** | 
-|  **Square**  |  **64**  |**128**  | **4221**  | **10** | **Xing Li et al.** | **HIMap** | 
+|  **Square**  |  **64**  |**128**  | **4063**  | **10** | **S. Jang and A. Mishchenko** | **iMap** | 
 
 **Random-Control Benchmarks**
 
@@ -72,7 +72,7 @@ The best LUT-6 implementations keep track of the best results of LUT-6 mapped be
 |  Memory controller  |  1204  | 1231  | 2225  | 6 | L. Machado and J. Cortadella |  Support-Reducing Decomp |
 |  **Priority encoder**  |  **128**  | **8**  | **134** | **4** |  **Xing Li et al.** | **HIMap** |
 |  **Lookahead XY router** | **60** | **30** | **58** | **3** | **Xing Li et al.** | **HIMap** |
-|  **Voter**  |  **1001**  | **1**  | **1425**  | **12** | **Xing Li et al.** | **HIMap** |
+|  **Voter**  |  **1001**  | **1**  | **1402**  | **12** | **S. Jang and A. Mishchenko** | **iMap** |
 
 **MtM Benchmarks** 
 
@@ -97,4 +97,5 @@ The best LUT-6 implementations keep track of the best results of LUT-6 mapped be
 | E. Testa et al. | EPFL and Synopsys Inc. | Boolean Methods | Algorithm presented in [Eleonora Testa, Luca Gaetano Amarù, Mathias Soeken, Alan Mishchenko, Patrick Vuillod, Jiong Luo, Christopher Casares, Pierre-Emmanuel Gaillardon, Giovanni De Micheli: Scalable Boolean Methods In A Modern Synthesis Flow. DATE, 2019](https://msoeken.github.io/papers/2019_date_2.pdf)|
 | I. Lemberski et al. | Ventspils University for Applied Sciences | Resubstitution | Based on the resubstitution method presented in [Igor Lemberski, Artjoms Suponenkovs, Marina Uhanova: LUT-Oriented Asynchronous Logic Design Based on Resubstitution. DTIS, 2019](https://ieeexplore.ieee.org/document/8734973) |
 | Xing Li et al. | Huawei Noah's Ark Lab | HIMap | Based on heuristic and iterative mapping combined with improved logic optimization and post-mapping methods in ABC |
-| L. Amaru et al.   | Synopsys Inc. | LUT-optimization | To be presented in DAC 2021. |
+| L. Amaru et al. | Synopsys Inc. | LUT-optimization | To be presented in DAC 2021 |
+| S. Jang and A. Mishchenko | UC Berkeley | iMap | A portfolio logic synthesis system based on [ABC](https://github.com/berkeley-abc/abc) |
