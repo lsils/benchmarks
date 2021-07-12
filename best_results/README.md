@@ -98,4 +98,4 @@ The best LUT-6 implementations keep track of the best results of LUT-6 mapped be
 | I. Lemberski et al. | Ventspils University for Applied Sciences | Resubstitution | Based on the resubstitution method presented in [Igor Lemberski, Artjoms Suponenkovs, Marina Uhanova: LUT-Oriented Asynchronous Logic Design Based on Resubstitution. DTIS, 2019](https://ieeexplore.ieee.org/document/8734973) |
 | Xing Li et al. | Huawei Noah's Ark Lab | HIMap | Based on heuristic and iterative mapping combined with improved logic optimization and post-mapping methods in ABC |
 | L. Amaru et al. | Synopsys Inc. | LUT-optimization | To be presented in DAC 2021 |
-| S. Jang and A. Mishchenko | UC Berkeley | iMap | A portfolio logic synthesis system based on ABC |
+| S. Jang and A. Mishchenko | UC Berkeley | iMap | A portfolio logic synthesis system based on [ABC](https://github.com/berkeley-abc/abc) |
