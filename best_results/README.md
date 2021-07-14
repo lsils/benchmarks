@@ -67,7 +67,7 @@ The best LUT-6 implementations keep track of the best results of LUT-6 mapped be
 |  Alu control unit   |  7  | 26   | 27   | 2  | Gai Liu & Zhiru Zhang |  PIMap |
 |  Coding-cavlc    |  10  | 11   | 68   | 3 |  L. Machado and J. Cortadella |  Support-Reducing Decomp |
 |  Decoder  | 8  | 256   | 264   | 2  | L. Machado and J. Cortadella | Support-Reducing Decomp |
-|  I2c controller  |  147  | 142  | 226 | 3 |  L. Machado and J. Cortadella |  Support-Reducing Decomp |
+|  **I2c controller**  |  **147**  | **142**  | **222** | **3** |  **S. Jang and A. Mishchenko** | **iMap** |
 |  Int to float converter  |  11  | 7  | 27  | 3  |  L. Machado and J. Cortadella |  Support-Reducing Decomp |
 |  Memory controller  |  1204  | 1231  | 2225  | 6 | L. Machado and J. Cortadella |  Support-Reducing Decomp |
 |  **Priority encoder**  |  **128**  | **8**  | **134** | **4** |  **Xing Li et al.** | **HIMap** |
