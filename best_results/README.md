@@ -22,13 +22,13 @@ The best LUT-6 implementations keep track of the best results of LUT-6 mapped be
 
 | Benchmark name | Inputs | Outputs | LUT-6 count | Levels | Authors | Method |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | 
-|  **Round-robin arbiter**  |  **256**   |  **129**   |  **307**   |  **78** | **L. Amaru et al.**   |**LUT-optimization** |
+|  **Round-robin arbiter**  |  **256**   |  **129**   |  **306**   |  **78** | **Xing Li et al.** | **HIMap** |
 |  Alu control unit   |  7  | 26   | 27   | 2  | Gai Liu & Zhiru Zhang |  PIMap |
 |  Coding-cavlc    |  10  | 11   | 68   | 3  | L. Machado and J. Cortadella |  Support-Reducing Decomp |
 |  Decoder  | 8  | 256   | 264   | 2  | L. Machado and J. Cortadella |  Support-Reducing Decomp |
 |  I2c controller  |  147  | 142  | 200 | 10  | L. Machado and J. Cortadella |  Support-Reducing Decomp |
 |  Int to float converter |  11  | 7  | 24  | 4  | I. Lemberski, A. Suponenkovs |  Resubstitution |
-|  **Memory controller**  |  **1204**  | **1231**  | **2019**  | **21** | **L. Amaru et al.**   |**LUT-optimization** |
+|  **Memory controller**  |  **1204**  | **1231**  | **2019**  | **21** | **L. Amaru et al.** | **LUT-optimization** |
 |  **Priority encoder**  |  **128**  | **8**  | **100** | **26** | **Xing Li et al.** | **HIMap** |
 |  Lookahead XY router | 60 |30 |50 | 5|L. Machado and J. Cortadella|  Support-Reducing Decomp |
 |  **Voter** |**1001**| **1** | **1281** | **19**  | **L. Amaru et al.**   |**LUT-optimization** |
@@ -50,20 +50,20 @@ The best LUT-6 implementations keep track of the best results of LUT-6 mapped be
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | 
 | **Adder** | **256**  | **129**  | **392**  | **5** | **Xing Li et al.** | **HIMap** |
 | Barrel shifter  | 135 |128  | 512  |4  | R. K. Brayton & A. Mishchenko|ABC Extreme Mapper|
-| **Divisor**  | **128** | **128**  | **28494** |**210** | **Xing Li et al.** | **HIMap** |
-| **Hypotenuse** | **256** | **128**  | **157577** | **505** | **Xing Li et al.** | **HIMap** |
-|  **Log2**  | **32**  | **32**  | **9125** | **54**  |  **Xing Li et al.** | **HIMap** |
+| **Divisor**  | **128** | **128**  | **29369** | **197** | **Xing Li et al.** | **HIMap** |
+| **Hypotenuse** | **256** | **128**  | **144809** | **501** | **Xing Li et al.** | **HIMap** |
+|  **Log2**  | **32**  | **32**  | **8985** | **54**  |  **Xing Li et al.** | **HIMap** |
 |  **Max** |  **512**  | **130**  | **811** | **10** |  **S. Jang and A. Mishchenko** | **iMap** |
 | **Multiplier** | **128** | **128** | **6483** | **26** | **Xing Li et al.** | **HIMap** |
 |  **Sine**  |  **24**  | **25**  | **683103**  | **10** | **S. Jang and A. Mishchenko** | **iMap** |
-|  **Square-root**  |  **128**  | **64**  | **22950**  | **200** |  **Xing Li et al.** | **HIMap** | 
-|  **Square**  |  **64**  |**128**  | **4051**  | **10** | **Xing Li et al.** | **HIMap** | 
+|  **Square-root**  |  **128**  | **64**  | **25876**  | **192** |  **Xing Li et al.** | **HIMap** | 
+|  **Square**  |  **64**  | **128**  | **4051**  | **10** | **Xing Li et al.** | **HIMap** |
 
 **Random-Control Benchmarks**
 
 | Benchmark name | Inputs | Outputs | LUT-6 count | Levels | Authors | Method |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | 
-|  **Round-robin arbiter** | **256** | **129**  | **1230**  | **5** | **Xing Li et al.** | **HIMap** |
+|  **Round-robin arbiter** | **256** | **129**  | **1162**  | **5** | **Xing Li et al.** | **HIMap** |
 |  Alu control unit   |  7  | 26   | 27   | 2  | Gai Liu & Zhiru Zhang |  PIMap |
 |  Coding-cavlc    |  10  | 11   | 68   | 3 |  L. Machado and J. Cortadella |  Support-Reducing Decomp |
 |  Decoder  | 8  | 256   | 264   | 2  | L. Machado and J. Cortadella | Support-Reducing Decomp |
