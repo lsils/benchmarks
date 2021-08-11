@@ -48,7 +48,7 @@ The best LUT-6 implementations keep track of the best results of LUT-6 mapped be
 
 | Benchmark name | Inputs | Outputs | LUT-6 count | Levels | Authors | Method |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | 
-| **Adder** | **256**  | **129**  | **392**  | **5** | **Xing Li et al.** | **HIMap** |
+| **Adder** | **256**  | **129**  | **379**  | **5** | **S. Jang and A. Mishchenko** | **iMap** |
 | Barrel shifter  | 135 |128  | 512  |4  | R. K. Brayton & A. Mishchenko|ABC Extreme Mapper|
 | **Divisor**  | **128** | **128**  | **29369** | **197** | **Xing Li et al.** | **HIMap** |
 | **Hypotenuse** | **256** | **128**  | **144809** | **501** | **Xing Li et al.** | **HIMap** |
@@ -57,7 +57,7 @@ The best LUT-6 implementations keep track of the best results of LUT-6 mapped be
 | **Multiplier** | **128** | **128** | **6483** | **26** | **Xing Li et al.** | **HIMap** |
 |  **Sine**  |  **24**  | **25**  | **683103**  | **10** | **S. Jang and A. Mishchenko** | **iMap** |
 |  **Square-root**  |  **128**  | **64**  | **25876**  | **192** |  **Xing Li et al.** | **HIMap** | 
-|  **Square**  |  **64**  | **128**  | **4051**  | **10** | **Xing Li et al.** | **HIMap** |
+|  **Square**  |  **64**  | **128**  | **4038**  | **10** | **S. Jang and A. Mishchenko** | **iMap** |
 
 **Random-Control Benchmarks**
 
@@ -71,8 +71,8 @@ The best LUT-6 implementations keep track of the best results of LUT-6 mapped be
 |  Int to float converter  |  11  | 7  | 27  | 3  |  L. Machado and J. Cortadella |  Support-Reducing Decomp |
 |  Memory controller  |  1204  | 1231  | 2225  | 6 | L. Machado and J. Cortadella |  Support-Reducing Decomp |
 |  **Priority encoder**  |  **128**  | **8**  | **134** | **4** |  **Xing Li et al.** | **HIMap** |
-|  **Lookahead XY router** | **60** | **30** | **58** | **3** | **Xing Li et al.** | **HIMap** |
-|  **Voter**  |  **1001**  | **1**  | **1395**  | **12** | **Xing Li et al.** | **HIMap** |
+|  **Lookahead XY router** | **60** | **30** | **56** | **3** | **S. Jang and A. Mishchenko** | **iMap** |
+|  **Voter**  |  **1001**  | **1**  | **1386**  | **12** | **S. Jang and A. Mishchenko** | **iMap** |
 
 **MtM Benchmarks** 
 
