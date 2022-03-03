@@ -31,7 +31,7 @@ The best LUT-6 implementations keep track of the best results of LUT-6 mapped be
 |  **Memory controller**  |  **1204**  | **1231**  | **2019**  | **21** | **L. Amaru et al.** | **LUT-optimization** |
 |  **Priority encoder**  |  **128**  | **8**  | **100** | **26** | **Xing Li et al.** | **HIMap** |
 |  Lookahead XY router | 60 |30 |50 | 5|L. Machado and J. Cortadella|  Support-Reducing Decomp |
-|  **Voter** |**1001**| **1** | **1281** | **19**  | **L. Amaru et al.**   |**LUT-optimization** |
+|  **Voter** |**1001**| **1** | **1280** | **19**  | **Xing Li et al.**   |**HIMap** |
 
 **MtM Benchmarks** 
 
@@ -57,7 +57,7 @@ The best LUT-6 implementations keep track of the best results of LUT-6 mapped be
 | **Multiplier** | **128** | **128** | **6483** | **26** | **Xing Li et al.** | **HIMap** |
 |  **Sine**  |  **24**  | **25**  | **683103**  | **10** | **S. Jang and A. Mishchenko** | **iMap** |
 |  **Square-root**  |  **128**  | **64**  | **25876**  | **192** |  **Xing Li et al.** | **HIMap** | 
-|  **Square**  |  **64**  | **128**  | **4038**  | **10** | **S. Jang and A. Mishchenko** | **iMap** |
+|  **Square**  |  **64**  | **128**  | **4036**  | **10** | **Xing Li et al.** | **HIMap** |
 
 **Random-Control Benchmarks**
 
@@ -70,7 +70,7 @@ The best LUT-6 implementations keep track of the best results of LUT-6 mapped be
 |  **I2c controller**  |  **147**  | **142**  | **222** | **3** |  **S. Jang and A. Mishchenko** | **iMap** |
 |  Int to float converter  |  11  | 7  | 27  | 3  |  L. Machado and J. Cortadella |  Support-Reducing Decomp |
 |  Memory controller  |  1204  | 1231  | 2225  | 6 | L. Machado and J. Cortadella |  Support-Reducing Decomp |
-|  **Priority encoder**  |  **128**  | **8**  | **134** | **4** |  **Xing Li et al.** | **HIMap** |
+|  **Priority encoder**  |  **128**  | **8**  | **132** | **4** |  **Xing Li et al.** | **HIMap** |
 |  **Lookahead XY router** | **60** | **30** | **56** | **3** | **S. Jang and A. Mishchenko** | **iMap** |
 |  **Voter**  |  **1001**  | **1**  | **1386**  | **12** | **S. Jang and A. Mishchenko** | **iMap** |
 
