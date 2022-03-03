@@ -1,4 +1,4 @@
-# Best LUT-6 Implementations - 2021
+# Best LUT-6 Implementations - 2022
 The best LUT-6 implementations keep track of the best results of LUT-6 mapped benchmarks, both for size (# of LUTs) and depth (# of levels). 
 
 ### Best results for LUT-6 count
@@ -7,31 +7,31 @@ The best LUT-6 implementations keep track of the best results of LUT-6 mapped be
 
 | Benchmark name | Inputs | Outputs | LUT-6 count | Levels | Authors | Method |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | 
-| **Adder** | **256**  | **129**  | **191** | **121**| **Xing Li et al.** | **HIMap** |
+| Adder | 256  | 129  | 191 | 121| Xing Li et al. | HIMap |
 | Barrel shifter  | 135 |128  | 512  |4  | R. K. Brayton & A. Mishchenko| ABC Extreme Mapper|
-| **Divisor**  | **128** | **128**   | **3248**   |  **1194**  | **Xing Li et al.** | **HIMap** |
-|  **Hypotenuse**  |  **256**  | **128**   | **39826**   | **4492**  | **L. Amaru et al.**   | **LUT-optimization** |
-|  **Log2**  |  **32**  | **32**  | **6513** | **132**  | **L. Amaru et al.**   | **LUT-optimization** |
+| Divisor  | 128 | 128   | 3248   |  1194  | Xing Li et al. | HIMap |
+|  Hypotenuse  |  256  | 128   | 39826   | 4492  | L. Amaru et al.   | LUT-optimization |
+|  Log2  |  32  | 32  | 6513 | 132  | L. Amaru et al.   | LUT-optimization |
 |  Max  |  512  | 130  | 522  | 189 | E. Testa, L. Amaru et al. |  Boolean Methods |
-|  **Multiplier**  |  **128**  | **128**  | **4898**  | **93** | **L. Amaru et al.**   | **LUT-optimization** |
-|  **Sine**  |  **24**  | **25**  | **1205**  | **61** | **L. Amaru et al.**   | **LUT-optimization** |
-|  **Square-root**  |  **128**  | **64**  | **3027**  | **1096** | **Xing Li et al.** | **HIMap** |
-|  **Square**  | **64**  | **128**  | **3232**  | **76** | **L. Amaru et al.** | **LUT-optimization** |
+|  **Multiplier**  |  **128**  | **128**  | **4888**  | **110** | **Longfei Fan & ChangWu**   | **scaleSyn mapper** |
+|  Sine  |  24  | 25  | 1205  | 61 | L. Amaru et al.   | LUT-optimization |
+|  Square-root  |  128  | 64  | 3027  | 1096 | Xing Li et al. | HIMap |
+|  Square  | 64  | 128  | 3232  | 76 | L. Amaru et al. | LUT-optimization |
 
 **Random-Control Benchmarks**
 
 | Benchmark name | Inputs | Outputs | LUT-6 count | Levels | Authors | Method |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | 
-|  **Round-robin arbiter**  |  **256**   |  **129**   |  **306**   |  **78** | **Xing Li et al.** | **HIMap** |
+|  Round-robin arbiter  |  256   |  129   |  306   |  78 | Xing Li et al. | HIMap |
 |  Alu control unit   |  7  | 26   | 27   | 2  | Gai Liu & Zhiru Zhang |  PIMap |
 |  Coding-cavlc    |  10  | 11   | 68   | 3  | L. Machado and J. Cortadella |  Support-Reducing Decomp |
 |  Decoder  | 8  | 256   | 264   | 2  | L. Machado and J. Cortadella |  Support-Reducing Decomp |
 |  I2c controller  |  147  | 142  | 200 | 10  | L. Machado and J. Cortadella |  Support-Reducing Decomp |
 |  Int to float converter |  11  | 7  | 24  | 4  | I. Lemberski, A. Suponenkovs |  Resubstitution |
-|  **Memory controller**  |  **1204**  | **1231**  | **2019**  | **21** | **L. Amaru et al.** | **LUT-optimization** |
-|  **Priority encoder**  |  **128**  | **8**  | **100** | **26** | **Xing Li et al.** | **HIMap** |
+|  Memory controller  |  1204  | 1231  | 2019  | 21 | L. Amaru et al. | LUT-optimization |
+|  Priority encoder  |  128  | 8  | 100 | 26 | Xing Li et al. | HIMap |
 |  Lookahead XY router | 60 |30 |50 | 5|L. Machado and J. Cortadella|  Support-Reducing Decomp |
-|  **Voter** |**1001**| **1** | **1281** | **19**  | **L. Amaru et al.**   |**LUT-optimization** |
+|  **Voter** | **1001** | **1** | **1280** | **19**  | **Xing Li et al.** | **HIMap** |
 
 **MtM Benchmarks** 
 
@@ -48,31 +48,31 @@ The best LUT-6 implementations keep track of the best results of LUT-6 mapped be
 
 | Benchmark name | Inputs | Outputs | LUT-6 count | Levels | Authors | Method |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | 
-| **Adder** | **256**  | **129**  | **379**  | **5** | **S. Jang and A. Mishchenko** | **iMap** |
+| Adder | 256  | 129  | 379  | 5 | S. Jang and A. Mishchenko | iMap |
 | Barrel shifter  | 135 |128  | 512  |4  | R. K. Brayton & A. Mishchenko|ABC Extreme Mapper|
-| **Divisor**  | **128** | **128**  | **29369** | **197** | **Xing Li et al.** | **HIMap** |
-| **Hypotenuse** | **256** | **128**  | **144809** | **501** | **Xing Li et al.** | **HIMap** |
+| Divisor  | 128 | 128  | 29369 | 197 | Xing Li et al. | HIMap |
+| Hypotenuse | 256 | 128  | 144809 | 501 | Xing Li et al. | HIMap |
 |  **Log2**  | **32**  | **32**  | **8985** | **54**  |  **Xing Li et al.** | **HIMap** |
-|  **Max** |  **512**  | **130**  | **811** | **10** |  **S. Jang and A. Mishchenko** | **iMap** |
+|  Max |  512  | 130  | 811 | 10 |  S. Jang and A. Mishchenko | iMap |
 | **Multiplier** | **128** | **128** | **6483** | **26** | **Xing Li et al.** | **HIMap** |
-|  **Sine**  |  **24**  | **25**  | **683103**  | **10** | **S. Jang and A. Mishchenko** | **iMap** |
-|  **Square-root**  |  **128**  | **64**  | **25876**  | **192** |  **Xing Li et al.** | **HIMap** | 
-|  **Square**  |  **64**  | **128**  | **4038**  | **10** | **S. Jang and A. Mishchenko** | **iMap** |
+|  Sine  |  24  | 25  | 683103  | 10 | S. Jang and A. Mishchenko | iMap |
+|  Square-root  |  128  | 64  | 25876  | 192 |  Xing Li et al. | HIMap |
+|  **Square**  |  **64**  | **128**  | **4034**  | **10** | **Xing Li et al.** | **HIMap** |
 
 **Random-Control Benchmarks**
 
 | Benchmark name | Inputs | Outputs | LUT-6 count | Levels | Authors | Method |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | 
-|  **Round-robin arbiter** | **256** | **129**  | **1162**  | **5** | **Xing Li et al.** | **HIMap** |
+|  Round-robin arbiter | 256 | 129  | 1162  | 5 | Xing Li et al. | HIMap |
 |  Alu control unit   |  7  | 26   | 27   | 2  | Gai Liu & Zhiru Zhang |  PIMap |
 |  Coding-cavlc    |  10  | 11   | 68   | 3 |  L. Machado and J. Cortadella |  Support-Reducing Decomp |
 |  Decoder  | 8  | 256   | 264   | 2  | L. Machado and J. Cortadella | Support-Reducing Decomp |
-|  **I2c controller**  |  **147**  | **142**  | **222** | **3** |  **S. Jang and A. Mishchenko** | **iMap** |
+|  I2c controller  |  147  | 142  | 222 | 3 |  S. Jang and A. Mishchenko | iMap |
 |  Int to float converter  |  11  | 7  | 27  | 3  |  L. Machado and J. Cortadella |  Support-Reducing Decomp |
 |  Memory controller  |  1204  | 1231  | 2225  | 6 | L. Machado and J. Cortadella |  Support-Reducing Decomp |
-|  **Priority encoder**  |  **128**  | **8**  | **134** | **4** |  **Xing Li et al.** | **HIMap** |
-|  **Lookahead XY router** | **60** | **30** | **56** | **3** | **S. Jang and A. Mishchenko** | **iMap** |
-|  **Voter**  |  **1001**  | **1**  | **1386**  | **12** | **S. Jang and A. Mishchenko** | **iMap** |
+|  **Priority encoder**  | **128** | **8**  | **132** | **4** |  **Xing Li et al.** | **HIMap** |
+|  Lookahead XY router | 60 | 30 | 56 | 3 | S. Jang and A. Mishchenko | iMap |
+|  Voter  |  1001  | 1  | 1386  | 12 | S. Jang and A. Mishchenko | iMap |
 
 **MtM Benchmarks** 
 
@@ -96,6 +96,8 @@ The best LUT-6 implementations keep track of the best results of LUT-6 mapped be
 | L. Amaru et al. | Synopsys Inc. | Boolean Resynthesis | Boolean resynthesis techniques. Algorithm presented in [Luca Gaetano Amarù, Mathias Soeken, Patrick Vuillod, Jiong Luo, Alan Mishchenko, Janet Olson, Robert K. Brayton, Giovanni De Micheli: Improvements to Boolean resynthesis. DATE, 2018](https://people.eecs.berkeley.edu/~alanmi/publications/2018/date18_resyn.pdf)|
 | E. Testa et al. | EPFL and Synopsys Inc. | Boolean Methods | Algorithm presented in [Eleonora Testa, Luca Gaetano Amarù, Mathias Soeken, Alan Mishchenko, Patrick Vuillod, Jiong Luo, Christopher Casares, Pierre-Emmanuel Gaillardon, Giovanni De Micheli: Scalable Boolean Methods In A Modern Synthesis Flow. DATE, 2019](https://msoeken.github.io/papers/2019_date_2.pdf)|
 | I. Lemberski et al. | Ventspils University for Applied Sciences | Resubstitution | Based on the resubstitution method presented in [Igor Lemberski, Artjoms Suponenkovs, Marina Uhanova: LUT-Oriented Asynchronous Logic Design Based on Resubstitution. DTIS, 2019](https://ieeexplore.ieee.org/document/8734973) |
-| Xing Li et al. | Huawei Noah's Ark Lab | HIMap | Based on heuristic and iterative mapping combined with improved logic optimization and post-mapping methods in ABC |
-| L. Amaru et al. | Synopsys Inc. | LUT-optimization | To be presented in DAC 2021 |
+| Xing Li et al. | Huawei Noah's Ark Lab | HIMap | Based on heuristic and iterative mapping combined with improved logic optimization and post-mapping methods in ABC. To be presented in DAC 2022 |
+| L. Amaru et al. | Synopsys Inc. | LUT-optimization | Based on LUT optimization presented in [Luca Amarú, Vinicius Possani, Eleonora Testa, Felipe Marranghello, Christopher Casares, Jiong Luo, Patrick Vuillod, Alan Mishchenko, Giovanni De Micheli: LUT-Based Optimization For ASIC Design Flow. DAC, 2021](https://ieeexplore.ieee.org/document/9586132) |
 | S. Jang and A. Mishchenko | UC Berkeley | iMap | A portfolio logic synthesis system based on [ABC](https://github.com/berkeley-abc/abc) |
+| Longfei Fan and ChangWu | Fudan University | scaleSyn mapper | Area-oriented technology mapping combined with pre- and post-mapping logic optimization methods in ABC |
+| Alessandro Tempia Calvino | EPFL | XAG-optimization | XAG optimization methods |
