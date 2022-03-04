@@ -52,12 +52,12 @@ The best LUT-6 implementations keep track of the best results of LUT-6 mapped be
 | Barrel shifter  | 135 |128  | 512  |4  | R. K. Brayton & A. Mishchenko|ABC Extreme Mapper|
 | Divisor  | 128 | 128  | 29369 | 197 | Xing Li et al. | HIMap |
 | Hypotenuse | 256 | 128  | 144809 | 501 | Xing Li et al. | HIMap |
-|  Log2  | 32  | 32  | 8985 | 54  |  Xing Li et al. | HIMap |
+|  **Log2**  | **32**  | **32**  | **8894** | **52**  |  **Alessandro Tempia Calvino** | **XAG optimization** |
 |  Max |  512  | 130  | 811 | 10 |  S. Jang and A. Mishchenko | iMap |
-| Multiplier | 128 | 128 | 6483 | 26 | Xing Li et al. | HIMap |
+| **Multiplier** | **128** | **128** | **13670** | **25** | **Alessandro Tempia Calvino** | **XAG optimization** |
 |  Sine  |  24  | 25  | 683103  | 10 | S. Jang and A. Mishchenko | iMap |
 |  Square-root  |  128  | 64  | 25876  | 192 |  Xing Li et al. | HIMap |
-|  **Square**  |  **64**  | **128**  | **4034**  | **10** | **Xing Li et al.** | **HIMap** |
+|  **Square**  |  **64**  | **128**  | **4021**  | **10** | **Alessandro Tempia Calvino** | **XAG optimization** |
 
 **Random-Control Benchmarks**
 
@@ -100,3 +100,4 @@ The best LUT-6 implementations keep track of the best results of LUT-6 mapped be
 | L. Amaru et al. | Synopsys Inc. | LUT-optimization | Based on LUT optimization presented in [Luca Amarú, Vinicius Possani, Eleonora Testa, Felipe Marranghello, Christopher Casares, Jiong Luo, Patrick Vuillod, Alan Mishchenko, Giovanni De Micheli: LUT-Based Optimization For ASIC Design Flow. DAC, 2021](https://ieeexplore.ieee.org/document/9586132) |
 | S. Jang and A. Mishchenko | UC Berkeley | iMap | A portfolio logic synthesis system based on [ABC](https://github.com/berkeley-abc/abc) |
 | Longfei Fan and ChangWu | Fudan University | scaleSyn mapper | Area-oriented technology mapping combined with pre- and post-mapping logic optimization methods in ABC |
+| Alessandro Tempia Calvino | EPFL | XAG optimization | Based on XAG optimization and post-mapping methods in ABC |
