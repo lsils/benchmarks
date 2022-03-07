@@ -13,7 +13,7 @@ The best LUT-6 implementations keep track of the best results of LUT-6 mapped be
 |  Hypotenuse  |  256  | 128   | 39826   | 4492  | L. Amaru et al.   | LUT-optimization |
 |  Log2  |  32  | 32  | 6513 | 132  | L. Amaru et al.   | LUT-optimization |
 |  Max  |  512  | 130  | 522  | 189 | E. Testa, L. Amaru et al. |  Boolean Methods |
-|  **Multiplier**  |  **128**  | **128**  | **4888**  | **110** | **Longfei Fan & ChangWu**   | **scaleSyn mapper** |
+|  **Multiplier**  |  **128**  | **128**  | **4888**  | **110** | **L. Fan & ChangWu**   | **scaleSyn mapper** |
 |  Sine  |  24  | 25  | 1205  | 61 | L. Amaru et al.   | LUT-optimization |
 |  Square-root  |  128  | 64  | 3027  | 1096 | Xing Li et al. | HIMap |
 |  Square  | 64  | 128  | 3232  | 76 | L. Amaru et al. | LUT-optimization |
@@ -52,12 +52,12 @@ The best LUT-6 implementations keep track of the best results of LUT-6 mapped be
 | Barrel shifter  | 135 |128  | 512  |4  | R. K. Brayton & A. Mishchenko|ABC Extreme Mapper|
 | Divisor  | 128 | 128  | 29369 | 197 | Xing Li et al. | HIMap |
 | Hypotenuse | 256 | 128  | 144809 | 501 | Xing Li et al. | HIMap |
-|  **Log2**  | **32**  | **32**  | **8894** | **52**  |  **Alessandro Tempia Calvino** | **XAG optimization** |
+|  **Log2**  | **32**  | **32**  | **8894** | **52**  |  **A. Tempia Calvino** | **XAG optimization** |
 |  Max |  512  | 130  | 811 | 10 |  S. Jang and A. Mishchenko | iMap |
-| **Multiplier** | **128** | **128** | **13670** | **25** | **Alessandro Tempia Calvino** | **XAG optimization** |
+| **Multiplier** | **128** | **128** | **13670** | **25** | **A. Tempia Calvino** | **XAG optimization** |
 |  Sine  |  24  | 25  | 683103  | 10 | S. Jang and A. Mishchenko | iMap |
 |  Square-root  |  128  | 64  | 25876  | 192 |  Xing Li et al. | HIMap |
-|  **Square**  |  **64**  | **128**  | **4021**  | **10** | **Alessandro Tempia Calvino** | **XAG optimization** |
+|  **Square**  |  **64**  | **128**  | **4021**  | **10** | **A. Tempia Calvino** | **XAG optimization** |
 
 **Random-Control Benchmarks**
 
