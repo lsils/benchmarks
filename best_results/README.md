@@ -101,4 +101,4 @@ The best LUT-6 implementations keep track of the best results of LUT-6 mapped be
 | S. Jang and A. Mishchenko | UC Berkeley | iMap | A portfolio logic synthesis system based on [ABC](https://github.com/berkeley-abc/abc) |
 | Longfei Fan and Chang Wu | Fudan University | scaleSyn mapper | Area-oriented technology mapping combined with pre- and post-mapping logic optimization methods in ABC |
 | Alessandro Tempia Calvino | EPFL | XAG optimization | Based on XAG optimization and post-mapping methods in ABC |
-| Antoine Grosnit et al. | Huawei Noah's Ark Lab | BOiLS | Based on the optimization algorithm presented in [Antoine Grosnit, Cedric Malherbe, Rasul Tutunov, Xingchen Wan, Jun Wang, Haitham Bou Ammar: BOiLS: Bayesian Optimisation for Logic Synthesis](https://arxiv.org/abs/2111.06178) |
+| Antoine Grosnit et al. | Huawei Noah's Ark Lab | BOiLS | Based on the optimization algorithm presented in [Antoine Grosnit, Cedric Malherbe, Rasul Tutunov, Xingchen Wan, Jun Wang, Haitham Bou Ammar: BOiLS: Bayesian Optimisation for Logic Synthesis. DATE, 2022.](https://arxiv.org/abs/2111.06178) |
