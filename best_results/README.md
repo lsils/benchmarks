@@ -23,14 +23,14 @@ The best LUT-6 implementations keep track of the best results of LUT-6 mapped be
 | Benchmark name | Inputs | Outputs | LUT-6 count | Levels | Authors | Method |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | 
 |  **Round-robin arbiter**  |  **256**   |  **129**   |  **304**   |  **80** | **L. Fan & C. Wu**   | **scaleSyn mapper** |
-|  Alu control unit   |  7  | 26   | 27   | 2  | Gai Liu & Zhiru Zhang |  PIMap |
+|  **Alu control unit**   |  **7**  | **26**   | **26**   | **2**  | **A. Grosnit et al.**   | **BOiLS** |
 |  Coding-cavlc    |  10  | 11   | 68   | 3  | L. Machado and J. Cortadella |  Support-Reducing Decomp |
 |  Decoder  | 8  | 256   | 264   | 2  | L. Machado and J. Cortadella |  Support-Reducing Decomp |
 |  I2c controller  |  147  | 142  | 200 | 10  | L. Machado and J. Cortadella |  Support-Reducing Decomp |
 |  Int to float converter |  11  | 7  | 24  | 4  | I. Lemberski, A. Suponenkovs |  Resubstitution |
 |  Memory controller  |  1204  | 1231  | 2019  | 21 | L. Amaru et al. | LUT-optimization |
 |  Priority encoder  |  128  | 8  | 100 | 26 | Xing Li et al. | HIMap |
-|  Lookahead XY router | 60 |30 |50 | 5|L. Machado and J. Cortadella|  Support-Reducing Decomp |
+|  **Lookahead XY router** | **60** |**30** |**25** | **4** | **A. Grosnit et al.**   | **BOiLS** |
 |  **Voter** | **1001** | **1** | **1279** | **19**  | **L. Fan & C. Wu** | **scaleSyn mapper** |
 
 **MtM Benchmarks** 
@@ -64,14 +64,14 @@ The best LUT-6 implementations keep track of the best results of LUT-6 mapped be
 | Benchmark name | Inputs | Outputs | LUT-6 count | Levels | Authors | Method |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | 
 |  Round-robin arbiter | 256 | 129  | 1162  | 5 | Xing Li et al. | HIMap |
-|  Alu control unit   |  7  | 26   | 27   | 2  | Gai Liu & Zhiru Zhang |  PIMap |
+|  **Alu control unit**   |  **7**  | **26**   | **26**   | **2**  | **A. Grosnit et al.**   | **BOiLS** |
 |  Coding-cavlc    |  10  | 11   | 68   | 3 |  L. Machado and J. Cortadella |  Support-Reducing Decomp |
 |  Decoder  | 8  | 256   | 264   | 2  | L. Machado and J. Cortadella | Support-Reducing Decomp |
 |  **I2c controller**  |  **147**  | **142**  | **221** | **3** |  **L. Fan & C. Wu**   | **scaleSyn mapper** |
 |  Int to float converter  |  11  | 7  | 27  | 3  |  L. Machado and J. Cortadella |  Support-Reducing Decomp |
 |  Memory controller  |  1204  | 1231  | 2225  | 6 | L. Machado and J. Cortadella |  Support-Reducing Decomp |
 |  **Priority encoder**  | **128** | **8**  | **132** | **4** |  **Xing Li et al.** | **HIMap** |
-|  Lookahead XY router | 60 | 30 | 56 | 3 | S. Jang and A. Mishchenko | iMap |
+|  **Lookahead XY router** | **60** | **30** | **33** | **3** | **A. Grosnit et al.**   | **BOiLS** |
 |  Voter  |  1001  | 1  | 1386  | 12 | S. Jang and A. Mishchenko | iMap |
 
 **MtM Benchmarks** 
