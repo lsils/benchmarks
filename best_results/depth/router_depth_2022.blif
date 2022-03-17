@@ -1,4 +1,4 @@
-# Benchmark "netlist" written by ABC on Wed Mar 16 15:27:19 2022
+# Benchmark "netlist" written by ABC on Thu Mar 17 09:44:57 2022
 .model netlist
 .inputs ys__n0 ys__n6 ys__n10 ys__n16 ys__n24 ys__n30 ys__n36 ys__n44 \
  ys__n48 ys__n56 ys__n62 ys__n68 ys__n74 ys__n82 ys__n88 ys__n96 ys__n102 \
@@ -9,95 +9,80 @@
  ys__n318 ys__n324 ys__n352 ys__n354 ys__n356 ys__n358 ys__n360 ys__n362 \
  ys__n364 ys__n366 ys__n459
 .outputs ys__n400 ys__n516 ys__n518
-.names new_n72_ new_n76_ new_n66_ ys__n400
--01 1
-0-0 1
-.names new_n70_ new_n73_ ys__n102 new_n71_ new_n68_ new_n67_ new_n66_
----011 1
---1-11 1
-11--11 1
-.names ys__n74 ys__n102 ys__n62 ys__n68 ys__n116 ys__n110 new_n67_
------0 0
-----0- 0
-0000-- 0
-.names ys__n82 ys__n88 ys__n96 ys__n102 ys__n122 new_n68_
----11 1
-111-1 1
-.names ys__n0 ys__n130 ys__n6 ys__n56 ys__n10 ys__n16 new_n70_
----0-- 0
---0-00 0
-00--00 0
-.names ys__n44 ys__n36 ys__n56 ys__n48 ys__n68 ys__n74 new_n71_
---0-00 1
--0-000 1
-0--000 1
-.names new_n73_ new_n74_ new_n75_ ys__n110 ys__n116 ys__n218 new_n72_
+.names new_n66_ new_n72_ ys__n400
+11 0
+.names new_n68_ new_n69_ new_n67_ new_n70_ new_n71_ ys__n122 new_n66_
+--0111 1
+11-111 1
+.names ys__n0 ys__n130 ys__n6 ys__n16 ys__n36 ys__n10 new_n67_
+--0000 1
+00-000 1
+.names ys__n170 ys__n172 ys__n174 ys__n176 ys__n178 ys__n218 new_n68_
 111111 1
-.names ys__n24 ys__n30 ys__n44 ys__n82 ys__n88 ys__n96 new_n73_
-111111 1
-.names ys__n168 ys__n170 ys__n172 ys__n174 ys__n176 ys__n178 new_n74_
-111111 1
-.names ys__n6 ys__n56 ys__n62 ys__n122 ys__n164 ys__n166 new_n75_
-111111 1
-.names ys__n0 ys__n10 ys__n68 ys__n74 new_n77_ new_n78_ new_n76_
-000011 1
-.names ys__n168 ys__n170 ys__n172 ys__n174 ys__n176 ys__n178 new_n77_
-000000 1
-.names ys__n16 ys__n36 ys__n48 ys__n102 ys__n164 ys__n166 new_n78_
-000000 1
-.names new_n72_ new_n91_ new_n76_ new_n86_ new_n80_ new_n66_ ys__n516
----000 1
---100- 1
--1---0 1
--11--- 1
-0----0 1
-.names new_n81_ new_n82_ new_n83_ ys__n212 new_n85_ new_n84_ new_n80_
----1-1 1
---0-11 1
-01--11 1
-.names ys__n194 ys__n324 ys__n228 ys__n196 ys__n198 new_n81_
---000 1
-00-00 1
-.names ys__n242 ys__n248 ys__n258 ys__n268 new_n82_
+.names ys__n6 ys__n164 ys__n166 ys__n168 new_n69_
 1111 1
-.names ys__n258 ys__n200 ys__n268 ys__n204 ys__n206 ys__n210 new_n83_
---0-00 1
--0-000 1
-0--000 1
-.names ys__n312 ys__n318 ys__n459 new_n84_
-111 1
-.names ys__n274 ys__n210 ys__n206 ys__n288 ys__n294 ys__n302 new_n85_
+.names ys__n30 ys__n24 ys__n36 ys__n44 ys__n56 ys__n62 new_n70_
 --1111 1
--1-111 1
-1--111 1
-.names new_n87_ new_n88_ new_n89_ new_n90_ ys__n459 new_n86_
-11111 1
-.names ys__n218 ys__n220 ys__n228 ys__n274 ys__n288 new_n87_
-01111 1
-.names ys__n294 ys__n302 ys__n312 ys__n318 new_n88_
-1111 1
-.names ys__n242 ys__n248 ys__n258 ys__n268 ys__n364 ys__n366 new_n89_
-111111 1
-.names ys__n352 ys__n354 ys__n356 ys__n358 ys__n360 ys__n362 new_n90_
-111111 1
-.names ys__n194 ys__n200 new_n94_ new_n95_ new_n92_ new_n93_ new_n91_
-001111 1
-.names ys__n196 ys__n198 ys__n206 ys__n354 ys__n356 new_n92_
+11-111 1
+.names ys__n82 ys__n88 ys__n96 ys__n102 ys__n110 ys__n116 new_n71_
+---111 1
+111-11 1
+.names ys__n178 new_n74_ new_n75_ new_n70_ new_n67_ new_n73_ new_n72_
+----11 1
+---0-1 1
+011--1 1
+.names ys__n62 ys__n56 ys__n48 ys__n68 ys__n74 ys__n102 new_n73_
+--0000 1
+-0-000 1
+0--000 1
+.names ys__n166 ys__n168 ys__n170 ys__n172 ys__n174 ys__n176 new_n74_
+000000 1
+.names ys__n0 ys__n10 ys__n16 ys__n36 ys__n164 new_n75_
 00000 1
-.names ys__n204 ys__n212 ys__n218 ys__n220 new_n93_
-0000 1
-.names ys__n362 ys__n364 ys__n366 new_n94_
-000 1
-.names ys__n210 ys__n352 ys__n358 ys__n360 new_n95_
-0000 1
-.names new_n76_ new_n97_ new_n98_ new_n72_ new_n66_ new_n80_ ys__n518
---0101 1
--0-101 1
-1-0-11 1
-10--11 1
-.names ys__n194 ys__n200 new_n94_ new_n95_ new_n97_
-0011 1
-.names ys__n220 ys__n218 ys__n212 ys__n204 new_n92_ new_n98_
--0001 1
-0-001 1
+.names new_n83_ new_n78_ new_n77_ new_n66_ new_n87_ new_n72_ ys__n516
+---0-1 1
+--00-- 1
+-0--01 1
+1---01 1
+.names new_n71_ ys__n122 new_n77_
+11 1
+.names new_n80_ new_n81_ new_n79_ new_n82_ ys__n459 new_n78_
+--011 1
+01-11 1
+.names ys__n274 ys__n268 ys__n204 ys__n212 ys__n206 ys__n210 new_n79_
+--0000 1
+-0-000 1
+0--000 1
+.names ys__n194 ys__n324 ys__n228 ys__n200 ys__n196 ys__n198 new_n80_
+--0000 1
+00-000 1
+.names ys__n242 ys__n248 ys__n200 ys__n258 ys__n268 ys__n274 new_n81_
+--1111 1
+11-111 1
+.names ys__n302 ys__n288 ys__n294 ys__n212 ys__n312 ys__n318 new_n82_
+---111 1
+111-11 1
+.names ys__n218 ys__n220 new_n86_ new_n84_ new_n85_ new_n83_
+00111 1
+.names ys__n194 ys__n196 ys__n206 ys__n212 ys__n366 new_n84_
+00000 1
+.names ys__n354 ys__n356 ys__n358 ys__n360 ys__n362 ys__n364 new_n85_
+000000 1
+.names ys__n198 ys__n200 ys__n204 ys__n210 ys__n352 new_n86_
+00000 1
+.names new_n88_ new_n89_ new_n90_ new_n91_ new_n87_
+1111 1
+.names ys__n358 ys__n360 ys__n362 ys__n364 ys__n366 ys__n459 new_n88_
+111111 1
+.names ys__n288 ys__n294 ys__n312 ys__n318 new_n89_
+1111 1
+.names ys__n228 ys__n258 ys__n302 ys__n352 ys__n354 ys__n356 new_n90_
+111111 1
+.names ys__n218 ys__n220 ys__n242 ys__n248 ys__n268 ys__n274 new_n91_
+011111 1
+.names ys__n218 ys__n220 new_n93_ new_n66_ new_n72_ new_n78_ ys__n518
+--0111 1
+11-111 1
+.names new_n84_ new_n85_ new_n86_ new_n93_
+111 1
 .end
