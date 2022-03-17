@@ -71,7 +71,7 @@ The best LUT-6 implementations keep track of the best results of LUT-6 mapped be
 |  Int to float converter  |  11  | 7  | 27  | 3  |  L. Machado and J. Cortadella |  Support-Reducing Decomp |
 |  Memory controller  |  1204  | 1231  | 2225  | 6 | L. Machado and J. Cortadella |  Support-Reducing Decomp |
 |  **Priority encoder**  | **128** | **8**  | **132** | **4** |  **Xing Li et al.** | **HIMap** |
-|  **Lookahead XY router** | **60** | **30** | **33** | **3** | **A. Grosnit et al.**   | **BOiLS** |
+|  **Lookahead XY router** | **60** | **30** | **29** | **3** | **A. Grosnit et al.**   | **BOiLS** |
 |  Voter  |  1001  | 1  | 1386  | 12 | S. Jang and A. Mishchenko | iMap |
 
 **MtM Benchmarks** 
