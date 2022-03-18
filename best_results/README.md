@@ -53,7 +53,7 @@ The best LUT-6 implementations keep track of the best results of LUT-6 mapped be
 | Divisor  | 128 | 128  | 29369 | 197 | Xing Li et al. | HIMap |
 | Hypotenuse | 256 | 128  | 144809 | 501 | Xing Li et al. | HIMap |
 |  **Log2**  | **32**  | **32**  | **8894** | **52**  |  **A. Tempia Calvino** | **XAG optimization** |
-|  **Max** |  **512**  | **130**  | **1326** | **9** |  **A. Grosnit et al.**   | **BOiLS** |
+|  **Max** |  **512**  | **130**  | **1296** | **9** |  **A. Grosnit et al.**   | **BOiLS** |
 | **Multiplier** | **128** | **128** | **13670** | **25** | **A. Tempia Calvino** | **XAG optimization** |
 |  Sine  |  24  | 25  | 683103  | 10 | S. Jang and A. Mishchenko | iMap |
 |  Square-root  |  128  | 64  | 25876  | 192 |  Xing Li et al. | HIMap |
@@ -71,7 +71,7 @@ The best LUT-6 implementations keep track of the best results of LUT-6 mapped be
 |  Int to float converter  |  11  | 7  | 27  | 3  |  L. Machado and J. Cortadella |  Support-Reducing Decomp |
 |  Memory controller  |  1204  | 1231  | 2225  | 6 | L. Machado and J. Cortadella |  Support-Reducing Decomp |
 |  **Priority encoder**  | **128** | **8**  | **132** | **4** |  **Xing Li et al.** | **HIMap** |
-|  **Lookahead XY router** | **60** | **30** | **29** | **3** | **A. Grosnit et al.**   | **BOiLS** |
+|  **Lookahead XY router** | **60** | **30** | **28** | **3** | **A. Grosnit et al.**   | **BOiLS** |
 |  Voter  |  1001  | 1  | 1386  | 12 | S. Jang and A. Mishchenko | iMap |
 
 **MtM Benchmarks** 
