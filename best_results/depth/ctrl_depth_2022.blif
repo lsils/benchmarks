@@ -1,15 +1,19 @@
-# Benchmark "netlist" written by ABC on Wed Mar 16 15:26:33 2022
+# Benchmark "netlist" written by ABC on Sat Mar 19 14:26:52 2022
 .model netlist
 .inputs ys__n4 ys__n30 ys__n44 ys__n162 ys__n216 ys__n254 ys__n260
 .outputs ys__n269 ys__n270 ys__n271 ys__n273 ys__n277 ys__n278 ys__n282 \
  ys__n286 ys__n291 ys__n292 ys__n294 ys__n295 ys__n298 ys__n299 ys__n300 \
  ys__n301 ys__n302 ys__n303 ys__n304 ys__n305 ys__n308 ys__n309 ys__n310 \
  ys__n311 ys__n312
-.names ys__n162 ys__n254 ys__n260 ys__n30 ys__n4 ys__n269
---111 1
--1-11 1
--1100 1
-1--11 1
+.names ys__n273 ys__n4 ys__n305 ys__n254 ys__n269
+--11 1
+01-- 1
+.names ys__n4 ys__n30 ys__n260 ys__n305
+001 1
+.names ys__n162 ys__n4 ys__n254 ys__n260 ys__n30 ys__n273
+-0001 1
+-1--0 1
+0-001 1
 .names ys__n162 ys__n260 ys__n254 ys__n30 ys__n4 ys__n270
 -0101 1
 -1100 1
@@ -18,17 +22,11 @@
 -0110 1
 00011 1
 00101 1
-.names ys__n162 ys__n4 ys__n254 ys__n260 ys__n30 ys__n273
--0001 1
--1--0 1
-0-001 1
-.names ys__n254 new_n39_ ys__n4 ys__n30 ys__n162 ys__n260 ys__n277
---1011 1
--1---0 1
-1-0110 1
-.names ys__n216 ys__n162 ys__n44 ys__n4 ys__n30 ys__n254 new_n39_
--01111 1
-1-1111 1
+.names ys__n278 ys__n273 ys__n44 ys__n4 ys__n260 ys__n162 ys__n277
+-01100 1
+-1-111 1
+1--001 1
+1-1-01 1
 .names ys__n216 ys__n4 ys__n260 ys__n30 ys__n254 ys__n278
 -0011 1
 -1101 1
@@ -62,10 +60,8 @@
 --011 0
 -00-1 0
 00-00 0
-.names ys__n305 ys__n162 ys__n299
-11 1
-.names ys__n4 ys__n30 ys__n260 ys__n305
-001 1
+.names ys__n4 ys__n30 ys__n162 ys__n260 ys__n299
+0011 1
 .names ys__n162 ys__n305 ys__n300
 01 1
 .names ys__n4 ys__n162 ys__n254 ys__n30 ys__n260 ys__n301
@@ -81,13 +77,13 @@
 --1011 1
 -01-11 1
 11-101 1
-.names ys__n216 ys__n162 ys__n4 ys__n254 ys__n308 ys__n309
+.names ys__n216 ys__n162 ys__n254 ys__n4 ys__n308 ys__n309
 --001 1
 01111 1
-.names ys__n216 ys__n162 ys__n308 ys__n254 ys__n4 ys__n310
----00 0
---0-- 0
-01-11 0
+.names ys__n216 ys__n308 ys__n4 ys__n254 ys__n162 ys__n310
+--001 0
+-0--- 0
+0-111 0
 .names ys__n30 ys__n260 ys__n162 ys__n254 ys__n4 ys__n311
 00001 1
 00111 1
