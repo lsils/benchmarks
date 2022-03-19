@@ -64,7 +64,7 @@ The best LUT-6 implementations keep track of the best results of LUT-6 mapped be
 | Benchmark name | Inputs | Outputs | LUT-6 count | Levels | Authors | Method |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | 
 |  Round-robin arbiter | 256 | 129  | 1162  | 5 | Xing Li et al. | HIMap |
-|  **Alu control unit**   |  **7**  | **26**   | **26**   | **2**  | **A. Grosnit et al.**   | **BOiLS** |
+|  **Alu control unit**   |  **7**  | **26**   | **25**   | **2**  | **A. Grosnit et al.**   | **BOiLS** |
 |  Coding-cavlc    |  10  | 11   | 68   | 3 |  L. Machado and J. Cortadella |  Support-Reducing Decomp |
 |  Decoder  | 8  | 256   | 264   | 2  | L. Machado and J. Cortadella | Support-Reducing Decomp |
 |  **I2c controller**  |  **147**  | **142**  | **221** | **3** |  **L. Fan & C. Wu**   | **scaleSyn mapper** |
