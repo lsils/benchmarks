@@ -23,7 +23,7 @@ The best LUT-6 implementations keep track of the best results of LUT-6 mapped be
 | Benchmark name | Inputs | Outputs | LUT-6 count | Levels | Authors | Method |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | 
 |  **Round-robin arbiter**  |  **256**   |  **129**   |  **304**   |  **80** | **L. Fan & C. Wu**   | **scaleSyn mapper** |
-|  **Alu control unit**   |  **7**  | **26**   | **26**   | **2**  | **A. Grosnit et al.**   | **BOiLS** |
+|  **Alu control unit**   |  **7**  | **26**   | **25**   | **2**  | **A. Grosnit et al.**   | **BOiLS** |
 |  Coding-cavlc    |  10  | 11   | 68   | 3  | L. Machado and J. Cortadella |  Support-Reducing Decomp |
 |  Decoder  | 8  | 256   | 264   | 2  | L. Machado and J. Cortadella |  Support-Reducing Decomp |
 |  I2c controller  |  147  | 142  | 200 | 10  | L. Machado and J. Cortadella |  Support-Reducing Decomp |
@@ -53,7 +53,7 @@ The best LUT-6 implementations keep track of the best results of LUT-6 mapped be
 | Divisor  | 128 | 128  | 29369 | 197 | Xing Li et al. | HIMap |
 | Hypotenuse | 256 | 128  | 144809 | 501 | Xing Li et al. | HIMap |
 |  **Log2**  | **32**  | **32**  | **8894** | **52**  |  **A. Tempia Calvino** | **XAG optimization** |
-|  **Max** |  **512**  | **130**  | **1296** | **9** |  **A. Grosnit et al.**   | **BOiLS** |
+|  **Max** |  **512**  | **130**  | **1203** | **9** |  **A. Grosnit et al.**   | **BOiLS** |
 | **Multiplier** | **128** | **128** | **13670** | **25** | **A. Tempia Calvino** | **XAG optimization** |
 |  Sine  |  24  | 25  | 683103  | 10 | S. Jang and A. Mishchenko | iMap |
 |  Square-root  |  128  | 64  | 25876  | 192 |  Xing Li et al. | HIMap |
