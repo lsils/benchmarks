@@ -53,7 +53,7 @@ The best LUT-6 implementations keep track of the best results of LUT-6 mapped be
 | Divisor  | 128 | 128  | 29369 | 197 | Xing Li et al. | HIMap |
 | Hypotenuse | 256 | 128  | 144809 | 501 | Xing Li et al. | HIMap |
 |  **Log2**  | **32**  | **32**  | **8894** | **52**  |  **A. Tempia Calvino** | **XAG optimization** |
-|  **Max** |  **512**  | **130**  | **1203** | **9** |  **A. Grosnit et al.**   | **BOiLS** |
+|  **Max** |  **512**  | **130**  | **1171** | **8** |  **A. Grosnit et al.**   | **BOiLS** |
 | **Multiplier** | **128** | **128** | **13670** | **25** | **A. Tempia Calvino** | **XAG optimization** |
 |  Sine  |  24  | 25  | 683103  | 10 | S. Jang and A. Mishchenko | iMap |
 |  Square-root  |  128  | 64  | 25876  | 192 |  Xing Li et al. | HIMap |
