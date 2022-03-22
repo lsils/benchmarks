@@ -11,10 +11,10 @@ The best LUT-6 implementations keep track of the best results of LUT-6 mapped be
 | Barrel shifter  | 135 |128  | 512  |4  | R. K. Brayton & A. Mishchenko| ABC Extreme Mapper|
 | Divisor  | 128 | 128   | 3248   |  1194  | Xing Li et al. | HIMap |
 |  Hypotenuse  |  256  | 128   | 39826   | 4492  | L. Amaru et al.   | LUT-optimization |
-|  Log2  |  32  | 32  | 6513 | 132  | L. Amaru et al.   | LUT-optimization |
+|  **Log2**  |  **32**  | **32**  | **6499** | **132**  | **Xing Li et al.**   | **HIMap** |
 |  Max  |  512  | 130  | 522  | 189 | E. Testa, L. Amaru et al. |  Boolean Methods |
 |  **Multiplier**  |  **128**  | **128**  | **4792**  | **114** | **L. Fan & C. Wu**   | **scaleSyn mapper** |
-|  Sine  |  24  | 25  | 1205  | 61 | L. Amaru et al.   | LUT-optimization |
+|  **Sine**  |  **24**  | **25**  | **1202**  | **60** | **Xing Li et al.**  | **HIMap** |
 |  Square-root  |  128  | 64  | 3027  | 1096 | Xing Li et al. | HIMap |
 |  Square  | 64  | 128  | 3232  | 76 | L. Amaru et al. | LUT-optimization |
 
@@ -28,7 +28,7 @@ The best LUT-6 implementations keep track of the best results of LUT-6 mapped be
 |  Decoder  | 8  | 256   | 264   | 2  | L. Machado and J. Cortadella |  Support-Reducing Decomp |
 |  I2c controller  |  147  | 142  | 200 | 10  | L. Machado and J. Cortadella |  Support-Reducing Decomp |
 |  Int to float converter |  11  | 7  | 24  | 4  | I. Lemberski, A. Suponenkovs |  Resubstitution |
-|  Memory controller  |  1204  | 1231  | 2019  | 21 | L. Amaru et al. | LUT-optimization |
+|  **Memory controller**  |  **1204**  | **1231**  | **2012**  | **21** | **Xing Li et al.** | **HIMap** |
 |  Priority encoder  |  128  | 8  | 100 | 26 | Xing Li et al. | HIMap |
 |  Lookahead XY router | 60 |30 |50 | 5|L. Machado and J. Cortadella|  Support-Reducing Decomp |
 |  **Voter** | **1001** | **1** | **1279** | **19**  | **L. Fan & C. Wu** | **scaleSyn mapper** |
@@ -69,7 +69,7 @@ The best LUT-6 implementations keep track of the best results of LUT-6 mapped be
 |  Decoder  | 8  | 256   | 264   | 2  | L. Machado and J. Cortadella | Support-Reducing Decomp |
 |  **I2c controller**  |  **147**  | **142**  | **221** | **3** |  **L. Fan & C. Wu**   | **scaleSyn mapper** |
 |  Int to float converter  |  11  | 7  | 27  | 3  |  L. Machado and J. Cortadella |  Support-Reducing Decomp |
-|  Memory controller  |  1204  | 1231  | 2225  | 6 | L. Machado and J. Cortadella |  Support-Reducing Decomp |
+|  **Memory controller**  |  **1204**  | **1231**  | **2203**  | 6 | **Xing Li et al.** |  **HIMap** |
 |  **Priority encoder**  | **128** | **8**  | **132** | **4** |  **Xing Li et al.** | **HIMap** |
 |  Lookahead XY router | 60 | 30 | 56 | 3 | S. Jang and A. Mishchenko | iMap |
 |  Voter  |  1001  | 1  | 1386  | 12 | S. Jang and A. Mishchenko | iMap |
