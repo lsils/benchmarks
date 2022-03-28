@@ -7,7 +7,7 @@ The best LUT-6 implementations keep track of the best results of LUT-6 mapped be
 
 | Benchmark name | Inputs | Outputs | LUT-6 count | Levels | Authors | Method |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | 
-| **Adder** | **256**  | **129**  | **185** | **119** | **L. Fan & C. Wu**   | **scaleSyn mapper** |
+| **Adder** | **256**  | **129**  | **181** | **76** | **A. Grosnit et al.**   | **BOiLS** |
 | Barrel shifter  | 135 |128  | 512  |4  | R. K. Brayton & A. Mishchenko| ABC Extreme Mapper|
 | Divisor  | 128 | 128   | 3248   |  1194  | Xing Li et al. | HIMap |
 |  Hypotenuse  |  256  | 128   | 39826   | 4492  | L. Amaru et al.   | LUT-optimization |
