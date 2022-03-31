@@ -30,7 +30,7 @@ The best LUT-6 implementations keep track of the best results of LUT-6 mapped be
 |  Int to float converter |  11  | 7  | 24  | 4  | I. Lemberski, A. Suponenkovs |  Resubstitution |
 |  Memory controller  |  1204  | 1231  | 2019  | 21 | L. Amaru et al. | LUT-optimization |
 |  Priority encoder  |  128  | 8  | 100 | 26 | Xing Li et al. | HIMap |
-|  **Lookahead XY router** | **60** |**30** |**24** | **5** | **A. Grosnit et al.**   | **BOiLS** |
+|  **Lookahead XY router** | **60** |**30** |**24** | **4** | **A. Grosnit et al.**   | **BOiLS** |
 |  **Voter** | **1001** | **1** | **1279** | **19**  | **L. Fan & C. Wu** | **scaleSyn mapper** |
 
 **MtM Benchmarks** 
