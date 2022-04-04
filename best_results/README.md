@@ -13,7 +13,7 @@ The best LUT-6 implementations keep track of the best results of LUT-6 mapped be
 |  Hypotenuse  |  256  | 128   | 39826   | 4492  | L. Amaru et al.   | LUT-optimization |
 |  Log2  |  32  | 32  | 6513 | 132  | L. Amaru et al.   | LUT-optimization |
 |  Max  |  512  | 130  | 522  | 189 | E. Testa, L. Amaru et al. |  Boolean Methods |
-|  **Multiplier**  |  **128**  | **128**  | **4792**  | **114** | **L. Fan & C. Wu**   | **scaleSyn mapper** |
+|  **Multiplier**  |  **128**  | **128**  | **4692**  | **113** | **Rafael Calcada and Andre Reis**   | **Priority Cuts** |
 |  Sine  |  24  | 25  | 1205  | 61 | L. Amaru et al.   | LUT-optimization |
 |  Square-root  |  128  | 64  | 3027  | 1096 | Xing Li et al. | HIMap |
 |  Square  | 64  | 128  | 3232  | 76 | L. Amaru et al. | LUT-optimization |
@@ -37,10 +37,12 @@ The best LUT-6 implementations keep track of the best results of LUT-6 mapped be
 
 | Benchmark name | Inputs | Outputs | LUT-6 count | Levels | Authors | Method |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | 
-| Sixteen | 117	|50|	5648909	|29| Original Benchmark| /|
-| Twenty  | 137|60|	7189658|	33 |Original Benchmark|/|
-| Twentythree  |153|	68 | 4936053 | 23 |R. K. Brayton & A. Mishchenko|ABC Extreme Mapper|
+| **Sixteen** | **117**	|**50**|	**3511769**	|**32**| **Rafael Calcada and Andre Reis**| **Priority Cuts**|
+| **Twenty**  | **137**|**60**|	**4393495**|	**33** | **Rafael Calcada and Andre Reis**| **Priority Cuts**|
+| **Twentythree**  |**153**|	**68** | **4908145** | **34** | **Rafael Calcada and Andre Reis**| **Priority Cuts**|
 
+BLIF files for these circuits are too big to be uploaded to a GitHub repository. The mappings for these circuits 
+can be obtained from the following link: (Google Drive)[https://drive.google.com/drive/folders/1yFSD2kaLZ_w3Fhvc_2oQinUWmOJm9Ia4?usp=sharing]
 
 ### Best results for LUT-6 levels
 
@@ -78,9 +80,12 @@ The best LUT-6 implementations keep track of the best results of LUT-6 mapped be
 
 | Benchmark name | Inputs | Outputs | LUT-6 count | Levels | Authors | Method |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | 
-| Sixteen | 117	|50|	5648909	|29| Original Benchmark| /|
-| Twenty  | 137|60|	7189658|	33 |Original Benchmark|/|
-| Twentythree  |153|	68 | 4936053 | 23 |R. K. Brayton & A. Mishchenko|ABC Extreme Mapper|
+| **Sixteen** | **117**	|**50**|	**5396002**	|**16**| **Rafael Calcada and Andre Reis**| **Priority Cuts**|
+| **Twenty**  | **137** |**60**|	**6928118**|	**16** | **Rafael Calcada and Andre Reis**| **Priority Cuts**|
+| **Twentythree**  | **153** |	**68** | **7922493** | **17** |**Rafael Calcada and Andre Reis**| **Priority Cuts**|
+
+BLIF files for these circuits are too big to be uploaded to a GitHub repository. The mappings for these circuits 
+can be obtained from the following link: (Google Drive)[https://drive.google.com/drive/folders/1yFSD2kaLZ_w3Fhvc_2oQinUWmOJm9Ia4?usp=sharing]
 
 ### List of Participants and Methods
 | Authors' name | Authors' affiliation | Synthesis method| Description |
@@ -101,3 +106,4 @@ The best LUT-6 implementations keep track of the best results of LUT-6 mapped be
 | S. Jang and A. Mishchenko | UC Berkeley | iMap | A portfolio logic synthesis system based on [ABC](https://github.com/berkeley-abc/abc) |
 | Longfei Fan and Chang Wu | Fudan University | scaleSyn mapper | Area-oriented technology mapping combined with pre- and post-mapping logic optimization methods in ABC |
 | Alessandro Tempia Calvino | EPFL | XAG optimization | Based on XAG optimization and post-mapping methods in ABC |
+| Rafael Calcada and Andre Reis| UFRGS | Priority Cut mapping | AIG optimization using commands 'dc2' and 'b -l' from [ABC](https://github.com/berkeley-abc/abc) followed by Priority Cut mapping with new heuristics for area and delay estimation |
