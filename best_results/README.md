@@ -15,7 +15,7 @@ The best LUT-6 implementations keep track of the best results of LUT-6 mapped be
 |  Max  |  512  | 130  | 522  | 189 | E. Testa, L. Amaru et al. |  Boolean Methods |
 |  **Multiplier**  |  **128**  | **128**  | **4540**  | **122** | **A. Grosnit et al.**   | **BOiLS** |
 |  Sine  |  24  | 25  | 1205  | 61 | L. Amaru et al.   | LUT-optimization |
-|  Square-root  |  128  | 64  | 3027  | 1096 | Xing Li et al. | HIMap |
+|  **Square-root**  |  **128**  | **64**  | **3019**  | **1053** | **A. Grosnit et al.** | **BOiLS** |
 |  Square  | 64  | 128  | 3232  | 76 | L. Amaru et al. | LUT-optimization |
 
 **Random-Control Benchmarks**
