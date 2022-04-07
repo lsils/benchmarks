@@ -13,7 +13,7 @@ The best LUT-6 implementations keep track of the best results of LUT-6 mapped be
 |  Hypotenuse  |  256  | 128   | 39826   | 4492  | L. Amaru et al.   | LUT-optimization |
 |  Log2  |  32  | 32  | 6513 | 132  | L. Amaru et al.   | LUT-optimization |
 |  Max  |  512  | 130  | 522  | 189 | E. Testa, L. Amaru et al. |  Boolean Methods |
-|  **Multiplier**  |  **128**  | **128**  | **4540**  | **122** | **A. Grosnit et al.**   | **BOiLS** |
+|  **Multiplier**  |  **128**  | **128**  | **4792**  | **114** | **L. Fan & C. Wu**   | **scaleSyn mapper** |
 |  Sine  |  24  | 25  | 1205  | 61 | L. Amaru et al.   | LUT-optimization |
 |  **Square-root**  |  **128**  | **64**  | **3019**  | **1053** | **A. Grosnit et al.** | **BOiLS** |
 |  Square  | 64  | 128  | 3232  | 76 | L. Amaru et al. | LUT-optimization |
