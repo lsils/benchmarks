@@ -1,0 +1,152 @@
+# Design "router" written by ABC on Fri Jul 16 23:33:28 2021
+.model router
+
+.inputs dest_x[0] dest_x[1] dest_x[2] dest_x[3] dest_x[4] dest_x[5] dest_x[6]
+.inputs dest_x[7] dest_x[8] dest_x[9] dest_x[10] dest_x[11] dest_x[12] dest_x[13]
+.inputs dest_x[14] dest_x[15] dest_x[16] dest_x[17] dest_x[18] dest_x[19] dest_x[20]
+.inputs dest_x[21] dest_x[22] dest_x[23] dest_x[24] dest_x[25] dest_x[26] dest_x[27]
+.inputs dest_x[28] dest_x[29] dest_y[0] dest_y[1] dest_y[2] dest_y[3] dest_y[4]
+.inputs dest_y[5] dest_y[6] dest_y[7] dest_y[8] dest_y[9] dest_y[10] dest_y[11]
+.inputs dest_y[12] dest_y[13] dest_y[14] dest_y[15] dest_y[16] dest_y[17] dest_y[18]
+.inputs dest_y[19] dest_y[20] dest_y[21] dest_y[22] dest_y[23] dest_y[24] dest_y[25]
+.inputs dest_y[26] dest_y[27] dest_y[28] dest_y[29]
+.outputs outport[0] outport[1] outport[2] outport[3] outport[4] outport[5] outport[6]
+.outputs outport[7] outport[8] outport[9] outport[10] outport[11] outport[12]
+.outputs outport[13] outport[14] outport[15] outport[16] outport[17] outport[18]
+.outputs outport[19] outport[20] outport[21] outport[22] outport[23] outport[24]
+.outputs outport[25] outport[26] outport[27] outport[28] outport[29]
+.names outport[3]
+ 0
+.names outport[4]
+ 0
+.names outport[5]
+ 0
+.names outport[6]
+ 0
+.names outport[7]
+ 0
+.names outport[8]
+ 0
+.names outport[9]
+ 0
+.names outport[10]
+ 0
+.names outport[11]
+ 0
+.names outport[12]
+ 0
+.names outport[13]
+ 0
+.names outport[14]
+ 0
+.names outport[15]
+ 0
+.names outport[16]
+ 0
+.names outport[17]
+ 0
+.names outport[18]
+ 0
+.names outport[19]
+ 0
+.names outport[20]
+ 0
+.names outport[21]
+ 0
+.names outport[22]
+ 0
+.names outport[23]
+ 0
+.names outport[24]
+ 0
+.names outport[25]
+ 0
+.names outport[26]
+ 0
+.names outport[27]
+ 0
+.names outport[28]
+ 0
+.names outport[29]
+ 0
+.names dest_x[9] dest_x[10] dest_x[11] dest_x[12] dest_x[13] dest_x[15] n062
+-----0 0
+--000- 0
+00-00- 0
+.names dest_x[3] dest_x[4] dest_x[5] dest_x[6] dest_x[7] dest_x[8] n063
+000000 1
+.names dest_x[1] dest_x[2] dest_x[10] dest_x[12] dest_x[13] n064
+00000 1
+.names dest_x[21] dest_x[22] dest_x[23] dest_x[24] dest_x[25] dest_x[26] n065
+-----1 0
+-1111- 0
+1-111- 0
+.names n062 n063 n064 n065 dest_x[16] dest_x[18] n066
+-11100 1
+0--100 1
+.names dest_x[6] dest_x[7] dest_x[8] n067
+111 1
+.names dest_x[0] dest_x[1] dest_x[2] dest_x[3] dest_x[4] dest_x[5] n068
+111111 1
+.names dest_x[11] dest_x[14] dest_x[15] dest_x[17] dest_x[19] dest_x[20] n069
+111111 1
+.names dest_x[23] dest_x[24] dest_x[25] dest_x[27] dest_x[28] dest_x[29] n070
+111111 1
+.names n066 n067 n068 n069 n070 dest_x[9] outport[0]
+1--111 0
+11111- 0
+.names dest_y[21] dest_y[22] dest_y[23] dest_y[24] dest_y[25] dest_y[26] n072
+-----1 1
+-1111- 1
+1-111- 1
+.names dest_y[19] dest_y[20] dest_y[23] dest_y[24] dest_y[25] n073
+11111 1
+.names dest_y[9] dest_y[10] dest_y[11] dest_y[12] dest_y[13] dest_y[15] n074
+-----0 0
+--000- 0
+00-00- 0
+.names dest_y[16] dest_y[17] dest_y[18] n075
+--1 0
+11- 0
+.names n072 n073 n074 n075 dest_y[14] dest_y[17] n076
+-11-11 0
+-1-0-- 0
+1----- 0
+.names dest_y[5] dest_y[6] dest_y[7] dest_y[8] dest_y[11] dest_y[15] n077
+111111 1
+.names dest_x[0] dest_y[0] dest_y[1] dest_y[2] dest_y[3] dest_y[4] n078
+011111 1
+.names n073 n077 n078 dest_y[14] dest_y[17] n079
+11111 1
+.names dest_y[27] dest_y[28] dest_y[29] n080
+111 1
+.names n067 n068 n069 n070 n080 dest_x[9] n081
+--1111 1
+11111- 1
+.names dest_y[1] dest_y[2] dest_y[3] dest_y[4] dest_y[12] dest_y[13] n082
+000000 1
+.names dest_y[10] dest_y[16] dest_y[18] dest_y[21] dest_y[22] dest_y[26] n083
+000000 1
+.names dest_x[0] dest_y[0] dest_y[5] dest_y[6] dest_y[7] dest_y[8] n084
+000000 1
+.names n082 n083 n084 n085
+111 1
+.names dest_x[14] dest_x[16] dest_x[17] dest_x[18] dest_x[19] dest_x[20] n086
+---111 1
+-11-11 1
+1-1-11 1
+.names n065 n086 dest_x[27] dest_x[28] dest_x[29] n070 n087
+-11111 1
+0-111- 1
+.names n066 n076 n079 n081 n085 n087 outport[1]
+0----1 0
+--110- 0
+-0-10- 0
+.names n082 n083 dest_y[5] dest_y[6] dest_y[7] dest_y[8] n089
+110000 1
+.names n066 n076 n081 n089 dest_x[0] dest_y[0] outport[2]
+101-11 1
+1010-- 1
+
+.end
+
