@@ -9,13 +9,13 @@ The best LUT-6 implementations keep track of the best results of LUT-6 mapped be
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | 
 | **Adder** | **256**  | **129**  | **181** | **76** | **A. Grosnit et al.**   | **BOiLS** |
 | Barrel shifter  | 135 |128  | 512  |4  | R. K. Brayton & A. Mishchenko| ABC Extreme Mapper|
-| Divisor  | 128 | 128   | 3248   |  1194  | Xing Li et al. | HIMap |
+| **Divisor**  | **128** | **128**   | **3173**   |  **1119**  | **A. Grosnit et al.**   | **BOiLS** |
 |  Hypotenuse  |  256  | 128   | 39826   | 4492  | L. Amaru et al.   | LUT-optimization |
 |  Log2  |  32  | 32  | 6513 | 132  | L. Amaru et al.   | LUT-optimization |
 |  Max  |  512  | 130  | 522  | 189 | E. Testa, L. Amaru et al. |  Boolean Methods |
 |  **Multiplier**  |  **128**  | **128**  | **4584**  | **124** | **A. Grosnit et al.**   | **BOiLS** |
 |  Sine  |  24  | 25  | 1205  | 61 | L. Amaru et al.   | LUT-optimization |
-|  **Square-root**  |  **128**  | **64**  | **3019**  | **1053** | **A. Grosnit et al.** | **BOiLS** |
+|  **Square-root**  |  **128**  | **64**  | **3011**  | **1054** | **A. Grosnit et al.** | **BOiLS** |
 |  Square  | 64  | 128  | 3232  | 76 | L. Amaru et al. | LUT-optimization |
 
 **Random-Control Benchmarks**
@@ -56,7 +56,7 @@ The best LUT-6 implementations keep track of the best results of LUT-6 mapped be
 |  **Max** |  **512**  | **130**  | **1569** | **7** |  **A. Grosnit et al.**   | **BOiLS** |
 | **Multiplier** | **128** | **128** | **13670** | **25** | **A. Tempia Calvino** | **XAG optimization** |
 |  Sine  |  24  | 25  | 683103  | 10 | S. Jang and A. Mishchenko | iMap |
-|  Square-root  |  128  | 64  | 25876  | 192 |  Xing Li et al. | HIMap |
+|  **Square-root**  |  **128**  | **64**  | **29958**  | **187** | **A. Grosnit et al.** | **BOiLS** |
 |  **Square**  |  **64**  | **128**  | **4021**  | **10** | **A. Tempia Calvino** | **XAG optimization** |
 
 **Random-Control Benchmarks**
