@@ -72,7 +72,7 @@ The best LUT-6 implementations keep track of the best results of LUT-6 mapped be
 |  Memory controller  |  1204  | 1231  | 2225  | 6 | L. Machado and J. Cortadella |  Support-Reducing Decomp |
 |  **Priority encoder**  | **128** | **8**  | **132** | **4** |  **Xing Li et al.** | **HIMap** |
 |  Lookahead XY router | 60 | 30 | 56 | 3 | S. Jang and A. Mishchenko | iMap |
-|  **Voter**  |  **1001**  | **1**  | **1453**  | **11** | **A. Grosnit et al.** | **BOiLS** |
+|  **Voter**  |  **1001**  | **1**  | **1464**  | **11** | **A. Grosnit et al.** | **BOiLS** |
 
 **MtM Benchmarks** 
 
