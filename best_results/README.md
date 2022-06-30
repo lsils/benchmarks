@@ -7,15 +7,15 @@ The best LUT-6 implementations keep track of the best results of LUT-6 mapped be
 
 | Benchmark name | Inputs | Outputs | LUT-6 count | Levels | Authors | Method |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | 
-| **Adder** | **256**  | **129**  | **185** | **119** | **L. Fan & C. Wu**   | **scaleSyn mapper** |
+| **Adder** | **256**  | **129**  | **181** | **76** | **A. Grosnit et al.** | **BOiLS** |
 | Barrel shifter  | 135 | 128  | 512  | 4  | R. K. Brayton & A. Mishchenko| ABC Extreme Mapper|
-| Divisor  | 128 | 128   | 3248   |  1194  | Xing Li et al. | HIMap |
+| **Divisor**  | **128** | **128**   | **3134**   |  **1096**  | **A. Grosnit et al.** | **BOiLS** |
 |  Hypotenuse  |  256  | 128   | 39826   | 4492  | L. Amaru et al.   | LUT-optimization |
 |  **Log2**  | **32**  | **32**  | **6499** | **132**  | **Xing Li et al.**   | **HIMap** |
 |  Max  |  512  | 130  | 522  | 189 | E. Testa, L. Amaru et al. |  Boolean Methods |
-|  **Multiplier**  |  **128**  | **128**  | **4692**  | **113** | **Rafael Calcada & Andre Reis** | **Priority Cuts** |
+|  **Multiplier**  |  **128**  | **128**  | **4584**  | **124** | **A. Grosnit et al.** | **BOiLS** |
 |  **Sine**  |  **24**  | **25**  | **1202**  | **60** | **Xing Li et al.**   | **HIMap** |
-|  Square-root  |  128  | 64  | 3027  | 1096 | Xing Li et al. | HIMap |
+|  **Square-root**  |  **128**  | **64**  | **3009**  | **1055** | **A. Grosnit et al.** | **BOiLS** |
 |  Square  | 64  | 128  | 3232  | 76 | L. Amaru et al. | LUT-optimization |
 
 **Random-Control Benchmarks**
@@ -23,7 +23,7 @@ The best LUT-6 implementations keep track of the best results of LUT-6 mapped be
 | Benchmark name | Inputs | Outputs | LUT-6 count | Levels | Authors | Method |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | 
 |  **Round-robin arbiter**  |  **256**   |  **129**   |  **304**   |  **80** | **L. Fan & C. Wu**   | **scaleSyn mapper** |
-|  Alu control unit   |  7  | 26   | 27   | 2  | Gai Liu & Zhiru Zhang |  PIMap |
+|  **Alu control unit**   |  **7**  | **26**   | **26** | **2**  | **A. Grosnit et al.** | **BOiLS** |
 |  Coding-cavlc    |  10  | 11   | 68   | 3  | L. Machado and J. Cortadella |  Support-Reducing Decomp |
 |  Decoder  | 8  | 256   | 264   | 2  | L. Machado and J. Cortadella |  Support-Reducing Decomp |
 |  I2c controller  |  147  | 142  | 200 | 10  | L. Machado and J. Cortadella |  Support-Reducing Decomp |
@@ -102,3 +102,4 @@ The best LUT-6 implementations keep track of the best results of LUT-6 mapped be
 | Longfei Fan and Chang Wu | Fudan University | scaleSyn mapper | Area-oriented technology mapping combined with pre- and post-mapping logic optimization methods in ABC |
 | Alessandro Tempia Calvino | EPFL | XAG optimization | Based on XAG optimization and post-mapping methods in ABC |
 | Rafael Calcada & Andre Reis | UFRGS | Priority Cut mapping | AIG optimization using commands 'dc2' and 'b -l' from [ABC](https://github.com/berkeley-abc/abc) followed by Priority Cut mapping with new heuristics for area and delay estimation |
+| Antoine Grosnit et al. | Huawei Noah's Ark Lab | BOiLS | Based on the optimization algorithm presented in [Antoine Grosnit, Cedric Malherbe, Rasul Tutunov, Xingchen Wan, Jun Wang, Haitham Bou Ammar: BOiLS: Bayesian Optimisation for Logic Synthesis. DATE, 2022.](https://arxiv.org/abs/2111.06178) |
