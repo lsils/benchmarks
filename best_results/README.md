@@ -5,33 +5,33 @@ The best LUT-6 implementations keep track of the best results of LUT-6 mapped be
 
 **Arithmetic Benchmarks** 
 
-| Benchmark name | Inputs | Outputs | LUT-6 count | Levels | Authors | Method |
-| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | 
-| **Adder** | **256**  | **129**  | **181** | **76** | **A. Grosnit et al.**   | **BOiLS** |
-| Barrel shifter  | 135 |128  | 512  |4  | R. K. Brayton & A. Mishchenko| ABC Extreme Mapper|
-| **Divisor**  | **128** | **128**   | **3134**   |  **1096**  | **A. Grosnit et al.**   | **BOiLS** |
-|  Hypotenuse  |  256  | 128   | 39826   | 4492  | L. Amaru et al.   | LUT-optimization |
-|  Log2  |  32  | 32  | 6513 | 132  | L. Amaru et al.   | LUT-optimization |
-|  Max  |  512  | 130  | 522  | 189 | E. Testa, L. Amaru et al. |  Boolean Methods |
-|  **Multiplier**  |  **128**  | **128**  | **4584**  | **124** | **A. Grosnit et al.**   | **BOiLS** |
-|  Sine  |  24  | 25  | 1205  | 61 | L. Amaru et al.   | LUT-optimization |
-|  **Square-root**  |  **128**  | **64**  | **3009**  | **1055** | **A. Grosnit et al.** | **BOiLS** |
-|  Square  | 64  | 128  | 3232  | 76 | L. Amaru et al. | LUT-optimization |
+| Benchmark name | Inputs | Outputs | LUT-6 count | Levels | Authors | Method             |
+| ------------- | ------------- | ------------- |-------------|--------| ------------- |--------------------| 
+| **Adder** | **256**  | **129**  | **180**     | **76** | **A. Grosnit et al.**   | **HyperBOiLS**     |
+| Barrel shifter  | 135 |128  | 512         | 4      | R. K. Brayton & A. Mishchenko| ABC Extreme Mapper |
+| **Divisor**  | **128** | **128**   | **3129**    | **1091** | **A. Grosnit et al.**   | **HyperBOiLS**     |
+|  Hypotenuse  |  256  | 128   | 39826       | 4492   | L. Amaru et al.   | LUT-optimization   |
+|  Log2  |  32  | 32  | 6513        | 132    | L. Amaru et al.   | LUT-optimization   |
+|  **Max**  |  **512**  | **130**  | **518**     | **193** | **A. Grosnit et al.**   | **HyperBOiLS**     |
+|  **Multiplier**  |  **128**  | **128**  | **4505**    | **104** | **A. Grosnit et al.**   | **HyperBOiLS**     |
+|  Sine  |  24  | 25  | 1205        | 61     | L. Amaru et al.   | LUT-optimization   |
+|  **Square-root**  |  **128**  | **64**  | **3004**    | **1058** | **A. Grosnit et al.** | **HyperBOiLS**          |
+|  Square  | 64  | 128  | 3232        | 76     | L. Amaru et al. | LUT-optimization   |
 
 **Random-Control Benchmarks**
 
-| Benchmark name | Inputs | Outputs | LUT-6 count | Levels | Authors | Method |
-| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | 
-|  **Round-robin arbiter**  |  **256**   |  **129**   |  **304**   |  **80** | **L. Fan & C. Wu**   | **scaleSyn mapper** |
-|  **Alu control unit**   |  **7**  | **26**   | **26**   | **2**  | **A. Grosnit et al.**   | **BOiLS** |
-|  Coding-cavlc    |  10  | 11   | 68   | 3  | L. Machado and J. Cortadella |  Support-Reducing Decomp |
-|  Decoder  | 8  | 256   | 264   | 2  | L. Machado and J. Cortadella |  Support-Reducing Decomp |
-|  I2c controller  |  147  | 142  | 200 | 10  | L. Machado and J. Cortadella |  Support-Reducing Decomp |
-|  Int to float converter |  11  | 7  | 24  | 4  | I. Lemberski, A. Suponenkovs |  Resubstitution |
-|  Memory controller  |  1204  | 1231  | 2019  | 21 | L. Amaru et al. | LUT-optimization |
-|  Priority encoder  |  128  | 8  | 100 | 26 | Xing Li et al. | HIMap |
-|  Lookahead XY router | 60 |30 |50 | 5|L. Machado and J. Cortadella|  Support-Reducing Decomp |
-|  **Voter** | **1001** | **1** | **1279** | **19**  | **L. Fan & C. Wu** | **scaleSyn mapper** |
+| Benchmark name | Inputs | Outputs | LUT-6 count | Levels | Authors | Method                  |
+| ------------- | ------------- | ------------- |----------|--------| ------------- |-------------------------| 
+|  **Round-robin arbiter**  |  **256**   |  **129**   | **304**  | **80** | **L. Fan & C. Wu**   | **scaleSyn mapper**     |
+|  **Alu control unit**   |  **7**  | **26**   | **26**   | **2**  | **A. Grosnit et al.**   | **HyperBOiLS**          |
+|  Coding-cavlc    |  10  | 11   | 68       | 3      | L. Machado and J. Cortadella | Support-Reducing Decomp |
+|  Decoder  | 8  | 256   | 264      | 2      | L. Machado and J. Cortadella | Support-Reducing Decomp |
+|  I2c controller  |  147  | 142  | 200      | 10     | L. Machado and J. Cortadella | Support-Reducing Decomp |
+|  Int to float converter |  11  | 7  | 24       | 4      | I. Lemberski, A. Suponenkovs | Resubstitution          |
+|  Memory controller  |  1204  | 1231  | 2019     | 21     | L. Amaru et al. | LUT-optimization        |
+|  Priority encoder  |  128  | 8  | 100      | 26     | Xing Li et al. | HIMap                   |
+|  Lookahead XY router | 60 |30 | 50       | 5      |L. Machado and J. Cortadella| Support-Reducing Decomp |
+|  **Voter** | **1001** | **1** | **1254** | **15** | **A. Grosnit et al.** | **HyperBOiLS**          |
 
 **MtM Benchmarks** 
 
@@ -46,33 +46,33 @@ The best LUT-6 implementations keep track of the best results of LUT-6 mapped be
 
 **Arithmetic Benchmarks** 
 
-| Benchmark name | Inputs | Outputs | LUT-6 count | Levels | Authors | Method |
-| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | 
-| Adder | 256  | 129  | 379  | 5 | S. Jang and A. Mishchenko | iMap |
-| Barrel shifter  | 135 |128  | 512  |4  | R. K. Brayton & A. Mishchenko|ABC Extreme Mapper|
-| Divisor  | 128 | 128  | 29369 | 197 | Xing Li et al. | HIMap |
-| Hypotenuse | 256 | 128  | 144809 | 501 | Xing Li et al. | HIMap |
-|  **Log2**  | **32**  | **32**  | **8894** | **52**  |  **A. Tempia Calvino** | **XAG optimization** |
-|  **Max** |  **512**  | **130**  | **1569** | **7** |  **A. Grosnit et al.**   | **BOiLS** |
-| **Multiplier** | **128** | **128** | **13670** | **25** | **A. Tempia Calvino** | **XAG optimization** |
-|  Sine  |  24  | 25  | 683103  | 10 | S. Jang and A. Mishchenko | iMap |
-|  **Square-root**  |  **128**  | **64**  | **29958**  | **187** | **A. Grosnit et al.** | **BOiLS** |
-|  **Square**  |  **64**  | **128**  | **4021**  | **10** | **A. Tempia Calvino** | **XAG optimization** |
+| Benchmark name | Inputs | Outputs | LUT-6 count | Levels  | Authors | Method |
+| ------------- | ------------- | ------------- |-------------|---------| ------------- | ------------- | 
+| Adder | 256  | 129  | 379         | 5       | S. Jang and A. Mishchenko | iMap |
+| Barrel shifter  | 135 |128  | 512         | 4       | R. K. Brayton & A. Mishchenko|ABC Extreme Mapper|
+| Divisor  | 128 | 128  | 29369       | 197     | Xing Li et al. | HIMap |
+| **Hypotenuse** | **256** | **128**  | **161625**  | **499** |  **A. Grosnit et al.**   | **HyperBOiLS** |
+|  **Log2**  | **32**  | **32**  | **8894**    | **52**  |  **A. Tempia Calvino** | **XAG optimization** |
+|  **Max** |  **512**  | **130**  | **1569**    | **7**   |  **A. Grosnit et al.**   | **HyperBOiLS** |
+| **Multiplier** | **128** | **128** | **13670**   | **25**  | **A. Tempia Calvino** | **XAG optimization** |
+|  Sine  |  24  | 25  | 683103      | 10      | S. Jang and A. Mishchenko | iMap |
+|  **Square-root**  |  **128**  | **64**  | **42207**   | **173** | **A. Grosnit et al.** | **HyperBOiLS** |
+|  **Square**  |  **64**  | **128**  | **4021**    | **10**  | **A. Tempia Calvino** | **XAG optimization** |
 
 **Random-Control Benchmarks**
 
 | Benchmark name | Inputs | Outputs | LUT-6 count | Levels | Authors | Method |
-| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | 
+| ------------- | ------------- | ------------- |----------| ------------- | ------------- | ------------- | 
 |  Round-robin arbiter | 256 | 129  | 1162  | 5 | Xing Li et al. | HIMap |
-|  **Alu control unit**   |  **7**  | **26**   | **26**   | **2**  | **A. Grosnit et al.**   | **BOiLS** |
+|  **Alu control unit**   |  **7**  | **26**   | **26**   | **2**  | **A. Grosnit et al.**   | **HyperBOiLS** |
 |  Coding-cavlc    |  10  | 11   | 68   | 3 |  L. Machado and J. Cortadella |  Support-Reducing Decomp |
-|  Decoder  | 8  | 256   | 264   | 2  | L. Machado and J. Cortadella | Support-Reducing Decomp |
-|  **I2c controller**  |  **147**  | **142**  | **221** | **3** |  **L. Fan & C. Wu**   | **scaleSyn mapper** |
-|  Int to float converter  |  11  | 7  | 27  | 3  |  L. Machado and J. Cortadella |  Support-Reducing Decomp |
-|  Memory controller  |  1204  | 1231  | 2225  | 6 | L. Machado and J. Cortadella |  Support-Reducing Decomp |
-|  **Priority encoder**  | **128** | **8**  | **132** | **4** |  **Xing Li et al.** | **HIMap** |
-|  Lookahead XY router | 60 | 30 | 56 | 3 | S. Jang and A. Mishchenko | iMap |
-|  **Voter**  |  **1001**  | **1**  | **1464**  | **11** | **A. Grosnit et al.** | **BOiLS** |
+|  Decoder  | 8  | 256   | 264      | 2  | L. Machado and J. Cortadella | Support-Reducing Decomp |
+|  **I2c controller**  |  **147**  | **142**  | **221**  | **3** |  **L. Fan & C. Wu**   | **scaleSyn mapper** |
+|  Int to float converter  |  11  | 7  | 27       | 3  |  L. Machado and J. Cortadella |  Support-Reducing Decomp |
+|  Memory controller  |  1204  | 1231  | 2225     | 6 | L. Machado and J. Cortadella |  Support-Reducing Decomp |
+|  **Priority encoder**  | **128** | **8**  | **132**  | **4** |  **Xing Li et al.** | **HIMap** |
+|  Lookahead XY router | 60 | 30 | 56       | 3 | S. Jang and A. Mishchenko | iMap |
+|  **Voter**  |  **1001**  | **1**  | **1448** | **11** | **A. Grosnit et al.** | **HyperBOiLS** |
 
 **MtM Benchmarks** 
 
@@ -101,4 +101,4 @@ The best LUT-6 implementations keep track of the best results of LUT-6 mapped be
 | S. Jang and A. Mishchenko | UC Berkeley | iMap | A portfolio logic synthesis system based on [ABC](https://github.com/berkeley-abc/abc) |
 | Longfei Fan and Chang Wu | Fudan University | scaleSyn mapper | Area-oriented technology mapping combined with pre- and post-mapping logic optimization methods in ABC |
 | Alessandro Tempia Calvino | EPFL | XAG optimization | Based on XAG optimization and post-mapping methods in ABC |
-| Antoine Grosnit et al. | Huawei Noah's Ark Lab | BOiLS | Based on the optimization algorithm presented in [Antoine Grosnit, Cedric Malherbe, Rasul Tutunov, Xingchen Wan, Jun Wang, Haitham Bou Ammar: BOiLS: Bayesian Optimisation for Logic Synthesis. DATE, 2022.](https://arxiv.org/abs/2111.06178) |
+| Antoine Grosnit et al. | Huawei Noah's Ark Lab | HyperBOiLS | Based on the optimization algorithm presented in [Antoine Grosnit, Cedric Malherbe, Rasul Tutunov, Xingchen Wan, Jun Wang, Haitham Bou Ammar: BOiLS: Bayesian Optimisation for Logic Synthesis. DATE, 2022.](https://arxiv.org/abs/2111.06178) |
