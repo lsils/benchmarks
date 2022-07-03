@@ -7,14 +7,14 @@ The best LUT-6 implementations keep track of the best results of LUT-6 mapped be
 
 | Benchmark name | Inputs | Outputs | LUT-6 count | Levels | Authors | Method |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | 
-| **Adder** | **256**  | **129**  | **185** | **119** | **L. Fan & C. Wu**   | **scaleSyn mapper** |
+| **Adder** | **256**  | **129**  | **134** | **121** | **Chang Feng et al.**   | **BSBO** |
 | Barrel shifter  | 135 |128  | 512  |4  | R. K. Brayton & A. Mishchenko| ABC Extreme Mapper|
 | Divisor  | 128 | 128   | 3248   |  1194  | Xing Li et al. | HIMap |
 |  Hypotenuse  |  256  | 128   | 39826   | 4492  | L. Amaru et al.   | LUT-optimization |
-|  Log2  |  32  | 32  | 6513 | 132  | L. Amaru et al.   | LUT-optimization |
+| **Log2**  |  **32**  | **32**  | **6489** | **129** | **Chang Feng et al.**   | **BSBO** |
 |  Max  |  512  | 130  | 522  | 189 | E. Testa, L. Amaru et al. |  Boolean Methods |
-|  **Multiplier**  |  **128**  | **128**  | **4792**  | **114** | **L. Fan & C. Wu**   | **scaleSyn mapper** |
-|  Sine  |  24  | 25  | 1205  | 61 | L. Amaru et al.   | LUT-optimization |
+| **Multiplier**  |  **128**  | **128**  | **4792**  | **114** | **L. Fan & C. Wu**   | **scaleSyn mapper** |
+| **Sine**  |  **24**  | **25**  | **1200**  | **60** | **Chang Feng et al.**   | **BSBO** |
 |  Square-root  |  128  | 64  | 3027  | 1096 | Xing Li et al. | HIMap |
 |  Square  | 64  | 128  | 3232  | 76 | L. Amaru et al. | LUT-optimization |
 
@@ -22,7 +22,7 @@ The best LUT-6 implementations keep track of the best results of LUT-6 mapped be
 
 | Benchmark name | Inputs | Outputs | LUT-6 count | Levels | Authors | Method |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | 
-|  **Round-robin arbiter**  |  **256**   |  **129**   |  **304**   |  **80** | **L. Fan & C. Wu**   | **scaleSyn mapper** |
+|  **Round-robin arbiter**  |  **256**   |  **129**   |  **299**   |  **80**  | **Chang Feng et al.**   | **BSBO** |
 |  Alu control unit   |  7  | 26   | 27   | 2  | Gai Liu & Zhiru Zhang |  PIMap |
 |  Coding-cavlc    |  10  | 11   | 68   | 3  | L. Machado and J. Cortadella |  Support-Reducing Decomp |
 |  Decoder  | 8  | 256   | 264   | 2  | L. Machado and J. Cortadella |  Support-Reducing Decomp |
@@ -31,7 +31,7 @@ The best LUT-6 implementations keep track of the best results of LUT-6 mapped be
 |  Memory controller  |  1204  | 1231  | 2019  | 21 | L. Amaru et al. | LUT-optimization |
 |  Priority encoder  |  128  | 8  | 100 | 26 | Xing Li et al. | HIMap |
 |  Lookahead XY router | 60 |30 |50 | 5|L. Machado and J. Cortadella|  Support-Reducing Decomp |
-|  **Voter** | **1001** | **1** | **1279** | **19**  | **L. Fan & C. Wu** | **scaleSyn mapper** |
+|  **Voter** | **1001** | **1** | **1275** | **19**  | **Chang Feng et al.**   | **BSBO** |
 
 **MtM Benchmarks** 
 
@@ -48,22 +48,22 @@ The best LUT-6 implementations keep track of the best results of LUT-6 mapped be
 
 | Benchmark name | Inputs | Outputs | LUT-6 count | Levels | Authors | Method |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | 
-| Adder | 256  | 129  | 379  | 5 | S. Jang and A. Mishchenko | iMap |
+|**Adder** |  **256**  |  **129**  | **378**  | **5** | **Chang Feng et al.**   | **BSBO** |
 | Barrel shifter  | 135 |128  | 512  |4  | R. K. Brayton & A. Mishchenko|ABC Extreme Mapper|
 | Divisor  | 128 | 128  | 29369 | 197 | Xing Li et al. | HIMap |
 | Hypotenuse | 256 | 128  | 144809 | 501 | Xing Li et al. | HIMap |
-|  **Log2**  | **32**  | **32**  | **8894** | **52**  |  **A. Tempia Calvino** | **XAG optimization** |
+|  **Log2**  | **32**  | **32**  | **8781** | **52** | **Chang Feng et al.**   | **BSBO** |
 |  Max |  512  | 130  | 811 | 10 |  S. Jang and A. Mishchenko | iMap |
-| **Multiplier** | **128** | **128** | **13670** | **25** | **A. Tempia Calvino** | **XAG optimization** |
-|  Sine  |  24  | 25  | 683103  | 10 | S. Jang and A. Mishchenko | iMap |
+| **Multiplier** | **128** | **128** | **12996** | **25** | **Chang Feng et al.**   | **BSBO** |
+| **Sine**  |  **24**  | **25** |  **681808**  | **10** | **Chang Feng et al.**   | **BSBO** |
 |  Square-root  |  128  | 64  | 25876  | 192 |  Xing Li et al. | HIMap |
-|  **Square**  |  **64**  | **128**  | **4021**  | **10** | **A. Tempia Calvino** | **XAG optimization** |
+|  **Square**  |  **64**  | **128**  | **4016**  | **10** | **Chang Feng et al.**   | **BSBO** |
 
 **Random-Control Benchmarks**
 
 | Benchmark name | Inputs | Outputs | LUT-6 count | Levels | Authors | Method |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | 
-|  Round-robin arbiter | 256 | 129  | 1162  | 5 | Xing Li et al. | HIMap |
+|  **Round-robin arbiter** | **256** | **129**  | **1159**  | **5** | **Chang Feng et al.**   | **BSBO** |
 |  Alu control unit   |  7  | 26   | 27   | 2  | Gai Liu & Zhiru Zhang |  PIMap |
 |  Coding-cavlc    |  10  | 11   | 68   | 3 |  L. Machado and J. Cortadella |  Support-Reducing Decomp |
 |  Decoder  | 8  | 256   | 264   | 2  | L. Machado and J. Cortadella | Support-Reducing Decomp |
@@ -72,7 +72,7 @@ The best LUT-6 implementations keep track of the best results of LUT-6 mapped be
 |  Memory controller  |  1204  | 1231  | 2225  | 6 | L. Machado and J. Cortadella |  Support-Reducing Decomp |
 |  **Priority encoder**  | **128** | **8**  | **132** | **4** |  **Xing Li et al.** | **HIMap** |
 |  Lookahead XY router | 60 | 30 | 56 | 3 | S. Jang and A. Mishchenko | iMap |
-|  Voter  |  1001  | 1  | 1386  | 12 | S. Jang and A. Mishchenko | iMap |
+|  **Voter**  |  **1001**  | **1**  | **1382**  | **12** | **Chang Feng et al.**   | **BSBO** |
 
 **MtM Benchmarks** 
 
@@ -101,3 +101,4 @@ The best LUT-6 implementations keep track of the best results of LUT-6 mapped be
 | S. Jang and A. Mishchenko | UC Berkeley | iMap | A portfolio logic synthesis system based on [ABC](https://github.com/berkeley-abc/abc) |
 | Longfei Fan and Chang Wu | Fudan University | scaleSyn mapper | Area-oriented technology mapping combined with pre- and post-mapping logic optimization methods in ABC |
 | Alessandro Tempia Calvino | EPFL | XAG optimization | Based on XAG optimization and post-mapping methods in ABC |
+| Chang Feng et al.   | Huawei Noah's Ark Lab | BSBO | Based on batch sequential black-box optimization | 
