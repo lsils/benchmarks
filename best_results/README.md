@@ -5,18 +5,18 @@ The best LUT-6 implementations keep track of the best results of LUT-6 mapped be
 
 **Arithmetic Benchmarks** 
 
-| Benchmark name | Inputs | Outputs | LUT-6 count | Levels | Authors | Method             |
-| ------------- | ------------- | ------------- |-------------|--------| ------------- |--------------------| 
-| **Adder** | **256**  | **129**  | **180**     | **76** | **A. Grosnit et al.**   | **HyperBOiLS**     |
-| Barrel shifter  | 135 |128  | 512         | 4      | R. K. Brayton & A. Mishchenko| ABC Extreme Mapper |
-| **Divisor**  | **128** | **128**   | **3129**    | **1091** | **A. Grosnit et al.**   | **HyperBOiLS**     |
-|  Hypotenuse  |  256  | 128   | 39826       | 4492   | L. Amaru et al.   | LUT-optimization   |
-|  Log2  |  32  | 32  | 6513        | 132    | L. Amaru et al.   | LUT-optimization   |
-|  **Max**  |  **512**  | **130**  | **518**     | **193** | **A. Grosnit et al.**   | **HyperBOiLS**     |
-|  **Multiplier**  |  **128**  | **128**  | **4505**    | **104** | **A. Grosnit et al.**   | **HyperBOiLS**     |
-|  Sine  |  24  | 25  | 1205        | 61     | L. Amaru et al.   | LUT-optimization   |
-|  **Square-root**  |  **128**  | **64**  | **3004**    | **1058** | **A. Grosnit et al.** | **HyperBOiLS**          |
-|  Square  | 64  | 128  | 3232        | 76     | L. Amaru et al. | LUT-optimization   |
+| Benchmark name | Inputs | Outputs | LUT-6 count | Levels   | Authors | Method             |
+| ------------- | ------------- | ------------- |-------------|----------| ------------- |--------------------| 
+| **Adder** | **256**  | **129**  | **180**     | **76**   | **A. Grosnit et al.**   | **HyperBOiLS**     |
+| Barrel shifter  | 135 |128  | 512         | 4        | R. K. Brayton & A. Mishchenko| ABC Extreme Mapper |
+| **Divisor**  | **128** | **128**   | **3105**    | **1105** | **A. Grosnit et al.**   | **HyperBOiLS**     |
+|  **Hypotenuse**  |  **256**  | **128**   | **39556**   | **4550** | **A. Grosnit et al.**   | **HyperBOiLS**     |
+|  **Log2**  |  **32**  | **32**  | **6447**    | **137**  | **A. Grosnit et al.**   | **HyperBOiLS**     |
+|  **Max**  |  **512**  | **130**  | **512**     | **193**  | **A. Grosnit et al.**   | **HyperBOiLS**     |
+|  **Multiplier**  |  **128**  | **128**  | **4505**    | **104**  | **A. Grosnit et al.**   | **HyperBOiLS**     |
+|  Sine  |  24  | 25  | 1205        | 61       | L. Amaru et al.   | LUT-optimization   |
+|  **Square-root**  |  **128**  | **64**  | **2996**    | **1119** | **A. Grosnit et al.** | **HyperBOiLS**          |
+|  Square  | 64  | 128  | 3232        | 76       | L. Amaru et al. | LUT-optimization   |
 
 **Random-Control Benchmarks**
 
