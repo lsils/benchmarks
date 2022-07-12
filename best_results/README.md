@@ -9,12 +9,12 @@ The best LUT-6 implementations keep track of the best results of LUT-6 mapped be
 | ------------- | ------------- | ------------- |-------------|----------|-------------------------------|--------------------| 
 | **Adder** | **256**  | **129**  | **134**     | **121**  | **A. Grosnit, C. Feng, X. Li, et al.**         | **NAILS**     |
 | Barrel shifter  | 135 |128  | 512         | 4        | R. K. Brayton & A. Mishchenko | ABC Extreme Mapper |
-| **Divisor**  | **128** | **128**   | **3105**    | **1090** | **A. Grosnit, C. Feng, X. Li, et al.**         | **NAILS**     |
+| **Divisor**  | **128** | **128**   | **3104**    | **1095** | **A. Grosnit, C. Feng, X. Li, et al.**         | **NAILS**     |
 |  **Hypotenuse**  |  **256**  | **128**   | **39556**   | **4550** | **A. Grosnit, C. Feng, X. Li, et al.**         | **NAILS**     |
 |  **Log2**  |  **32**  | **32**  | **6447**    | **137**  | **A. Grosnit, C. Feng, X. Li, et al.**         | **NAILS**     |
 |  **Max**  |  **512**  | **130**  | **512**     | **193**  | **A. Grosnit, C. Feng, X. Li, et al.**         | **NAILS**     |
 |  **Multiplier**  |  **128**  | **128**  | **4504**    | **104**  | **A. Grosnit, C. Feng, X. Li, et al.**         | **NAILS**     |
-|  **Sine**  |  **24**  | **25**  | **1200**        | **60**       | **A. Grosnit, C. Feng, X. Li, et al.**         | **NAILS**     |
+|  **Sine**  |  **24**  | **25**  | **1200**    | **60**   | **A. Grosnit, C. Feng, X. Li, et al.**         | **NAILS**     |
 |  **Square-root**  |  **128**  | **64**  | **2996**    | **1119** | **A. Grosnit, C. Feng, X. Li, et al.**         | **NAILS**          |
 |  Square  | 64  | 128  | 3232        | 76       | L. Amaru et al.               | LUT-optimization   |
 
@@ -77,9 +77,9 @@ The best LUT-6 implementations keep track of the best results of LUT-6 mapped be
 **MtM Benchmarks** 
 
 | Benchmark name | Inputs | Outputs | LUT-6 count | Levels  | Authors | Method |
-| ------------- | ------------- | ------------- | ------------- |---------| ------------- | ------------- | 
+| ------------- | ------------- | ------------- | ------------ |---------| ------------- | ------------- | 
 | **Sixteen** | **117**	|**50**|	**3809921**	| **16**  | **A. Grosnit, C. Feng, X. Li, et al.**    | **NAILS** |
-| **Twenty**  | **137**|**60**|	**4804529**| 	**15** | **A. Grosnit, C. Feng, X. Li, et al.**    | **NAILS** |
+| **Twenty**  | **137**|**60**|	**4735466**| 	**15** | **A. Grosnit, C. Feng, X. Li, et al.**    | **NAILS** |
 | **Twentythree**  |**153**|	**68** | **5735450** | **16**  | **A. Grosnit, C. Feng, X. Li, et al.**    | **NAILS** |
 
 ### List of Participants and Methods
