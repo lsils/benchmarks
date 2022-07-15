@@ -13,7 +13,7 @@ The best LUT-6 implementations keep track of the best results of LUT-6 mapped be
 |  **Hypotenuse**  |  **256**  | **128**   | **39556**   | **4550** | **A. Grosnit, C. Feng, X. Li, et al.**         | **NAILS**     |
 |  **Log2**  |  **32**  | **32**  | **6447**    | **137**  | **A. Grosnit, C. Feng, X. Li, et al.**         | **NAILS**     |
 |  **Max**  |  **512**  | **130**  | **512**     | **193**  | **A. Grosnit, C. Feng, X. Li, et al.**         | **NAILS**     |
-|  **Multiplier**  |  **128**  | **128**  | **4485**    | **109**  | **A. Grosnit, C. Feng, X. Li, et al.**         | **NAILS**     |
+|  **Multiplier**  |  **128**  | **128**  | **4436**    | **107**  | **A. Grosnit, C. Feng, X. Li, et al.**         | **NAILS**     |
 |  **Sine**  |  **24**  | **25**  | **1200**    | **60**   | **A. Grosnit, C. Feng, X. Li, et al.**         | **NAILS**     |
 |  **Square-root**  |  **128**  | **64**  | **2996**    | **1119** | **A. Grosnit, C. Feng, X. Li, et al.**         | **NAILS**          |
 |  Square  | 64  | 128  | 3232        | 76       | L. Amaru et al.               | LUT-optimization   |
@@ -78,7 +78,7 @@ The best LUT-6 implementations keep track of the best results of LUT-6 mapped be
 
 | Benchmark name | Inputs | Outputs | LUT-6 count | Levels  | Authors | Method |
 | ------------- | ------------- | ------------- | ------------ |---------| ------------- | ------------- | 
-| **Sixteen** | **117**	|**50**|	**3809921**	| **16**  | **A. Grosnit, C. Feng, X. Li, et al.**    | **NAILS** |
+| **Sixteen** | **117**	|**50**|	**3760546**	| **16**  | **A. Grosnit, C. Feng, X. Li, et al.**    | **NAILS** |
 | **Twenty**  | **137**|**60**|	**4735466**| 	**15** | **A. Grosnit, C. Feng, X. Li, et al.**    | **NAILS** |
 | **Twentythree**  |**153**|	**68** | **5735450** | **16**  | **A. Grosnit, C. Feng, X. Li, et al.**    | **NAILS** |
 
