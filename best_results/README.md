@@ -10,7 +10,7 @@ The best LUT-6 implementations keep track of the best results of LUT-6 mapped be
 | **Adder** | **256**  | **129**  | **134**     | **121**  | **A. Grosnit, C. Feng, X. Li, et al.**         | **NAILS**     |
 | Barrel shifter  | 135 |128  | 512         | 4        | R. K. Brayton & A. Mishchenko | ABC Extreme Mapper |
 | **Divisor**  | **128** | **128**   | **3104**    | **1095** | **A. Grosnit, C. Feng, X. Li, et al.**         | **NAILS**     |
-|  **Hypotenuse**  |  **256**  | **128**   | **39556**   | **4550** | **A. Grosnit, C. Feng, X. Li, et al.**         | **NAILS**     |
+|  **Hypotenuse**  |  **256**  | **128**   | **39516**   | **4560** | **A. Grosnit, C. Feng, X. Li, et al.**         | **NAILS**     |
 |  **Log2**  |  **32**  | **32**  | **6447**    | **137**  | **A. Grosnit, C. Feng, X. Li, et al.**         | **NAILS**     |
 |  **Max**  |  **512**  | **130**  | **512**     | **193**  | **A. Grosnit, C. Feng, X. Li, et al.**         | **NAILS**     |
 |  **Multiplier**  |  **128**  | **128**  | **4436**    | **107**  | **A. Grosnit, C. Feng, X. Li, et al.**         | **NAILS**     |
@@ -80,7 +80,7 @@ The best LUT-6 implementations keep track of the best results of LUT-6 mapped be
 | ------------- | ------------- | ------------- | ------------ |---------| ------------- | ------------- | 
 | **Sixteen** | **117**	|**50**|	**3760546**	| **16**  | **A. Grosnit, C. Feng, X. Li, et al.**    | **NAILS** |
 | **Twenty**  | **137**|**60**|	**4735466**| 	**15** | **A. Grosnit, C. Feng, X. Li, et al.**    | **NAILS** |
-| **Twentythree**  |**153**|	**68** | **5735450** | **16**  | **A. Grosnit, C. Feng, X. Li, et al.**    | **NAILS** |
+| **Twentythree**  |**153**|	**68** | **5548015** | **16**  | **A. Grosnit, C. Feng, X. Li, et al.**    | **NAILS** |
 
 ### List of Participants and Methods
 | Authors' name                       | Authors' affiliation | Synthesis method        | Description                                                                                                                                                                                                                                                                                                                                                                                                                                        |
