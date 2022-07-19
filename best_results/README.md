@@ -37,9 +37,9 @@ The best LUT-6 implementations keep track of the best results of LUT-6 mapped be
 
 | Benchmark name | Inputs | Outputs | LUT-6 count | Levels | Authors | Method |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | 
-| Sixteen | 117	|50|	5648909	|29| Original Benchmark| /|
-| Twenty  | 137|60|	7189658|	33 |Original Benchmark|/|
-| Twentythree  |153|	68 | 4936053 | 23 |R. K. Brayton & A. Mishchenko|ABC Extreme Mapper|
+| **Sixteen** | **117**	| **50** |	**3511769**	| **32** | **Rafael Calcada & Andre Reis** | **Priority Cuts** |
+| **Twenty**  | **137** | **60** |	**4393495** | **33** | **Rafael Calcada & Andre Reis** | **Priority Cuts** |
+| **Twentythree**  | **153** | **68** | **4908145** | **34** | **Rafael Calcada & Andre Reis** | **Priority Cuts** |
 
 
 ### Best results for LUT-6 levels
