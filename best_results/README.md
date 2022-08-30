@@ -7,31 +7,31 @@ The best LUT-6 implementations keep track of the best results of LUT-6 mapped be
 
 | Benchmark name | Inputs | Outputs | LUT-6 count | Levels | Authors | Method |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | 
-| **Adder** | **256**  | **129**  | **134** | **121** | **A. Grosnit, C. Feng, X. Li, et al.** | **NAILS** |
+| **Adder** | **256**  | **129**  | **129** | **127** | **T. Besson** | **ABC-DE: ABC Design Explorer** |
 | Barrel shifter  | 135 | 128  | 512  | 4  | R. K. Brayton & A. Mishchenko| ABC Extreme Mapper|
-| **Divisor**  | **128** | **128**   | **3104**   |  **1095**  | **A. Grosnit, C. Feng, X. Li, et al.** | **NAILS** |
+| **Divisor**  | **128** | **128**   | **3101**   |  **1110**  | **ABC-DE: ABC Design Explorer** |
 |  **Hypotenuse**  |  **256**  | **128**   | **39516**   | **4560**  | **A. Grosnit, C. Feng, X. Li, et al.** | **NAILS** |
-|  **Log2**  | **32**  | **32**  | **6447** | **137**  | **A. Grosnit, C. Feng, X. Li, et al.** | **NAILS** |
-|  **Max**  |  **512**  | **130**  | **512**  | **193** | **A. Grosnit, C. Feng, X. Li, et al.** | **NAILS** |
-|  **Multiplier**  |  **128**  | **128**  | **4436**  | **107** | **A. Grosnit, C. Feng, X. Li, et al.** | **NAILS** |
-|  **Sine**  |  **24**  | **25**  | **1198**  | **60** | **W. L. Neto, L. Amaru, et al.** | **Improved LUT optimization** |
-|  **Square-root**  |  **128**  | **64**  | **2996**  | **1119** | **A. Grosnit, C. Feng, X. Li, et al.** | **NAILS** |
-|  Square  | 64  | 128  | 3232  | 76 | L. Amaru et al. | LUT-optimization |
+|  **Log2**  | **32**  | **32**  | **6326** | **151**  | **ABC-DE: ABC Design Explorer** |
+|  **Max**  |  **512**  | **130**  | **511**  | **183** | **ABC-DE: ABC Design Explorer** |
+|  **Multiplier**  |  **128**  | **128**  | **4424**  | **168** | **ABC-DE: ABC Design Explorer** |
+|  **Sine**  |  **24**  | **25**  | **1114**  | **62** | **ABC-DE: ABC Design Explorer** |
+|  **Square-root**  |  **128**  | **64**  | **2994**  | **1069** | **ABC-DE: ABC Design Explorer** |
+|  **Square**  | **64**  | **128**  | **3071**  | **108** | **ABC-DE: ABC Design Explorer** |
 
 **Random-Control Benchmarks**
 
 | Benchmark name | Inputs | Outputs | LUT-6 count | Levels | Authors | Method |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
-|  **Round-robin arbiter**  |  **256**   |  **129**   |  **299**   |  **80** | **A. Grosnit, C. Feng, X. Li, et al.** | **NAILS** |
+|  **Round-robin arbiter**  |  **256**   |  **129**   |  **276**   |  **30** | **ABC-DE: ABC Design Explorer** |
 |  **Alu control unit**   |  **7**  | **26**   | **26** | **2**  | **A. Grosnit, C. Feng, X. Li, et al.** | **NAILS** |
-|  **Coding-cavlc**    | **10**  | **11**   | **67**   | **3**  | **W. L. Neto, L. Amaru, et al.** | **Improved LUT optimization** |
+|  **Coding-cavlc**    | **10**  | **11**   | **54**   | **6**  | **ABC-DE: ABC Design Explorer** |
 |  Decoder  | 8  | 256   | 264   | 2  | L. Machado and J. Cortadella |  Support-Reducing Decomp |
-|  **I2c controller**  |  **147**  | **142**  | **198** | **12**  | **W. L. Neto, L. Amaru, et al.** | **Improved LUT optimization** |
-|  Int to float converter |  11  | 7  | 24  | 4  | I. Lemberski, A. Suponenkovs |  Resubstitution |
-|  **Memory controller**  |  **1204**  | **1231**  | **1986**  | **22** | **W. L. Neto, L. Amaru, et al.** | **Improved LUT optimization** |
-|  Priority encoder  |  128  | 8  | 100 | 26 | Xing Li et al. | HIMap |
-|  Lookahead XY router | 60 |30 |50 | 5|L. Machado and J. Cortadella|  Support-Reducing Decomp |
-|  **Voter** | **1001** | **1** | **1254** | **15**  | **A. Grosnit, C. Feng, X. Li, et al.** | **NAILS** |
+|  **I2c controller**  |  **147**  | **142**  | **182** | **7**  | **ABC-DE: ABC Design Explorer** |
+|  **Int to float converter** |  **11**  | **7**  | **20**  | **3**  | **ABC-DE: ABC Design Explorer** |
+|  **Memory controller**  |  **1204**  | **1231**  | **1735**  | **14** | **ABC-DE: ABC Design Explorer** |
+|  **Priority encoder**  |  **128**  | **8**  | **94** | **20** | **ABC-DE: ABC Design Explorer** |
+|  **Lookahead XY router** | **60** | **30** | **19** | **5** | **ABC-DE: ABC Design Explorer** |
+|  **Voter** | **1001** | **1** | **1239** | **23**  | **ABC-DE: ABC Design Explorer** |
 
 **MtM Benchmarks** 
 
@@ -48,7 +48,7 @@ The best LUT-6 implementations keep track of the best results of LUT-6 mapped be
 
 | Benchmark name | Inputs | Outputs | LUT-6 count | Levels | Authors | Method |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | 
-| **Adder** | **256**  | **129**  | **378**  | **5** | **A. Grosnit, C. Feng, X. Li, et al.** | **NAILS** |
+| **Adder** | **256**  | **129**  | **355**  | **5** | **ABC-DE: ABC Design Explorer** |
 | Barrel shifter  | 135 |128  | 512  |4  | R. K. Brayton & A. Mishchenko|ABC Extreme Mapper|
 | **Divisor**  | **128** | **128**  | **24426** | **179** | **A. Grosnit, C. Feng, X. Li, et al.** | **NAILS** |
 | **Hypotenuse** | **256** | **128**  | **177877** | **493** | **A. Grosnit, C. Feng, X. Li, et al.** | **NAILS** |
@@ -63,15 +63,15 @@ The best LUT-6 implementations keep track of the best results of LUT-6 mapped be
 
 | Benchmark name | Inputs | Outputs | LUT-6 count | Levels | Authors | Method |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | 
-|  **Round-robin arbiter** | **256** | **129**  | **1036**  | **5** | **A. Grosnit, C. Feng, X. Li, et al.** | **NAILS** |
+|  **Round-robin arbiter** | **256** | **129**  | **370**  | **5** | **ABC-DE: ABC Design Explorer** |
 |  **Alu control unit**   |  **7**  | **26** | **26**   | **2**  | **A. Grosnit, C. Feng, X. Li, et al.** | **NAILS** |
-|  Coding-cavlc    |  10  | 11   | 68   | 3 |  L. Machado and J. Cortadella |  Support-Reducing Decomp |
+|  **Coding-cavlc**    |  **10**  | **11**   | **60**   | **3** |  **ABC-DE: ABC Design Explorer** |
 |  Decoder  | 8  | 256   | 264   | 2  | L. Machado and J. Cortadella | Support-Reducing Decomp |
-|  **I2c controller**  |  **147**  | **142**  | **221** | **3** |  **L. Fan & C. Wu**   | **scaleSyn mapper** |
-|  Int to float converter  |  11  | 7  | 27  | 3  |  L. Machado and J. Cortadella |  Support-Reducing Decomp |
-|  **Memory controller**  |  **1204**  | **1231**  | **2203**  | **6** | **A. Grosnit, C. Feng, X. Li, et al.** | **NAILS** |
-|  **Priority encoder**  | **128** | **8**  | **132** | **4** |  **A. Grosnit, C. Feng, X. Li, et al.** | **NAILS** |
-|  Lookahead XY router | 60 | 30 | 56 | 3 | S. Jang and A. Mishchenko | iMap |
+|  **I2c controller**  |  **147**  | **142**  | **195** | **3** |  **ABC-DE: ABC Design Explorer** |
+|  **Int to float converter**  |  **11**  | **7**  | **20**  | **3**  |  **ABC-DE: ABC Design Explorer** |
+|  **Memory controller**  |  **1204**  | **1231**  | **1890**  | **5** | **ABC-DE: ABC Design Explorer** |
+|  **Priority encoder**  | **128** | **8**  | **119** | **4** |  **ABC-DE: ABC Design Explorer** |
+|  **Lookahead XY router** | **60** | **30** | **25** | **3** | **ABC-DE: ABC Design Explorer** |
 |  **Voter**  |  **1001**  | **1**  | **1447**  | **11** | **A. Grosnit, C. Feng, X. Li, et al.** | **NAILS** |
 
 **MtM Benchmarks** 
@@ -104,3 +104,4 @@ The best LUT-6 implementations keep track of the best results of LUT-6 mapped be
 | Rafael Calcada & Andre Reis | UFRGS | Priority Cut mapping | AIG optimization using commands 'dc2' and 'b -l' from [ABC](https://github.com/berkeley-abc/abc) followed by Priority Cut mapping with new heuristics for area and delay estimation |
 | A. Grosnit, C. Feng, X. Li, et al. | Huawei Noah's Ark Lab | NAILS | A collection of heuristic aided Bayesian Optimization and heuristic methods from AI4EDA team of Noah's Ark Lab |
 | W. L. Neto, L. Amaru, et al. | University of Utah and Synopsys | Improved LUT optimization | Improving LUT-based optimization for ASIC presented in [W. L. Neto, L. Amarú, V. Possani, P. Vuillod, J. Luo, A. Mishchenko, and P.E. Gaillardon: Improving LUT-based optimization for ASIC. DAC, 2022]()
+| T. Besson | Rapid Silicon | ABC-DE | ABC Design Exploration performing parallel exploration of incrementally built ABC scripts |
