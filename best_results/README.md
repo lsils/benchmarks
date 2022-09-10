@@ -10,7 +10,7 @@ The best LUT-6 implementations keep track of the best results of LUT-6 mapped be
 | **Adder** | **256**  | **129**  | **129** | **127** | **T. Besson** | **ABC-DE: ABC Design Explorer** |
 | Barrel shifter  | 135 | 128  | 512  | 4  | R. K. Brayton & A. Mishchenko| ABC Extreme Mapper|
 | **Divisor**  | **128** | **128**   | **3101**   |  **1110**  | **T. Besson** | **ABC-DE: ABC Design Explorer** |
-|  **Hypotenuse**  |  **256**  | **128**   | **39516**   | **4560**  | **A. Grosnit, C. Feng, X. Li, et al.** | **NAILS** |
+|  **Hypotenuse**  |  **256**  | **128**   | **39452**   | **4496**  | **T. Besson** | **ABC-DE: ABC Design Explorer** |
 |  **Log2**  | **32**  | **32**  | **6326** | **151**  | **T. Besson** | **ABC-DE: ABC Design Explorer** |
 |  **Max**  |  **512**  | **130**  | **511**  | **183** | **T. Besson** | **ABC-DE: ABC Design Explorer** |
 |  **Multiplier**  |  **128**  | **128**  | **4424**  | **168** | **T. Besson** | **ABC-DE: ABC Design Explorer** |
