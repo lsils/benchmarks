@@ -7,22 +7,22 @@ The best LUT-6 implementations keep track of the best results of LUT-6 mapped be
 
 | Benchmark name | Inputs | Outputs | LUT-6 count | Levels | Authors | Method |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | 
-| **Adder** | **256**  | **129**  | **129** | **127** | **T. Besson** | **ABC-DE: ABC Design Explorer** |
+| **Adder** | **256**  | **129**  | **129** | **126** | **T. Besson** | **ABC-DE: ABC Design Explorer** |
 | Barrel shifter  | 135 | 128  | 512  | 4  | R. K. Brayton & A. Mishchenko| ABC Extreme Mapper|
-| **Divisor**  | **128** | **128**   | **3101**   |  **1110**  | **T. Besson** | **ABC-DE: ABC Design Explorer** |
+| **Divisor**  | **128** | **128**   | **3096**   |  **1095**  | **T. Besson** | **ABC-DE: ABC Design Explorer** |
 |  **Hypotenuse**  |  **256**  | **128**   | **39452**   | **4496**  | **T. Besson** | **ABC-DE: ABC Design Explorer** |
-|  **Log2**  | **32**  | **32**  | **6326** | **151**  | **T. Besson** | **ABC-DE: ABC Design Explorer** |
+|  **Log2**  | **32**  | **32**  | **6133** | **199**  | **T. Besson** | **ABC-DE: ABC Design Explorer** |
 |  **Max**  |  **512**  | **130**  | **511**  | **183** | **T. Besson** | **ABC-DE: ABC Design Explorer** |
-|  **Multiplier**  |  **128**  | **128**  | **4424**  | **168** | **T. Besson** | **ABC-DE: ABC Design Explorer** |
+|  **Multiplier**  |  **128**  | **128**  | **4360**  | **163** | **T. Besson** | **ABC-DE: ABC Design Explorer** |
 |  **Sine**  |  **24**  | **25**  | **1114**  | **62** | **T. Besson** | **ABC-DE: ABC Design Explorer** |
 |  **Square-root**  |  **128**  | **64**  | **2994**  | **1069** | **T. Besson** | **ABC-DE: ABC Design Explorer** |
-|  **Square**  | **64**  | **128**  | **3071**  | **108** | **T. Besson** | **ABC-DE: ABC Design Explorer** |
+|  **Square**  | **64**  | **128**  | **3018**  | **123** | **T. Besson** | **ABC-DE: ABC Design Explorer** |
 
 **Random-Control Benchmarks**
 
 | Benchmark name | Inputs | Outputs | LUT-6 count | Levels | Authors | Method |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
-|  **Round-robin arbiter**  |  **256**   |  **129**   |  **276**   |  **30** | **T. Besson** | **ABC-DE: ABC Design Explorer** |
+|  **Round-robin arbiter**  |  **256**   |  **129**   |  **273**   |  **73** | **T. Besson** | **ABC-DE: ABC Design Explorer** |
 |  **Alu control unit**   |  **7**  | **26**   | **26** | **2**  | **A. Grosnit, C. Feng, X. Li, et al.** | **NAILS** |
 |  **Coding-cavlc**    | **10**  | **11**   | **54**   | **6**  | **T. Besson** | **ABC-DE: ABC Design Explorer** |
 |  Decoder  | 8  | 256   | 264   | 2  | L. Machado and J. Cortadella |  Support-Reducing Decomp |
@@ -31,15 +31,15 @@ The best LUT-6 implementations keep track of the best results of LUT-6 mapped be
 |  **Memory controller**  |  **1204**  | **1231**  | **1735**  | **14** | **T. Besson** | **ABC-DE: ABC Design Explorer** |
 |  **Priority encoder**  |  **128**  | **8**  | **94** | **20** | **T. Besson** | **ABC-DE: ABC Design Explorer** |
 |  **Lookahead XY router** | **60** | **30** | **19** | **5** | **T. Besson** | **ABC-DE: ABC Design Explorer** |
-|  **Voter** | **1001** | **1** | **1239** | **23**  | **T. Besson** | **ABC-DE: ABC Design Explorer** |
+|  **Voter** | **1001** | **1** | **1217** | **21**  | **T. Besson** | **ABC-DE: ABC Design Explorer** |
 
 **MtM Benchmarks** 
 
 | Benchmark name | Inputs | Outputs | LUT-6 count | Levels | Authors | Method |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | 
-| **Sixteen** | **117**	| **50** |	**3511769**	| **32** | **Rafael Calcada & Andre Reis** | **Priority Cuts** |
-| **Twenty**  | **137** | **60** |	**4393495** | **33** | **Rafael Calcada & Andre Reis** | **Priority Cuts** |
-| **Twentythree**  | **153** | **68** | **4908145** | **34** | **Rafael Calcada & Andre Reis** | **Priority Cuts** |
+| **Sixteen** | **117**	| **50** |	**3282958**	| **23** |  **T. Besson** | **ABC-DE: ABC Design Explorer** |
+| **Twenty**  | **137** | **60** |	**4166467** | **24** |  **T. Besson** | **ABC-DE: ABC Design Explorer** |
+| **Twentythree**  | **153** | **68** | **470892** | **25** |  **T. Besson** | **ABC-DE: ABC Design Explorer** |
 
 
 ### Best results for LUT-6 levels
@@ -48,7 +48,7 @@ The best LUT-6 implementations keep track of the best results of LUT-6 mapped be
 
 | Benchmark name | Inputs | Outputs | LUT-6 count | Levels | Authors | Method |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | 
-| **Adder** | **256**  | **129**  | **355**  | **5** | **T. Besson** | **ABC-DE: ABC Design Explorer** |
+| **Adder** | **256**  | **129**  | **348**  | **5** | **T. Besson** | **ABC-DE: ABC Design Explorer** |
 | Barrel shifter  | 135 |128  | 512  |4  | R. K. Brayton & A. Mishchenko|ABC Extreme Mapper|
 | **Divisor**  | **128** | **128**  | **24426** | **179** | **A. Grosnit, C. Feng, X. Li, et al.** | **NAILS** |
 | **Hypotenuse** | **256** | **128**  | **177877** | **493** | **A. Grosnit, C. Feng, X. Li, et al.** | **NAILS** |
@@ -78,9 +78,9 @@ The best LUT-6 implementations keep track of the best results of LUT-6 mapped be
 
 | Benchmark name | Inputs | Outputs | LUT-6 count | Levels | Authors | Method |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | 
-| **Sixteen** | **117**	| **50** |	**3760546**	| **16** | **A. Grosnit, C. Feng, X. Li, et al.** | **NAILS** |
-| **Twenty**  | **137** | **60** |	**4735466** | **15** | **A. Grosnit, C. Feng, X. Li, et al.** | **NAILS** |
-| **Twentythree** | **153** | **68** | **5548015** | **16** | **A. Grosnit, C. Feng, X. Li, et al.** | **NAILS** |
+| **Sixteen** | **117**	| **50** |	**3387001**	| **14** | **T. Besson** | **ABC-DE: ABC Design Explorer** |
+| **Twenty**  | **137** | **60** |	**4381634** | **14** |  **T. Besson** | **ABC-DE: ABC Design Explorer** |
+| **Twentythree** | **153** | **68** | **4913996** | **15** |  **T. Besson** | **ABC-DE: ABC Design Explorer** |
 
 ### List of Participants and Methods
 | Authors' name | Authors' affiliation | Synthesis method| Description |
