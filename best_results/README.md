@@ -21,17 +21,17 @@ The best LUT-6 implementations keep track of the best results of LUT-6 mapped be
 **Random-Control Benchmarks**
 
 | Benchmark name | Inputs | Outputs | LUT-6 count | Levels | Authors | Method |
-| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
-|  **Round-robin arbiter**  |  **256**   |  **129**   |  **273**   |  **73** | **T. Besson** | **ABC-DE: ABC Design Explorer** |
-|  **Alu control unit**   |  **7**  | **26**   | **26** | **2**  | **A. Grosnit, C. Feng, X. Li, et al.** | **NAILS** |
-|  **Coding-cavlc**    | **10**  | **11**   | **54**   | **6**  | **T. Besson** | **ABC-DE: ABC Design Explorer** |
-|  Decoder  | 8  | 256   | 264   | 2  | L. Machado and J. Cortadella |  Support-Reducing Decomp |
-|  **I2c controller**  |  **147**  | **142**  | **182** | **7**  | **T. Besson** | **ABC-DE: ABC Design Explorer** |
-|  **Int to float converter** |  **11**  | **7**  | **20**  | **3**  | **T. Besson** | **ABC-DE: ABC Design Explorer** |
-|  **Memory controller**  |  **1204**  | **1231**  | **1735**  | **14** | **T. Besson** | **ABC-DE: ABC Design Explorer** |
-|  **Priority encoder**  |  **128**  | **8**  | **94** | **20** | **T. Besson** | **ABC-DE: ABC Design Explorer** |
-|  **Lookahead XY router** | **60** | **30** | **19** | **5** | **T. Besson** | **ABC-DE: ABC Design Explorer** |
-|  **Voter** | **1001** | **1** | **1217** | **21**  | **T. Besson** | **ABC-DE: ABC Design Explorer** |
+| ------------- | ------------- | ------------- |-------------| ------------- | ------------- | ------------- |
+|  **Round-robin arbiter**  |  **256**   |  **129**   | **273**     |  **73** | **T. Besson** | **ABC-DE: ABC Design Explorer** |
+|  **Alu control unit**   |  **7**  | **26**   | **25**      | **2**  | **A. Grosnit, C. Feng, X. Li, et al.** | **NAILS** |
+|  **Coding-cavlc**    | **10**  | **11**   | **54**      | **6**  | **T. Besson** | **ABC-DE: ABC Design Explorer** |
+|  Decoder  | 8  | 256   | 264         | 2  | L. Machado and J. Cortadella |  Support-Reducing Decomp |
+|  **I2c controller**  |  **147**  | **142**  | **182**     | **7**  | **T. Besson** | **ABC-DE: ABC Design Explorer** |
+|  **Int to float converter** |  **11**  | **7**  | **20**      | **3**  | **T. Besson** | **ABC-DE: ABC Design Explorer** |
+|  **Memory controller**  |  **1204**  | **1231**  | **1735**    | **14** | **T. Besson** | **ABC-DE: ABC Design Explorer** |
+|  **Priority encoder**  |  **128**  | **8**  | **94**      | **20** | **T. Besson** | **ABC-DE: ABC Design Explorer** |
+|  **Lookahead XY router** | **60** | **30** | **19**      | **5** | **T. Besson** | **ABC-DE: ABC Design Explorer** |
+|  **Voter** | **1001** | **1** | **1217**    | **21**  | **T. Besson** | **ABC-DE: ABC Design Explorer** |
 
 **MtM Benchmarks** 
 
@@ -62,17 +62,17 @@ The best LUT-6 implementations keep track of the best results of LUT-6 mapped be
 **Random-Control Benchmarks**
 
 | Benchmark name | Inputs | Outputs | LUT-6 count | Levels | Authors | Method |
-| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | 
-|  **Round-robin arbiter** | **256** | **129**  | **370**  | **5** | **T. Besson** | **ABC-DE: ABC Design Explorer** |
-|  **Alu control unit**   |  **7**  | **26** | **26**   | **2**  | **A. Grosnit, C. Feng, X. Li, et al.** | **NAILS** |
-|  **Coding-cavlc**    |  **10**  | **11**   | **60**   | **3** |  **T. Besson** | **ABC-DE: ABC Design Explorer** |
-|  Decoder  | 8  | 256   | 264   | 2  | L. Machado and J. Cortadella | Support-Reducing Decomp |
-|  **I2c controller**  |  **147**  | **142**  | **195** | **3** | **T. Besson** | **ABC-DE: ABC Design Explorer** |
-|  **Int to float converter**  |  **11**  | **7**  | **20**  | **3**  |  **T. Besson** | **ABC-DE: ABC Design Explorer** |
-|  **Memory controller**  |  **1204**  | **1231**  | **1890**  | **5** | **T. Besson** | **ABC-DE: ABC Design Explorer** |
-|  **Priority encoder**  | **128** | **8**  | **119** | **4** |  **T. Besson** | **ABC-DE: ABC Design Explorer** |
-|  **Lookahead XY router** | **60** | **30** | **25** | **3** | **T. Besson** | **ABC-DE: ABC Design Explorer** |
-|  **Voter**  |  **1001**  | **1**  | **1447**  | **11** | **A. Grosnit, C. Feng, X. Li, et al.** | **NAILS** |
+| ------------- | ------------- | ------------- |-------------| ------------- | ------------- | ------------- | 
+|  **Round-robin arbiter** | **256** | **129**  | **370**     | **5** | **T. Besson** | **ABC-DE: ABC Design Explorer** |
+|  **Alu control unit**   |  **7**  | **26** | **25**      | **2**  | **A. Grosnit, C. Feng, X. Li, et al.** | **NAILS** |
+|  **Coding-cavlc**    |  **10**  | **11**   | **60**      | **3** |  **T. Besson** | **ABC-DE: ABC Design Explorer** |
+|  Decoder  | 8  | 256   | 264         | 2  | L. Machado and J. Cortadella | Support-Reducing Decomp |
+|  **I2c controller**  |  **147**  | **142**  | **195**     | **3** | **T. Besson** | **ABC-DE: ABC Design Explorer** |
+|  **Int to float converter**  |  **11**  | **7**  | **20**      | **3**  |  **T. Besson** | **ABC-DE: ABC Design Explorer** |
+|  **Memory controller**  |  **1204**  | **1231**  | **1890**    | **5** | **T. Besson** | **ABC-DE: ABC Design Explorer** |
+|  **Priority encoder**  | **128** | **8**  | **119**     | **4** |  **T. Besson** | **ABC-DE: ABC Design Explorer** |
+|  **Lookahead XY router** | **60** | **30** | **25**      | **3** | **T. Besson** | **ABC-DE: ABC Design Explorer** |
+|  **Voter**  |  **1001**  | **1**  | **1447**    | **11** | **A. Grosnit, C. Feng, X. Li, et al.** | **NAILS** |
 
 **MtM Benchmarks** 
 
