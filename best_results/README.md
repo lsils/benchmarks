@@ -7,39 +7,39 @@ The best LUT-6 implementations keep track of the best results of LUT-6 mapped be
 
 | Benchmark name | Inputs | Outputs | LUT-6 count | Levels | Authors | Method |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | 
-| **Adder** | **256**  | **129**  | **129** | **126** | **T. Besson** | **ABC-DE: ABC Design Explorer** |
+| Adder | 256  | 129  | 129 | 126 | T. Besson | ABC-DE: ABC Design Explorer |
 | Barrel shifter  | 135 | 128  | 512  | 4  | R. K. Brayton & A. Mishchenko| ABC Extreme Mapper|
-| **Divisor**  | **128** | **128**   | **3096**   |  **1095**  | **T. Besson** | **ABC-DE: ABC Design Explorer** |
-|  **Hypotenuse**  |  **256**  | **128**   | **39452**   | **4496**  | **T. Besson** | **ABC-DE: ABC Design Explorer** |
-|  **Log2**  | **32**  | **32**  | **6133** | **199**  | **T. Besson** | **ABC-DE: ABC Design Explorer** |
-|  **Max**  |  **512**  | **130**  | **511**  | **183** | **T. Besson** | **ABC-DE: ABC Design Explorer** |
-|  **Multiplier**  |  **128**  | **128**  | **4360**  | **163** | **T. Besson** | **ABC-DE: ABC Design Explorer** |
-|  **Sine**  |  **24**  | **25**  | **1114**  | **62** | **T. Besson** | **ABC-DE: ABC Design Explorer** |
-|  **Square-root**  |  **128**  | **64**  | **2994**  | **1069** | **T. Besson** | **ABC-DE: ABC Design Explorer** |
-|  **Square**  | **64**  | **128**  | **3018**  | **123** | **T. Besson** | **ABC-DE: ABC Design Explorer** |
+| **Divisor**  | **128** | **128**   | **3090**   |  **1100**  | **J. Yuan, J. Ye, et al.** | **EasyRL** |
+|  **Hypotenuse**  |  **256**  | **128**   | **39242**   | **4413**  | **J. Yuan, J. Ye, et al.** | **EasyRL** |
+|  **Log2**  | **32**  | **32**  | **6115** | **198**  | **J. Yuan, J. Ye, et al.** | **EasyRL** |
+|  **Max**  |  **512**  | **130**  | **511**  | **135** | **J. Yuan, J. Ye, et al.** | **EasyRL** |
+|  Multiplier  |  128  | 128  | 4360  | 163 | T. Besson | ABC-DE: ABC Design Explorer |
+|  **Sine**  |  **24**  | **25**  | **1087**  | **61** | **J. Yuan, J. Ye, et al.** | **EasyRL** |
+|  **Square-root**  |  **128**  | **64**  | **2991**  | **1112** | **J. Yuan, J. Ye, et al.** | **EasyRL** |
+|  **Square**  | **64**  | **128**  | **2976**  | **112** | **J. Yuan, J. Ye, et al.** | **EasyRL** |
 
 **Random-Control Benchmarks**
 
 | Benchmark name | Inputs | Outputs | LUT-6 count | Levels | Authors | Method |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
-|  **Round-robin arbiter**  |  **256**   |  **129**   |  **273**   |  **73** | **T. Besson** | **ABC-DE: ABC Design Explorer** |
-|  **Alu control unit**   |  **7**  | **26**   | **26** | **2**  | **A. Grosnit, C. Feng, X. Li, et al.** | **NAILS** |
-|  **Coding-cavlc**    | **10**  | **11**   | **54**   | **6**  | **T. Besson** | **ABC-DE: ABC Design Explorer** |
+|  **Round-robin arbiter**  |  **256**   |  **129**   |  **268**   |  **70** | **J. Yuan, J. Ye, et al.** | **EasyRL** |
+|  **Alu control unit**   |  **7**  | **26**   | **25** | **2**  | **J. Yuan, J. Ye, et al.** | **EasyRL** |
+|  Coding-cavlc    | 10  | 11   | 54   | 6  | T. Besson | ABC-DE: ABC Design Explorer |
 |  Decoder  | 8  | 256   | 264   | 2  | L. Machado and J. Cortadella |  Support-Reducing Decomp |
-|  **I2c controller**  |  **147**  | **142**  | **182** | **7**  | **T. Besson** | **ABC-DE: ABC Design Explorer** |
-|  **Int to float converter** |  **11**  | **7**  | **20**  | **3**  | **T. Besson** | **ABC-DE: ABC Design Explorer** |
-|  **Memory controller**  |  **1204**  | **1231**  | **1735**  | **14** | **T. Besson** | **ABC-DE: ABC Design Explorer** |
-|  **Priority encoder**  |  **128**  | **8**  | **94** | **20** | **T. Besson** | **ABC-DE: ABC Design Explorer** |
-|  **Lookahead XY router** | **60** | **30** | **19** | **5** | **T. Besson** | **ABC-DE: ABC Design Explorer** |
-|  **Voter** | **1001** | **1** | **1217** | **21**  | **T. Besson** | **ABC-DE: ABC Design Explorer** |
+|  **I2c controller**  |  **147**  | **142**  | **181** | **7**  | **J. Yuan, J. Ye, et al.** | **EasyRL** |
+|  Int to float converter |  11  | 7  | 20  | 3  | T. Besson | ABC-DE: ABC Design Explorer |
+|  **Memory controller**  |  **1204**  | **1231**  | **1725**  | **14** | **J. Yuan, J. Ye, et al.** | **EasyRL** |
+|  **Priority encoder**  |  **128**  | **8**  | **94** | **14** | **J. Yuan, J. Ye, et al.** | **EasyRL** |
+|  Lookahead XY router | 60 | 30 | 19 | 5 | T. Besson | ABC-DE: ABC Design Explorer |
+|  **Voter** | **1001** | **1** | **1209** | **21**  | **J. Yuan, J. Ye, et al.** | **EasyRL** |
 
 **MtM Benchmarks** 
 
 | Benchmark name | Inputs | Outputs | LUT-6 count | Levels | Authors | Method |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | 
-| **Sixteen** | **117**	| **50** |	**3282958**	| **23** |  **T. Besson** | **ABC-DE: ABC Design Explorer** |
-| **Twenty**  | **137** | **60** |	**4166467** | **24** |  **T. Besson** | **ABC-DE: ABC Design Explorer** |
-| **Twentythree**  | **153** | **68** | **470892** | **25** |  **T. Besson** | **ABC-DE: ABC Design Explorer** |
+| Sixteen | 117	| 50 |	3282958	| 23 |  T. Besson** | ABC-DE: ABC Design Explorer |
+| Twenty  | 137 | 60 |	4166467 | 24 |  T. Besson | ABC-DE: ABC Design Explorer |
+| Twentythree  | 153 | 68 | 470892 | 25 |  T. Besson** | ABC-DE: ABC Design Explorer |
 
 
 ### Best results for LUT-6 levels
@@ -48,39 +48,39 @@ The best LUT-6 implementations keep track of the best results of LUT-6 mapped be
 
 | Benchmark name | Inputs | Outputs | LUT-6 count | Levels | Authors | Method |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | 
-| **Adder** | **256**  | **129**  | **348**  | **5** | **T. Besson** | **ABC-DE: ABC Design Explorer** |
+| **Adder** | **256**  | **129**  | **347**  | **5** | **J. Yuan, J. Ye, et al.** | **EasyRL** |
 | Barrel shifter  | 135 |128  | 512  |4  | R. K. Brayton & A. Mishchenko|ABC Extreme Mapper|
-| **Divisor**  | **128** | **128**  | **24426** | **179** | **A. Grosnit, C. Feng, X. Li, et al.** | **NAILS** |
-| **Hypotenuse** | **256** | **128**  | **177877** | **493** | **A. Grosnit, C. Feng, X. Li, et al.** | **NAILS** |
-|  **Log2**  | **32**  | **32**  | **8781** | **52**  |  **A. Grosnit, C. Feng, X. Li, et al.** | **NAILS** |
-|  **Max** |  **512**  | **130**  | **1569** | **7** |  **A. Grosnit, C. Feng, X. Li, et al.** | **NAILS** |
-| **Multiplier** | **128** | **128** | **12996** | **25** | **A. Grosnit, C. Feng, X. Li, et al.** | **NAILS** |
-|  **Sine**  |  **24**  | **25**  | **681808**  | **10** | **A. Grosnit, C. Feng, X. Li, et al.** | **NAILS** |
-|  **Square-root**  |  **128**  | **64**  | **42207**  | **173** |  **A. Grosnit, C. Feng, X. Li, et al.** | **NAILS** |
-|  **Square**  |  **64**  | **128**  | **3947**  | **10** | **A. Grosnit, C. Feng, X. Li, et al.** | **NAILS** |
+| **Divisor**  | **128** | **128**  | **25318** | **175** | **J. Yuan, J. Ye, et al.** | **EasyRL** |
+| **Hypotenuse** | **256** | **128**  | **152922** | **492** | **J. Yuan, J. Ye, et al.** | **EasyRL** |
+|  **Log2**  | **32**  | **32**  | **8617** | **52**  |  **J. Yuan, J. Ye, et al.** | **EasyRL** |
+|  **Max** |  **512**  | **130**  | **1114** | **6** |  **J. Yuan, J. Ye, et al.** | **EasyRL** |
+| **Multiplier** | **128** | **128** | **7785** | **25** | **J. Yuan, J. Ye, et al.** | **EasyRL** |
+|  **Sine**  |  **24**  | **25**  | **680530**  | **10** | **J. Yuan, J. Ye, et al.** | **EasyRL** |
+|  **Square-root**  |  **128**  | **64**  | **29593**  | **162** | **J. Yuan, J. Ye, et al.** | **EasyRL** |
+|  **Square**  |  **64**  | **128**  | **3732**  | **10** | **J. Yuan, J. Ye, et al.** | **EasyRL** |
 
 **Random-Control Benchmarks**
 
 | Benchmark name | Inputs | Outputs | LUT-6 count | Levels | Authors | Method |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | 
-|  **Round-robin arbiter** | **256** | **129**  | **370**  | **5** | **T. Besson** | **ABC-DE: ABC Design Explorer** |
-|  **Alu control unit**   |  **7**  | **26** | **26**   | **2**  | **A. Grosnit, C. Feng, X. Li, et al.** | **NAILS** |
-|  **Coding-cavlc**    |  **10**  | **11**   | **60**   | **3** |  **T. Besson** | **ABC-DE: ABC Design Explorer** |
+|  Round-robin arbiter | 256 | 129  | 370  | 5 | T. Besson | ABC-DE: ABC Design Explorer |
+|  **Alu control unit**   |  **7**  | **26** | **25**   | **2**  | **J. Yuan, J. Ye, et al.** | **EasyRL** |
+|  Coding-cavlc    |  10  | 11 | 60   | 3 |  T. Besson | ABC-DE: ABC Design Explorer |
 |  Decoder  | 8  | 256   | 264   | 2  | L. Machado and J. Cortadella | Support-Reducing Decomp |
-|  **I2c controller**  |  **147**  | **142**  | **195** | **3** | **T. Besson** | **ABC-DE: ABC Design Explorer** |
-|  **Int to float converter**  |  **11**  | **7**  | **20**  | **3**  |  **T. Besson** | **ABC-DE: ABC Design Explorer** |
-|  **Memory controller**  |  **1204**  | **1231**  | **1890**  | **5** | **T. Besson** | **ABC-DE: ABC Design Explorer** |
-|  **Priority encoder**  | **128** | **8**  | **119** | **4** |  **T. Besson** | **ABC-DE: ABC Design Explorer** |
-|  **Lookahead XY router** | **60** | **30** | **25** | **3** | **T. Besson** | **ABC-DE: ABC Design Explorer** |
-|  **Voter**  |  **1001**  | **1**  | **1447**  | **11** | **A. Grosnit, C. Feng, X. Li, et al.** | **NAILS** |
+|  **I2c controller**  |  **147**  | **142**  | **194** | **3** | **J. Yuan, J. Ye, et al.** | **EasyRL** |
+|  Int to float converter  |  11  | 7  | 20  | 3  |  T. Besson | ABC-DE: ABC Design Explorer |
+|  **Memory controller**  |  **1204**  | **1231**  | **1884**  | **5** | **J. Yuan, J. Ye, et al.** | **EasyRL** |
+|  Priority encoder  | 128 | 8  | 119 | 4 |  T. Besson | ABC-DE: ABC Design Explorer |
+|  Lookahead XY router | 60 | 30 | 25 | 3 | T. Besson | ABC-DE: ABC Design Explorer |
+|  **Voter**  |  **1001**  | **1**  | **1363**  | **11** | **J. Yuan, J. Ye, et al.** | **EasyRL** |
 
 **MtM Benchmarks** 
 
 | Benchmark name | Inputs | Outputs | LUT-6 count | Levels | Authors | Method |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | 
-| **Sixteen** | **117**	| **50** |	**3387001**	| **14** | **T. Besson** | **ABC-DE: ABC Design Explorer** |
-| **Twenty**  | **137** | **60** |	**4381634** | **14** |  **T. Besson** | **ABC-DE: ABC Design Explorer** |
-| **Twentythree** | **153** | **68** | **4913996** | **15** |  **T. Besson** | **ABC-DE: ABC Design Explorer** |
+| Sixteen | 117	| 50 |	3387001	| 14 | T. Besson | ABC-DE: ABC Design Explorer |
+| Twenty  | 137 | 60 |	4381634 | 14 |  T. Besson | ABC-DE: ABC Design Explorer |
+| Twentythree | 153 | 68 | 4913996 | 15 |  T. Besson | ABC-DE: ABC Design Explorer |
 
 ### List of Participants and Methods
 | Authors' name | Authors' affiliation | Synthesis method| Description |
@@ -105,3 +105,4 @@ The best LUT-6 implementations keep track of the best results of LUT-6 mapped be
 | A. Grosnit, C. Feng, X. Li, et al. | Huawei Noah's Ark Lab | NAILS | A collection of heuristic aided Bayesian Optimization and heuristic methods from AI4EDA team of Noah's Ark Lab |
 | W. L. Neto, L. Amaru, et al. | University of Utah and Synopsys | Improved LUT optimization | Improving LUT-based optimization for ASIC presented in [W. L. Neto, L. Amarú, V. Possani, P. Vuillod, J. Luo, A. Mishchenko, and P.E. Gaillardon: Improving LUT-based optimization for ASIC. DAC, 2022](https://dl.acm.org/doi/abs/10.1145/3489517.3530461) |
 | T. Besson | Rapid Silicon | ABC-DE | ABC Design Exploration performing parallel exploration of incrementally built ABC scripts |
+| J. Yuan, J. Ye, et al. | Huawei Noah's Ark Lab and Shanghai Jiao Tong University | EasyRL | Reinforcement Learning based methods from AI4EDA team of Noah's Ark Lab and Shanghai Jiao Tong University |
