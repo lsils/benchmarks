@@ -12,10 +12,10 @@ Arithmetic Benchmarks
 | **Divisor**  | **128** | **128**   | **3091**   |  **1101**  | **T. Besson** | **ABC-DE: ABC Design Explorer** |
 |  **Hypotenuse**  |  **256**  | **128**   | **36836**   | **4384**  | **T. Besson** | **ABC-DE: ABC Design Explorer** |
 |  **Log2**  | **32**  | **32**  | **6122** | **201**  | **T. Besson** | **ABC-DE: ABC Design Explorer** |
-|  Max  |  512  | 130  | 511  | 183 | T. Besson | ABC-DE: ABC Design Explorer |
+|  **Max**  |  **512**  | **130**  | **511**  | **182** | **A. Grosnit, C. Feng, X. Li, et al.** | **NAILS** |
 |  **Multiplier**  |  **128**  | **128**  | **4347**  | **159** | **T. Besson** | **ABC-DE: ABC Design Explorer** |
 |  **Sine**  |  **24**  | **25**  | **1095**  | **61** | **T. Besson** | **ABC-DE: ABC Design Explorer** |
-|  Square-root  |  128  | 64  | 2994  | 1069 | T. Besson | ABC-DE: ABC Design Explorer |
+|  **Square-root**  |  **128**  | **64**  | **2993**  | **1082** | **A. Grosnit, C. Feng, X. Li, et al.** | **NAILS** |
 |  Square  | 64  | 128  | 3018  | 123 | T. Besson | ABC-DE: ABC Design Explorer |
 
 Random-Control Benchmarks
@@ -23,13 +23,13 @@ Random-Control Benchmarks
 | Benchmark name | Inputs | Outputs | LUT-6 count | Levels | Authors | Method |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
 |  **Round-robin arbiter**  |  **256**   |  **129**   |  **269**   |  **39** | **T. Besson** | **ABC-DE: ABC Design Explorer** |
-|  Alu control unit   |  7  | 26   | 26 | 2  | A. Grosnit, C. Feng, X. Li, et al. | NAILS |
+|  **Alu control unit**   |  **7**  | **26**   | **25** | **2**  | **A. Grosnit, C. Feng, X. Li, et al.** | **NAILS** |
 |  **Coding-cavlc**    | **10**  | **11**   | **53**   | **4**  | **T. Besson** | **ABC-DE: ABC Design Explorer** |
 |  Decoder  | 8  | 256   | 264   | 2  | L. Machado and J. Cortadella |  Support-Reducing Decomp |
 |  I2c controller  |  147  | 142  | 182 | 7  | T. Besson | ABC-DE: ABC Design Explorer |
 |  Int to float converter |  11  | 7  | 20  | 3  | T. Besson | ABC-DE: ABC Design Explorer |
 |  **Memory controller**  |  **1204**  | **1231**  | **1708**  | **14** | **T. Besson** | **ABC-DE: ABC Design Explorer** |
-|  Priority encoder  |  128  | 8  | 94 | 20 | T. Besson | ABC-DE: ABC Design Explorer |
+|  **Priority encoder**  |  **128**  | **8**  | **94** | **19** | **A. Grosnit, C. Feng, X. Li, et al.** | **NAILS** |
 |  Lookahead XY router | 60 | 30 | 19 | 5 | T. Besson | ABC-DE: ABC Design Explorer |
 |  **Voter** | **1001** | **1** | **1199** | **25**  | **T. Besson** | **ABC-DE: ABC Design Explorer** |
 
@@ -50,21 +50,21 @@ Arithmetic Benchmarks
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | 
 | Adder | 256  | 129  | 348  | 5 | T. Besson | ABC-DE: ABC Design Explorer |
 | Barrel shifter  | 135 |128  | 512  |4  | R. K. Brayton & A. Mishchenko|ABC Extreme Mapper|
-| Divisor  | 128 | 128  | 24426 | 179 | A. Grosnit, C. Feng, X. Li, et al. | NAILS |
-| Hypotenuse | 256 | 128  | 177877 | 493 | A. Grosnit, C. Feng, X. Li, et al. | NAILS |
+| **Divisor**  | **128** | **128**  | **23709** | **179** | **A. Grosnit, C. Feng, X. Li, et al.** | **NAILS** |
+| **Hypotenuse** | **256** | **128**  | **182723** | **483** | **A. Grosnit, C. Feng, X. Li, et al.** | **NAILS** |
 |  Log2  | 32  | 32  | 8781 | 52  |  A. Grosnit, C. Feng, X. Li, et al. | NAILS |
-|  Max |  512  | 130  | 1569 | 7 |  A. Grosnit, C. Feng, X. Li, et al. | NAILS |
-| Multiplier | 128 | 128 | 12996 | 25 | A. Grosnit, C. Feng, X. Li, et al. | NAILS |
+|  **Max** |  **512**  | **130**  | **1196** | **7** |  **A. Grosnit, C. Feng, X. Li, et al.** | **NAILS** |
+| **Multiplier** | **128** | **128** | **12624** | **25** | **A. Grosnit, C. Feng, X. Li, et al.** | **NAILS** |
 |  Sine  |  24  | 25  | 681808  | 10 | A. Grosnit, C. Feng, X. Li, et al. | NAILS |
-|  Square-root  |  128  | 64  | 42207  | 173 |  A. Grosnit, C. Feng, X. Li, et al. | NAILS |
-|  Square  |  64  | 128  | 3947  | 10 | A. Grosnit, C. Feng, X. Li, et al. | NAILS |
+|  **Square-root**  |  **128**  | **64**  | **40136**  | **173** |  **A. Grosnit, C. Feng, X. Li, et al.** | **NAILS** |
+|  **Square**  |  **64**  | **128**  | **3830**  | **10** | **A. Grosnit, C. Feng, X. Li, et al.** | **NAILS** |
 
 Random-Control Benchmarks
 
 | Benchmark name | Inputs | Outputs | LUT-6 count | Levels | Authors | Method |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | 
 |  Round-robin arbiter | 256 | 129  | 370  | 5 | T. Besson | ABC-DE: ABC Design Explorer |
-|  Alu control unit   |  7  | 26 | 26   | 2  | A. Grosnit, C. Feng, X. Li, et al. | NAILS |
+|  **Alu control unit**   |  **7**  | **26** | **25**   | **2**  | **A. Grosnit, C. Feng, X. Li, et al.** | **NAILS** |
 |  Coding-cavlc    |  10  | 11   | 60   | 3 |  T. Besson | ABC-DE: ABC Design Explorer |
 |  Decoder  | 8  | 256   | 264   | 2  | L. Machado and J. Cortadella | Support-Reducing Decomp |
 |  **I2c controller**  |  **147**  | **142**  | **193** | **3** | **T. Besson** | **ABC-DE: ABC Design Explorer** |
