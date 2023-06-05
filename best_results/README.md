@@ -106,4 +106,4 @@ MtM Benchmarks
 | W. L. Neto, L. Amaru, et al. | University of Utah and Synopsys | Improved LUT optimization | Improving LUT-based optimization for ASIC presented in [W. L. Neto, L. Amarú, V. Possani, P. Vuillod, J. Luo, A. Mishchenko, and P.E. Gaillardon: Improving LUT-based optimization for ASIC. DAC, 2022](https://dl.acm.org/doi/abs/10.1145/3489517.3530461) |
 | T. Besson | Rapid Silicon | ABC-DE | ABC Design Exploration performing parallel exploration of incrementally built ABC scripts |
 | J. Yuan, J. Ye, et al. | Huawei Noah's Ark Lab and Shanghai Jiao Tong University | EasyRL | Reinforcement Learning-based methods |
-| F. Reichl, F. Slivovsky, S. Szeider | TU Wien | Exact Subcircuit Synthesis | QBF and SAT-based exact synthesis of subcircuits. |
+| F. Reichl, F. Slivovsky, S. Szeider | TU Wien | Exact Subcircuit Synthesis | QBF and SAT-based exact synthesis of subcircuits |
