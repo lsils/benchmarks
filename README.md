@@ -65,3 +65,6 @@ Also the methodology used to optimize/map the circuits needs to be specified. We
 
 ## References 
 The EPFL combinational benchmarks are explained in the paper [The EPFL Combinational Benchmark Suite](https://infoscience.epfl.ch/record/207551/files/IWLS15.pdf), presented at the [International Workshop on Logic Synthesis 2015](http://www.iwls.org/iwls2015/)
+
+**Other benchmark sets**
+Multi-output PLA benchmarks are a set of 9 multiple-output PLA tables taken from an instruction decoder. These PLA files were used in the paper [B. Schmitt, A. Mishchenko, V. Kravets, R. Brayton, and A. Reis, "Fast-extract with cube hashing", Proc. ASP-DAC'17](https://people.eecs.berkeley.edu/~alanmi/publications/2017/aspdac17_fxch.pdf) and can be downloaded at [https://people.eecs.berkeley.edu/~alanmi/benchmarks/table_ex/](https://people.eecs.berkeley.edu/~alanmi/benchmarks/table_ex/)

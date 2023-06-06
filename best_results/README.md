@@ -30,7 +30,7 @@ Random-Control Benchmarks
 |  **Int to float converter** |  **11**  | **7**  | **19**  | **5**  | **F. Reichl, F. Slivovsky, S. Szeider** | **Exact Subcircuit Synthesis** |
 |  **Memory controller**  |  **1204**  | **1231**  | **1708**  | **14** | **T. Besson** | **ABC-DE: ABC Design Explorer** |
 |  **Priority encoder**  |  **128**  | **8**  | **93** | **30** | **F. Reichl, F. Slivovsky, S. Szeider** | **Exact Subcircuit Synthesis** |
-|  Lookahead XY router | 60 | 30 | 19 | 5 | T. Besson | ABC-DE: ABC Design Explorer |
+|  **Lookahead XY router** | **60** | **30** | **19** | **5** | **T. Besson** | **ABC-DE: ABC Design Explorer** |
 |  **Voter** | **1001** | **1** | **1180** | **30**  | **F. Reichl, F. Slivovsky, S. Szeider** | **Exact Subcircuit Synthesis** |
 
 MtM Benchmarks 
@@ -106,4 +106,4 @@ MtM Benchmarks
 | W. L. Neto, L. Amaru, et al. | University of Utah and Synopsys | Improved LUT optimization | Improving LUT-based optimization for ASIC presented in [W. L. Neto, L. Amarú, V. Possani, P. Vuillod, J. Luo, A. Mishchenko, and P.E. Gaillardon: Improving LUT-based optimization for ASIC. DAC, 2022](https://dl.acm.org/doi/abs/10.1145/3489517.3530461) |
 | T. Besson | Rapid Silicon | ABC-DE | ABC Design Exploration performing parallel exploration of incrementally built ABC scripts |
 | J. Yuan, J. Ye, et al. | Huawei Noah's Ark Lab and Shanghai Jiao Tong University | EasyRL | Reinforcement Learning-based methods |
-| F. Reichl, F. Slivovsky, S. Szeider | TU Wien | Exact Subcircuit Synthesis | QBF and SAT-based exact synthesis of subcircuits |
+| F. Reichl, F. Slivovsky, S. Szeider | TU Wien | Exact Subcircuit Synthesis | QBF and SAT-based exact synthesis of subcircuits applied to previous best results |
