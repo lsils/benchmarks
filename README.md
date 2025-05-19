@@ -38,7 +38,7 @@ LUT-6 mapping experiments for the random/control EPFL combinational benchmarks a
 | Voter | 1001 |1 |2691 |16|
 | **Total** | 2832 |1841 |18660 |112|
 
-**More than ten Miliong gates (MtM) Benchmarks**  
+**More than ten Million gates (MtM) Benchmarks**  
 The EPFL benchmark suite has 3 MtM benchmarks. These benchmarks are designed to challenge the size capacity of modern optimization tools; they are extracted from a set of random Boolean functions, generated with a custom computer program, using as selection metric the implementation complexity. 
 LUT-6 mapping experiments for the MtM EPFL combinational benchmarks are listed in the following Table. They are performed using [ABC]( https://github.com/berkeley-abc/abc) academic tool, with the mapping command *if -K 6*.
 
@@ -64,7 +64,7 @@ Also the methodology used to optimize/map the circuits needs to be specified. We
 **The results presented above are NOT the best results, but they are the ORIGINAL benchmarks. All best known results can be found at the [tags on this repository](https://github.com/lsils/benchmarks/releases).**
 
 ## Submission deadline 2025
-The latest best results for the 2024 competition have been published. Results for the 2025 competition will be collected a few weeks before IWLS 2025, with more details to be announced later.
+June 1st, 2025, 23:59 (Anywhere on Earth). Submissions received after the deadline will not be considered for the 2025 competition, but will be evaluated as part of the 2026 cycle. Updated results, including any improvements over the current best-known implementations, will be announced at IWLS 2025 (June 12–13, 2025).
 
 ## References 
 The EPFL combinational benchmarks are explained in the paper [The EPFL Combinational Benchmark Suite](https://infoscience.epfl.ch/record/207551/files/IWLS15.pdf), presented at the [International Workshop on Logic Synthesis 2015](http://www.iwls.org/iwls2015/)
