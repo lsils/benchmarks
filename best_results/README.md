@@ -72,7 +72,7 @@ Random-Control Benchmarks
 |  **Memory controller**  |  **1204**  | **1231**  | **1764**  | **5** | **T. Besson** | **Tuned ABC-based scripts** |
 |  Priority encoder  | 128 | 8  | 119 | 4 |  T. Besson | ABC-DE: ABC Design Explorer |
 |  Lookahead XY router | 60 | 30 | 25 | 3 | T. Besson | ABC-DE: ABC Design Explorer |
-|  **Voter**  |  **1001**  | **1** | **1328**  | **11** | **T. Besson** | **Tuned ABC-based scripts** |
+|  **Voter**  |  **1001**  | **1** | **1329**  | **11** | **T. Besson** | **Tuned ABC-based scripts** |
 
 MtM Benchmarks 
 
@@ -111,5 +111,5 @@ MtM Benchmarks
 | A. Tempia Calvino et al. | EPFL and UC Berkeley | LUT mapping with Boolean decomposition | Based on the delay-driven LUT mapping algorithm with Boolean decomposition presented in [A. Tempia Calvino, A. Mishchenko, G. De Micheli, and R. Brayton: Practical Boolean Decomposition for Delay-driven LUT Mapping, IWLS, 2024](https://arxiv.org/pdf/2406.06241) |
 | A. Costamagna et al. | EPFL and UC Berkeley | Information graph-based resubstitution | Based on the paper A. Costamagna, A. Tempia Calvino, A. Mishchenko, and G. De Micheli: Area-Oriented Resubstitution For Networks of Look-Up Tables, IWLS, 2024 |
 | Z. Hu et al. | Ningbo University | Mixed structural choice-enhanced mapping | A mapping framework that combines multiple logic representations and evaluates candidate structures holistically, presented in [Z. Hu, H. Pan, Y. Xia, L. Wang, and Z. Chu: Mixed Structural Choice Operator: Enhancing Technology Mapping with Heterogeneous Representations, DAC, 2025](https://arxiv.org/pdf/2504.12824) |
-| G. Toms and N. Pepik | GT synthesis LLC | GTs technology | Area, power, wires and fan-out efficient optimization algorithms from GTs technology |
+| G. Toms and N. Pepik | GT synthesis LLC | GTs technology | An improved realization of the Ashenhurst–Curtis decomposition algorithm |
 | T. Besson | Zero ASIC Corp. | Tuned ABC-based scripts | Tuned and improved ABC-based scripts with incremental re-synthesis |
