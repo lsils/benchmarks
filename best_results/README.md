@@ -56,7 +56,7 @@ Arithmetic Benchmarks
 | **Max**         | **512** | **130** | **1008** | **6** | **T. Besson** | **Tuned ABC-based scripts** |
 | Multiplier      | 128  | 128  | 6488    | 25   | A. Tempia Calvino et al.      | LUT mapping with Boolean decomposition |
 | Sine            | 24   | 25   | 675550  | 10   | H. Wang and P. Wang           | EasyLS                                 |
-| Square-root     | 128  | 64   | 24421   | 153  | H. Wang and P. Wang           | EasyLS                                 |
+| Square-root     | 128  | 64   | 34421   | 153  | H. Wang and P. Wang           | EasyLS                                 |
 | Square          | 64   | 128  | 3700    | 10   | H. Wang and P. Wang           | EasyLS                                 |
 
 Random-Control Benchmarks
