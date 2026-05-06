@@ -64,7 +64,7 @@ Also the methodology used to optimize/map the circuits needs to be specified. We
 **The results presented above are NOT the best results, but they are the ORIGINAL benchmarks. All best known results can be found at the [tags on this repository](https://github.com/lsils/benchmarks/releases).**
 
 ## Submission cycle update
-The latest best results for the **2025 competition** have been published. For the **2026 cycle**, results will be collected a few weeks before **IWLS 2026**. Please stay tuned for future announcements regarding the next submission period.
+The latest best results for the **2025 competition** have been published. For the **2026 cycle**, results will be collected before **IWLS 2026**. Submissions are due by **May 15, 2026 (AoE)** via email or pull request.
 
 ## References 
 The EPFL combinational benchmarks are explained in the paper [The EPFL Combinational Benchmark Suite](https://infoscience.epfl.ch/record/207551/files/IWLS15.pdf), presented at the [International Workshop on Logic Synthesis 2015](http://www.iwls.org/iwls2015/)
