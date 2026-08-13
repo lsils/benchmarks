@@ -1,4 +1,4 @@
-# Best LUT-6 Implementations - 2025
+# Best LUT-6 Implementations - 2026
 The best LUT-6 implementations keep track of the best results of LUT-6 mapped benchmarks, both for size (# of LUTs) and depth (# of levels). 
 
 ### Best results for LUT-6 count
@@ -9,29 +9,29 @@ Arithmetic Benchmarks
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | 
 | Adder | 256  | 129  | 129 | 126 | T. Besson | ABC-DE: ABC Design Explorer |
 | Barrel shifter  | 135 | 128  | 512  | 4  | R. K. Brayton & A. Mishchenko| ABC Extreme Mapper|
-| Divisor  | 128 | 128   | 3085   |  1100  | A. Costamagna et al. | Information graph-based resubstitution |
-| **Hypotenuse**  |  **256**  | **128**   | **36505**   | **4573**  | **Z. Hu et al.** | **Mixed structural choice-enhanced mapping** |
-| Log2  | 32  | 32  | 6012 | 257  | A. Costamagna et al. | Information graph-based resubstitution |
+| **Divisor**  | **128** | **128**   | **3082**   |  **1528**  | **F.-X. Reichl and F. Slivovsky** | **SAT-based exact synthesis of subcircuits** |
+| **Hypotenuse**  |  **256**  | **128**   | **36451**   | **4899**  | **F.-X. Reichl and F. Slivovsky** | **SAT-based exact synthesis of subcircuits** |
+| **Log2**  | **32**  | **32**  | **5986** | **300**  | **F.-X. Reichl and F. Slivovsky** | **SAT-based exact synthesis of subcircuits** |
 | Max  |  512  | 130  | 511  | 134 | H. Wang and P. Wang | EasyLS  |
-| Multiplier  |  128  | 128  | 4314  | 208 | A. Costamagna et al. | Information graph-based resubstitution |
-| **Sine**  |  **24**  | **25**  | **1020**  | **107** | **Z. Hu et al.** | **Mixed structural choice-enhanced mapping** |
-| Square-root  |  128  | 64  | 2966  | 1185 | A. Costamagna et al. | Information graph-based resubstitution |
-| Square  | 64  | 128  | 2935  | 200 | A. Costamagna et al. | Information graph-based resubstitution |
+| **Multiplier**  |  **128**  | **128**  | **4282**  | **229** | **F.-X. Reichl and F. Slivovsky** | **SAT-based exact synthesis of subcircuits** |
+| **Sine**  |  **24**  | **25**  | **994**  | **115** | **F.-X. Reichl and F. Slivovsky** | **SAT-based exact synthesis of subcircuits** |
+| **Square-root**  |  **128**  | **64**  | **2958**  | **1440** | **F.-X. Reichl and F. Slivovsky** | **SAT-based exact synthesis of subcircuits** |
+| **Square**  | **64**  | **128**  | **2894**  | **192** | **F.-X. Reichl and F. Slivovsky** | **SAT-based exact synthesis of subcircuits** |
 
 Random-Control Benchmarks
 
 | Benchmark name | Inputs | Outputs | LUT-6 count | Levels | Authors | Method |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
-| Round-robin arbiter  |  256   |  129   |  261   |  93 | T. Besson | ABC-DE: ABC Design Explorer |
+| **Round-robin arbiter**  |  **256**   |  **129**   |  **259**   |  **93** | **A. Tempia Calvino et al.** | **Multiple-node Boolean optimization** |
 | Alu control unit   |  7  | 26   | 25 | 2  | A. Grosnit, C. Feng, X. Li, et al. | NAILS |
-| Coding-cavlc    | 10  | 11   | 49   | 7  | F. Reichl, F. Slivovsky, S. Szeider | Exact Subcircuit Synthesis |
+| **Coding-cavlc**    | **10**  | **11**   | **46**   | **6**  | **F.-X. Reichl and F. Slivovsky** | **SAT-based exact synthesis of subcircuits** |
 | Decoder  | 8  | 256   | 264   | 2  | L. Machado and J. Cortadella |  Support-Reducing Decomp |
-| I2c controller  |  147  | 142  | 175 | 7  | H. Wang and P. Wang | EasyLS |
-| **Int to float converter** |  **11**  | **7**  | **17**  | **5**  | **G. Toms and N. Pepik** | **GTs technology** |
-| Memory controller  |  1204  | 1231  | 1694  | 14 | A. Costamagna et al. | Information graph-based resubstitution |
-| Priority encoder  |  128  | 8  | 92 | 30 | A. Costamagna et al. | Information graph-based resubstitution |
-| Lookahead XY router | 60 | 30 | 18 | 9 | F. Reichl, F. Slivovsky, S. Szeider | Exact Subcircuit Synthesis |
-| **Voter** | **1001** | **1** | **1165** | **27**  | **Z. Hu et al.** | **Mixed structural choice-enhanced mapping** |
+| **I2c controller**  |  **147**  | **142**  | **173** | **8**  | **F.-X. Reichl and F. Slivovsky** | **SAT-based exact synthesis of subcircuits** |
+| **Int to float converter** |  **11**  | **7**  | **17**  | **4**  | **F.-X. Reichl and F. Slivovsky** | **SAT-based exact synthesis of subcircuits** |
+| **Memory controller**  |  **1204**  | **1231**  | **1669**  | **27** | **F.-X. Reichl and F. Slivovsky** | **SAT-based exact synthesis of subcircuits** |
+| **Priority encoder**  |  **128**  | **8**  | **86** | **40** | **F.-X. Reichl and F. Slivovsky** | **SAT-based exact synthesis of subcircuits** |
+| **Lookahead XY router** | **60** | **30** | **18** | **8** | **F.-X. Reichl and F. Slivovsky** | **SAT-based exact synthesis of subcircuits** |
+| **Voter** | **1001** | **1** | **1145** | **33**  | **F.-X. Reichl and F. Slivovsky** | **SAT-based exact synthesis of subcircuits** |
 
 MtM Benchmarks 
 
@@ -48,31 +48,31 @@ Arithmetic Benchmarks
 
 | Benchmark name | Inputs | Outputs | LUT-6 count | Levels | Authors | Method |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | 
-| **Adder**       | **256** | **129** | **343** | **5** | **T. Besson** | **Tuned ABC-based scripts** |
+| **Adder**       | **256** | **129** | **339** | **5** | **F.-X. Reichl and F. Slivovsky** | **SAT-based exact synthesis of subcircuits** |
 | Barrel shifter  | 135  | 128  | 512     | 4    | R. K. Brayton & A. Mishchenko | ABC Extreme Mapper |
-| Divisor         | 128  | 128  | 22258   | 173  | H. Wang and P. Wang           | EasyLS                                 |
-| Hypotenuse      | 256  | 128  | 152793  | 473  | A. Tempia Calvino et al.      | LUT mapping with Boolean decomposition |
-| Log2            | 32   | 32   | 9613    | 51   | A. Tempia Calvino et al.      | LUT mapping with Boolean decomposition |
-| **Max**         | **512** | **130** | **1008** | **6** | **T. Besson** | **Tuned ABC-based scripts** |
-| Multiplier      | 128  | 128  | 6488    | 25   | A. Tempia Calvino et al.      | LUT mapping with Boolean decomposition |
-| Sine            | 24   | 25   | 675550  | 10   | H. Wang and P. Wang           | EasyLS                                 |
-| Square-root     | 128  | 64   | 34421   | 153  | H. Wang and P. Wang           | EasyLS                                 |
-| Square          | 64   | 128  | 3700    | 10   | H. Wang and P. Wang           | EasyLS                                 |
+| **Divisor**         | **128**  | **128**  | **30849**   | **170**  | **C. Flothow** | **Optimization and remapping with more cuts** |
+| **Hypotenuse**      | **256**  | **128**  | **176274**  | **458**  | **C. Flothow** | **Optimization and remapping with more cuts** |
+| **Log2**            | **32**   | **32**   | **9391**    | **51**   | **F.-X. Reichl and F. Slivovsky** | **SAT-based exact synthesis of subcircuits** |
+| **Max**         | **512** | **130** | **1006** | **6** | **F.-X. Reichl and F. Slivovsky** | **SAT-based exact synthesis of subcircuits** |
+| **Multiplier**      | **128**  | **128**  | **6381**    | **25**   | **F.-X. Reichl and F. Slivovsky** | **SAT-based exact synthesis of subcircuits** |
+| **Sine**            | **24**   | **25**   | **666529**  | **10**   | **A. Tempia Calvino et al.** | **Multiple-node Boolean optimization** |
+| **Square-root**     | **128**  | **64**   | **45934**   | **150**  | **C. Flothow** | **Optimization and remapping with more cuts** |
+| **Square**          | **64**   | **128**  | **3690**    | **10**   | **F.-X. Reichl and F. Slivovsky** | **SAT-based exact synthesis of subcircuits** |
 
 Random-Control Benchmarks
 
 | Benchmark name | Inputs | Outputs | LUT-6 count | Levels | Authors | Method |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | 
-|  Round-robin arbiter | 256 | 129  | 370  | 5 | T. Besson | ABC-DE: ABC Design Explorer |
+|  **Round-robin arbiter** | **256** | **129**  | **369**  | **5** | **F.-X. Reichl and F. Slivovsky** | **SAT-based exact synthesis of subcircuits** |
 |  Alu control unit   |  7  | 26 | 25   | 2  | A. Grosnit, C. Feng, X. Li, et al. | NAILS |
-|  Coding-cavlc    |  10  | 11   | 60   | 3 |  T. Besson | ABC-DE: ABC Design Explorer |
+|  **Coding-cavlc**    |  **10**  | **11**   | **54**   | **3** |  **F.-X. Reichl and F. Slivovsky** | **SAT-based exact synthesis of subcircuits** |
 |  Decoder  | 8  | 256   | 264   | 2  | L. Machado and J. Cortadella | Support-Reducing Decomp |
-|  I2c controller  |  147  | 142  | 193 | 3 | T. Besson | ABC-DE: ABC Design Explorer |
-|  **Int to float converter**  |  **11**  | **7**  | **24**  | **2**  | **T. Besson** | **Tuned ABC-based scripts** |
-|  **Memory controller**  |  **1204**  | **1231**  | **1764**  | **5** | **T. Besson** | **Tuned ABC-based scripts** |
+|  **I2c controller**  |  **147**  | **142**  | **192** | **3** | **A. Tempia Calvino et al.** | **Multiple-node Boolean optimization** |
+|  **Int to float converter**  |  **11**  | **7**  | **23**  | **2**  | **F.-X. Reichl and F. Slivovsky** | **SAT-based exact synthesis of subcircuits** |
+|  **Memory controller**  |  **1204**  | **1231**  | **1716**  | **5** | **F.-X. Reichl and F. Slivovsky** | **SAT-based exact synthesis of subcircuits** |
 |  Priority encoder  | 128 | 8  | 119 | 4 |  T. Besson | ABC-DE: ABC Design Explorer |
 |  Lookahead XY router | 60 | 30 | 25 | 3 | T. Besson | ABC-DE: ABC Design Explorer |
-|  **Voter**  |  **1001**  | **1** | **1329**  | **11** | **T. Besson** | **Tuned ABC-based scripts** |
+|  **Voter**  |  **1001**  | **1** | **1325**  | **11** | **F.-X. Reichl and F. Slivovsky** | **SAT-based exact synthesis of subcircuits** |
 
 MtM Benchmarks 
 
@@ -113,3 +113,7 @@ MtM Benchmarks
 | Z. Hu et al. | Ningbo University | Mixed structural choice-enhanced mapping | A mapping framework that combines multiple logic representations and evaluates candidate structures holistically, presented in [Z. Hu, H. Pan, Y. Xia, L. Wang, and Z. Chu: Mixed Structural Choice Operator: Enhancing Technology Mapping with Heterogeneous Representations, DAC, 2025](https://arxiv.org/pdf/2504.12824) |
 | G. Toms and N. Pepik | GT synthesis LLC | GTs technology | An improved realization of the Ashenhurst–Curtis decomposition algorithm |
 | T. Besson | Zero ASIC Corp. | Tuned ABC-based scripts | Tuned and improved ABC-based scripts with incremental re-synthesis |
+| A. Tempia Calvino et al. | Synopsys Inc. | Multiple-node Boolean optimization | Multiple-node Boolean optimization methods published at DAC 2026 |
+| C. Flothow | Technische Universitat Darmstadt | Optimization and remapping with more cuts | Optimization and remapping using larger cut sets |
+| F.-X. Reichl and F. Slivovsky | University of Freiburg and University of Liverpool | SAT-based exact synthesis of subcircuits | SAT-based exact synthesis of subcircuits published at DAC 2026 |
+| Chengyu Ma et al. | Ningbo University | Area-oriented MFFW-based refactoring | Area-oriented MFFW-based refactoring |
