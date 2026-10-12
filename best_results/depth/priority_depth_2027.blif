@@ -1,0 +1,608 @@
+.model priority103
+.inputs A[0] A[1] A[2] A[3] A[4] A[5] A[6] A[7] A[8] A[9] A[10] A[11] A[12] A[13] A[14] A[15] A[16] A[17] A[18] A[19] A[20] A[21] A[22] A[23] A[24] A[25] A[26] A[27] A[28] A[29] A[30] A[31] A[32] A[33] A[34] A[35] A[36] A[37] A[38] A[39] A[40] A[41] A[42] A[43] A[44] A[45] A[46] A[47] A[48] A[49] A[50] A[51] A[52] A[53] A[54] A[55] A[56] A[57] A[58] A[59] A[60] A[61] A[62] A[63] A[64] A[65] A[66] A[67] A[68] A[69] A[70] A[71] A[72] A[73] A[74] A[75] A[76] A[77] A[78] A[79] A[80] A[81] A[82] A[83] A[84] A[85] A[86] A[87] A[88] A[89] A[90] A[91] A[92] A[93] A[94] A[95] A[96] A[97] A[98] A[99] A[100] A[101] A[102] A[103] A[104] A[105] A[106] A[107] A[108] A[109] A[110] A[111] A[112] A[113] A[114] A[115] A[116] A[117] A[118] A[119] A[120] A[121] A[122] A[123] A[124] A[125] A[126] A[127]
+.outputs P[0] P[1] P[2] P[3] P[4] P[5] P[6] F
+.names A[44] A[45] A[46] A[47] __rf_internal_new_n160
+0000 0
+.names A[56] A[57] A[58] A[60] A[61] A[59] __rf_internal_new_n155
+----11 0
+---1-1 0
+--1-1- 0
+--11-- 0
+000000 0
+.names A[60] A[61] A[62] A[63] __rf_internal_new_n156
+0000 0
+.names A[50] A[51] A[52] A[53] A[54] A[55] __rf_internal_new_n158
+---100 0
+--1-00 0
+00--00 0
+.names A[50] A[49] A[51] A[53] A[52] A[54] __rf_internal_new_n217
+---1-0 1
+--1-00 1
+01--00 1
+.names A[36] A[37] A[38] A[39] __rf_internal_new_n162
+0000 0
+.names A[12] A[13] A[14] A[15] __rf_internal_new_n146
+0000 0
+.names A[2] A[7] A[5] A[4] A[3] A[6] __rf_internal_new_n153
+---011 0
+--1--1 0
+000000 0
+.names A[25] A[26] A[31] A[28] A[27] A[29] __rf_internal_new_n148
+-1-000 0
+-10110 0
+0-0000 0
+001001 0
+1-1000 0
+.names A[24] A[25] A[28] A[26] A[27] A[29] __rf_internal_new_n149
+--1-00 0
+--10-0 0
+00-000 0
+.names A[18] A[19] A[20] A[21] A[22] A[23] __rf_internal_new_n150
+---100 0
+--1-00 0
+00--00 0
+.names A[20] A[22] A[23] A[30] A[28] A[21] __rf_internal_new_n151
+---011 0
+000000 0
+.names A[10] A[9] A[11] A[13] A[12] A[14] __rf_internal_new_n210
+---1-0 1
+--1-00 1
+01--00 1
+.names A[18] A[17] A[19] A[21] A[20] A[22] __rf_internal_new_n211
+---1-0 1
+--1-00 1
+01--00 1
+.names A[72] A[73] A[74] A[75] A[76] A[78] __rf_internal_new_n130
+000000 0
+.names A[116] A[117] A[118] A[119] A[122] __rf_internal_new_n131
+00000 0
+.names A[120] A[121] A[123] A[124] A[126] A[127] __rf_internal_new_n133
+000000 0
+.names A[114] A[115] A[116] A[117] A[118] A[119] __rf_internal_new_n203
+---100 0
+--1-00 0
+00--00 0
+.names A[108] A[109] A[110] A[111] __rf_internal_new_n135
+0000 0
+.names A[100] A[101] A[102] A[103] __rf_internal_new_n137
+0000 0
+.names A[84] A[85] A[86] A[87] A[94] __rf_internal_new_n139
+00000 0
+.names A[88] A[89] A[90] A[91] A[92] A[93] __rf_internal_new_n140
+000000 0
+.names A[80] A[81] A[82] A[83] A[94] A[95] __rf_internal_new_n141
+000000 0
+.names A[70] A[69] A[68] A[78] A[77] A[71] __rf_internal_new_n143
+-00100 0
+0--100 0
+000-00 0
+.names A[34] A[33] A[35] A[37] A[36] A[38] __rf_internal_new_n214
+---1-0 1
+--1-00 1
+01--00 1
+.names A[41] A[43] A[45] A[44] A[42] A[46] __rf_internal_new_n215
+----11 1
+---1-1 1
+--01-- 1
+-00-1- 1
+-01000 1
+01---1 1
+1--000 1
+.names A[57] A[58] A[61] A[60] A[59] A[62] __rf_internal_new_n218
+--1--0 0
+-1-000 0
+0--000 0
+.names A[66] A[65] A[67] A[69] A[68] A[70] __rf_internal_new_n221
+---1-0 1
+--1-00 1
+01--00 1
+.names A[74] A[73] A[76] A[75] A[77] A[71] __rf_internal_new_n222
+----10 1
+--01-0 1
+--1-01 1
+-0-001 1
+010--0 1
+1--001 1
+.names A[82] A[81] A[83] A[85] A[84] A[86] __rf_internal_new_n224
+---1-0 1
+--1-00 1
+01--00 1
+.names A[90] A[89] A[92] A[91] A[93] A[87] __rf_internal_new_n225
+----10 1
+--01-0 1
+--1-01 1
+-0-001 1
+010--0 1
+1--001 1
+.names A[98] A[97] A[99] A[101] A[100] A[102] __rf_internal_new_n228
+---1-0 1
+--1-00 1
+01--00 1
+.names A[106] A[107] A[108] A[109] A[110] A[111] __rf_internal_new_n202
+---100 0
+--1-00 0
+00--00 0
+.names A[114] A[113] A[115] A[117] A[116] A[118] __rf_internal_new_n230
+---1-0 1
+--1-00 1
+01--00 1
+.names A[122] A[121] A[123] A[125] A[124] A[126] __rf_internal_new_n231
+---1-0 1
+--1-00 1
+01--00 1
+.names A[2] A[3] A[4] A[5] A[6] A[7] __rf_internal_new_n188
+---100 0
+--1-00 0
+00--00 0
+.names A[10] A[11] A[12] A[13] A[14] A[15] __rf_internal_new_n189
+---100 0
+--1-00 0
+00--00 0
+.names A[26] A[27] A[30] A[31] A[28] A[29] __rf_internal_new_n190
+---101 0
+---110 0
+--0011 0
+--1-01 0
+--1-10 0
+000000 0
+.names A[34] A[35] A[36] A[37] A[38] A[39] __rf_internal_new_n193
+---100 0
+--1-00 0
+00--00 0
+.names A[43] A[42] A[47] A[45] A[44] __rf_internal_new_n195
+--1-- 1
+-1-00 1
+1--00 1
+.names A[66] A[67] A[68] A[69] A[70] A[71] __rf_internal_new_n197
+---100 0
+--1-00 0
+00--00 0
+.names A[75] A[74] A[76] A[77] A[78] A[79] __rf_internal_new_n169
+--1000 0
+00-000 0
+.names A[82] A[83] A[84] A[85] A[86] A[87] __rf_internal_new_n199
+---100 0
+--1-00 0
+00--00 0
+.names A[90] A[91] A[92] A[94] A[95] A[93] __rf_internal_new_n170
+--0001 0
+--1-11 0
+--1000 0
+--11-1 0
+00-000 0
+.names A[99] A[100] A[101] A[102] A[103] A[98] __rf_internal_new_n206
+----10 1
+---1-0 1
+--1001 1
+-1-001 1
+100--0 1
+.names A[122] A[123] A[124] A[126] A[127] A[125] __rf_internal_new_n204
+----11 0
+---1-1 0
+--1-1- 0
+--11-- 0
+000000 0
+.names A[4] A[5] A[6] A[7] A[13] A[14] __rf_internal_new_n177
+000000 0
+.names A[124] A[126] A[127] A[125] A[122] A[123] __rf_internal_new_n172
+--1001 0
+--1010 0
+-1-001 0
+-1-010 0
+000000 0
+000011 0
+1--001 0
+1--010 0
+.names A[40] A[41] A[42] A[43] A[46] __rf_internal_new_n160 __rf_internal_new_n161
+000000 0
+.names A[55] A[52] A[53] A[54] __rf_internal_new_n155 __rf_internal_new_n156 __rf_internal_new_n180
+----10 0
+0000-0 0
+.names __rf_internal_new_n158 A[58] A[59] A[63] A[62] __rf_internal_new_n155 __rf_internal_new_n194
+--1000 0
+-00001 0
+-1-000 0
+0--000 0
+.names A[48] A[52] __rf_internal_new_n155 __rf_internal_new_n156 __rf_internal_new_n158 __rf_internal_new_n217 __rf_internal_new_n159
+100000 1
+010000 1
+110000 1
+001000 1
+101000 1
+011000 1
+111000 1
+000100 1
+100100 1
+010100 1
+110100 1
+001100 1
+101100 1
+011100 1
+111100 1
+000010 1
+100010 1
+010010 1
+110010 1
+001010 1
+101010 1
+011010 1
+111010 1
+000110 1
+100110 1
+010110 1
+110110 1
+001110 1
+101110 1
+011110 1
+111110 1
+000001 1
+100001 1
+010001 1
+110001 1
+001001 1
+101001 1
+011001 1
+111001 1
+000101 1
+100101 1
+010101 1
+110101 1
+001101 1
+101101 1
+011101 1
+111101 1
+000011 1
+100011 1
+010011 1
+110011 1
+001011 1
+101011 1
+011011 1
+111011 1
+000111 1
+100111 1
+010111 1
+110111 1
+001111 1
+101111 1
+011111 1
+111111 1
+.names A[32] A[33] A[34] A[35] A[39] __rf_internal_new_n162 __rf_internal_new_n163
+000000 0
+.names A[8] A[9] A[10] A[11] A[15] __rf_internal_new_n146 __rf_internal_new_n147
+000000 0
+.names A[1] A[7] A[5] A[4] A[3] __rf_internal_new_n153 __rf_internal_new_n209
+---011 1
+--1--1 1
+-1---- 1
+1-0000 1
+.names A[24] A[25] A[26] A[30] A[31] __rf_internal_new_n148 __rf_internal_new_n174
+000000 0
+.names A[16] A[17] __rf_internal_new_n148 __rf_internal_new_n149 __rf_internal_new_n150 __rf_internal_new_n151 __rf_internal_new_n152
+000000 0
+.names __rf_internal_new_n151 __rf_internal_new_n149 A[31] A[30] A[28] __rf_internal_new_n146 __rf_internal_new_n178
+---011 0
+--1-01 0
+-0-101 0
+-10-11 0
+-10000 0
+0-0000 0
+1--1-1 0
+10---1 0
+.names A[23] __rf_internal_new_n211 A[31] A[30] __rf_internal_new_n148 __rf_internal_new_n149 __rf_internal_new_n212
+---011 1
+--1--- 1
+-1-000 1
+1--000 1
+.names A[125] A[117] A[123] __rf_internal_new_n133 A[122] __rf_internal_new_n131 __rf_internal_new_n185
+--0101 0
+--1111 0
+-00-00 0
+1----1 0
+10-10- 0
+.names A[112] A[113] A[125] __rf_internal_new_n131 __rf_internal_new_n133 __rf_internal_new_n203 __rf_internal_new_n134
+100000 1
+010000 1
+110000 1
+001000 1
+101000 1
+011000 1
+111000 1
+000100 1
+100100 1
+010100 1
+110100 1
+001100 1
+101100 1
+011100 1
+111100 1
+000010 1
+100010 1
+010010 1
+110010 1
+001010 1
+101010 1
+011010 1
+111010 1
+000110 1
+100110 1
+010110 1
+110110 1
+001110 1
+101110 1
+011110 1
+111110 1
+000001 1
+100001 1
+010001 1
+110001 1
+001001 1
+101001 1
+011001 1
+111001 1
+000101 1
+100101 1
+010101 1
+110101 1
+001101 1
+101101 1
+011101 1
+111101 1
+000011 1
+100011 1
+010011 1
+110011 1
+001011 1
+101011 1
+011011 1
+111011 1
+000111 1
+100111 1
+010111 1
+110111 1
+001111 1
+101111 1
+011111 1
+111111 1
+.names A[104] A[105] A[106] A[107] A[111] __rf_internal_new_n135 __rf_internal_new_n136
+000000 0
+.names A[96] A[97] A[98] A[99] A[103] __rf_internal_new_n137 __rf_internal_new_n138
+000000 0
+.names __rf_internal_new_n140 __rf_internal_new_n139 A[94] A[93] A[92] A[95] __rf_internal_new_n183
+-00000 0
+000011 0
+1-0000 0
+.names A[93] A[94] A[95] __rf_internal_new_n139 __rf_internal_new_n140 __rf_internal_new_n141 __rf_internal_new_n142
+000000 0
+.names A[64] A[65] A[66] A[67] A[79] __rf_internal_new_n143 __rf_internal_new_n144
+000000 0
+.names __rf_internal_new_n143 __rf_internal_new_n130 A[79] A[76] A[77] A[78] __rf_internal_new_n182
+-00110 0
+-10000 0
+0-0000 0
+100011 0
+100101 0
+101100 0
+.names A[41] A[43] A[42] A[44] A[47] __rf_internal_new_n215 __rf_internal_new_n216
+---101 0
+--1-01 0
+-00000 0
+01--01 0
+1-0000 0
+.names __rf_internal_new_n155 A[55] __rf_internal_new_n217 A[63] __rf_internal_new_n218 __rf_internal_new_n156 __rf_internal_new_n219
+---011 0
+-00000 0
+-00110 0
+-111-0 0
+0-1-10 0
+0-11-0 0
+01--10 0
+1--000 0
+11--00 0
+.names __rf_internal_new_n221 __rf_internal_new_n130 A[78] A[71] __rf_internal_new_n222 A[79] __rf_internal_new_n223
+-1-000 0
+-1-110 0
+-11--0 0
+0-0000 0
+0-1010 0
+.names __rf_internal_new_n224 A[94] __rf_internal_new_n140 A[87] __rf_internal_new_n225 A[95] __rf_internal_new_n226
+--1000 0
+--1110 0
+-1-000 0
+-1-110 0
+-11--0 0
+0--000 0
+.names A[109] A[105] __rf_internal_new_n202 A[107] __rf_internal_new_n135 A[111] __rf_internal_new_n229
+----11 1
+--1--1 1
+--110- 1
+-0-100 1
+-10000 1
+00-0-1 1
+1---00 1
+1-0--0 1
+.names A[119] __rf_internal_new_n230 A[122] __rf_internal_new_n133 __rf_internal_new_n231 A[127] __rf_internal_new_n232
+---100 0
+--0001 0
+--1-00 0
+00--00 0
+1100-1 0
+.names __rf_internal_new_n149 A[29] A[28] __rf_internal_new_n190 __rf_internal_new_n189 __rf_internal_new_n150 __rf_internal_new_n191
+-00010 1
+-00100 1
+-00111 1
+-01000 1
+-01011 1
+-01101 1
+-01110 1
+-10000 1
+-10011 1
+-10101 1
+-11100 1
+0-0-11 1
+0-1110 1
+01-101 1
+0100-- 1
+100001 1
+110110 1
+111001 1
+111010 1
+111111 1
+.names __rf_internal_new_n197 __rf_internal_new_n130 A[79] A[78] A[77] __rf_internal_new_n169 __rf_internal_new_n198
+--0011 0
+-10000 0
+0-0000 0
+.names A[88] A[89] __rf_internal_new_n199 __rf_internal_new_n170 A[92] A[93] __rf_internal_new_n200
+---011 1
+---1-0 1
+---10- 1
+001-00 1
+.names __rf_internal_new_n130 __rf_internal_new_n169 __rf_internal_new_n141 __rf_internal_new_n139 __rf_internal_new_n140 __rf_internal_new_n170 __rf_internal_new_n171
+---100 0
+--1-00 0
+00--00 0
+.names A[120] A[121] __rf_internal_new_n203 A[124] A[125] __rf_internal_new_n204 __rf_internal_new_n205
+----10 1
+---001 1
+---1-0 1
+001--0 1
+.names __rf_internal_new_n193 A[46] __rf_internal_new_n159 __rf_internal_new_n161 __rf_internal_new_n195 __rf_internal_new_n194 __rf_internal_new_n196
+--11-0 0
+-0-100 0
+-01--0 0
+-10010 0
+00--00 0
+1-0010 0
+1-0111 0
+100-11 0
+11-000 0
+1110-1 0
+.names A[36] __rf_internal_new_n161 __rf_internal_new_n159 __rf_internal_new_n162 __rf_internal_new_n160 __rf_internal_new_n180 __rf_internal_new_n181
+---000 0
+--1-00 0
+-1--00 0
+-11--0 0
+1--0-- 0
+.names __rf_internal_new_n161 __rf_internal_new_n159 A[39] __rf_internal_new_n163 __rf_internal_new_n164
+--10 0
+00-0 0
+.names __rf_internal_new_n147 __rf_internal_new_n161 __rf_internal_new_n174 __rf_internal_new_n152 __rf_internal_new_n163 __rf_internal_new_n159 __rf_internal_new_n175
+--1-00 1
+--10-- 1
+-1---- 1
+1--000 1
+.names A[0] A[1] A[6] __rf_internal_new_n147 __rf_internal_new_n152 __rf_internal_new_n153 __rf_internal_new_n154
+000000 0
+.names __rf_internal_new_n177 __rf_internal_new_n147 __rf_internal_new_n152 __rf_internal_new_n146 A[29] __rf_internal_new_n178 __rf_internal_new_n179
+--1000 0
+-1-000 0
+-11101 0
+0--000 0
+001-00 0
+001111 0
+.names __rf_internal_new_n147 __rf_internal_new_n209 __rf_internal_new_n152 A[15] __rf_internal_new_n210 __rf_internal_new_n212 __rf_internal_new_n213
+--1--0 0
+-0-000 0
+1--000 0
+.names __rf_internal_new_n137 __rf_internal_new_n172 __rf_internal_new_n136 __rf_internal_new_n185 __rf_internal_new_n134 __rf_internal_new_n135 __rf_internal_new_n186
+--0011 1
+--1001 1
+-0-101 1
+-0-110 1
+-011-- 1
+-1-0-- 1
+-10-00 1
+0-0-11 1
+0-0100 1
+0-1-01 1
+1-0000 1
+.names __rf_internal_new_n138 __rf_internal_new_n142 __rf_internal_new_n152 __rf_internal_new_n134 __rf_internal_new_n159 __rf_internal_new_n136 __rf_internal_new_n167
+---101 1
+---110 1
+--01-- 1
+--1011 1
+-01000 1
+01--10 1
+010--0 1
+1-1000 1
+.names __rf_internal_new_n130 __rf_internal_new_n134 __rf_internal_new_n136 __rf_internal_new_n138 __rf_internal_new_n142 __rf_internal_new_n144 P[6]
+000000 0
+.names __rf_internal_new_n142 __rf_internal_new_n182 __rf_internal_new_n183 __rf_internal_new_n136 __rf_internal_new_n134 __rf_internal_new_n138 __rf_internal_new_n184
+--1000 1
+01-000 1
+.names A[39] __rf_internal_new_n214 __rf_internal_new_n161 __rf_internal_new_n159 __rf_internal_new_n216 __rf_internal_new_n219 __rf_internal_new_n220
+---1-0 0
+--1-00 0
+00--00 0
+.names __rf_internal_new_n142 __rf_internal_new_n223 __rf_internal_new_n226 __rf_internal_new_n136 __rf_internal_new_n138 __rf_internal_new_n134 __rf_internal_new_n227
+--1000 1
+01-000 1
+.names __rf_internal_new_n228 A[103] __rf_internal_new_n136 __rf_internal_new_n134 __rf_internal_new_n229 __rf_internal_new_n232 __rf_internal_new_n233
+---1-0 0
+--1-00 0
+00--00 0
+.names __rf_internal_new_n188 __rf_internal_new_n147 __rf_internal_new_n152 __rf_internal_new_n150 __rf_internal_new_n189 __rf_internal_new_n191 __rf_internal_new_n192
+--1000 0
+--1101 0
+-00001 0
+-1-000 0
+-11011 0
+-11110 0
+0--000 0
+101-11 0
+.names __rf_internal_new_n142 __rf_internal_new_n198 __rf_internal_new_n200 __rf_internal_new_n136 __rf_internal_new_n138 __rf_internal_new_n134 __rf_internal_new_n201
+--1000 1
+01-000 1
+.names __rf_internal_new_n138 __rf_internal_new_n171 __rf_internal_new_n134 __rf_internal_new_n136 __rf_internal_new_n172 __rf_internal_new_n133 __rf_internal_new_n173
+--1-00 0
+-0-000 0
+1--000 0
+.names A[98] __rf_internal_new_n134 __rf_internal_new_n136 __rf_internal_new_n206 __rf_internal_new_n202 __rf_internal_new_n205 __rf_internal_new_n207
+--1-00 0
+-01111 0
+-1--00 0
+-1-0-0 0
+-11--0 0
+0--000 0
+000101 0
+000110 0
+1--100 0
+1-0010 0
+100001 0
+.names __rf_internal_new_n164 __rf_internal_new_n152 P[6] __rf_internal_new_n167 __rf_internal_new_n136 __rf_internal_new_n159 P[4]
+---101 1
+---110 1
+--0-1- 1
+-0-1-- 1
+-1-011 1
+-11000 1
+0---11 1
+0-01-- 1
+1-0--1 1
+.names P[6] __rf_internal_new_n164 __rf_internal_new_n138 __rf_internal_new_n134 __rf_internal_new_n136 P[5]
+-0000 0
+1-000 0
+.names __rf_internal_new_n154 P[6] __rf_internal_new_n164 __rf_internal_new_n159 A[39] __rf_internal_new_n163 F
+--1--1 1
+--1-0- 1
+-1-000 1
+1--000 1
+.names __rf_internal_new_n179 __rf_internal_new_n164 P[6] __rf_internal_new_n181 __rf_internal_new_n184 __rf_internal_new_n186 P[2]
+--1-00 0
+-1-000 0
+0--000 0
+.names __rf_internal_new_n164 __rf_internal_new_n213 P[6] __rf_internal_new_n220 __rf_internal_new_n227 __rf_internal_new_n233 P[0]
+--1-00 0
+-0-000 0
+1--000 0
+.names __rf_internal_new_n156 __rf_internal_new_n173 __rf_internal_new_n159 __rf_internal_new_n155 __rf_internal_new_n175 P[6] P[3]
+---1-0 1
+--0-10 1
+--011- 1
+-1---- 1
+1----0 1
+.names __rf_internal_new_n164 __rf_internal_new_n192 P[6] __rf_internal_new_n196 __rf_internal_new_n201 __rf_internal_new_n207 P[1]
+--1-00 0
+-0-000 0
+1--000 0
+.end

@@ -1,0 +1,716 @@
+.model hyp_phase_folded
+.inputs pi077 pi008 pi050 pi102 pi018 pi051 pi032 pi133 pi066 pi142 pi037 pi076 pi073 pi095 pi086 pi130 pi031 pi127 pi122 pi089 pi048 pi111 pi120 pi110 pi017 pi139 pi083 pi001 pi015 pi079 pi059 pi128 pi005 pi013 pi063 pi044 pi107 pi034 pi029 pi080 pi024 pi042 pi060 pi136 pi096 pi068 pi040 pi071 pi007 pi140 pi010 pi011 pi144 pi078 pi081 pi074 pi109 pi100 pi022 pi021 pi098 pi062 pi069 pi012 pi126 pi112 pi105 pi084 pi057 pi004 pi091 pi038 pi002 pi146 pi104 pi041 pi067 pi114 pi030 pi129 pi092 pi145 pi093 pi058 pi134 pi055 pi123 pi117 pi137 pi108 pi135 pi023 pi016 pi119 pi132 pi052 pi131 pi003 pi009 pi065 pi099 pi116 pi000 pi090 pi106 pi115 pi053 pi056 pi026 pi097 pi087 pi006 pi141 pi125 pi019 pi113 pi033 pi124 pi020 pi036 pi082 pi085 pi101 pi118 pi043 pi047 pi072 pi035 pi025 pi049 pi088 pi054 pi027 pi046 pi121 pi094 pi064 pi138 pi075 pi028 pi103 pi061 pi039 pi014 pi045 pi143 pi070
+.outputs po111 po020 po084 po088 po018 po089 po106 po110 po016 po120 po075 po072 po025 po054 po009 po133 po065 po087 po000 po055 po097 po107 po125 po034 po071 po086 po077 po137 po069 po094 po067 po074 po062 po021 po138 po082 po041 po102 po105 po058 po073 po006 po023 po127 po012 po028 po039 po007 po100 po095 po040 po080 po027 po051 po091 po061 po037 po117 po005 po060 po081 po068 po093 po083 po096 po033 po092 po115 po030 po013 po064 po112 po010 po048 po113 po066 po101 po063 po004 po059 po015 po118 po123 po053 po043 po116 po076 po011 po001 po056 po130 po136 po079 po008 po129 po019 po032 po046 po050 po057 po121 po134 po108 po114 po045 po140 po124 po128 po098 po090 po036 po003 po017 po109 po035 po002 po070 po139 po104 po103 po141 po031 po126 po024 po014 po078 po047 po044 po026 po085 po131 po038 po052 po135 po099 po049 po042 po119 po122 po022 po132 po029
+.names pi133 pi126 pi132 po141
+101 1
+.names pi129 pi134 po137
+11 1
+01 1
+10 1
+.names pi095 pi100 pi129 po134
+00- 0
+--1 0
+.names pi122 pi114 pi129 pi123 po076
+0001 1
+.names pi129 pi123 po129
+11 1
+01 1
+10 1
+.names pi122 pi129 po132
+11 1
+01 1
+00 1
+.names pi111 pi120 pi110 pi129 pi003 po135
+-00-0 0
+1---- 0
+---1- 0
+.names pi122 pi114 pi129 pi123 po070
+0100 1
+.names pi034 pi109 pi129 pi092 pi106 pi035 po050
+110-0- 1
+--011- 1
+-00-01 1
+.names pi031 pi089 pi109 pi030 pi129 pi106 po046
+1-0-00 1
+--1100 1
+-1--01 1
+.names pi051 pi109 pi129 pi052 pi106 pi039 po054
+-0--00 0
+1---00 0
+--1--- 0
+---100 0
+01-001 0
+.names pi120 pi081 pi129 po136
+110 1
+.names pi011 pi022 pi129 pi003 pi113 pi054 po128
+--0000 1
+1-00-1 1
+-100-1 1
+.names pi129 pi058 pi003 pi116 pi053 pi097 po125
+010100 1
+00011- 1
+.names pi037 pi109 pi129 pi093 pi106 pi036 po052
+100-0- 1
+--011- 1
+-10-01 1
+.names pi060 pi109 pi030 pi129 pi106 pi088 po045
+11-00- 1
+-0100- 1
+---011 1
+.names pi129 pi055 pi023 pi061 po038
+00-1 1
+0-11 1
+.names pi129 pi135 po138
+11 1
+01 1
+10 1
+.names pi057 pi129 po139
+10 1
+.names pi096 pi129 pi003 pi125 po140
+-01- 1
+00-1 1
+.names pi032 pi031 pi109 pi129 pi099 pi106 po047
+1-00-0 1
+-110-0 1
+---011 1
+.names pi051 pi109 pi129 pi052 pi106 po067
+-0-00 0
+1--00 0
+--1-- 0
+01-10 0
+.names pi034 pi109 pi091 pi129 pi106 pi033 po049
+10-00- 1
+--101- 1
+-1-001 1
+.names pi109 pi098 pi129 pi106 pi036 pi035 po051
+-101-- 1
+0-001- 1
+1-00-1 1
+.names pi032 pi109 pi129 pi090 pi106 pi033 po048
+110-0- 1
+--011- 1
+-00-01 1
+.names pi122 pi060 pi123 pi117 po075
+11-- 1
+0-10 1
+-1-1 1
+.names pi051 pi109 pi129 pi106 po066
+00-0 0
+11-0 0
+--1- 0
+.names pi133 pi136 pi137 pi132 pi131 pi138 __fast_42
+110110 1
+.names pi129 pi003 pi054 __fast_43
+000 1
+.names pi005 pi013 pi007 pi012 pi009 pi006 __fast_44
+000000 1
+.names pi017 pi129 pi003 pi019 pi054 __fast_45
+00001 1
+.names pi008 pi010 pi021 pi014 __fast_46
+0000 1
+.names pi018 pi011 pi022 pi004 pi016 __fast_47
+00000 1
+.names pi133 pi136 pi137 pi132 pi131 pi138 __fast_48
+111110 1
+.names pi048 pi042 pi040 pi043 pi047 __fast_49
+00000 1
+.names pi015 pi024 pi002 pi020 pi049 pi045 __fast_50
+000000 1
+.names pi050 pi038 pi041 pi046 __fast_51
+0000 1
+.names pi127 pi122 pi044 pi068 pi082 pi045 __fast_52
+11---0 1
+0--10- 1
+-0-10- 1
+---1-0 1
+--1-10 1
+.names pi086 pi111 pi136 pi030 pi138 __fast_53
+1-0-0 0
+--110 0
+-10-1 0
+.names pi120 pi136 pi067 pi088 pi064 pi138 __fast_54
+-00--0 1
+-1--00 1
+10---1 1
+-1-1-1 1
+.names pi127 pi122 pi044 pi042 pi040 pi082 __fast_55
+11---- 1
+--1--1 1
+---1-1 1
+----11 1
+.names pi005 pi013 pi007 pi012 pi009 pi006 __fast_56
+00000- 0
+0000-0 0
+00--00 0
+0-0000 0
+-00000 0
+.names pi133 pi136 pi137 pi132 pi131 pi138 __fast_57
+100110 1
+.names pi133 pi136 pi137 pi132 pi131 pi138 __fast_58
+101110 1
+.names pi133 pi110 pi129 pi132 pi131 pi003 __fast_59
+-00--0 1
+1-011- 1
+.names pi133 pi132 __fast_60
+11 1
+.names pi136 pi137 pi082 pi138 __fast_61
+0011 1
+.names pi044 pi042 pi040 pi082 __fast_62
+0001 1
+.names pi129 pi003 __fast_63
+00 1
+.names pi058 pi053 pi026 pi085 pi027 __fast_64
+00000 1
+.names pi005 pi011 pi022 pi009 pi056 pi054 __fast_65
+-----0 1
+10-00- 1
+010-0- 1
+-0100- 1
+0-010- 1
+.names pi032 pi073 pi136 pi068 pi084 pi137 __fast_66
+-10--0 1
+--11-0 1
+--0-01 1
+0-1--1 1
+.names pi044 pi024 pi082 pi045 __fast_67
+0010 1
+.names pi051 pi052 pi039 __fast_68
+000 1
+.names pi059 pi029 pi025 pi028 __fast_69
+0100 1
+.names pi089 pi136 pi137 pi119 pi115 __fast_70
+110-- 0
+-01-0 0
+-001- 0
+.names pi031 pi136 pi062 pi137 pi087 pi072 __fast_71
+-110-- 1
+-0-10- 1
+01-1-- 1
+-0-0-1 1
+.names pi110 pi096 pi100 pi058 pi053 pi085 __fast_72
+00100- 1
+--1001 1
+.names pi063 pi136 pi078 pi074 pi137 pi033 __fast_73
+11--0- 1
+-0-10- 1
+-00-1- 1
+-1--10 1
+.names pi051 pi052 pi026 pi027 pi039 __fast_74
+001-0 1
+1--1- 1
+-1-1- 1
+---11 1
+.names pi129 pi003 pi026 pi085 pi027 __fast_75
+00000 1
+.names pi095 pi110 pi096 pi100 pi058 pi116 __fast_76
+00000- 0
+----11 0
+.names pi080 pi136 pi100 pi035 pi138 __fast_77
+10--0 0
+-1-10 0
+-01-1 0
+.names pi136 pi092 pi125 pi138 pi075 pi070 __fast_78
+0--00- 1
+1--0-0 1
+11-1-- 1
+0-11-- 1
+.names pi136 pi096 pi093 pi137 pi124 __fast_79
+1-10- 0
+01-1- 0
+0--01 0
+.names pi077 pi037 pi136 pi137 pi065 pi082 __fast_80
+1-00-- 1
+--01-0 1
+-011-- 1
+--101- 1
+.names pi043 pi047 __fast_81
+00 1
+.names pi066 pi079 pi034 pi136 pi069 pi137 __fast_82
+1--0-0 1
+---110 1
+-0-0-1 1
+--01-1 1
+.names pi136 pi098 pi137 pi023 pi097 __fast_83
+110-- 0
+0-01- 0
+0-1-1 0
+.names pi076 pi136 pi071 pi081 pi137 pi036 __fast_84
+10--0- 1
+-11-0- 1
+-0-01- 1
+-1--10 1
+.names pi121 po009
+1 1
+.names pi108 po000
+1 1
+.names pi107 po006
+1 1
+.names pi101 po007
+1 1
+.names pi105 po005
+1 1
+.names pi130 po013
+1 1
+.names pi001 po010
+1 1
+.names pi102 po004
+1 1
+.names pi000 po011
+1 1
+.names pi083 po001
+1 1
+.names pi126 po008
+1 1
+.names pi103 po003
+1 1
+.names pi104 po002
+1 1
+.names pi128 po014
+1 1
+.names pi068 pi129 pi141 __fast_42 po083
+10-0 0
+-001 0
+.names pi142 pi063 pi129 __fast_42 po078
+-100 0
+0-01 0
+.names pi069 pi129 pi143 __fast_42 po084
+10-0 0
+-001 0
+.names pi071 pi129 pi145 __fast_42 po086
+10-0 0
+-001 0
+.names pi146 pi129 pi065 __fast_42 po080
+-010 0
+00-1 0
+.names pi139 pi129 pi064 __fast_42 po079
+-010 0
+00-1 0
+.names pi144 pi129 pi070 __fast_42 po085
+-010 0
+00-1 0
+.names pi140 pi062 pi129 __fast_42 po077
+-100 0
+0-01 0
+.names pi005 pi012 pi009 pi006 __fast_44 __fast_46 __fast_121
+----1- 0
+0000-1 0
+.names pi011 pi022 pi004 __fast_44 __fast_45 __fast_46 __fast_122
+000111 1
+.names pi018 pi016 __fast_44 __fast_45 __fast_46 __fast_123
+00111 1
+.names pi029 __fast_44 __fast_45 __fast_46 __fast_47 __fast_124
+01111 1
+.names pi008 pi010 pi021 pi014 __fast_45 __fast_47 __fast_125
+000-11 1
+00-011 1
+0-0011 1
+-00011 1
+.names __fast_44 __fast_46 __fast_47 __fast_126
+111 1
+.names pi017 pi019 pi118 __fast_44 __fast_46 __fast_47 __fast_127
+--1--- 0
+00-111 0
+.names pi098 pi129 pi145 __fast_48 po113
+10-0 1
+-011 1
+.names pi089 pi140 pi129 __fast_48 po104
+1-00 1
+-101 1
+.names pi129 pi099 pi141 __fast_48 po114
+01-0 1
+0-11 1
+.names pi142 pi129 pi090 __fast_48 po105
+-010 1
+10-1 1
+.names pi139 pi129 pi088 __fast_48 po103
+-010 1
+10-1 1
+.names pi144 pi129 pi092 __fast_48 po107
+-010 1
+10-1 1
+.names pi091 pi129 pi143 __fast_48 po106
+10-0 1
+-011 1
+.names pi146 pi129 pi093 __fast_48 po108
+-010 1
+10-1 1
+.names pi044 pi082 __fast_49 __fast_50 __fast_51 __fast_136
+-0--- 0
+1---- 0
+--111 0
+.names pi044 pi024 pi082 pi045 __fast_49 __fast_51 __fast_137
+001-0- 1
+001--0 1
+0011-- 1
+011011 1
+.names pi137 __fast_53 __fast_54 po123
+011 1
+101 1
+001 1
+100 1
+.names pi129 pi082 __fast_49 __fast_50 __fast_51 __fast_55 __fast_139
+-0---0 1
+1----- 1
+--1110 1
+.names pi007 pi012 __fast_45 __fast_46 __fast_47 __fast_56 __fast_141
+0-1110 1
+-01110 1
+.names pi073 pi129 pi141 __fast_57 po088
+10-0 0
+-001 0
+.names pi077 pi146 pi129 __fast_57 po092
+1-00 0
+-001 0
+.names pi140 pi129 pi072 __fast_57 po087
+-010 0
+00-1 0
+.names pi066 pi129 pi143 __fast_57 po081
+10-0 0
+-001 0
+.names pi139 pi067 pi129 __fast_57 po082
+-100 0
+0-01 0
+.names pi142 pi074 pi129 __fast_57 po089
+-100 0
+0-01 0
+.names pi076 pi129 pi145 __fast_57 po091
+10-0 0
+-001 0
+.names pi144 pi129 pi075 __fast_57 po090
+-010 0
+00-1 0
+.names pi079 pi129 pi143 __fast_58 po094
+10-0 1
+-011 1
+.names pi081 pi129 pi145 __fast_58 po096
+10-0 1
+-011 1
+.names pi140 pi129 pi087 __fast_58 po102
+-010 1
+10-1 1
+.names pi142 pi078 pi129 __fast_58 po093
+-100 1
+1-01 1
+.names pi086 pi139 pi129 __fast_58 po101
+1-00 1
+-101 1
+.names pi084 pi129 pi141 __fast_58 po099
+10-0 1
+-011 1
+.names pi146 pi129 pi082 __fast_58 po097
+-010 1
+10-1 1
+.names pi080 pi144 pi129 __fast_58 po095
+1-00 1
+-101 1
+.names pi112 pi129 pi131 pi141 __fast_60 __fast_61 po127
+001-10 1
+-01111 1
+.names pi096 pi146 pi131 __fast_59 __fast_60 __fast_61 po111
+1-01-- 1
+1--10- 1
+1--1-0 1
+-11111 1
+.names pi145 pi131 pi097 __fast_59 __fast_60 __fast_61 po112
+-011-- 1
+--110- 1
+--11-0 1
+11-111 1
+.names pi140 pi129 pi131 pi115 __fast_60 __fast_61 po130
+-01010 1
+101-11 1
+.names pi142 pi129 pi131 pi094 __fast_60 __fast_61 po109
+-001-- 1
+-0-10- 1
+-0-1-0 1
+101-11 1
+.names pi144 pi100 pi131 __fast_59 __fast_60 __fast_61 po115
+-101-- 1
+-1-10- 1
+-1-1-0 1
+1-1111 1
+.names pi095 pi131 pi143 __fast_59 __fast_60 __fast_61 po110
+10-1-- 1
+1--10- 1
+1--1-0 1
+-11111 1
+.names pi111 pi139 pi129 pi131 __fast_60 __fast_61 po126
+1-0110 1
+-10111 1
+.names pi038 __fast_49 __fast_50 __fast_51 __fast_62 __fast_166
+----0 0
+1---- 0
+-111- 0
+.names __fast_49 __fast_50 __fast_51 __fast_62 __fast_167
+0-11 1
+-011 1
+.names pi050 pi038 pi041 pi046 __fast_62 __fast_168
+--0-- 0
+00-01 0
+.names pi007 pi012 pi004 pi009 pi054 __fast_63 po131
+0000-- 0
+----0- 0
+-----0 0
+.names pi058 pi053 pi026 pi085 pi027 __fast_63 __fast_170
+0000-1 1
+000-01 1
+00-001 1
+0-0001 1
+-00001 1
+.names pi000 pi054 __fast_44 __fast_46 __fast_47 __fast_63 __fast_171
+-----0 1
+10---- 1
+1-111- 1
+.names pi095 pi110 pi100 pi116 pi097 __fast_64 __fast_172
+---0-0 1
+0-0-01 1
+-1---1 1
+.names pi095 pi110 pi096 pi100 pi085 __fast_64 __fast_173
+---010 1
+100001 1
+.names pi136 pi112 pi137 pi099 pi138 __fast_66 po119
+----00 1
+001-1- 1
+1-011- 1
+.names pi015 pi049 __fast_49 __fast_50 __fast_51 __fast_67 __fast_175
+1-0--- 1
+1---0- 1
+1----0 1
+11---- 1
+001011 1
+.names pi015 pi049 __fast_49 __fast_51 __fast_67 __fast_176
+00111 1
+.names __fast_49 __fast_51 __fast_67 __fast_177
+111 1
+.names pi129 pi118 pi054 __fast_69 po133
+010- 1
+0-11 1
+.names pi138 __fast_70 __fast_71 po098
+101 1
+010 1
+100 1
+000 1
+.names pi116 pi026 pi027 __fast_68 __fast_72 __fast_180
+-00-0 0
+-010- 0
+11-1- 0
+.names pi136 pi137 pi090 pi094 pi138 __fast_73 po118
+----00 1
+101-1- 1
+01-11- 1
+.names pi116 pi026 pi027 __fast_63 __fast_74 po124
+1101- 1
+10-11 1
+.names pi058 pi116 pi053 pi097 __fast_75 __fast_76 __fast_183
+001-1- 1
+00-110 1
+-10110 1
+.names pi137 __fast_77 __fast_78 po120
+011 1
+101 1
+001 1
+100 1
+.names pi138 __fast_79 __fast_80 po116
+101 1
+010 1
+100 1
+000 1
+.names pi095 pi136 pi091 pi137 pi138 __fast_82 po117
+----00 1
+-1101- 1
+10-11- 1
+.names pi138 __fast_83 __fast_84 po122
+101 1
+010 1
+100 1
+000 1
+.names po012
+1
+.names pi018 pi016 __fast_43 __fast_122 po033
+1-1- 1
+01-1 1
+.names pi018 pi012 pi016 __fast_43 __fast_122 po027
+-1-1- 1
+1-0-1 1
+.names pi011 pi022 pi004 pi009 __fast_43 __fast_123 po024
+---11- 1
+100--1 1
+.names pi011 pi022 pi004 __fast_43 __fast_123 po026
+1--1- 1
+010-1 1
+.names pi059 pi006 pi025 pi028 __fast_43 __fast_124 po021
+-1--1- 1
+0-10-1 1
+.names pi017 pi059 pi025 pi028 __fast_43 __fast_124 po032
+1---1- 1
+-100-1 1
+.names pi059 pi005 pi025 pi028 __fast_43 __fast_124 po020
+-1--1- 1
+0-01-1 1
+.names pi010 pi014 __fast_43 __fast_44 __fast_125 po025
+1-1-- 1
+-1-11 1
+.names pi008 pi021 __fast_43 __fast_44 __fast_125 po023
+1-1-- 1
+-1-11 1
+.names pi008 pi007 __fast_43 __fast_44 __fast_125 po022
+-11-- 1
+1--11 1
+.names pi010 pi004 __fast_43 __fast_44 __fast_125 po019
+-11-- 1
+1--11 1
+.names pi017 pi019 pi054 __fast_63 __fast_126 po034
+-101- 1
+10111 1
+.names pi013 __fast_43 __fast_45 __fast_69 __fast_126 po028
+11111 1
+01111 1
+10111 1
+00111 1
+11011 1
+11101 1
+11001 1
+11110 1
+11010 1
+11100 1
+11000 1
+.names pi017 pi021 pi019 pi054 __fast_63 __fast_126 po036
+-1-010 1
+001111 1
+.names pi129 pi123 pi000 pi113 pi061 __fast_127 po018
+0010-- 1
+0---01 1
+.names pi044 pi067 pi129 pi082 __fast_55 __fast_136 po059
+000-00 1
+-00000 1
+1-0010 1
+0-01-1 1
+.names pi073 pi042 pi040 pi129 __fast_55 __fast_136 po055
+0--000 1
+--1010 1
+-1101- 1
+-000-1 1
+.names pi129 pi045 __fast_49 __fast_51 __fast_52 __fast_136 po060
+0---00 1
+010-0- 1
+01-00- 1
+0011-1 1
+.names pi042 pi129 pi072 __fast_55 __fast_136 po057
+-0000 1
+10-10 1
+00--1 1
+.names pi063 pi024 pi129 __fast_136 __fast_137 __fast_139 po039
+-10-00 1
+--010- 1
+0-0-01 1
+.names pi005 pi022 __fast_43 __fast_141 po037
+-11- 1
+1--1 1
+.names pi013 pi014 __fast_43 __fast_141 po029
+-11- 1
+1--1 1
+.names pi017 pi001 pi054 __fast_44 __fast_63 __fast_141 po016
+----00 1
+-1---0 1
+0-1--0 1
+-1-1-- 1
+.names pi016 pi006 __fast_43 __fast_141 po031
+1-1- 1
+-1-1 1
+.names pi050 pi129 pi046 pi075 __fast_139 __fast_166 po061
+-01-00 1
+-0-01- 1
+000--1 1
+101--1 1
+.names pi050 pi066 pi129 __fast_139 __fast_166 po065
+1-000 1
+-001- 1
+0-0-1 1
+.names pi074 pi038 pi129 __fast_55 __fast_62 __fast_166 po053
+0000-0 1
+0-0000 1
+-10100 1
+-00-11 1
+.names pi048 pi062 pi129 __fast_81 __fast_139 __fast_167 po063
+1-000- 1
+1-0-00 1
+-0001- 1
+-00-10 1
+0-01-1 1
+.names pi077 pi129 pi043 __fast_139 __fast_167 po058
+-0100 1
+00-1- 1
+-0001 1
+.names pi129 pi043 pi047 pi064 __fast_139 __fast_167 po062
+0-1-00 1
+011-0- 1
+0--01- 1
+000--1 1
+.names pi076 pi129 __fast_167 __fast_168 __fast_139 po056
+--000 0
+-1--- 0
+1-0-1 0
+.names pi037 pi058 pi116 pi026 pi094 __fast_170 po071
+100--1 1
+10-0-1 1
+-110-1 1
+-1-011 1
+-01111 1
+.names pi060 pi057 pi058 pi116 __fast_170 po072
+-10-1 1
+-1-01 1
+1-111 1
+.names pi051 pi058 pi116 pi027 __fast_170 __fast_74 po073
+-10010 1
+001110 1
+001011 1
+.names __fast_56 __fast_65 __fast_121 __fast_125 __fast_171 po015
+-1--0 0
+0-010 0
+.names pi085 __fast_63 __fast_64 __fast_172 po121
+11-0 1
+-110 1
+.names pi096 pi085 __fast_64 __fast_170 __fast_172 po100
+1-110 1
+-1-11 1
+.names pi059 pi096 __fast_64 __fast_170 __fast_172 po074
+-1110 1
+1--11 1
+.names pi116 pi085 pi027 __fast_68 __fast_170 __fast_173 po042
+001-10 1
+1-1010 1
+-00-11 1
+11--11 1
+.names pi028 __fast_74 __fast_170 __fast_172 __fast_173 po043
+--0-- 0
+-0-00 0
+0--1- 0
+.names pi129 pi070 __fast_139 __fast_175 po030
+001- 1
+0-01 1
+.names pi071 pi002 pi129 pi020 __fast_139 __fast_176 po035
+--0100 1
+0-0-1- 1
+-10001 1
+.names pi002 pi129 pi065 pi020 __fast_139 __fast_176 po017
+10--00 1
+10-10- 1
+-00-1- 1
+.names pi069 pi129 pi049 __fast_50 __fast_139 __fast_177 po064
+-01-00 1
+00--1- 1
+-000-1 1
+.names pi025 __fast_170 __fast_172 __fast_180 po040
+111- 1
+-101 1
+.names pi116 pi085 pi027 __fast_170 __fast_180 po041
+-0011 1
+1-011 1
+.names pi029 __fast_170 __fast_172 __fast_183 po044
+111- 1
+-101 1
+.names __fast_139 po069
+1 1
+.names __fast_183 po068
+1 1
+.end
