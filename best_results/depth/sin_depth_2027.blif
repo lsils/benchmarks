@@ -1,4 +1,4 @@
-.model sin
+.model top
 .inputs a[0] a[1] a[2] a[3] a[4] a[5] a[6] a[7] a[8] a[9] a[10] a[11] a[12] a[13] a[14] a[15] a[16] a[17] a[18] a[19] a[20] a[21] a[22] a[23]
 .outputs sin[0] sin[1] sin[2] sin[3] sin[4] sin[5] sin[6] sin[7] sin[8] sin[9] sin[10] sin[11] sin[12] sin[13] sin[14] sin[15] sin[16] sin[17] sin[18] sin[19] sin[20] sin[21] sin[22] sin[23] sin[24]
 .names a[3] a[1] a[5] a[0] a[4] a[2] _n17867
