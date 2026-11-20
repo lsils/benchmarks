@@ -78,9 +78,9 @@ MtM Benchmarks
 
 | Benchmark name | Inputs | Outputs | LUT-6 count | Levels | Authors | Method |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | 
-| Sixteen | 117	| 50 |	3387001	| 14 | T. Besson | ABC-DE: ABC Design Explorer |
-| Twenty  | 137 | 60 |	4381634 | 14 |  T. Besson | ABC-DE: ABC Design Explorer |
-| Twentythree | 153 | 68 | 4913996 | 15 |  T. Besson | ABC-DE: ABC Design Explorer |
+| **Sixteen** | **117** | **50** | **407332** | **9** | **lmtlssss** | **speedrunpapi** |
+| **Twenty** | **137** | **60** | **419071** | **9** | **lmtlssss** | **speedrunpapi** |
+| **Twentythree** | **153** | **68** | **468313** | **9** | **lmtlssss** | **speedrunpapi** |
 
 ### List of Participants and Methods
 | Authors' name | Authors' affiliation | Synthesis method| Description |
