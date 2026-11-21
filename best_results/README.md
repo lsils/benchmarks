@@ -57,7 +57,7 @@ Arithmetic Benchmarks
 | **Multiplier**      | **128**  | **128**  | **6381**    | **25**   | **F.-X. Reichl and F. Slivovsky** | **SAT-based exact synthesis of subcircuits** |
 | **Sine**            | **24**   | **25**   | **666529**  | **10**   | **A. Tempia Calvino et al.** | **Multiple-node Boolean optimization** |
 | **Square-root**     | **128**  | **64**   | **45934**   | **150**  | **C. Flothow** | **Optimization and remapping with more cuts** |
-| **Square**          | **64**   | **128**  | **3690**    | **10**   | **F.-X. Reichl and F. Slivovsky** | **SAT-based exact synthesis of subcircuits** |
+| **Square** | **64** | **128** | **3802** | **9** | **lmtlssss** | **speedrunpapi** |
 
 Random-Control Benchmarks
 
