@@ -51,7 +51,7 @@ Arithmetic Benchmarks
 | **Adder**       | **256** | **129** | **339** | **5** | **F.-X. Reichl and F. Slivovsky** | **SAT-based exact synthesis of subcircuits** |
 | Barrel shifter  | 135  | 128  | 512     | 4    | R. K. Brayton & A. Mishchenko | ABC Extreme Mapper |
 | **Divisor**         | **128**  | **128**  | **30849**   | **170**  | **C. Flothow** | **Optimization and remapping with more cuts** |
-| **Hypotenuse**      | **256**  | **128**  | **176274**  | **458**  | **C. Flothow** | **Optimization and remapping with more cuts** |
+| **Hypotenuse** | **256** | **128** | **125747** | **199** | **lmtlssss** | **speedrunpapi** |
 | **Log2**            | **32**   | **32**   | **9391**    | **51**   | **F.-X. Reichl and F. Slivovsky** | **SAT-based exact synthesis of subcircuits** |
 | **Max**         | **512** | **130** | **1006** | **6** | **F.-X. Reichl and F. Slivovsky** | **SAT-based exact synthesis of subcircuits** |
 | **Multiplier**      | **128**  | **128**  | **6381**    | **25**   | **F.-X. Reichl and F. Slivovsky** | **SAT-based exact synthesis of subcircuits** |
