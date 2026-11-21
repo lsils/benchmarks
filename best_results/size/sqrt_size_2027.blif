@@ -1,4 +1,4 @@
-# Benchmark "top" written by ABC on Sat Nov 21 11:36:36 2026
+# Benchmark "top" written by ABC on Sat Nov 21 14:57:52 2026
 .model top
 .inputs a[0] a[1] a[2] a[3] a[4] a[5] a[6] a[7] a[8] a[9] a[10] a[11] a[12] \
  a[13] a[14] a[15] a[16] a[17] a[18] a[19] a[20] a[21] a[22] a[23] a[24] \
@@ -440,7 +440,7 @@
 -1101- 1
 11-01- 1
 111--- 1
-.names new_n225 new_n287 new_n2243 asqrt[1] asqrt[3] asqrt[4] new_n224
+.names new_n225 new_n287 new_n2242 asqrt[1] asqrt[3] asqrt[4] new_n224
 --1100 1
 0--100 1
 0-11-0 1
@@ -1924,7 +1924,7 @@
 01-111 1
 010-11 1
 111-11 1
-.names asqrt[2] asqrt[4] new_n286 new_n2241 new_n348 asqrt[5] new_n285
+.names asqrt[2] asqrt[4] new_n286 new_n2240 new_n348 asqrt[5] new_n285
 1-1000 1
 11-000 1
 0-0100 1
@@ -1949,7 +1949,7 @@
 01-111 1
 010-11 1
 111-11 1
-.names asqrt[2] asqrt[3] new_n287 new_n2242 asqrt[4] new_n2241 new_n286
+.names asqrt[2] asqrt[3] new_n287 new_n2241 asqrt[4] new_n2240 new_n286
 1-1000 1
 11-000 1
 0-0100 1
@@ -3429,7 +3429,7 @@
 01-111 1
 010-11 1
 111-11 1
-.names asqrt[3] asqrt[5] new_n347 new_n2240 new_n408 asqrt[6] new_n346
+.names asqrt[3] asqrt[5] new_n347 new_n2239 new_n408 asqrt[6] new_n346
 1-1000 1
 11-000 1
 0-0100 1
@@ -3454,7 +3454,7 @@
 01-111 1
 010-11 1
 111-11 1
-.names asqrt[3] asqrt[4] a[8] new_n348 asqrt[5] new_n2240 new_n347
+.names asqrt[3] asqrt[4] a[8] new_n348 asqrt[5] new_n2239 new_n347
 10-000 0
 00-100 0
 01-010 0
@@ -4901,7 +4901,7 @@
 01-111 1
 010-11 1
 111-11 1
-.names asqrt[4] asqrt[6] new_n407 new_n2239 new_n467 asqrt[7] new_n406
+.names asqrt[4] asqrt[6] new_n407 new_n2238 new_n467 asqrt[7] new_n406
 1-1000 1
 11-000 1
 0-0100 1
@@ -4926,7 +4926,7 @@
 01-111 1
 010-11 1
 111-11 1
-.names asqrt[4] asqrt[5] new_n408 asqrt[6] new_n2239 a[10] new_n407
+.names asqrt[4] asqrt[5] new_n408 asqrt[6] new_n2238 a[10] new_n407
 1100-0 1
 1010-0 1
 0001-0 1
@@ -6348,7 +6348,7 @@
 01-111 1
 010-11 1
 111-11 1
-.names asqrt[5] asqrt[7] new_n466 new_n2238 new_n525 asqrt[8] new_n465
+.names asqrt[5] asqrt[7] new_n466 new_n2237 new_n525 asqrt[8] new_n465
 1-1000 1
 11-000 1
 0-0100 1
@@ -6373,7 +6373,7 @@
 01-111 1
 010-11 1
 111-11 1
-.names asqrt[5] asqrt[6] new_n467 asqrt[7] new_n2238 a[12] new_n466
+.names asqrt[5] asqrt[6] new_n467 asqrt[7] new_n2237 a[12] new_n466
 1100-0 1
 1010-0 1
 0001-0 1
@@ -7770,7 +7770,7 @@
 01-111 1
 010-11 1
 111-11 1
-.names asqrt[6] asqrt[8] new_n524 new_n2237 new_n582 asqrt[9] new_n523
+.names asqrt[6] asqrt[8] new_n524 new_n2236 new_n582 asqrt[9] new_n523
 1-1000 1
 11-000 1
 0-0100 1
@@ -7795,7 +7795,7 @@
 01-111 1
 010-11 1
 111-11 1
-.names asqrt[6] asqrt[7] new_n525 asqrt[8] new_n2237 a[14] new_n524
+.names asqrt[6] asqrt[7] new_n525 asqrt[8] new_n2236 a[14] new_n524
 1100-0 1
 1010-0 1
 0001-0 1
@@ -9167,7 +9167,7 @@
 01-111 1
 010-11 1
 111-11 1
-.names asqrt[7] asqrt[9] new_n581 new_n2235 new_n638 asqrt[10] new_n580
+.names asqrt[7] asqrt[9] new_n581 new_n2234 new_n638 asqrt[10] new_n580
 1-1000 1
 11-000 1
 0-0100 1
@@ -10547,7 +10547,7 @@
 01-111 1
 010-11 1
 111-11 1
-.names asqrt[8] asqrt[10] new_n637 new_n2236 new_n693 asqrt[11] new_n636
+.names asqrt[8] asqrt[10] new_n637 new_n2235 new_n693 asqrt[11] new_n636
 1-1000 1
 11-000 1
 0-0100 1
@@ -10597,7 +10597,7 @@
 01101- 1
 11011- 1
 10111- 1
-.names a[16] new_n2235 asqrt[8] asqrt[9] a[17] new_n638
+.names a[16] new_n2234 asqrt[8] asqrt[9] a[17] new_n638
 01000 1
 -0100 1
 1-100 1
@@ -11898,7 +11898,7 @@
 01-111 1
 010-11 1
 111-11 1
-.names asqrt[9] asqrt[11] new_n692 new_n2234 new_n748 asqrt[12] new_n691
+.names asqrt[9] asqrt[11] new_n692 new_n2233 new_n748 asqrt[12] new_n691
 1-1000 1
 11-000 1
 0-0100 1
@@ -11923,7 +11923,7 @@
 01-111 1
 010-11 1
 111-11 1
-.names asqrt[9] asqrt[10] new_n693 asqrt[11] new_n2234 a[20] new_n692
+.names asqrt[9] asqrt[10] new_n693 asqrt[11] new_n2233 a[20] new_n692
 1100-0 1
 1010-0 1
 0001-0 1
@@ -13281,7 +13281,7 @@
 01101- 1
 11011- 1
 10111- 1
-.names a[20] new_n2234 asqrt[10] asqrt[11] a[21] new_n748
+.names a[20] new_n2233 asqrt[10] asqrt[11] a[21] new_n748
 01000 1
 -0100 1
 1-100 1
@@ -14532,7 +14532,7 @@
 01-111 1
 010-11 1
 111-11 1
-.names asqrt[11] asqrt[13] new_n800 new_n2232 new_n853 asqrt[14] new_n799
+.names asqrt[11] asqrt[13] new_n800 new_n2231 new_n853 asqrt[14] new_n799
 1-1000 1
 11-000 1
 0-0100 1
@@ -15762,7 +15762,7 @@
 01-111 1
 010-11 1
 111-11 1
-.names asqrt[12] asqrt[16] new_n850 new_n2231 new_n902 asqrt[17] new_n849
+.names asqrt[12] asqrt[16] new_n850 new_n2230 new_n902 asqrt[17] new_n849
 1-1000 1
 11-000 1
 0-0100 1
@@ -15787,7 +15787,7 @@
 01-111 1
 010-11 1
 111-11 1
-.names asqrt[12] asqrt[15] new_n851 new_n904 new_n2231 asqrt[16] new_n850
+.names asqrt[12] asqrt[15] new_n851 new_n904 new_n2230 asqrt[16] new_n850
 1-1000 1
 11-000 1
 0-0100 1
@@ -15812,7 +15812,7 @@
 01-111 1
 010-11 1
 111-11 1
-.names asqrt[12] asqrt[14] new_n852 new_n2233 new_n904 asqrt[15] new_n851
+.names asqrt[12] asqrt[14] new_n852 new_n2232 new_n904 asqrt[15] new_n851
 1-1000 1
 11-000 1
 0-0100 1
@@ -15837,7 +15837,7 @@
 01-111 1
 010-11 1
 111-11 1
-.names asqrt[12] asqrt[13] new_n853 asqrt[14] new_n2233 a[26] new_n852
+.names asqrt[12] asqrt[13] new_n853 asqrt[14] new_n2232 a[26] new_n852
 1100-0 1
 1010-0 1
 0001-0 1
@@ -15854,7 +15854,7 @@
 00101- 1
 01011- 1
 11111- 1
-.names a[24] new_n2232 asqrt[12] asqrt[13] a[25] new_n853
+.names a[24] new_n2231 asqrt[12] asqrt[13] a[25] new_n853
 01000 1
 -0100 1
 1-100 1
@@ -17055,7 +17055,7 @@
 01-111 1
 010-11 1
 111-11 1
-.names new_n903 new_n2231 asqrt[15] asqrt[13] new_n954 asqrt[16] new_n902
+.names new_n903 new_n2230 asqrt[15] asqrt[13] new_n954 asqrt[16] new_n902
 10-000 1
 01-100 1
 001-00 1
@@ -18257,7 +18257,7 @@
 01-111 1
 010-11 1
 111-11 1
-.names asqrt[14] asqrt[16] new_n953 new_n2229 new_n1003 asqrt[17] new_n952
+.names asqrt[14] asqrt[16] new_n953 new_n2228 new_n1003 asqrt[17] new_n952
 1-1000 1
 11-000 1
 0-0100 1
@@ -18282,7 +18282,7 @@
 01-111 1
 010-11 1
 111-11 1
-.names asqrt[14] asqrt[15] new_n954 asqrt[16] new_n2229 a[30] new_n953
+.names asqrt[14] asqrt[15] new_n954 asqrt[16] new_n2228 a[30] new_n953
 1100-0 1
 1010-0 1
 0001-0 1
@@ -19429,7 +19429,7 @@
 01-111 1
 010-11 1
 111-11 1
-.names asqrt[15] asqrt[18] new_n1001 new_n2228 new_n1050 asqrt[19] \
+.names asqrt[15] asqrt[18] new_n1001 new_n2227 new_n1050 asqrt[19] \
  new_n1000
 1-1000 1
 11-000 1
@@ -19455,7 +19455,7 @@
 01-111 1
 010-11 1
 111-11 1
-.names asqrt[15] asqrt[17] new_n1002 new_n2230 new_n2228 asqrt[18] \
+.names asqrt[15] asqrt[17] new_n1002 new_n2229 new_n2227 asqrt[18] \
  new_n1001
 1-1000 1
 11-000 1
@@ -19481,7 +19481,7 @@
 01-111 1
 010-11 1
 111-11 1
-.names asqrt[15] asqrt[16] new_n1003 asqrt[17] new_n2230 a[32] new_n1002
+.names asqrt[15] asqrt[16] new_n1003 asqrt[17] new_n2229 a[32] new_n1002
 1100-0 1
 1010-0 1
 0001-0 1
@@ -19498,7 +19498,7 @@
 00101- 1
 01011- 1
 11111- 1
-.names a[30] new_n2229 asqrt[15] asqrt[16] a[31] new_n1003
+.names a[30] new_n2228 asqrt[15] asqrt[16] a[31] new_n1003
 01000 1
 -0100 1
 1-100 1
@@ -20682,7 +20682,7 @@
 -01011 1
 -00111 1
 -11111 1
-.names a[32] a[33] new_n2228 asqrt[16] asqrt[17] new_n1051 new_n1050
+.names a[32] a[33] new_n2227 asqrt[16] asqrt[17] new_n1051 new_n1050
 --0100 1
 00-100 1
 --0010 1
@@ -21879,23 +21879,23 @@
 -1011 1
 1-011 1
 00111 1
-.names new_n1099 asqrt[17] asqrt[18] a[34] a[35] asqrt[19] new_n1098
--00100 1
--11100 1
-1--100 1
--00010 1
--11010 1
-1--010 1
-100--0 1
-111--0 1
--10001 1
--01001 1
-0--001 1
--10111 1
--01111 1
-0--111 1
-010--1 1
-001--1 1
+.names new_n1099 a[34] asqrt[17] a[35] asqrt[18] asqrt[19] new_n1098
+-01000 0
+0-1100 0
+-00010 0
+0-0110 0
+00-0-0 0
+010001 0
+111001 0
+-00101 0
+1-0101 0
+100-01 0
+110011 0
+011011 0
+-01111 0
+1-1111 0
+101-11 0
+10-1-1 0
 .names a[32] a[33] a[34] asqrt[17] asqrt[18] a[35] new_n1099
 000000 1
 --1100 1
@@ -23018,7 +23018,7 @@
 01-111 1
 010-11 1
 111-11 1
-.names new_n1144 asqrt[20] asqrt[18] new_n2227 new_n1191 asqrt[21] \
+.names new_n1144 asqrt[20] asqrt[18] new_n2226 new_n1191 asqrt[21] \
  new_n1143
 1-1000 1
 11-000 1
@@ -23044,7 +23044,7 @@
 01-111 1
 010-11 1
 111-11 1
-.names asqrt[18] asqrt[19] new_n1145 a[36] a[37] new_n2227 new_n1144
+.names asqrt[18] asqrt[19] new_n1145 a[36] a[37] new_n2226 new_n1144
 0-0000 1
 01-000 1
 1-1100 1
@@ -24161,7 +24161,7 @@
 01-111 1
 010-11 1
 111-11 1
-.names asqrt[19] asqrt[21] new_n1189 new_n2226 new_n1235 asqrt[22] \
+.names asqrt[19] asqrt[21] new_n1189 new_n2224 new_n1235 asqrt[22] \
  new_n1188
 1-1000 1
 11-000 1
@@ -24187,7 +24187,7 @@
 01-111 1
 010-11 1
 111-11 1
-.names a[36] a[37] new_n2227 new_n1191 new_n1190 asqrt[21] new_n1189
+.names a[36] a[37] new_n2226 new_n1191 new_n1190 asqrt[21] new_n1189
 ---100 1
 -11-00 1
 1-1-00 1
@@ -24198,7 +24198,7 @@
 ---111 1
 -11-11 1
 1-1-11 1
-.names new_n2227 new_n1191 asqrt[19] a[38] asqrt[20] new_n2226 new_n1190
+.names new_n2226 new_n1191 asqrt[19] a[38] asqrt[20] new_n2224 new_n1190
 01-000 1
 -10-00 1
 -01-10 1
@@ -25311,40 +25311,36 @@
 01-111 1
 010-11 1
 111-11 1
-.names asqrt[21] asqrt[20] new_n2226 a[40] new_n1235 new_n2225 new_n1234
--00000 1
-10--00 1
--1-110 1
--11-10 1
-11--10 1
-1000-0 1
-11-1-0 1
-111--0 1
--10001 1
-01--01 1
--0-111 1
--01-11 1
-00--11 1
-0100-1 1
-00-1-1 1
-001--1 1
-.names a[38] a[39] a[40] asqrt[20] asqrt[21] a[41] new_n1235
-000000 1
---1100 1
--1-100 1
-1--100 1
---1010 1
--1-010 1
-1--010 1
-000110 1
---1001 1
--1-001 1
-1--001 1
-000101 1
-000011 1
---1111 1
--1-111 1
-1--111 1
+.names asqrt[21] a[40] new_n1235 asqrt[20] a[41] new_n2225 new_n1234
+010000 0
+111000 0
+-00100 0
+001-00 0
+-01010 0
+0-1010 0
+0-0110 0
+000-10 0
+-00001 0
+110101 0
+011101 0
+101-01 0
+1-0011 0
+-01111 0
+1-1111 0
+100-11 0
+.names a[40] new_n2224 asqrt[20] asqrt[21] a[41] new_n1235
+01000 1
+-0100 1
+1-100 1
+-0010 1
+1-010 1
+01110 1
+-0001 1
+1-001 1
+01101 1
+01011 1
+-0111 1
+1-111 1
 .names asqrt[21] asqrt[63] new_n1237 new_n1281 new_n1280 asqrt[20]
 0-100 1
 00-00 1
@@ -26372,7 +26368,7 @@
 01-111 1
 010-11 1
 111-11 1
-.names asqrt[21] asqrt[23] new_n1277 new_n2224 new_n1320 asqrt[24] \
+.names asqrt[21] asqrt[23] new_n1277 new_n2223 new_n1320 asqrt[24] \
  new_n1276
 1-1000 1
 11-000 1
@@ -26398,7 +26394,7 @@
 01-111 1
 010-11 1
 111-11 1
-.names asqrt[21] asqrt[22] new_n1278 asqrt[23] new_n2224 a[44] new_n1277
+.names asqrt[21] asqrt[22] new_n1278 asqrt[23] new_n2223 a[44] new_n1277
 1100-0 1
 1010-0 1
 0001-0 1
@@ -27433,7 +27429,7 @@
 01-111 1
 010-11 1
 111-11 1
-.names asqrt[22] asqrt[24] new_n1319 new_n2223 new_n1361 new_n1318
+.names asqrt[22] asqrt[24] new_n1319 new_n2222 new_n1361 new_n1318
 1-100 1
 11-00 1
 0-010 1
@@ -27446,7 +27442,7 @@
 10-11 1
 100-1 1
 001-1 1
-.names asqrt[22] asqrt[23] new_n1320 asqrt[24] new_n2223 a[46] new_n1319
+.names asqrt[22] asqrt[23] new_n1320 asqrt[24] new_n2222 a[46] new_n1319
 1100-0 1
 1010-0 1
 0001-0 1
@@ -27463,7 +27459,7 @@
 00101- 1
 01011- 1
 11111- 1
-.names a[44] new_n2224 asqrt[22] asqrt[23] a[45] new_n1320
+.names a[44] new_n2223 asqrt[22] asqrt[23] a[45] new_n1320
 01000 1
 -0100 1
 1-100 1
@@ -28451,7 +28447,7 @@
 01-111 1
 010-11 1
 111-11 1
-.names asqrt[23] asqrt[25] new_n1360 new_n2222 new_n1401 asqrt[26] \
+.names asqrt[23] asqrt[25] new_n1360 new_n2221 new_n1401 asqrt[26] \
  new_n1359
 1-1000 1
 11-000 1
@@ -28494,7 +28490,7 @@
 11-111 1
 100-11 1
 011-11 1
-.names a[46] new_n2223 asqrt[23] asqrt[24] asqrt[25] a[47] new_n1361
+.names a[46] new_n2222 asqrt[23] asqrt[24] asqrt[25] a[47] new_n1361
 010000 1
 -01000 1
 1-1000 1
@@ -29416,7 +29412,7 @@
 01-111 1
 010-11 1
 111-11 1
-.names asqrt[24] asqrt[28] new_n1398 new_n2220 new_n1438 asqrt[29] \
+.names asqrt[24] asqrt[28] new_n1398 new_n1439 new_n1438 asqrt[29] \
  new_n1397
 1-1000 1
 11-000 1
@@ -29442,7 +29438,7 @@
 01-111 1
 010-11 1
 111-11 1
-.names asqrt[24] asqrt[27] new_n1399 new_n1440 new_n2220 asqrt[28] \
+.names asqrt[24] asqrt[27] new_n1399 new_n1440 new_n1439 asqrt[28] \
  new_n1398
 1-1000 1
 11-000 1
@@ -29468,7 +29464,7 @@
 01-111 1
 010-11 1
 111-11 1
-.names asqrt[24] asqrt[26] new_n1400 new_n2221 new_n1440 asqrt[27] \
+.names asqrt[24] asqrt[26] new_n1400 new_n2220 new_n1440 asqrt[27] \
  new_n1399
 1-1000 1
 11-000 1
@@ -29494,7 +29490,7 @@
 01-111 1
 010-11 1
 111-11 1
-.names asqrt[24] asqrt[25] a[50] new_n1401 asqrt[26] new_n2221 new_n1400
+.names asqrt[24] asqrt[25] a[50] new_n1401 asqrt[26] new_n2220 new_n1400
 10-000 0
 00-100 0
 01-010 0
@@ -30451,29 +30447,49 @@
 01-111 1
 010-11 1
 111-11 1
-.names new_n1439 new_n2220 asqrt[27] asqrt[25] new_n1478 asqrt[28] \
+.names new_n1439 new_n2219 asqrt[27] asqrt[25] new_n1478 asqrt[28] \
  new_n1438
-10-000 1
-01-100 1
+01-000 1
+10-100 1
 001-00 1
 111-00 1
-01-010 1
-10-110 1
+10-010 1
+01-110 1
 000-10 1
 110-10 1
-01-001 1
-10-101 1
+10-001 1
+01-101 1
 000-01 1
 110-01 1
-10-011 1
-01-111 1
+01-011 1
+10-111 1
 001-11 1
 111-11 1
-.names new_n1440 a[50] a[51] a[52] new_n1439
--100 0
--010 0
-11-0 0
-1001 0
+.names asqrt[25] asqrt[26] new_n1440 asqrt[27] a[52] a[51] new_n1439
+-01000 1
+10-000 1
+-11100 1
+01-100 1
+-11010 1
+01-010 1
+-01110 1
+10-110 1
+-10001 1
+11-001 1
+-00101 1
+00-101 1
+-00011 1
+00-011 1
+-10111 1
+11-111 1
+11000- 1
+10100- 1
+00010- 1
+01110- 1
+00001- 1
+01101- 1
+11011- 1
+10111- 1
 .names a[48] a[49] a[50] asqrt[25] asqrt[26] a[51] new_n1440
 000000 1
 --1100 1
@@ -31388,7 +31404,7 @@
 00101- 1
 01011- 1
 11111- 1
-.names asqrt[26] asqrt[28] new_n1477 new_n2218 new_n1515 asqrt[29] \
+.names asqrt[26] asqrt[28] new_n1477 new_n2217 new_n1515 asqrt[29] \
  new_n1476
 0-1000 1
 00-000 1
@@ -32327,7 +32343,7 @@
 01-111 1
 010-11 1
 111-11 1
-.names asqrt[27] asqrt[29] new_n1514 new_n2219 new_n1551 asqrt[30] \
+.names asqrt[27] asqrt[29] new_n1514 new_n2218 new_n1551 asqrt[30] \
  new_n1513
 1-1000 1
 11-000 1
@@ -32378,7 +32394,7 @@
 11-111 1
 100-11 1
 111-11 1
-.names a[54] new_n2218 asqrt[27] asqrt[28] a[55] new_n1515
+.names a[54] new_n2217 asqrt[27] asqrt[28] a[55] new_n1515
 -0000 1
 1-000 1
 01100 1
@@ -33236,7 +33252,7 @@
 01-111 1
 010-11 1
 111-11 1
-.names asqrt[28] asqrt[30] new_n1550 new_n2217 new_n1586 asqrt[31] \
+.names asqrt[28] asqrt[30] new_n1550 new_n2216 new_n1586 asqrt[31] \
  new_n1549
 1-1000 1
 11-000 1
@@ -33262,7 +33278,7 @@
 01-111 1
 010-11 1
 111-11 1
-.names asqrt[28] asqrt[29] new_n1551 asqrt[30] new_n2217 a[58] new_n1550
+.names asqrt[28] asqrt[29] new_n1551 asqrt[30] new_n2216 a[58] new_n1550
 1100-0 1
 1010-0 1
 0001-0 1
@@ -34115,7 +34131,7 @@
 01-111 1
 010-11 1
 111-11 1
-.names asqrt[29] asqrt[31] new_n1585 new_n2215 new_n1620 asqrt[32] \
+.names asqrt[29] asqrt[31] new_n1585 new_n2214 new_n1620 asqrt[32] \
  new_n1584
 1-1000 1
 11-000 1
@@ -34141,7 +34157,7 @@
 01-111 1
 010-11 1
 111-11 1
-.names asqrt[29] asqrt[30] new_n1586 asqrt[31] new_n2215 a[60] new_n1585
+.names asqrt[29] asqrt[30] new_n1586 asqrt[31] new_n2214 a[60] new_n1585
 1100-0 1
 1010-0 1
 0001-0 1
@@ -34968,7 +34984,7 @@
 01-111 1
 010-11 1
 111-11 1
-.names asqrt[30] asqrt[32] new_n1619 new_n2216 new_n1653 asqrt[33] \
+.names asqrt[30] asqrt[32] new_n1619 new_n2215 new_n1653 asqrt[33] \
  new_n1618
 1-1000 1
 11-000 1
@@ -34994,7 +35010,7 @@
 01-111 1
 010-11 1
 111-11 1
-.names asqrt[30] asqrt[31] new_n1620 asqrt[32] new_n2216 a[62] new_n1619
+.names asqrt[30] asqrt[31] new_n1620 asqrt[32] new_n2215 a[62] new_n1619
 1100-0 1
 1010-0 1
 0001-0 1
@@ -35011,7 +35027,7 @@
 00101- 1
 01011- 1
 11111- 1
-.names a[60] new_n2215 asqrt[30] asqrt[31] a[61] new_n1620
+.names a[60] new_n2214 asqrt[30] asqrt[31] a[61] new_n1620
 01000 1
 -0100 1
 1-100 1
@@ -35791,7 +35807,7 @@
 00101- 1
 01011- 1
 11111- 1
-.names asqrt[31] asqrt[33] new_n1652 new_n2212 new_n1685 new_n1651
+.names asqrt[31] asqrt[33] new_n1652 new_n2211 new_n1685 new_n1651
 0-100 1
 00-00 1
 1-010 1
@@ -36561,7 +36577,7 @@
 01-111 1
 010-11 1
 111-11 1
-.names asqrt[32] asqrt[35] new_n1683 new_n2213 new_n1715 asqrt[36] \
+.names asqrt[32] asqrt[35] new_n1683 new_n2212 new_n1715 asqrt[36] \
  new_n1682
 1-1000 1
 11-000 1
@@ -36587,7 +36603,7 @@
 01-111 1
 010-11 1
 111-11 1
-.names asqrt[32] asqrt[34] new_n1684 new_n2214 new_n2213 asqrt[35] \
+.names asqrt[32] asqrt[34] new_n1684 new_n2213 new_n2212 asqrt[35] \
  new_n1683
 1-1000 1
 11-000 1
@@ -36630,7 +36646,7 @@
 0110-1 1
 0101-1 1
 1011-1 1
-.names a[64] new_n2212 asqrt[32] asqrt[33] asqrt[34] a[65] new_n1685
+.names a[64] new_n2211 asqrt[32] asqrt[33] asqrt[34] a[65] new_n1685
 -00000 1
 1-0000 1
 011000 1
@@ -37344,7 +37360,7 @@
 01-111 1
 010-11 1
 111-11 1
-.names asqrt[33] asqrt[36] new_n1714 new_n2211 new_n1745 asqrt[37] \
+.names asqrt[33] asqrt[36] new_n1714 new_n2210 new_n1745 asqrt[37] \
  new_n1713
 1-1000 1
 11-000 1
@@ -37370,7 +37386,7 @@
 01-111 1
 010-11 1
 111-11 1
-.names new_n1716 asqrt[35] new_n1715 asqrt[33] new_n2211 asqrt[36] \
+.names new_n1716 asqrt[35] new_n1715 asqrt[33] new_n2210 asqrt[36] \
  new_n1714
 -10000 1
 0-0000 1
@@ -38814,7 +38830,7 @@
 01-111 1
 010-11 1
 111-11 1
-.names asqrt[35] asqrt[37] new_n1774 new_n2210 new_n1803 asqrt[38] \
+.names asqrt[35] asqrt[37] new_n1774 new_n2208 new_n1803 asqrt[38] \
  new_n1773
 1-1000 1
 11-000 1
@@ -39562,23 +39578,19 @@
 01010- 0
 11001- 0
 10011- 0
-.names a[70] a[71] a[72] asqrt[36] asqrt[37] a[73] new_n1803
-000000 1
---1100 1
--1-100 1
-1--100 1
---1010 1
--1-010 1
-1--010 1
-000110 1
---1001 1
--1-001 1
-1--001 1
-000101 1
-000011 1
---1111 1
--1-111 1
-1--111 1
+.names a[72] new_n2208 asqrt[36] asqrt[37] a[73] new_n1803
+01000 1
+-0100 1
+1-100 1
+-0010 1
+1-010 1
+01110 1
+-0001 1
+1-001 1
+01101 1
+01011 1
+-0111 1
+1-111 1
 .names asqrt[37] asqrt[63] new_n1805 new_n1833 new_n1832 asqrt[36]
 0-100 1
 00-00 1
@@ -40190,7 +40202,7 @@
 01-111 1
 010-11 1
 111-11 1
-.names asqrt[37] asqrt[39] new_n1829 new_n2208 new_n1857 asqrt[40] \
+.names asqrt[37] asqrt[39] new_n1829 new_n2207 new_n1857 asqrt[40] \
  new_n1828
 1-1000 1
 11-000 1
@@ -40216,7 +40228,7 @@
 01-111 1
 010-11 1
 111-11 1
-.names asqrt[37] asqrt[38] new_n1830 asqrt[39] new_n2208 a[76] new_n1829
+.names asqrt[37] asqrt[38] new_n1830 asqrt[39] new_n2207 a[76] new_n1829
 1100-0 1
 1010-0 1
 0001-0 1
@@ -40835,7 +40847,7 @@
 01-111 1
 010-11 1
 111-11 1
-.names a[76] new_n2208 a[78] a[77] new_n1855 asqrt[41] new_n1854
+.names a[76] new_n2207 a[78] a[77] new_n1855 asqrt[41] new_n1854
 -00000 1
 1-0000 1
 010100 1
@@ -40892,7 +40904,7 @@
 01101- 1
 11011- 1
 10111- 1
-.names a[76] new_n2208 asqrt[38] asqrt[39] a[77] new_n1857
+.names a[76] new_n2207 asqrt[38] asqrt[39] a[77] new_n1857
 01000 1
 -0100 1
 1-100 1
@@ -42057,7 +42069,7 @@
 01-111 1
 010-11 1
 111-11 1
-.names asqrt[40] asqrt[42] new_n1905 new_n2207 new_n1929 asqrt[43] \
+.names asqrt[40] asqrt[42] new_n1905 new_n2205 new_n1929 asqrt[43] \
  new_n1904
 1-1000 1
 11-000 1
@@ -42108,19 +42120,23 @@
 11-111 1
 100-11 1
 111-11 1
-.names a[80] new_n2206 asqrt[40] asqrt[41] a[81] new_n1906
--0000 1
-1-000 1
-01100 1
-01010 1
--0110 1
-1-110 1
-01001 1
--0101 1
-1-101 1
--0011 1
-1-011 1
-01111 1
+.names a[78] a[79] a[80] asqrt[40] asqrt[41] a[81] new_n1906
+--1000 1
+-1-000 1
+1--000 1
+000100 1
+000010 1
+--1110 1
+-1-110 1
+1--110 1
+000001 1
+--1101 1
+-1-101 1
+1--101 1
+--1011 1
+-1-011 1
+1--011 1
+000111 1
 .names asqrt[41] asqrt[63] new_n1908 new_n1932 new_n1931 asqrt[40]
 0-100 1
 00-00 1
@@ -42628,7 +42644,7 @@
 00101- 1
 01011- 1
 11111- 1
-.names asqrt[41] asqrt[43] new_n1928 new_n2204 new_n1951 asqrt[44] \
+.names asqrt[41] asqrt[43] new_n1928 new_n2203 new_n1951 asqrt[44] \
  new_n1927
 0-1000 1
 00-000 1
@@ -43177,7 +43193,7 @@
 01-111 1
 010-11 1
 111-11 1
-.names asqrt[42] asqrt[44] new_n1950 new_n2205 new_n1972 asqrt[45] \
+.names asqrt[42] asqrt[44] new_n1950 new_n2204 new_n1972 asqrt[45] \
  new_n1949
 1-1000 1
 11-000 1
@@ -43228,7 +43244,7 @@
 11-111 1
 100-11 1
 111-11 1
-.names a[84] new_n2204 asqrt[42] asqrt[43] a[85] new_n1951
+.names a[84] new_n2203 asqrt[42] asqrt[43] a[85] new_n1951
 -0000 1
 1-000 1
 01100 1
@@ -43696,7 +43712,7 @@
 01-111 1
 010-11 1
 111-11 1
-.names new_n1971 asqrt[45] asqrt[43] new_n2203 new_n1992 asqrt[46] \
+.names new_n1971 asqrt[45] asqrt[43] new_n2202 new_n1992 asqrt[46] \
  new_n1970
 1-1000 1
 11-000 1
@@ -43722,27 +43738,23 @@
 01-111 1
 010-11 1
 111-11 1
-.names asqrt[43] asqrt[44] new_n1972 a[86] a[87] new_n2203 new_n1971
-0-0000 1
-01-000 1
-1-1100 1
-11-100 1
-1-1010 1
-11-010 1
-0-0110 1
-01-110 1
-010--0 1
-111--0 1
-1-0001 1
-10-001 1
-0-1101 1
-00-101 1
-0-1011 1
-00-011 1
-1-0111 1
-10-111 1
-100--1 1
-001--1 1
+.names asqrt[44] a[86] new_n1972 asqrt[43] a[87] new_n2202 new_n1971
+010000 0
+111000 0
+-00100 0
+001-00 0
+-01010 0
+0-1010 0
+0-0110 0
+000-10 0
+-00001 0
+110101 0
+011101 0
+101-01 0
+1-0011 0
+-01111 0
+1-1111 0
+100-11 0
 .names a[84] a[85] a[86] asqrt[43] asqrt[44] a[87] new_n1972
 000000 1
 --1100 1
@@ -44189,7 +44201,7 @@
 01-111 1
 010-11 1
 111-11 1
-.names asqrt[44] asqrt[46] new_n1991 new_n2202 new_n2011 asqrt[47] \
+.names asqrt[44] asqrt[46] new_n1991 new_n2201 new_n2011 asqrt[47] \
  new_n1990
 1-1000 1
 11-000 1
@@ -44215,24 +44227,31 @@
 01-111 1
 010-11 1
 111-11 1
-.names new_n1992 new_n2201 asqrt[45] asqrt[44] asqrt[46] new_n2202 \
- new_n1991
-01-000 1
-10-100 1
-001-00 1
-111-00 1
-10-010 1
-01-110 1
-000-10 1
-110-10 1
-10-001 1
-01-101 1
-000-01 1
-110-01 1
-01-011 1
-10-111 1
-001-11 1
-111-11 1
+.names asqrt[44] asqrt[45] new_n1992 asqrt[46] a[90] a[89] new_n1991
+-01000 1
+10-000 1
+-11100 1
+01-100 1
+-11010 1
+01-010 1
+-01110 1
+10-110 1
+-10001 1
+11-001 1
+-00101 1
+00-101 1
+-00011 1
+00-011 1
+-10111 1
+11-111 1
+11000- 1
+10100- 1
+00010- 1
+01110- 1
+00001- 1
+01101- 1
+11011- 1
+10111- 1
 .names a[86] a[87] a[88] asqrt[44] asqrt[45] a[89] new_n1992
 000000 1
 --1100 1
@@ -45574,13 +45593,8 @@
 -1-111 1
 1--111 1
 .names asqrt[48] asqrt[63] new_n2048 new_n2065 new_n2064 asqrt[47]
-0-100 1
-00-00 1
 1-010 1
-10-10 1
 100-0 1
-001-0 1
-1-101 1
 11-01 1
 0-011 1
 01-11 1
@@ -46933,14 +46947,14 @@
 --1111 1
 -1-111 1
 1--111 1
-.names new_n2107 asqrt[63] asqrt[52] new_n2106 new_n2119 new_n2118 \
- asqrt[51]
--1-000 1
---0010 1
--1-110 1
-0111-0 1
---1011 1
-0010-1 1
+.names asqrt[52] asqrt[63] new_n2106 new_n2119 new_n2118 asqrt[51]
+11-00 1
+0-010 1
+01-10 1
+010-0 1
+111-0 1
+1-011 1
+100-1 1
 .names asqrt[52] asqrt[62] new_n2107 new_n2120 asqrt[63] new_n2119 \
  new_n2106
 -1-000 1
@@ -47461,14 +47475,14 @@
 01011 1
 -0111 1
 1-111 1
-.names new_n2130 asqrt[63] asqrt[54] new_n2129 new_n2140 new_n2139 \
- asqrt[53]
--1-000 1
---0010 1
--1-110 1
-0111-0 1
---1011 1
-0010-1 1
+.names asqrt[54] asqrt[63] new_n2129 new_n2140 new_n2139 asqrt[53]
+11-00 1
+0-010 1
+01-10 1
+010-0 1
+111-0 1
+1-011 1
+100-1 1
 .names asqrt[54] asqrt[62] new_n2130 new_n2141 asqrt[63] new_n2140 \
  new_n2129
 -1-000 1
@@ -48638,9 +48652,8 @@
 01101- 1
 11011- 1
 10111- 1
-.names a[95] a[94] a[96] new_n2197
---1 0
-00- 0
+.names new_n2198 a[96] new_n2197
+00 1
 .names a[94] a[95] a[96] new_n2198
 000 1
 -11 1
@@ -48652,25 +48665,27 @@
 .names a[92] a[93] a[94] new_n2200
 000 1
 -11 1
-.names a[88] a[89] new_n2201
-00 1
-11 1
-.names a[88] a[89] a[90] new_n2202
+1-1 1
+.names a[88] a[89] a[90] new_n2201
 000 1
 -11 1
 1-1 1
-.names a[86] a[87] asqrt[45] a[88] new_n2203
+.names a[86] a[87] asqrt[45] a[88] new_n2202
 0000 1
 -110 1
 1-10 1
 -101 1
 1-01 1
 0011 1
-.names a[82] a[83] a[84] new_n2204
+.names a[82] a[83] a[84] new_n2203
 000 1
 -11 1
 1-1 1
-.names a[84] a[85] a[86] new_n2205
+.names a[84] a[85] a[86] new_n2204
+000 1
+-11 1
+1-1 1
+.names a[80] a[81] a[82] new_n2205
 000 1
 -11 1
 1-1 1
@@ -48678,23 +48693,19 @@
 000 1
 -11 1
 1-1 1
-.names a[80] a[81] a[82] new_n2207
+.names a[74] a[75] a[76] new_n2207
 000 1
 -11 1
 1-1 1
-.names a[74] a[75] a[76] new_n2208
+.names a[70] a[71] a[72] new_n2208
 000 1
 -11 1
 1-1 1
-.names new_n2210 a[72] a[73] a[74] new_n2209
+.names new_n2208 a[72] a[73] a[74] new_n2209
 --10 0
 -1-0 0
 1001 0
-.names a[70] a[71] a[72] new_n2210
-000 1
--11 1
-1-1 1
-.names a[66] a[67] a[68] asqrt[34] asqrt[35] a[69] new_n2211
+.names a[66] a[67] a[68] asqrt[34] asqrt[35] a[69] new_n2210
 000000 1
 --1100 1
 -1-100 1
@@ -48711,11 +48722,11 @@
 --1111 1
 -1-111 1
 1--111 1
-.names a[62] a[63] a[64] new_n2212
+.names a[62] a[63] a[64] new_n2211
 000 1
 -11 1
 1-1 1
-.names a[66] new_n2214 asqrt[33] asqrt[34] a[67] new_n2213
+.names a[66] new_n2213 asqrt[33] asqrt[34] a[67] new_n2212
 01000 1
 -0100 1
 1-100 1
@@ -48728,67 +48739,51 @@
 01011 1
 -0111 1
 1-111 1
-.names a[64] a[65] a[66] new_n2214
+.names a[64] a[65] a[66] new_n2213
 000 1
 -11 1
 1-1 1
-.names a[58] a[59] a[60] new_n2215
+.names a[58] a[59] a[60] new_n2214
 000 1
 -11 1
 1-1 1
-.names a[60] a[61] a[62] new_n2216
+.names a[60] a[61] a[62] new_n2215
 000 1
 -11 1
 1-1 1
-.names a[56] a[57] a[58] new_n2217
+.names a[56] a[57] a[58] new_n2216
 000 1
 -11 1
-.names a[52] a[53] a[54] new_n2218
-000 1
--11 1
-1-1 1
-.names a[54] a[55] a[56] new_n2219
+.names a[52] a[53] a[54] new_n2217
 000 1
 -11 1
 1-1 1
-.names asqrt[25] asqrt[26] new_n1440 asqrt[27] a[52] a[51] new_n2220
--01000 1
-10-000 1
--11100 1
-01-100 1
--11010 1
-01-010 1
--01110 1
-10-110 1
--10001 1
-11-001 1
--00101 1
-00-101 1
--00011 1
-00-011 1
--10111 1
-11-111 1
-11000- 1
-10100- 1
-00010- 1
-01110- 1
-00001- 1
-01101- 1
-11011- 1
-10111- 1
-.names new_n2222 a[48] a[49] a[50] new_n2221
+.names a[54] a[55] a[56] new_n2218
+000 1
+-11 1
+1-1 1
+.names new_n1440 a[50] a[51] a[52] new_n2219
+-100 0
+-010 0
+11-0 0
+1001 0
+.names new_n2221 a[48] a[49] a[50] new_n2220
 --10 0
 -1-0 0
 1001 0
-.names a[46] a[47] a[48] new_n2222
+.names a[46] a[47] a[48] new_n2221
 000 1
 -11 1
 1-1 1
-.names a[44] a[45] a[46] new_n2223
+.names a[44] a[45] a[46] new_n2222
 000 1
 -11 1
 1-1 1
-.names a[42] a[43] a[44] new_n2224
+.names a[42] a[43] a[44] new_n2223
+000 1
+-11 1
+1-1 1
+.names a[38] a[39] a[40] new_n2224
 000 1
 -11 1
 1-1 1
@@ -48799,18 +48794,14 @@
 -101 1
 1-01 1
 0011 1
-.names a[38] a[39] a[40] new_n2226
-000 1
--11 1
-1-1 1
-.names a[36] a[37] asqrt[20] a[38] new_n2227
+.names a[36] a[37] asqrt[20] a[38] new_n2226
 0000 1
 -110 1
 1-10 1
 -101 1
 1-01 1
 0011 1
-.names a[30] a[31] a[32] asqrt[16] asqrt[17] a[33] new_n2228
+.names a[30] a[31] a[32] asqrt[16] asqrt[17] a[33] new_n2227
 000000 1
 --1100 1
 -1-100 1
@@ -48827,14 +48818,15 @@
 --1111 1
 -1-111 1
 1--111 1
-.names a[28] a[29] a[30] new_n2229
+.names a[28] a[29] a[30] new_n2228
 000 1
 -11 1
 1-1 1
-.names a[30] a[31] a[32] new_n2230
+.names a[30] a[31] a[32] new_n2229
 000 1
 -11 1
-.names asqrt[13] asqrt[14] new_n904 asqrt[15] a[28] a[27] new_n2231
+1-1 1
+.names asqrt[13] asqrt[14] new_n904 asqrt[15] a[28] a[27] new_n2230
 -01000 1
 10-000 1
 -11100 1
@@ -48859,47 +48851,48 @@
 01101- 1
 11011- 1
 10111- 1
-.names a[22] a[23] a[24] new_n2232
+.names a[22] a[23] a[24] new_n2231
 000 1
 -11 1
 1-1 1
-.names a[24] a[25] a[26] new_n2233
-000 1
--11 1
-.names a[18] a[19] a[20] new_n2234
+.names a[24] a[25] a[26] new_n2232
 000 1
 -11 1
 1-1 1
-.names a[14] a[15] a[16] new_n2235
+.names a[18] a[19] a[20] new_n2233
 000 1
 -11 1
 1-1 1
-.names a[16] a[17] a[18] new_n2236
+.names a[14] a[15] a[16] new_n2234
 000 1
 -11 1
 1-1 1
-.names a[12] a[13] a[14] new_n2237
-000 1
--11 1
-.names a[10] a[11] a[12] new_n2238
+.names a[16] a[17] a[18] new_n2235
 000 1
 -11 1
 1-1 1
-.names a[8] a[9] a[10] new_n2239
+.names a[12] a[13] a[14] new_n2236
+000 1
+-11 1
+.names a[10] a[11] a[12] new_n2237
 000 1
 -11 1
 1-1 1
-.names new_n2241 a[6] a[7] a[8] new_n2240
+.names a[8] a[9] a[10] new_n2238
+000 1
+-11 1
+1-1 1
+.names new_n2240 a[6] a[7] a[8] new_n2239
 --10 0
 -1-0 0
 1001 0
-.names a[4] a[5] a[6] new_n2241
+.names a[4] a[5] a[6] new_n2240
 000 1
 -11 1
 1-1 1
-.names new_n2243 a[4] new_n2242
+.names new_n2242 a[4] new_n2241
 00 1
-.names a[2] a[3] a[4] new_n2243
+.names a[2] a[3] a[4] new_n2242
 000 1
 -11 1
 1-1 1
