@@ -39234,18 +39234,6 @@
 1-0100 1
 1-1000 1
 1-1110 1
-.names new_new_new_new__n4141 new_new_new_new__n4551 new_new_new_new__n4552 new_new_new_new__n3949 new_new_new_new__n4326 new_new_new_new__n4553 new_new_new_new__n4776
---0101 1
---0110 1
--1-101 1
--1-110 1
--10-01 1
--10-10 1
-1---01 1
-1---10 1
-1-01-- 1
-11-1-- 1
-110--- 1
 .names new_new_new_new__n4556 new_new_new_new__n4350 a[47] new_new_new_new__n3954 new_new_new_new__n4333 new_new_new_new__n4557 new_new_new_new__n4778
 000000 1
 000011 1
@@ -41013,28 +41001,39 @@
 0--010 1
 0-0-01 1
 0-1-10 1
-.names new_new_new_new__n4160 new_new_new_new__n4326 new_new_new_new__n3914 new_new_new_new__n4553 new_new_new_new__n4574 new_new_new_new__n4777 new_new_new_new__n4910
---0001 1
---1011 1
+.names new_new_new_new__n3914 new_new_new_new__n4160 new_new_new_new__n4326 new_new_new_new__n4553 new_new_new_new__n4574 new_new_new_new__n4777 new_new_new_new__n4910
+-1--00 1
+-0--10 1
+0--001 1
+--0101 1
+1--011 1
+--1111 1
+.names new_new_new_new__n4141 new_new_new_new__n4160 new_new_new_new__n4422 new_new_new_new__n4777 new_new_new_new__n4775 new_new_new_new__n4774 new_new_new_new__n4909
+-00000 1
+-11000 1
+-10100 1
+-01100 1
+11001- 1
+10101- 1
+10011- 1
+11111- 1
+-10001 1
+-01001 1
+-00101 1
+-11101 1
+00001- 1
+01101- 1
+01011- 1
+00111- 1
+.names new_new_new_new__n4141 new_new_new_new__n4160 new_new_new_new__n4422 new_new_new_new__n4777 new_new_new_new__n4775 new_new_new_new__n4774 new_new_new_new__n4911
+-110-- 1
+-011-- 1
+11-01- 1
+1-1-1- 1
+10-11- 1
+-1-001 1
+--1-01 1
 -0-101 1
--1-111 1
-0---10 1
-1---00 1
-.names new_new_new_new__n4776 new_new_new_new__n4422 new_new_new_new__n4777 new_new_new_new__n4160 new_new_new_new__n4909
-0000 1
-0011 1
-0101 1
-0110 1
-1001 1
-1010 1
-1100 1
-1111 1
-.names new_new_new_new__n4776 new_new_new_new__n4422 new_new_new_new__n4777 new_new_new_new__n4160 new_new_new_new__n4911
--101 1
--110 1
-1-01 1
-1-10 1
-11-- 1
 .names new_new_new_new__n4556 new_new_new_new__n4779 new_new_new_new__n4778 new_new_new_new__n4186 new_new_new_new__n4350 a[47] new_new_new_new__n4912
 --0010 1
 --0101 1
@@ -41890,14 +41889,6 @@
 --10-0 0
 ---1-1 0
 ----1- 0
-.names new_new_new_new__n4974 new_new_new_new__n4976 new_new_new_new__n4978 new_new_new_new__n4979 new_new_new_new__n4980 new_new_new_new__n3711 new_new_new_new__n5097
-0-0-0- 0
-10-01- 0
--10-0- 0
---01-- 0
---101- 0
----10- 0
------0 0
 .names new_new_new_new__n4976 new_new_new_new__n4974 new_new_new_new__n4978 new_new_new_new__n3988 new_new_new_new__n4979 new_new_new_new__n4980 new_new_new_new__n5098
 ---0-1 0
 --1-00 0
@@ -43428,12 +43419,12 @@
 1-01 1
 1-10 1
 10-- 1
-.names new_new_new_new__n5098 new_new_new_new__n5097 new_new_new_new__n3961 new_new_new_new__n5099 new_new_new_new__n5215
--000 1
--011 1
-0-00 1
-0-11 1
-00-- 1
+.names new_new_new_new__n3711 new_new_new_new__n3961 new_new_new_new__n5098 new_new_new_new__n5099 new_new_new_new__n5095 new_new_new_new__n5215
+10-10 0
+11-00 0
+1-1-0 0
+-011- 0
+-110- 0
 .names new_new_new_new__n3961 new_new_new_new__n3673 new_new_new_new__n4982 new_new_new_new__n4981 new_new_new_new__n5100 new_new_new_new__n5216
 -0001 1
 -0111 1
@@ -43453,15 +43444,20 @@
 --01- 1
 --101 1
 ---10 1
-.names new_new_new_new__n3961 new_new_new_new__n5097 new_new_new_new__n5099 new_new_new_new__n5100 new_new_new_new__n5098 new_new_new_new__n5218
-00--- 1
-0-0-0 1
-0--1- 1
--00-0 1
--0-1- 1
---01- 1
---101 1
----10 1
+.names new_new_new_new__n3961 new_new_new_new__n5096 new_new_new_new__n5098 new_new_new_new__n5099 new_new_new_new__n5100 new_new_new_new__n5095 new_new_new_new__n5218
+0-00-- 1
+-100-- 1
+01---- 1
+---01- 1
+--0-1- 1
+--00-1 1
+0----1 1
+-1-0-1 1
+-10--1 1
+--1100 1
+-1--1- 1
+-011-1 1
+0---1- 1
 .names new_new_new_new__n5098 new_new_new_new__n3673 new_new_new_new__n4982 new_new_new_new__n4981 new_new_new_new__n5100 new_new_new_new__n3905 new_new_new_new__n5219
 0---0- 0
 10011- 0
@@ -44696,23 +44692,27 @@
 1--010 1
 1--100 1
 1-1--0 1
-.names new_new_new_new__n5212 new_new_new_new__n5096 new_new_new_new__n5097 new_new_new_new__n3961 new_new_new_new__n5098 new_new_new_new__n5099 new_new_new_new__n5306
---1001 1
---1010 1
---1100 1
---1111 1
--10000 1
--10011 1
--10101 1
--10110 1
-0-0000 1
-0-0011 1
-0-0101 1
-0-0110 1
-10-001 1
-10-010 1
-10-100 1
-10-111 1
+.names new_new_new_new__n3961 new_new_new_new__n5096 new_new_new_new__n5098 new_new_new_new__n5099 new_new_new_new__n5212 new_new_new_new__n5095 new_new_new_new__n5306
+0000-0 0
+1010-0 0
+0110-0 0
+1001-0 0
+0101-0 0
+0011-0 0
+-10001 0
+1-0001 0
+001001 0
+000101 0
+-11101 0
+1-1101 0
+111--1 0
+00001- 0
+10101- 0
+10011- 0
+01011- 0
+00111- 0
+1100-- 0
+1111-- 0
 .names new_new_new_new__n5208 new_new_new_new__n5210 new_new_new_new__n5213 new_new_new_new__n5211 new_new_new_new__n5307
 -011 1
 -101 1
