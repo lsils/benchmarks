@@ -1,0 +1,141 @@
+.model top
+.inputs dest_x[0] dest_x[1] dest_x[2] dest_x[3] dest_x[4] dest_x[5] dest_x[6] dest_x[7] dest_x[8] dest_x[9] dest_x[10] dest_x[11] dest_x[12] dest_x[13] dest_x[14] dest_x[15] dest_x[16] dest_x[17] dest_x[18] dest_x[19] dest_x[20] dest_x[21] dest_x[22] dest_x[23] dest_x[24] dest_x[25] dest_x[26] dest_x[27] dest_x[28] dest_x[29] dest_y[0] dest_y[1] dest_y[2] dest_y[3] dest_y[4] dest_y[5] dest_y[6] dest_y[7] dest_y[8] dest_y[9] dest_y[10] dest_y[11] dest_y[12] dest_y[13] dest_y[14] dest_y[15] dest_y[16] dest_y[17] dest_y[18] dest_y[19] dest_y[20] dest_y[21] dest_y[22] dest_y[23] dest_y[24] dest_y[25] dest_y[26] dest_y[27] dest_y[28] dest_y[29]
+.outputs outport[0] outport[1] outport[2] outport[3] outport[4] outport[5] outport[6] outport[7] outport[8] outport[9] outport[10] outport[11] outport[12] outport[13] outport[14] outport[15] outport[16] outport[17] outport[18] outport[19] outport[20] outport[21] outport[22] outport[23] outport[24] outport[25] outport[26] outport[27] outport[28] outport[29]
+.names dest_x[25] dest_x[24] dest_x[23] dest_x[26] dest_x[29] dest_x[27] new_x_n74
+---111 1
+111-11 1
+.names dest_x[21] dest_x[26] dest_x[22] new_x_n75
+000 1
+.names dest_x[14] dest_x[15] dest_x[16] dest_x[18] dest_x[17] dest_x[20] new_x_n76
+--1-11 1
+11--11 1
+---1-1 1
+.names dest_x[10] dest_x[11] dest_x[12] dest_x[16] dest_x[18] dest_x[13] new_x_n78
+11---- 0
+--1--- 0
+---1-- 0
+----1- 0
+-----1 0
+.names dest_x[0] dest_x[9] dest_x[1] dest_x[2] dest_x[3] dest_x[4] new_recoded_x_low
+-10000 1
+101111 1
+.names dest_x[9] dest_x[5] dest_x[6] dest_x[7] dest_x[8] new_recoded_x_high
+10000 1
+01111 1
+.names dest_y[25] dest_y[24] dest_y[23] dest_y[26] dest_y[29] dest_y[27] new_$abc$8260$new_new_n74__
+---111 1
+111-11 1
+.names dest_y[21] dest_y[26] dest_y[22] new_$abc$8260$new_new_n75__
+000 1
+.names dest_y[14] dest_y[15] dest_y[16] dest_y[18] dest_y[17] dest_y[20] new_$abc$8260$new_new_n76__
+--1-11 1
+11--11 1
+---1-1 1
+.names dest_y[10] dest_y[11] dest_y[12] dest_y[16] dest_y[18] dest_y[13] new_$abc$8260$new_new_n78__
+11---- 0
+--1--- 0
+---1-- 0
+----1- 0
+-----1 0
+.names dest_x[0] dest_y[0] dest_y[9] dest_y[7] dest_y[3] dest_y[2] new_recoded_y_low
+11---- 0
+-0---1 0
+--0--0 0
+--1--1 0
+---0-1 0
+---1-0 0
+----01 0
+----10 0
+.names dest_y[9] dest_y[8] dest_y[6] dest_y[4] dest_y[5] dest_y[1] new_recoded_y_high
+100000 1
+011111 1
+.names outport[3]
+0
+.names outport[4]
+0
+.names outport[5]
+0
+.names outport[6]
+0
+.names outport[7]
+0
+.names outport[8]
+0
+.names outport[9]
+0
+.names outport[10]
+0
+.names outport[11]
+0
+.names outport[12]
+0
+.names outport[13]
+0
+.names outport[14]
+0
+.names outport[15]
+0
+.names outport[16]
+0
+.names outport[17]
+0
+.names outport[18]
+0
+.names outport[19]
+0
+.names outport[20]
+0
+.names outport[21]
+0
+.names outport[22]
+0
+.names outport[23]
+0
+.names outport[24]
+0
+.names outport[25]
+0
+.names outport[26]
+0
+.names outport[27]
+0
+.names outport[28]
+0
+.names outport[29]
+0
+.names new_x_n76 dest_x[19] new_x_n75 dest_x[28] new_x_n74 new_x_hi
+0-1-- 0
+-01-- 0
+---0- 0
+----0 0
+.names dest_x[9] dest_x[11] new_x_n78 new_x_n75 new_x_mid
+11-- 1
+--0- 1
+---0 1
+.names new_x_n75 new_x_n78 dest_x[11] new_recoded_x_low new_recoded_x_high new_x_eq
+11111 1
+.names new_$abc$8260$new_new_n76__ dest_y[19] new_$abc$8260$new_new_n75__ dest_y[28] new_$abc$8260$new_new_n74__ new_$abc$8260$new_new_n77__
+0-1-- 0
+-01-- 0
+---0- 0
+----0 0
+.names new_recoded_y_low new_recoded_y_high dest_y[9] dest_y[11] new_$abc$8260$new_new_n78__ new_$abc$8260$new_new_n75__ new_$abc$8260$new_new_n81__
+0-11-- 0
+-011-- 0
+----0- 0
+-----0 0
+.names new_recoded_y_low new_recoded_y_high dest_x[0] dest_y[0] dest_y[11] new_$abc$8260$new_new_n84__
+0---- 0
+-00-- 0
+--00- 0
+----0 0
+.names new_x_hi new_x_eq outport[0]
+11 0
+.names new_$abc$8260$new_new_n81__ new_x_eq new_$abc$8260$new_new_n77__ new_x_hi outport[2]
+0111 1
+.names new_$abc$8260$new_new_n84__ new_$abc$8260$new_new_n81__ new_x_mid new_$abc$8260$new_new_n77__ new_x_eq new_x_hi outport[1]
+01--1- 1
+--0-0- 1
+---01- 1
+-----0 1
+.end
